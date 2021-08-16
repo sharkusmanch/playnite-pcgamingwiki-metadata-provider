@@ -20,8 +20,6 @@ namespace PCGamingWikiMetadata
             MetadataField.Name,
             MetadataField.Links
         };
-
-        // Change to something more appropriate
         public override string Name => "PCGamingWiki";
 
         public PCGamingWikiMetadata(IPlayniteAPI api) : base(api)

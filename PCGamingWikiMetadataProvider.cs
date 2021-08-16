@@ -37,7 +37,10 @@ namespace PCGamingWikiMetadata
                 GetPCGWMetadata();
             }
 
-            var fields = new List<MetadataField> { MetadataField.Name };
+            var fields = new List<MetadataField>();
+            fields.Add(MetadataField.Name);
+            fields.Add(MetadataField.Links);
+
             return fields;
         }
 
