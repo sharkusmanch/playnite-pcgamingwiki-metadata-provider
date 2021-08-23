@@ -40,6 +40,12 @@ namespace PCGamingWikiMetadata
             var fields = new List<MetadataField>();
             fields.Add(MetadataField.Name);
             fields.Add(MetadataField.Links);
+            fields.Add(MetadataField.ReleaseDate);
+            fields.Add(MetadataField.Genres);
+            fields.Add(MetadataField.Series);
+            fields.Add(MetadataField.Features);
+            fields.Add(MetadataField.Developers);
+            fields.Add(MetadataField.Publishers);
 
             return fields;
         }
@@ -67,6 +73,7 @@ namespace PCGamingWikiMetadata
                     var searchItem = item as PCGWGame;
                     logger.Debug($"GetPCGWMetadata for {searchItem.Name}");
                     this.pcgwData = (PCGWGame)item;
+                    this.client.FetchGamePageContent(this.pcgwData);
                 }
                 else
                 {
@@ -126,6 +133,73 @@ namespace PCGamingWikiMetadata
             }
 
             return base.GetLinks();
+        }
+
+        public override DateTime? GetReleaseDate()
+        {
+            if (AvailableFields.Contains(MetadataField.ReleaseDate))
+            {
+                DateTime? date = this.pcgwData.WindowsReleaseDate();
+
+                if (date == null)
+                {
+                    return base.GetReleaseDate();
+                }
+
+                return this.pcgwData.WindowsReleaseDate();
+            }
+
+            return base.GetReleaseDate();
+        }
+
+        public override List<string> GetGenres()
+        {
+            if (AvailableFields.Contains(MetadataField.Genres))
+            {
+                return this.pcgwData.Genres;
+            }
+
+            return base.GetGenres();
+        }
+
+        public override List<string> GetFeatures()
+        {
+            if (AvailableFields.Contains(MetadataField.Features))
+            {
+                return this.pcgwData.Features;
+            }
+
+            return base.GetFeatures();
+        }
+
+        public override string GetSeries()
+        {
+            if (AvailableFields.Contains(MetadataField.Series))
+            {
+                return this.pcgwData.Series;
+            }
+
+            return base.GetSeries();
+        }
+
+        public override List<string> GetDevelopers()
+        {
+            if (AvailableFields.Contains(MetadataField.Developers))
+            {
+                return this.pcgwData.Developers;
+            }
+
+            return base.GetDevelopers();
+        }
+
+        public override List<string> GetPublishers()
+        {
+            if (AvailableFields.Contains(MetadataField.Publishers))
+            {
+                return this.pcgwData.Publishers;
+            }
+
+            return base.GetPublishers();
         }
     }
 }

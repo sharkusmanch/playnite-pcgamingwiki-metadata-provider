@@ -18,7 +18,13 @@ namespace PCGamingWikiMetadata
         public override List<MetadataField> SupportedFields { get; } = new List<MetadataField>
         {
             MetadataField.Name,
-            MetadataField.Links
+            MetadataField.Links,
+            MetadataField.ReleaseDate,
+            MetadataField.Genres,
+            MetadataField.Series,
+            MetadataField.Features,
+            MetadataField.Developers,
+            MetadataField.Publishers,
         };
         public override string Name => "PCGamingWiki";
 

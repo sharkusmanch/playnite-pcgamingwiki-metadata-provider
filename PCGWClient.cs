@@ -34,7 +34,6 @@ namespace PCGamingWikiMetadata
             }
             var content = response.Content;
 
-            logger.Debug(content);
             return JObject.Parse(content);
         }
 
@@ -85,6 +84,31 @@ namespace PCGamingWikiMetadata
             }
 
             return gameResults.OrderBy(game => NameStringCompare(searchName, game.Name)).ToList<GenericItemOption>();
+        }
+
+        public void FetchGamePageContent(PCGWGame game)
+        {
+            var request = new RestRequest("/", Method.GET);
+            request.AddParameter("action", "parse", ParameterType.QueryString);
+            request.AddParameter("page", game.Name.Replace(" ", "_"), ParameterType.QueryString);
+
+            try 
+            {
+                JObject content = ExecuteRequest(request);
+                JToken error;
+
+                if (content.TryGetValue("error", out error))
+                {
+                    Console.WriteLine($"Encountered API error: {error.ToString()}");
+                }
+
+                PCGamingWikiHTMLParser parser = new PCGamingWikiHTMLParser(content["parse"]["text"]["*"].ToString(), game);
+                parser.ApplyGameMetadata();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine($"Error performing FetchGamePageContent: {e}");
+            }
         }
 
         // https://en.wikibooks.org/wiki/Algorithm_Implementation/Strings/Levenshtein_distance#C.23
