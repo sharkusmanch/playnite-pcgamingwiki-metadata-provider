@@ -11,22 +11,22 @@ namespace PCGamingWikiMetadata
 {
     public class PCGWGame : GenericItemOption
     {
-
         private readonly ILogger logger = LogManager.GetLogger();
-        public int PageID {get; set; }
+        public int PageID { get; set; }
 
         private List<string> genres;
-        public List<string> Genres  { get { return genres; } }
+        public List<string> Genres { get { return genres; } }
         private List<string> developers;
-        public List<string> Developers  { get { return developers; } }
+        public List<string> Developers { get { return developers; } }
         private List<string> publishers;
-        public List<string> Publishers  { get { return publishers; } }
+        public List<string> Publishers { get { return publishers; } }
         private List<string> features;
-        public List<string> Features  { get { return features; } }
+        public List<string> Features { get { return features; } }
         private List<Link> links;
-        public List<Link> Links  { get { return links; } }
+        public List<Link> Links { get { return links; } }
 
-        private IDictionary <string, DateTime?> ReleaseDates;
+
+        private IDictionary<string, DateTime?> ReleaseDates;
 
         public string Series;
 
@@ -44,6 +44,7 @@ namespace PCGamingWikiMetadata
         {
             this.Name = name;
             this.PageID = pageid;
+            AddPCGamingWikiLink();
         }
 
         protected Link PCGamingWikiLink()
@@ -52,9 +53,14 @@ namespace PCGamingWikiMetadata
             return new Link("PCGamingWiki", $"https://www.pcgamingwiki.com/wiki/{escapedName}");
         }
 
+        public void AddPCGamingWikiLink()
+        {
+            this.links.Add(PCGamingWikiLink());
+        }
+
         public void AddTaxonomy(string type, string value)
         {
-            switch(type)
+            switch (type)
             {
                 case "Microtransactions":
                     break;
@@ -92,7 +98,7 @@ namespace PCGamingWikiMetadata
             if (this.ReleaseDates.TryGetValue("Windows", out date))
             {
                 return date;
-            }   
+            }
             else
             {
                 return null;

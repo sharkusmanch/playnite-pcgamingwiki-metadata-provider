@@ -25,7 +25,7 @@ namespace PCGamingWikiMetadata
             var fullUrl = client.BuildUri(request);
             logger.Info(fullUrl.ToString());
             var response = client.Execute(request);
-            
+
             if (response.ErrorException != null)
             {
                 const string message = "Error retrieving response.  Check inner details for more info.";
@@ -56,7 +56,7 @@ namespace PCGamingWikiMetadata
             request.AddParameter("srwhat", "title", ParameterType.QueryString);
             request.AddParameter("srsearch", NormalizeSearchString(searchName), ParameterType.QueryString);
 
-            try 
+            try
             {
                 JObject searchResults = ExecuteRequest(request);
                 JToken error;
@@ -92,7 +92,7 @@ namespace PCGamingWikiMetadata
             request.AddParameter("action", "parse", ParameterType.QueryString);
             request.AddParameter("page", game.Name.Replace(" ", "_"), ParameterType.QueryString);
 
-            try 
+            try
             {
                 JObject content = ExecuteRequest(request);
                 JToken error;
@@ -153,7 +153,7 @@ namespace PCGamingWikiMetadata
             {
                 for (int j = 1; j <= d.GetUpperBound(1); j += 1)
                 {
-                    cost = (a[i-1] != b[j-1])? 1 : 0;
+                    cost = (a[i - 1] != b[j - 1]) ? 1 : 0;
 
                     min1 = d[i - 1, j] + 1;
                     min2 = d[i, j - 1] + 1;
