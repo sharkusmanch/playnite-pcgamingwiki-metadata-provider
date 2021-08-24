@@ -8,5 +8,11 @@ Plugin for [Playnite](https://playnite.link) that retrieves game metadata from [
 
 * Name
 * Links
+* ReleaseDate
+* Genres
+* Series
+* Features
+* Developers
+* Publishers
 
 Additional metadata will be added in upcoming versions

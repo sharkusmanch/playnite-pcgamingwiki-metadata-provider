@@ -3,75 +3,112 @@ using Playnite.SDK;
 using Playnite.SDK.Models;
 using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
+using System.Text.RegularExpressions;
+using Microsoft.VisualBasic.FileIO;
+using System.IO;
 
 namespace PCGamingWikiMetadata
 {
     public class PCGWGame : GenericItemOption
     {
 
+        private readonly ILogger logger = LogManager.GetLogger();
         public int PageID {get; set; }
 
+        private List<string> genres;
+        public List<string> Genres  { get { return genres; } }
+        private List<string> developers;
+        public List<string> Developers  { get { return developers; } }
+        private List<string> publishers;
+        public List<string> Publishers  { get { return publishers; } }
+        private List<string> features;
+        public List<string> Features  { get { return features; } }
         private List<Link> links;
         public List<Link> Links  { get { return links; } }
-        private IDictionary<string, IList<string>> data;
-        public IDictionary<string, IList<string>> Data { get { return data; } }
 
-        private IDictionary<string, IList<string>> sobj;
-        public IDictionary<string, IList<string>> Sobj { get {return sobj;} }
+        private IDictionary <string, DateTime?> ReleaseDates;
+
+        public string Series;
 
         public PCGWGame()
         {
             this.links = new List<Link>();
+            this.genres = new List<string>();
+            this.features = new List<string>();
+            this.developers = new List<string>();
+            this.publishers = new List<string>();
+            this.ReleaseDates = new Dictionary<string, DateTime?>();
         }
 
-        public PCGWGame(string name, int pageid) 
+        public PCGWGame(string name, int pageid) : this()
         {
             this.Name = name;
             this.PageID = pageid;
-            this.links = new List<Link>();
-            this.links.Add(PCGamingWikiLink());
         }
+
         protected Link PCGamingWikiLink()
         {
             string escapedName = Uri.EscapeUriString(this.Name);
             return new Link("PCGamingWiki", $"https://www.pcgamingwiki.com/wiki/{escapedName}");
         }
 
-        public void Update(JObject gameData)
+        public void AddTaxonomy(string type, string value)
         {
-            UpdateDynamic(gameData);
+            switch(type)
+            {
+                case "Microtransactions":
+                    break;
+                case "Modes":
+                    this.features.Add(value);
+                    break;
+                case "Pacing":
+                    break;
+                case "Perspectives":
+                    break;
+                case "Controls":
+                    break;
+                case "Genres":
+                    this.genres.AddRange(SplitCSVString(value));
+                    break;
+                case "Vehicles":
+                    break;
+                case "Art styles":
+                    break;
+                case "Themes":
+                    break;
+                case "Series":
+                    this.Series = value;
+                    break;
+                default:
+                    logger.Debug($"Unknown taxonomy {type}");
+                    break;
+            }
         }
 
-        protected void UpdateDynamic(dynamic gameData)
-        {   
-            this.data = DataToDictionary(gameData.query.data);
+        public DateTime? WindowsReleaseDate()
+        {
+            DateTime? date;
 
-            if (gameData.query.sobj.Count != 1)
+            if (this.ReleaseDates.TryGetValue("Windows", out date))
             {
-                Console.WriteLine($"Got sobj list of size: {gameData.query.sobj.Count}");
+                return date;
+            }   
+            else
+            {
+                return null;
             }
-
-            this.sobj = DataToDictionary(gameData.query.sobj[0].data);
-
-            this.Name = this.Sobj["_SKEY"][0];
         }
 
-        private IDictionary<string, IList<string>> DataToDictionary(JArray data)
+        public void AddReleaseDate(string platform, DateTime? date)
         {
-            IDictionary<string, IList<string>> dataDict = new Dictionary<string, IList<string>>();
+            this.ReleaseDates[platform] = date;
+        }
 
-            foreach (dynamic attribute in data)
-            {
-                IList<string> dataItems = new List<string>();
-                foreach (dynamic item in attribute.dataitem)
-                {
-                    dataItems.Add((string)item.item);
-                }
-
-                dataDict.Add((string)attribute.property, dataItems);
-            }
-
-            return dataDict;
+        public string[] SplitCSVString(string csv)
+        {
+            TextFieldParser parser = new TextFieldParser(new StringReader(csv));
+            parser.SetDelimiters(",");
+            return parser.ReadFields();
         }
     }
 }
