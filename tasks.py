@@ -39,7 +39,7 @@ def pack(ctx, toolbox="~/AppData/Local/Playnite/Toolbox.exe"):
 
 @task
 def deploy(ctx, target="~/AppData/Local/Playnite/Extensions"):
-    target = Path(target).expanduser() / "Ludusavi"
+    target = Path(target).expanduser() / "PCGamingWikiMetadata"
     if target.exists():
         print(f"Deleting: {target}")
         shutil.rmtree(str(target))
