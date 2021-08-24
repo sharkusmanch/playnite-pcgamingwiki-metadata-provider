@@ -11,7 +11,6 @@ namespace PCGamingWikiMetadata
 {
     public class PCGWGame : GenericItemOption
     {
-
         private readonly ILogger logger = LogManager.GetLogger();
         public int PageID {get; set; }
 
@@ -25,6 +24,7 @@ namespace PCGamingWikiMetadata
         public List<string> Features  { get { return features; } }
         private List<Link> links;
         public List<Link> Links  { get { return links; } }
+
 
         private IDictionary <string, DateTime?> ReleaseDates;
 
@@ -44,12 +44,18 @@ namespace PCGamingWikiMetadata
         {
             this.Name = name;
             this.PageID = pageid;
+             AddPCGamingWikiLink();
         }
 
         protected Link PCGamingWikiLink()
         {
             string escapedName = Uri.EscapeUriString(this.Name);
             return new Link("PCGamingWiki", $"https://www.pcgamingwiki.com/wiki/{escapedName}");
+        }
+
+        public void AddPCGamingWikiLink()
+        {
+            this.links.Add(PCGamingWikiLink());
         }
 
         public void AddTaxonomy(string type, string value)

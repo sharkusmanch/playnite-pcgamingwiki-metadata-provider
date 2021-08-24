@@ -5,7 +5,6 @@ using System.Text.RegularExpressions;
 using Playnite.SDK;
 using System.Globalization;
 
-
 namespace PCGamingWikiMetadata
 {
 
@@ -36,9 +35,6 @@ namespace PCGamingWikiMetadata
                     const string pattern = @"[\t\s]";
                     string text = Regex.Replace(child.InnerText.Trim(), pattern, " ");
 
-                    if (text == "")
-                        continue;
-
                     switch(child.Name) {
                     case "th":
                         currentHeader = text;
@@ -48,9 +44,22 @@ namespace PCGamingWikiMetadata
                         switch(child.Attributes["class"].Value)
                         {
                             case "template-infobox-type":
+                                if (text == "")
+                                    break;
                                 key = text;
                                 break;
+                            case "template-infobox-icons":
+                                foreach (var c in  child.ChildNodes)
+                                {
+                                    string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
+                                    string title = linkTitle[linkTitle.Length - 1];
+                                    string url = c.ChildNodes[0].Attributes["href"].Value;
+                                    this.game.Links.Add(new Playnite.SDK.Models.Link(title, url));
+                                }
+                                break;
                             case "template-infobox-info":
+                                if (text == "")
+                                    break;
                                 switch(currentHeader) {
                                     case "Taxonomy":
                                         this.game.AddTaxonomy(key, text);
