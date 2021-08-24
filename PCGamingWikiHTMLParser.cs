@@ -35,51 +35,53 @@ namespace PCGamingWikiMetadata
                     const string pattern = @"[\t\s]";
                     string text = Regex.Replace(child.InnerText.Trim(), pattern, " ");
 
-                    switch(child.Name) {
-                    case "th":
-                        currentHeader = text;
-                        break;
+                    switch (child.Name)
+                    {
+                        case "th":
+                            currentHeader = text;
+                            break;
 
-                    case "td":
-                        switch(child.Attributes["class"].Value)
-                        {
-                            case "template-infobox-type":
-                                if (text == "")
+                        case "td":
+                            switch (child.Attributes["class"].Value)
+                            {
+                                case "template-infobox-type":
+                                    if (text == "")
+                                        break;
+                                    key = text;
                                     break;
-                                key = text;
-                                break;
-                            case "template-infobox-icons":
-                                foreach (var c in  child.ChildNodes)
-                                {
-                                    string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
-                                    string title = linkTitle[linkTitle.Length - 1];
-                                    string url = c.ChildNodes[0].Attributes["href"].Value;
-                                    this.game.Links.Add(new Playnite.SDK.Models.Link(title, url));
-                                }
-                                break;
-                            case "template-infobox-info":
-                                if (text == "")
+                                case "template-infobox-icons":
+                                    foreach (var c in child.ChildNodes)
+                                    {
+                                        string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
+                                        string title = linkTitle[linkTitle.Length - 1];
+                                        string url = c.ChildNodes[0].Attributes["href"].Value;
+                                        this.game.Links.Add(new Playnite.SDK.Models.Link(title, url));
+                                    }
                                     break;
-                                switch(currentHeader) {
-                                    case "Taxonomy":
-                                        this.game.AddTaxonomy(key, text);
+                                case "template-infobox-info":
+                                    if (text == "")
                                         break;
-                                    case "Release dates":
-                                        ApplyReleaseDate(key, text);
-                                        break;
-                                    case "Developers":
-                                        AddCompany(child, this.game.Developers);
-                                        break;
-                                    case "Publishers":
-                                        AddCompany(child, this.game.Publishers);
-                                        break;
-                                    default:
-                                        logger.Debug($"ApplyGameMetadata unknown header {currentHeader}");
-                                        break;
-                                }
-                                break;
-                        }
-                        break;
+                                    switch (currentHeader)
+                                    {
+                                        case "Taxonomy":
+                                            this.game.AddTaxonomy(key, text);
+                                            break;
+                                        case "Release dates":
+                                            ApplyReleaseDate(key, text);
+                                            break;
+                                        case "Developers":
+                                            AddCompany(child, this.game.Developers);
+                                            break;
+                                        case "Publishers":
+                                            AddCompany(child, this.game.Publishers);
+                                            break;
+                                        default:
+                                            logger.Debug($"ApplyGameMetadata unknown header {currentHeader}");
+                                            break;
+                                    }
+                                    break;
+                            }
+                            break;
                     }
                 }
             }

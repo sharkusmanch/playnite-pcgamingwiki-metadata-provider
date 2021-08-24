@@ -77,7 +77,7 @@ namespace PCGamingWikiMetadata
                     logger.Warn($"Cancelled search");
                 }
             }
-            else 
+            else
             {
                 try
                 {
