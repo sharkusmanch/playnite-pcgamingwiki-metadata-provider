@@ -57,12 +57,8 @@ namespace PCGamingWikiMetadata
                 return;
             }
 
-            logger.Debug("GetPCGWMetadata");
-
             if (!options.IsBackgroundDownload)
             {
-                logger.Debug("Starting selection...");
-
                 var item = plugin.PlayniteApi.Dialogs.ChooseItemWithSearch(null, (a) =>
                 {
                     return client.SearchGames(a);
@@ -99,6 +95,7 @@ namespace PCGamingWikiMetadata
                     }
 
                     this.pcgwData = (PCGWGame)results[0];
+                    this.client.FetchGamePageContent(this.pcgwData);
                 }
                 catch (Exception e)
                 {

@@ -68,7 +68,6 @@ namespace PCGamingWikiMetadata
                 case "Controls":
                     break;
                 case "Genres":
-                    logger.Debug(String.Join(" ", SplitCSVString(value)));
                     this.genres.AddRange(SplitCSVString(value));
                     break;
                 case "Vehicles":
@@ -102,7 +101,6 @@ namespace PCGamingWikiMetadata
 
         public void AddReleaseDate(string platform, DateTime? date)
         {
-            logger.Debug($"Add {platform} release date: {date.ToString()}");
             this.ReleaseDates[platform] = date;
         }
 

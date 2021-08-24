@@ -24,8 +24,6 @@ namespace PCGamingWikiMetadata
 
         public void ApplyGameMetadata()
         {
-            logger.Debug($"Applying game metadata for {this.game.Name}");
-
             var table = this.doc.DocumentNode.SelectSingleNode("//table[@id='infobox-game']");
             string currentHeader = "";
 
@@ -43,7 +41,6 @@ namespace PCGamingWikiMetadata
 
                     switch(child.Name) {
                     case "th":
-                        logger.Debug($"header {text}");
                         currentHeader = text;
                         break;
 
@@ -56,7 +53,6 @@ namespace PCGamingWikiMetadata
                             case "template-infobox-info":
                                 switch(currentHeader) {
                                     case "Taxonomy":
-                                        logger.Debug($"AddTaxonomy {key} {text}");
                                         this.game.AddTaxonomy(key, text);
                                         break;
                                     case "Release dates":
@@ -78,8 +74,6 @@ namespace PCGamingWikiMetadata
                     }
                 }
             }
-
-            logger.Debug("Parse done");
         }
 
         private void ApplyReleaseDate(string platform, string releaseDate)
@@ -104,11 +98,9 @@ namespace PCGamingWikiMetadata
             string company = ParseCompany(node);
             if (company == null)
             {
-                logger.Debug("Unable to parse company from");
+                logger.Debug("Unable to parse company");
                 return;
             }
-
-            logger.Debug($"add company {company}");
             list.Add(company);
         }
 
