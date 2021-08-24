@@ -16,7 +16,7 @@ def get_version():
 
 @task
 def build(ctx):
-    ctx.run("dotnet build . -c Release")
+    ctx.run("dotnet build src -c Release")
 
 
 @task
@@ -25,7 +25,7 @@ def pack(ctx, toolbox="~/AppData/Local/Playnite/Toolbox.exe"):
     if target.exists():
         shutil.rmtree(str(target))
     os.makedirs(str(target))
-    for file in glob(str(REPO / "bin/Release/net462/*")):
+    for file in glob(str(REPO / "src/bin/Release/net462/*")):
         shutil.copy(file, target)
 
     toolbox = Path(toolbox).expanduser()
@@ -46,10 +46,10 @@ def deploy(ctx, target="~/AppData/Local/Playnite/Extensions"):
     print(f"Creating: {target}")
     target.mkdir()
 
-    for file in glob(str(REPO / "bin/Release/net462/*")):
+    for file in glob(str(REPO / "src/bin/Release/net462/*")):
         shutil.copy(file, target)
 
 
 @task
 def style(ctx):
-    ctx.run("dotnet format .")
+    ctx.run("dotnet format src")
