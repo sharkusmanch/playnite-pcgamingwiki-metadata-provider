@@ -50,13 +50,7 @@ namespace PCGamingWikiMetadata
                                     key = text;
                                     break;
                                 case "template-infobox-icons":
-                                    foreach (var c in child.ChildNodes)
-                                    {
-                                        string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
-                                        string title = linkTitle[linkTitle.Length - 1];
-                                        string url = c.ChildNodes[0].Attributes["href"].Value;
-                                        this.game.Links.Add(new Playnite.SDK.Models.Link(title, url));
-                                    }
+                                    AddLinks(child);
                                     break;
                                 case "template-infobox-info":
                                     if (text == "")
@@ -101,6 +95,29 @@ namespace PCGamingWikiMetadata
             else
             {
                 return null;
+            }
+        }
+
+        private void AddLinks(HtmlNode icons)
+        {
+            string url;
+            foreach (var c in icons.ChildNodes)
+            {
+                url = c.ChildNodes[0].Attributes["href"].Value;
+                switch (c.Attributes["Title"].Value)
+                {
+                    case var title when new Regex(@"^Official site$").IsMatch(title):
+                        this.game.Links.Add(new Playnite.SDK.Models.Link("Official site", url));
+                        break;
+                    case var title when new Regex(@"GOG Database$").IsMatch(title):
+                        this.game.Links.Add(new Playnite.SDK.Models.Link("GOG Database", url));
+                        break;
+                    default:
+                        string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
+                        string titleComp = linkTitle[linkTitle.Length - 1];
+                        this.game.Links.Add(new Playnite.SDK.Models.Link(titleComp, url));
+                        break;
+                }
             }
         }
 
