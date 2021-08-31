@@ -50,13 +50,7 @@ namespace PCGamingWikiMetadata
                                     key = text;
                                     break;
                                 case "template-infobox-icons":
-                                    foreach (var c in child.ChildNodes)
-                                    {
-                                        string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
-                                        string title = linkTitle[linkTitle.Length - 1];
-                                        string url = c.ChildNodes[0].Attributes["href"].Value;
-                                        this.game.Links.Add(new Playnite.SDK.Models.Link(title, url));
-                                    }
+                                    AddLinks(child);
                                     break;
                                 case "template-infobox-info":
                                     if (text == "")
@@ -104,6 +98,29 @@ namespace PCGamingWikiMetadata
             }
         }
 
+        private void AddLinks(HtmlNode icons)
+        {
+            string url;
+            foreach (var c in icons.ChildNodes)
+            {
+                url = c.ChildNodes[0].Attributes["href"].Value;
+                switch (c.Attributes["Title"].Value)
+                {
+                    case var title when new Regex(@"^Official site$").IsMatch(title):
+                        this.game.Links.Add(new Playnite.SDK.Models.Link("Official site", url));
+                        break;
+                    case var title when new Regex(@"GOG Database$").IsMatch(title):
+                        this.game.Links.Add(new Playnite.SDK.Models.Link("GOG Database", url));
+                        break;
+                    default:
+                        string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
+                        string titleComp = linkTitle[linkTitle.Length - 1];
+                        this.game.Links.Add(new Playnite.SDK.Models.Link(titleComp, url));
+                        break;
+                }
+            }
+        }
+
         private void AddCompany(HtmlNode node, IList<string> list)
         {
             string company = ParseCompany(node);
@@ -117,16 +134,8 @@ namespace PCGamingWikiMetadata
 
         private string ParseCompany(HtmlNode node)
         {
-            // foreach (var c in node.ChildNodes)
-            // {
-            //     var attr = c.Attributes["target"];
-            //     if (attr != null)
-            //     {
-            //         return c.InnerText;
-            //     }
-            // }
-
-            return node.ChildNodes[1].InnerText;
+            var nodes = node.SelectNodes("./a");
+            return nodes[nodes.Count - 1].InnerText;
         }
     }
 }
