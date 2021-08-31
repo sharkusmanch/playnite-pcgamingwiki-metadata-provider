@@ -46,6 +46,7 @@ namespace PCGamingWikiMetadata
             fields.Add(MetadataField.Features);
             fields.Add(MetadataField.Developers);
             fields.Add(MetadataField.Publishers);
+            fields.Add(MetadataField.CriticScore);
 
             return fields;
         }
@@ -187,6 +188,23 @@ namespace PCGamingWikiMetadata
             }
 
             return base.GetDevelopers();
+        }
+
+        public override int? GetCriticScore()
+        {
+            int? score;
+
+            if (AvailableFields.Contains(MetadataField.CriticScore) &&
+                    (this.pcgwData.GetOpenCriticReception(out score) ||
+                    this.pcgwData.GetIGDBReception(out score) ||
+                    this.pcgwData.GetMetacriticReception(out score))
+                )
+            {
+                logger.Debug($"Got critic score for {this.pcgwData.Name}");
+                return score;
+            }
+
+            return base.GetCriticScore();
         }
 
         public override List<string> GetPublishers()

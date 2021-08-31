@@ -60,6 +60,9 @@ namespace PCGamingWikiMetadata
                                         case "Taxonomy":
                                             this.game.AddTaxonomy(key, text);
                                             break;
+                                        case "Reception":
+                                            AddReception(key, child);
+                                            break;
                                         case "Release dates":
                                             ApplyReleaseDate(key, text);
                                             break;
@@ -78,6 +81,20 @@ namespace PCGamingWikiMetadata
                             break;
                     }
                 }
+            }
+        }
+
+        private void AddReception(string aggregator, HtmlNode node)
+        {
+            int score;
+
+            if (Int32.TryParse(node.SelectNodes(".//a")[0].InnerText, out score))
+            {
+                this.game.AddReception(aggregator, score);
+            }
+            else
+            {
+                logger.Error($"Unable to add reception {aggregator} {score}");
             }
         }
 

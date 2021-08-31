@@ -24,7 +24,7 @@ namespace PCGamingWikiMetadata
         public List<string> Features { get { return features; } }
         private List<Link> links;
         public List<Link> Links { get { return links; } }
-
+        public IDictionary<string, int?> reception;
 
         private IDictionary<string, DateTime?> ReleaseDates;
 
@@ -38,6 +38,7 @@ namespace PCGamingWikiMetadata
             this.developers = new List<string>();
             this.publishers = new List<string>();
             this.ReleaseDates = new Dictionary<string, DateTime?>();
+            this.reception = new Dictionary<string, int?>();
         }
 
         public PCGWGame(string name, int pageid) : this()
@@ -56,6 +57,30 @@ namespace PCGamingWikiMetadata
         public void AddPCGamingWikiLink()
         {
             this.links.Add(PCGamingWikiLink());
+        }
+
+        public void AddReception(string aggregator, int score)
+        {
+            this.reception[aggregator] = score;
+        }
+
+        public bool GetOpenCriticReception(out int? score)
+        {
+            return GetReception("OpenCritic", out score);
+        }
+
+        public bool GetIGDBReception(out int? score)
+        {
+            return GetReception("IGDB", out score);
+        }
+        public bool GetMetacriticReception(out int? score)
+        {
+            return GetReception("Metacritic", out score);
+        }
+
+        protected bool GetReception(string aggregator, out int? score)
+        {
+            return this.reception.TryGetValue(aggregator, out score);
         }
 
         public void AddTaxonomy(string type, string value)
