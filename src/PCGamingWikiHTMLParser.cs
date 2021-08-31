@@ -117,16 +117,8 @@ namespace PCGamingWikiMetadata
 
         private string ParseCompany(HtmlNode node)
         {
-            // foreach (var c in node.ChildNodes)
-            // {
-            //     var attr = c.Attributes["target"];
-            //     if (attr != null)
-            //     {
-            //         return c.InnerText;
-            //     }
-            // }
-
-            return node.ChildNodes[1].InnerText;
+            var nodes = node.SelectNodes("./a");
+            return nodes[nodes.Count - 1].InnerText;
         }
     }
 }
