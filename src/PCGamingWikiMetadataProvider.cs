@@ -47,6 +47,7 @@ namespace PCGamingWikiMetadata
             fields.Add(MetadataField.Developers);
             fields.Add(MetadataField.Publishers);
             fields.Add(MetadataField.CriticScore);
+            fields.Add(MetadataField.Tags);
 
             return fields;
         }
@@ -209,6 +210,16 @@ namespace PCGamingWikiMetadata
             }
 
             return base.GetPublishers(args);
+        }
+
+        public override IEnumerable<MetadataProperty> GetTags(GetMetadataFieldArgs args)
+        {
+            if (AvailableFields.Contains(MetadataField.Tags))
+            {
+                return this.pcgwData.Tags;
+            }
+
+            return base.GetTags(args);
         }
     }
 }

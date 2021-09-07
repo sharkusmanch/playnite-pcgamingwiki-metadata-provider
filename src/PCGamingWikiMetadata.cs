@@ -26,6 +26,7 @@ namespace PCGamingWikiMetadata
             MetadataField.Developers,
             MetadataField.Publishers,
             MetadataField.CriticScore,
+            MetadataField.Tags,
         };
         public override string Name => "PCGamingWiki";
 

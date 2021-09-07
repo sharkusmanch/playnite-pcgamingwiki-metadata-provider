@@ -67,6 +67,9 @@ namespace PCGamingWikiMetadata
                                         case "Release dates":
                                             ApplyReleaseDate(key, text);
                                             break;
+                                        case "Engines":
+                                            this.game.AddTaxonomy("Engines", text);
+                                            break;
                                         case "Developers":
                                             AddCompany(child, this.game.Developers);
                                             break;

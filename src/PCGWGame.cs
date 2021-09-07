@@ -24,6 +24,8 @@ namespace PCGamingWikiMetadata
         public List<MetadataProperty> Series { get { return series; } }
         private List<Link> links;
         public List<Link> Links { get { return links; } }
+        private List<MetadataProperty> tags;
+        public List<MetadataProperty> Tags { get { return tags; } }
         public IDictionary<string, int?> reception;
 
         private IDictionary<string, ReleaseDate?> ReleaseDates;
@@ -36,6 +38,7 @@ namespace PCGamingWikiMetadata
             this.series = new List<MetadataProperty>();
             this.developers = new List<MetadataProperty>();
             this.publishers = new List<MetadataProperty>();
+            this.tags = new List<MetadataProperty>();
             this.ReleaseDates = new Dictionary<string, ReleaseDate?>();
             this.reception = new Dictionary<string, int?>();
         }
@@ -92,19 +95,28 @@ namespace PCGamingWikiMetadata
                     this.features.Add(new MetadataNameProperty(value));
                     break;
                 case "Pacing":
+                    AddCSVTags(value);
                     break;
                 case "Perspectives":
+                    AddCSVTags(value);
                     break;
                 case "Controls":
+                    AddCSVTags(value);
                     break;
                 case "Genres":
                     AddGenres(value);
                     break;
                 case "Vehicles":
+                    AddCSVTags(value);
                     break;
                 case "Art styles":
+                    AddCSVTags(value);
                     break;
                 case "Themes":
+                    AddCSVTags(value);
+                    break;
+                case "Engines":
+                    AddTag(value);
                     break;
                 case "Series":
                     this.series.Add(new MetadataNameProperty(value));
@@ -112,6 +124,30 @@ namespace PCGamingWikiMetadata
                 default:
                     logger.Debug($"Unknown taxonomy {type}");
                     break;
+            }
+        }
+
+        private void AddTag(string t)
+        {
+            logger.Debug($"add tag {t}");
+            try {
+                this.tags.Add(new MetadataNameProperty(t));
+            }
+            catch (Exception e)
+            {
+                logger.Debug(e.ToString());
+            }
+
+        }
+
+        private void AddCSVTags(string csv)
+        {
+            logger.Debug($"csv tags {csv}");
+            string[] tags = SplitCSVString(csv);
+
+            foreach (string tag in tags)
+            {
+                AddTag(tag);
             }
         }
 
