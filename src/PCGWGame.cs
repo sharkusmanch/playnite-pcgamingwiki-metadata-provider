@@ -129,15 +129,7 @@ namespace PCGamingWikiMetadata
 
         private void AddTag(string t)
         {
-            logger.Debug($"add tag {t}");
-            try {
-                this.tags.Add(new MetadataNameProperty(t));
-            }
-            catch (Exception e)
-            {
-                logger.Debug(e.ToString());
-            }
-
+            this.tags.Add(new MetadataNameProperty(t));
         }
 
         private void AddCSVTags(string csv)
