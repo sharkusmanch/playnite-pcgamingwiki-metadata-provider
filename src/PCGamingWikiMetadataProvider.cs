@@ -118,7 +118,7 @@ namespace PCGamingWikiMetadata
             {
                 return this.pcgwData.Name;
             }
-            
+
             return base.GetName(args);
         }
 
@@ -145,7 +145,7 @@ namespace PCGamingWikiMetadata
 
         public override IEnumerable<MetadataProperty> GetGenres(GetMetadataFieldArgs args)
         {
-            
+
             if (AvailableFields.Contains(MetadataField.Genres))
             {
                 return this.pcgwData.Genres;
