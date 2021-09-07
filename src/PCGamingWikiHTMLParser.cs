@@ -4,6 +4,7 @@ using HtmlAgilityPack;
 using System.Text.RegularExpressions;
 using Playnite.SDK;
 using System.Globalization;
+using Playnite.SDK.Models;
 
 namespace PCGamingWikiMetadata
 {
@@ -34,7 +35,7 @@ namespace PCGamingWikiMetadata
                 {
                     const string pattern = @"[\t\s]";
                     string text = Regex.Replace(child.InnerText.Trim(), pattern, " ");
-
+                    logger.Debug(currentHeader);
                     switch (child.Name)
                     {
                         case "th":
@@ -60,6 +61,9 @@ namespace PCGamingWikiMetadata
                                         case "Taxonomy":
                                             this.game.AddTaxonomy(key, text);
                                             break;
+                                        case "Reception":
+                                            AddReception(key, child);
+                                            break;
                                         case "Release dates":
                                             ApplyReleaseDate(key, text);
                                             break;
@@ -81,8 +85,29 @@ namespace PCGamingWikiMetadata
             }
         }
 
+        private void AddReception(string aggregator, HtmlNode node)
+        {
+            int score;
+
+            if (Int32.TryParse(node.SelectNodes(".//a")[0].InnerText, out score))
+            {
+                this.game.AddReception(aggregator, score);
+            }
+            else
+            {
+                logger.Error($"Unable to add reception {aggregator} {score}");
+            }
+        }
+
         private void ApplyReleaseDate(string platform, string releaseDate)
         {
+            DateTime? date = ParseWikiDate(releaseDate);
+
+            if (date == null)
+            {
+                return;
+            }
+
             this.game.AddReleaseDate(platform, ParseWikiDate(releaseDate));
         }
 
@@ -94,12 +119,15 @@ namespace PCGamingWikiMetadata
             }
             else
             {
+                logger.Error($"Unable to parse date: {dateString}");
                 return null;
             }
         }
 
         private void AddLinks(HtmlNode icons)
         {
+            logger.Debug("Adding links");
+
             string url;
             foreach (var c in icons.ChildNodes)
             {
@@ -121,7 +149,7 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void AddCompany(HtmlNode node, IList<string> list)
+        private void AddCompany(HtmlNode node, IList<MetadataProperty> list)
         {
             string company = ParseCompany(node);
             if (company == null)
@@ -129,7 +157,7 @@ namespace PCGamingWikiMetadata
                 logger.Debug("Unable to parse company");
                 return;
             }
-            list.Add(company);
+            list.Add(new MetadataNameProperty(company));
         }
 
         private string ParseCompany(HtmlNode node)
