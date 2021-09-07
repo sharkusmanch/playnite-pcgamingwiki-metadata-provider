@@ -1,0 +1,9 @@
+AddonId: PCGamingWikiMetadata_c038558e-427b-4551-be4c-be7009ce5a8d
+Packages:
+  - Version: 0.3.0
+    RequiredApiVersion: 6.0.0
+    ReleaseDate: 2021-09-06
+    PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v0.3.0/PCGamingWiki_Metadata_Provider_v0.3.0.pext
+    Changelog:
+      - Playnite 9 support
+      - Add Critic Score metadata field
