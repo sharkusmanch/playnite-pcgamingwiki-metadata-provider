@@ -1,9 +1,7 @@
 using System;
 using Playnite.SDK;
 using Playnite.SDK.Models;
-using Newtonsoft.Json.Linq;
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
 using Microsoft.VisualBasic.FileIO;
 using System.IO;
 
@@ -14,30 +12,31 @@ namespace PCGamingWikiMetadata
         private readonly ILogger logger = LogManager.GetLogger();
         public int PageID { get; set; }
 
-        private List<string> genres;
-        public List<string> Genres { get { return genres; } }
-        private List<string> developers;
-        public List<string> Developers { get { return developers; } }
-        private List<string> publishers;
-        public List<string> Publishers { get { return publishers; } }
-        private List<string> features;
-        public List<string> Features { get { return features; } }
+        private List<MetadataProperty> genres;
+        public List<MetadataProperty> Genres { get { return genres; } }
+        private List<MetadataProperty> developers;
+        public List<MetadataProperty> Developers { get { return developers; } }
+        private List<MetadataProperty> publishers;
+        public List<MetadataProperty> Publishers { get { return publishers; } }
+        private List<MetadataProperty> features;
+        public List<MetadataProperty> Features { get { return features; } }
+        private List<MetadataProperty> series;
+        public List<MetadataProperty> Series { get { return series; } }
         private List<Link> links;
         public List<Link> Links { get { return links; } }
         public IDictionary<string, int?> reception;
 
-        private IDictionary<string, DateTime?> ReleaseDates;
-
-        public string Series;
+        private IDictionary<string, ReleaseDate?> ReleaseDates;
 
         public PCGWGame()
         {
             this.links = new List<Link>();
-            this.genres = new List<string>();
-            this.features = new List<string>();
-            this.developers = new List<string>();
-            this.publishers = new List<string>();
-            this.ReleaseDates = new Dictionary<string, DateTime?>();
+            this.genres = new List<MetadataProperty>();
+            this.features = new List<MetadataProperty>();
+            this.series = new List<MetadataProperty>();
+            this.developers = new List<MetadataProperty>();
+            this.publishers = new List<MetadataProperty>();
+            this.ReleaseDates = new Dictionary<string, ReleaseDate?>();
             this.reception = new Dictionary<string, int?>();
         }
 
@@ -90,7 +89,7 @@ namespace PCGamingWikiMetadata
                 case "Microtransactions":
                     break;
                 case "Modes":
-                    this.features.Add(value);
+                    this.features.Add(new MetadataNameProperty(value));
                     break;
                 case "Pacing":
                     break;
@@ -99,7 +98,7 @@ namespace PCGamingWikiMetadata
                 case "Controls":
                     break;
                 case "Genres":
-                    this.genres.AddRange(SplitCSVString(value));
+                    AddGenres(value);
                     break;
                 case "Vehicles":
                     break;
@@ -108,7 +107,7 @@ namespace PCGamingWikiMetadata
                 case "Themes":
                     break;
                 case "Series":
-                    this.Series = value;
+                    this.series.Add(new MetadataNameProperty(value));
                     break;
                 default:
                     logger.Debug($"Unknown taxonomy {type}");
@@ -116,9 +115,9 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        public DateTime? WindowsReleaseDate()
+        public ReleaseDate? WindowsReleaseDate()
         {
-            DateTime? date;
+            ReleaseDate? date;
 
             if (this.ReleaseDates.TryGetValue("Windows", out date))
             {
@@ -132,7 +131,7 @@ namespace PCGamingWikiMetadata
 
         public void AddReleaseDate(string platform, DateTime? date)
         {
-            this.ReleaseDates[platform] = date;
+            this.ReleaseDates[platform] = new ReleaseDate((DateTime)date);
         }
 
         public string[] SplitCSVString(string csv)
@@ -140,6 +139,16 @@ namespace PCGamingWikiMetadata
             TextFieldParser parser = new TextFieldParser(new StringReader(csv));
             parser.SetDelimiters(",");
             return parser.ReadFields();
+        }
+
+        public void AddGenres(string genreCsv)
+        {
+            string[] genres = SplitCSVString(genreCsv);
+
+            foreach (string genre in genres)
+            {
+                this.genres.Add(new MetadataNameProperty(genre));
+            }
         }
     }
 }

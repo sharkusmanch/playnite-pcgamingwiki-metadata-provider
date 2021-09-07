@@ -4,6 +4,7 @@ using HtmlAgilityPack;
 using System.Text.RegularExpressions;
 using Playnite.SDK;
 using System.Globalization;
+using Playnite.SDK.Models;
 
 namespace PCGamingWikiMetadata
 {
@@ -34,7 +35,7 @@ namespace PCGamingWikiMetadata
                 {
                     const string pattern = @"[\t\s]";
                     string text = Regex.Replace(child.InnerText.Trim(), pattern, " ");
-
+                    logger.Debug(currentHeader);
                     switch (child.Name)
                     {
                         case "th":
@@ -100,6 +101,13 @@ namespace PCGamingWikiMetadata
 
         private void ApplyReleaseDate(string platform, string releaseDate)
         {
+            DateTime? date = ParseWikiDate(releaseDate);
+
+            if (date == null)
+            {
+                return;
+            }
+
             this.game.AddReleaseDate(platform, ParseWikiDate(releaseDate));
         }
 
@@ -111,12 +119,15 @@ namespace PCGamingWikiMetadata
             }
             else
             {
+                logger.Error($"Unable to parse date: {dateString}");
                 return null;
             }
         }
 
         private void AddLinks(HtmlNode icons)
         {
+            logger.Debug("Adding links");
+
             string url;
             foreach (var c in icons.ChildNodes)
             {
@@ -138,7 +149,7 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void AddCompany(HtmlNode node, IList<string> list)
+        private void AddCompany(HtmlNode node, IList<MetadataProperty> list)
         {
             string company = ParseCompany(node);
             if (company == null)
@@ -146,7 +157,7 @@ namespace PCGamingWikiMetadata
                 logger.Debug("Unable to parse company");
                 return;
             }
-            list.Add(company);
+            list.Add(new MetadataNameProperty(company));
         }
 
         private string ParseCompany(HtmlNode node)
