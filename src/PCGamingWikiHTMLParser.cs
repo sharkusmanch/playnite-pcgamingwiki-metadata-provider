@@ -154,7 +154,7 @@ namespace PCGamingWikiMetadata
 
         private void AddCompany(HtmlNode node, IList<MetadataProperty> list)
         {
-            string company = ParseCompany(node);
+            string company = ParseText(node);
             if (company == null)
             {
                 logger.Debug("Unable to parse company");
@@ -163,10 +163,12 @@ namespace PCGamingWikiMetadata
             list.Add(new MetadataNameProperty(company));
         }
 
-        private string ParseCompany(HtmlNode node)
+        private string ParseText(HtmlNode node)
         {
             var nodes = node.SelectNodes("./a");
-            return nodes[nodes.Count - 1].InnerText;
+            var currNode = nodes[nodes.Count - 1];
+
+            return currNode.InnerText.Trim();
         }
     }
 }

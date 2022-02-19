@@ -1,0 +1,997 @@
+{
+  "warnings": {
+    "main": {
+      "*": "Unrecognized parameter: list."
+    }
+  },
+  "parse": {
+    "title": "Song of Horror",
+    "pageid": 144865,
+    "revid": 1170987,
+    "text": {
+      "*": "<div class=\"mw-parser-output\">&#32;&#32;&#32;<table class=\"vertical-navbox template-infobox\" id=\"infobox-game\">\n\t<caption class=\"template-infobox-title\">Song of Horror</caption>\n<tbody><tr>\n\t\t<td class=\"template-infobox-cover\" colspan=\"2\"><a href=\"/wiki/File:Song_of_Horror_cover.jpg\" class=\"image\"><img alt=\"Song of Horror cover\" src=\"https://thumbnails.pcgamingwiki.com/3/3a/Song_of_Horror_cover.jpg/300px-Song_of_Horror_cover.jpg\" width=\"300\" height=\"450\" srcset=\"https://thumbnails.pcgamingwiki.com/3/3a/Song_of_Horror_cover.jpg/450px-Song_of_Horror_cover.jpg 1.5x, https://images.pcgamingwiki.com/3/3a/Song_of_Horror_cover.jpg 2x\" data-file-width=\"600\" data-file-height=\"900\" /></a></td>\n\t</tr>\n\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Developers</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Protocol_Games\" title=\"Company:Protocol Games\"></a><a href=\"/wiki/Company:Protocol_Games\" title=\"Company:Protocol Games\">Protocol Games</a></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Publishers</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Raiser_Games\" title=\"Company:Raiser Games\"></a><a href=\"/wiki/Company:Raiser_Games\" title=\"Company:Raiser Games\">Raiser Games</a></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Engines</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Engine:Unreal_Engine_4\" title=\"Engine:Unreal Engine 4\"></a><a href=\"/wiki/Engine:Unreal_Engine_4\" title=\"Engine:Unreal Engine 4\">Unreal Engine 4</a><sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\">&#91;1&#93;</a></sup></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Release dates</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\">Windows</td>\n\t<td class=\"template-infobox-info\">October 31, 2019</td>\n</tr><tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Reception</th>\n\t</tr>\n\t<tr>\n\t\t\t<td class=\"template-infobox-type\">Metacritic</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.metacritic.com/game/pc/song-of-horror\">74</a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">OpenCritic</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://opencritic.com/game/9580/song-of-horror-complete\">70</a></td>\n\t\t</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Taxonomy</th>\n\t</tr>\n\t<tr>\n\t\t\t<td class=\"template-infobox-type\">Monetization</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:DLC\" title=\"Category:DLC\"><abbr title=\"For the purposes of PCGamingWiki&#39;s taxonomy, &#39;DLC&#39; specifically refers to medium size chunks of additional game content such as maps, levels, quests, new gameplay mechanics etc. that is normally created in addition to the game, paid for and downloaded, but less substantial than an &#39;expansion pack&#39;.\">DLC</abbr></a></td>\n\t\t</tr>\n\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Microtransactions</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:No_microtransactions\" title=\"Category:No microtransactions\"><abbr title=\"Game does not contain any microtransactions.\">None</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Modes</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Singleplayer\" title=\"Category:Singleplayer\"><abbr title=\"The game supports solo play through a singleplayer mode.\">Singleplayer</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Perspectives</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Cinematic_camera\" title=\"Category:Cinematic camera\"><abbr title=\"Fixed camera positions that the player cannot exert control, or exert limited control over.\">Cinematic camera</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Controls</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Direct_control\" title=\"Category:Direct control\"><abbr title=\"Directly control a single character at a time, usually using directional buttons and other action buttons to interact with the environment directly.\">Direct control</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Genres</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Adventure\" title=\"Category:Adventure\"><abbr title=\"Primary emphasises on narrative, dialogue and puzzle solving, with less emphasis on action.\">Adventure</abbr></a>, <a href=\"/wiki/Category:Survival_horror\" title=\"Category:Survival horror\"><abbr title=\"Survival horror games drop the player in a horror setting where survival against usually supernatural enemies is made difficult by sparse distribution of weaponry and ammunition and often a more realistic approach to the protagonist&#39;s physical capabilities. The goal of these games is usually to escape the hazardous situation and trying to survive.\">Survival horror</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Art styles</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Realistic\" title=\"Category:Realistic\"><abbr title=\"Aims for realistic depictions of characters and environments with no exaggerations.\">Realistic</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Themes</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Contemporary\" title=\"Category:Contemporary\"><abbr title=\"Taking place in a modern day setting, primarily any time period after World War II up to the present day. However, this does not include games that are focused on or themed after the Cold War from 1947 to 1991.\">Contemporary</abbr></a>, <a href=\"/wiki/Category:Horror\" title=\"Category:Horror\"><abbr title=\"Featuring elements that attempt to frighten, shock or instill dread in substantial parts of the game.\">Horror</abbr></a></td>\n\t\t</tr><tr>\n\t\t<td class=\"template-infobox-icons\" colspan=\"2\"><div title=\"Official site\" class=\"plainlinks template-infobox-icon svg-icon infobox-official-site\"><a href=\"https://www.raisergames.com/song-of-horror/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Song of Horror in GOG Database\" class=\"plainlinks template-infobox-icon svg-icon infobox-gogdb\"><a href=\"https://www.gogdb.org/product/1957403324\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Song of Horror on HowLongToBeat\" class=\"template-infobox-icon svg-icon infobox-hltb\"><a href=\"https://howlongtobeat.com/game?id=72846\" title=\"Song of Horror on HowLongToBeat\" rel=\"nofollow\"><img alt=\"Song of Horror on HowLongToBeat\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Song of Horror on IGDB\" class=\"template-infobox-icon svg-icon infobox-igdb\"><a href=\"https://www.igdb.com/games/song-of-horror\" title=\"Song of Horror on IGDB\" rel=\"nofollow\"><img alt=\"Song of Horror on IGDB\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Song of Horror on IsThereAnyDeal\" class=\"plainlinks template-infobox-icon svg-icon infobox-itad\"><a href=\"https://isthereanydeal.com/steam/app/1096570/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Song of Horror on ProtonDB\" class=\"plainlinks template-infobox-icon svg-icon infobox-protondb\"><a href=\"https://www.protondb.com/app/1096570/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Song of Horror on SteamDB\" class=\"plainlinks template-infobox-icon svg-icon infobox-steamdb\"><a href=\"https://steamdb.info/app/1096570/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Song of Horror on MobyGames\" class=\"template-infobox-icon svg-icon infobox-mobygames\"><a href=\"https://www.mobygames.com/game/song-of-horror\" title=\"Song of Horror on MobyGames\" rel=\"nofollow\"><img alt=\"Song of Horror on MobyGames\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t</tr></tbody></table><table class=\"pcgwikitable template-tocbox\" id=\"tocbox\">\n\t<tbody><tr><td colspan=\"2\" class=\"template-tocbox-body\"><div id=\"toc\" class=\"toc\"><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2>Contents</h2></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#Availability\"><span class=\"tocnumber\">1</span> <span class=\"toctext\">Availability</span></a>\n<ul>\n<li class=\"toclevel-2\"><a href=\"#DLC_and_expansion_packs\"><span class=\"tocnumber\">1.1</span> <span class=\"toctext\">DLC and expansion packs</span></a></li>\n<li class=\"toclevel-2 tocsection-2\"><a href=\"#Version_differences\"><span class=\"tocnumber\">1.2</span> <span class=\"toctext\">Version differences</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-3\"><a href=\"#Essential_improvements\"><span class=\"tocnumber\">2</span> <span class=\"toctext\">Essential improvements</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-4\"><a href=\"#Skip_intro_videos\"><span class=\"tocnumber\">2.1</span> <span class=\"toctext\">Skip intro videos</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-5\"><a href=\"#Game_data\"><span class=\"tocnumber\">3</span> <span class=\"toctext\">Game data</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-6\"><a href=\"#Configuration_file.28s.29_location\"><span class=\"tocnumber\">3.1</span> <span class=\"toctext\">Configuration file(s) location</span></a></li>\n<li class=\"toclevel-2 tocsection-7\"><a href=\"#Save_game_data_location\"><span class=\"tocnumber\">3.2</span> <span class=\"toctext\">Save game data location</span></a></li>\n<li class=\"toclevel-2 tocsection-8\"><a href=\"#Save_game_cloud_syncing\"><span class=\"tocnumber\">3.3</span> <span class=\"toctext\">Save game cloud syncing</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-9\"><a href=\"#Video\"><span class=\"tocnumber\">4</span> <span class=\"toctext\">Video</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-10\"><a href=\"#Anti-aliasing_.28AA.29\"><span class=\"tocnumber\">4.1</span> <span class=\"toctext\">Anti-aliasing (AA)</span></a></li>\n<li class=\"toclevel-2 tocsection-11\"><a href=\"#High_frame_rate\"><span class=\"tocnumber\">4.2</span> <span class=\"toctext\">High frame rate</span></a></li>\n<li class=\"toclevel-2 tocsection-12\"><a href=\"#Vignette\"><span class=\"tocnumber\">4.3</span> <span class=\"toctext\">Vignette</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-13\"><a href=\"#Input\"><span class=\"tocnumber\">5</span> <span class=\"toctext\">Input</span></a></li>\n<li class=\"toclevel-1 tocsection-14\"><a href=\"#Audio\"><span class=\"tocnumber\">6</span> <span class=\"toctext\">Audio</span></a>\n<ul>\n<li class=\"toclevel-2\"><a href=\"#Localizations\"><span class=\"tocnumber\">6.1</span> <span class=\"toctext\">Localizations</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-15\"><a href=\"#Issues_fixed\"><span class=\"tocnumber\">7</span> <span class=\"toctext\">Issues fixed</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-16\"><a href=\"#Crash_on_startup_.28AMD_GPUs.29\"><span class=\"tocnumber\">7.1</span> <span class=\"toctext\">Crash on startup (AMD GPUs)</span></a></li>\n<li class=\"toclevel-2 tocsection-17\"><a href=\"#Selected_resolution_does_not_persist\"><span class=\"tocnumber\">7.2</span> <span class=\"toctext\">Selected resolution does not persist</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-18\"><a href=\"#Other_information\"><span class=\"tocnumber\">8</span> <span class=\"toctext\">Other information</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-19\"><a href=\"#API\"><span class=\"tocnumber\">8.1</span> <span class=\"toctext\">API</span></a></li>\n<li class=\"toclevel-2 tocsection-20\"><a href=\"#Middleware\"><span class=\"tocnumber\">8.2</span> <span class=\"toctext\">Middleware</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-21\"><a href=\"#System_requirements\"><span class=\"tocnumber\">9</span> <span class=\"toctext\">System requirements</span></a></li>\n<li class=\"toclevel-1\"><a href=\"#Notes\"><span class=\"tocnumber\">10</span> <span class=\"toctext\">Notes</span></a></li>\n<li class=\"toclevel-1\"><a href=\"#References\"><span class=\"tocnumber\">11</span> <span class=\"toctext\">References</span></a></li>\n</ul>\n</div>\n</td></tr>\n</tbody></table>\n<p><b>Key points</b>\n</p>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> Headphones and a controller are recommended for a more immersive experience.</dd></dl>\n<p><b>General information</b>\n</p>\n<dl><dd></dd>\n<dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.gog.com/forum/song_of_horror\">GOG.com Community Discussions</a></dd>\n<dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> <a rel=\"nofollow\" class=\"external text\" href=\"https://support.gog.com/hc//categories/201400969?game=1957403324\">GOG.com Support Page</a></dd>\n<dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> <a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/app/1096570/discussions/\">Steam Community Discussions</a></dd></dl>\n<h2><span class=\"mw-headline\" id=\"Availability\">Availability</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=1\" title=\"Edit section: Availability\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable sortable template-infotable\" id=\"table-availability\">\n\t<tbody><tr class=\"template-infotable-head table-availability-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-availability-head-source\">Source</th>\n\t\t<th scope=\"col\" style=\"width: 60px\" class=\"unsortable table-availability-head-DRM\"><abbr title=\"DRM required to play the game\">DRM</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 390px;\" class=\"unsortable table-availability-head-notes\">Notes</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"unsortable table-availability-head-keys\"><abbr title=\"Optional product keys for other services\">Keys</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 90px;\" class=\"table-availability-head-OS\"><abbr title=\"Operating system(s)\">OS</abbr></th>\n\t</tr>\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"GOG.com\"><a rel=\"nofollow\" class=\"external text\" href=\"https://af.gog.com/game/song_of_horror?as=1649876489\">GOG.com</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon drm-drmfree\" title=\"DRM-free\"><a href=\"/wiki/Glossary:DRM-free\" title=\"DRM-free\"><img alt=\"DRM-free\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> Complete Edition. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Steam\"><a rel=\"nofollow\" class=\"external text\" href=\"https://store.steampowered.com/app/1096570/?utm_source=PCGamingWiki&amp;utm_medium=PCGamingWiki&amp;utm_campaign=PCGamingWiki\">Steam</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> Complete Edition. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n</tbody></table></div>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> All versions require <a href=\"/wiki/Store:Steam\" title=\"Store:Steam\">Steam</a>&#32;<a href=\"/wiki/Digital_rights_management_(DRM)\" title=\"Digital rights management (DRM)\"><abbr title=\"Digital rights management: Commonly used to refer to copy protection and/or technical protection measures employed by companies in an attempt to limit the manipulation and copying of game data and content by end-users after the purchase, download, and/or install of the product.\">DRM</abbr></a>.</dd></dl>\n<h3><span class=\"mw-headline\" id=\"DLC_and_expansion_packs\">DLC and expansion packs</span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable sortable template-infotable\" id=\"table-dlc\">\n\t<tbody><tr class=\"template-infotable-head table-dlc-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-dlc-head-name\">Name</th>\n\t\t<th scope=\"col\" style=\"width: 500px;\" class=\"unsortable table-dlc-head-notes\">Notes</th>\n\t\t<th scope=\"col\" style=\"width: 90px;\" class=\"unsortable table-dlc-head-OS\"></th>\n\t</tr><tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Episode 2 </th>\n\t<td class=\"table-dlc-body-notes\"> <i>Eerily Quiet</i> </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Episode 3 </th>\n\t<td class=\"table-dlc-body-notes\"> <i>A Twisted Trail</i> </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Episode 4 </th>\n\t<td class=\"table-dlc-body-notes\"> <i>The Last Concert</i> </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Episode 5 </th>\n\t<td class=\"table-dlc-body-notes\"> <i>The Horror and The Song</i> </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr></tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Version_differences\">Version differences</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=2\" title=\"Edit section: Version differences\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> The <b>Complete Edition</b> includes all five episodes.</dd></dl>\n<h2><span class=\"mw-headline\" id=\"Essential_improvements\">Essential improvements</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=3\" title=\"Edit section: Essential improvements\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"Skip_intro_videos\">Skip intro videos</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=4\" title=\"Edit section: Skip intro videos\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Replace LogosInicio.mp4 with dummy mp4 file<sup id=\"cite_ref-baronsmoki_refcheck_2-0\" class=\"reference\"><a href=\"#cite_note-baronsmoki_refcheck-2\">&#91;2&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Go to <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\SongOfHorror\\Content\\Movies\\</code>.</li>\n<li>Delete or rename the existing file <code>LogosInicio.mp4</code>.</li>\n<li>Download the dummy file <code>LogosInicio.mp4</code> from <a rel=\"nofollow\" class=\"external text\" href=\"https://community.pcgamingwiki.com/files/file/1885-song-of-horror-intro-logo-skip/\">here</a>.</li>\n<li>Place the downloaded file in <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\SongOfHorror\\Content\\Movies\\</code>.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Game_data\">Game data</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=5\" title=\"Edit section: Game data\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span id=\"Configuration_file(s)_location\"></span><span class=\"mw-headline\" id=\"Configuration_file.28s.29_location\">Configuration file(s) location</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=6\" title=\"Edit section: Configuration file(s) location\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-gamedata\">\n\t<tbody><tr class=\"template-infotable-head table-gamedata-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-gamedata-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 590px;\" class=\"table-gamedata-head-location\">Location</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Windows </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#User_application_data\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%LOCALAPPDATA%</abbr></a>\\SongOfHorror\\Saved\\Config\\WindowsNoEditor\\</span></td>\n</tr>\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t\t<th scope=\"row\" class=\"table-gamedata-body-system\"><abbr title=\"Windows version on Steam running through the Proton wrapper of Steam Play on Linux\">Steam Play (Linux)</abbr></th>\n\t\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Steam_client\" title=\"Glossary:Game data\"><abbr title=\"The base Steam installation folder\">&lt;Steam-folder&gt;</abbr></a>/steamapps/compatdata/<abbr title=\"app ID may differ in some cases\">1096570</abbr>/pfx/</span><sup id=\"cite_ref-Proton_path_note_3-0\" class=\"reference\"><a href=\"#cite_note-Proton_path_note-3\">&#91;Note 1&#93;</a></sup></td>\n\t</tr>\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Save_game_data_location\">Save game data location</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=7\" title=\"Edit section: Save game data location\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-gamedata\">\n\t<tbody><tr class=\"template-infotable-head table-gamedata-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-gamedata-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 590px;\" class=\"table-gamedata-head-location\">Location</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Windows </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#User_application_data\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%LOCALAPPDATA%</abbr></a>\\SongOfHorror\\Saved\\SaveGames\\</span></td>\n</tr>\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t\t<th scope=\"row\" class=\"table-gamedata-body-system\"><abbr title=\"Windows version on Steam running through the Proton wrapper of Steam Play on Linux\">Steam Play (Linux)</abbr></th>\n\t\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Steam_client\" title=\"Glossary:Game data\"><abbr title=\"The base Steam installation folder\">&lt;Steam-folder&gt;</abbr></a>/steamapps/compatdata/<abbr title=\"app ID may differ in some cases\">1096570</abbr>/pfx/</span><sup id=\"cite_ref-Proton_path_note_3-1\" class=\"reference\"><a href=\"#cite_note-Proton_path_note-3\">&#91;Note 1&#93;</a></sup></td>\n\t</tr>\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Save_game_cloud_syncing\"><a href=\"/wiki/Glossary:Save_game_cloud_syncing\" title=\"Glossary:Save game cloud syncing\">Save game cloud syncing</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=8\" title=\"Edit section: Save game cloud syncing\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable template-gamedata\" id=\"table-cloudsync\">\n\t<tbody><tr class=\"template-infotable-head table-cloudsync-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-cloudsync-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-cloudsync-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-cloudsync-head-notes\">Notes</th>\n\t</tr>\n\n\n\n\n<tr class=\"template-infotable-body table-cloudsync-body-row\">\n\t\t<th scope=\"row\" class=\"table-cloudsync-body-system\"><a href=\"/wiki/Store:GOG.com\" title=\"Store:GOG.com\">GOG Galaxy</a></th>\n\t\t<td class=\"table-cloudsync-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-cloudsync-body-notes\"></td>\n\t</tr>\n\n\n\n\n\n<tr class=\"template-infotable-body table-cloudsync-body-row\">\n\t\t<th scope=\"row\" class=\"table-cloudsync-body-system\"><a href=\"/wiki/Store:Steam#Steam_Cloud\" title=\"Store:Steam\">Steam Cloud</a></th>\n\t\t<td class=\"table-cloudsync-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-cloudsync-body-notes\"></td>\n\t</tr>\n\n\n\n\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Video\">Video</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=9\" title=\"Edit section: Video\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Song_of_Horror_-_video_settings.png\" class=\"image\"><img alt=\"Video settings.\" src=\"https://thumbnails.pcgamingwiki.com/0/07/Song_of_Horror_-_video_settings.png/300px-Song_of_Horror_-_video_settings.png\" width=\"300\" height=\"190\" srcset=\"https://thumbnails.pcgamingwiki.com/0/07/Song_of_Horror_-_video_settings.png/450px-Song_of_Horror_-_video_settings.png 1.5x, https://thumbnails.pcgamingwiki.com/0/07/Song_of_Horror_-_video_settings.png/600px-Song_of_Horror_-_video_settings.png 2x\" data-file-width=\"1453\" data-file-height=\"920\" /></a></div>\n  <div class=\"article-image-text\">Video settings.</div>\n</div>\n<p><span id=\"Video_settings\"></span>\n</p>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-video\">\n\t<tbody><tr class=\"template-infotable-head table-settings-video-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-video-head-parameter\">Graphics feature</th>\n\t\t<th scope=\"col\" style=\"width: 50px\" class=\"table-settings-video-head-rating\">State</th>\n\t<th scope=\"col\" style=\"width: 540px\" class=\"table-settings-video-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Widescreen_resolution\" title=\"Glossary:Widescreen resolution\">Widescreen resolution</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> 16:9 <a href=\"/wiki/Glossary:Scaling\" title=\"Glossary:Scaling\"><abbr title=\"Anamorphic screen change: Stretches as large as possible, but maintains a fixed aspect ratio (usually 4:3 for older games and 16:9 for newer games) on resolutions of other aspect ratios by filling black bars as necessary in either pillarbox (vertical black bars on left and right) if the fixed aspect ratio is narrower or letterbox (horizontal black bars on top and bottom) if wider.\">anamorphic</abbr></a>.<sup id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\">&#91;3&#93;</a></sup></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Multi-monitor\" title=\"Glossary:Multi-monitor\"><abbr title=\"Game can run at a spanned resolution across multiple displays\">Multi-monitor</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> 16:9 <a href=\"/wiki/Glossary:Scaling\" title=\"Glossary:Scaling\"><abbr title=\"Anamorphic screen change: Stretches as large as possible, but maintains a fixed aspect ratio (usually 4:3 for older games and 16:9 for newer games) on resolutions of other aspect ratios by filling black bars as necessary in either pillarbox (vertical black bars on left and right) if the fixed aspect ratio is narrower or letterbox (horizontal black bars on top and bottom) if wider.\">anamorphic</abbr></a>.<sup id=\"cite_ref-5\" class=\"reference\"><a href=\"#cite_note-5\">&#91;4&#93;</a></sup></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Ultra-widescreen\" title=\"Glossary:Ultra-widescreen\"><abbr title=\"Game can run at an ultra-widescreen (21:9) resolution\">Ultra-widescreen</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> 16:9 <a href=\"/wiki/Glossary:Scaling\" title=\"Glossary:Scaling\"><abbr title=\"Anamorphic screen change: Stretches as large as possible, but maintains a fixed aspect ratio (usually 4:3 for older games and 16:9 for newer games) on resolutions of other aspect ratios by filling black bars as necessary in either pillarbox (vertical black bars on left and right) if the fixed aspect ratio is narrower or letterbox (horizontal black bars on top and bottom) if wider.\">anamorphic</abbr></a>.<sup id=\"cite_ref-6\" class=\"reference\"><a href=\"#cite_note-6\">&#91;5&#93;</a></sup><sup id=\"cite_ref-7\" class=\"reference\"><a href=\"#cite_note-7\">&#91;6&#93;</a></sup></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:4K_Ultra_HD\" title=\"Glossary:4K Ultra HD\"><abbr title=\"Game can run at 4K (3840x2160) resolution\">4K Ultra HD</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> </td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Field_of_view_(FOV)\" title=\"Glossary:Field of view (FOV)\"><abbr title=\"Game has an adjustable field of view\">Field of view (FOV)</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Windowed\" title=\"Glossary:Windowed\"><abbr title=\"Game can run in a regular windowed mode\">Windowed</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Borderless_fullscreen_windowed\" title=\"Glossary:Borderless fullscreen windowed\"><abbr title=\"Game can run in a borderless fullscreen windowed mode\">Borderless fullscreen windowed</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">Used in place of exclusive fullscreen.</td>\n\t</tr>\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Anisotropic_filtering_(AF)\" title=\"Glossary:Anisotropic filtering (AF)\">Anisotropic filtering (AF)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Limited native support\" class=\"svg-icon svg-25 tickcross-limited\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">Scales with <b>Effects quality</b>.<sup id=\"cite_ref-8\" class=\"reference\"><a href=\"#cite_note-8\">&#91;7&#93;</a></sup></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Anti-aliasing_(AA)\" title=\"Glossary:Anti-aliasing (AA)\">Anti-aliasing (AA)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"><a href=\"/wiki/TAA\" class=\"mw-redirect\" title=\"TAA\">TAA</a>. See <a href=\"#Anti-aliasing_.28AA.29\">Anti-aliasing (AA)</a> for more options.</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Vertical_sync_(Vsync)\" title=\"Glossary:Vertical sync (Vsync)\">Vertical sync (Vsync)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Frame_rate_(FPS)\" title=\"Glossary:Frame rate (FPS)\"><abbr title=\"Game can run at 60 frames per second\">60 FPS</abbr> </a></th>\n\t\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Frame_rate_(FPS)\" title=\"Glossary:Frame rate (FPS)\"><abbr title=\"Game can run at 120 frames per second (or higher)\">120+ FPS</abbr></a></th>\n\t\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">Frame rate is capped at 62 FPS when Vsync is disabled.<sup id=\"cite_ref-baronsmoki_refcheck_2020-05-08_9-0\" class=\"reference\"><a href=\"#cite_note-baronsmoki_refcheck_2020-05-08-9\">&#91;8&#93;</a></sup> See <a href=\"#High_frame_rate\">High frame rate</a>.</td>\n\t\t</tr>\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:High_dynamic_range_(HDR)\" title=\"Glossary:High dynamic range (HDR)\"><abbr title=\"Game supports expanded color space on HDR-compatible displays\">High dynamic range display (HDR)</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\n</tbody></table></div>\n<dl><dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> The game engine may allow for manual configuration of the game via its variables. See the <a href=\"/wiki/Engine:Unreal_Engine_4\" title=\"Engine:Unreal Engine 4\">Unreal Engine 4</a> page for more details.</dd></dl>\n<h3><span id=\"Anti-aliasing_(AA)\"></span><span class=\"mw-headline\" id=\"Anti-aliasing_.28AA.29\"><a href=\"/wiki/Glossary:Anti-aliasing_(AA)\" title=\"Glossary:Anti-aliasing (AA)\">Anti-aliasing (AA)</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=10\" title=\"Edit section: Anti-aliasing (AA)\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Change AA type through the config file<sup id=\"cite_ref-aa_10-0\" class=\"reference\"><a href=\"#cite_note-aa-10\">&#91;9&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Go to the <a href=\"#Configuration_file.28s.29_location\">configuration file(s) location</a>.</li>\n<li>Open <code>Engine.ini</code> in a text editor.</li>\n<li>Add the following lines:</li></ol>\n<pre>[SystemSettings]\nr.DefaultFeature.AntiAliasing=1\n</pre>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> The above sets the AA type to <a href=\"/wiki/FXAA\" class=\"mw-redirect\" title=\"FXAA\">FXAA</a>. Change the 1 to 0 to disable AA.</dd></dl>\n    </td>\n  </tr>\n</tbody></table>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Enable <a href=\"/wiki/TAA\" class=\"mw-redirect\" title=\"TAA\">TAA</a> sharpening through the config file<sup id=\"cite_ref-aa_10-1\" class=\"reference\"><a href=\"#cite_note-aa-10\">&#91;9&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> This makes the game appear less blurry when anti-aliasing is on.</dd></dl>\n<ol><li>Go to the <a href=\"#Configuration_file.28s.29_location\">configuration file(s) location</a>.</li>\n<li>Open <code>Engine.ini</code> in a text editor.</li>\n<li>Add the following lines:</li></ol>\n<pre>[SystemSettings]\nr.TemporalAACurrentFrameWeight=0.2\nr.Tonemapper.Sharpen=1\n</pre>\n    </td>\n  </tr>\n</tbody></table>\n<h3><span class=\"mw-headline\" id=\"High_frame_rate\"><a href=\"/wiki/Glossary:Frame_rate_(FPS)\" title=\"Glossary:Frame rate (FPS)\">High frame rate</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=11\" title=\"Edit section: High frame rate\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Modify user settings file<sup id=\"cite_ref-11\" class=\"reference\"><a href=\"#cite_note-11\">&#91;10&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Go to the <a href=\"#Configuration_file.28s.29_location\">configuration file(s) location</a>.</li>\n<li>Open <code>GameUserSettings.ini</code> in a text editor.</li>\n<li>Locate <code>FrameRateLimit=0.000000</code> and set the value to the desired FPS cap.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h3><span class=\"mw-headline\" id=\"Vignette\">Vignette</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=12\" title=\"Edit section: Vignette\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Disable vignette through the config file<sup id=\"cite_ref-12\" class=\"reference\"><a href=\"#cite_note-12\">&#91;11&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Go to the <a href=\"#Game_data\">configuration file(s) location</a>.</li>\n<li>Open <code>Engine.ini</code> in a text editor.</li>\n<li>Add the following lines:</li></ol>\n<pre>[SystemSettings]\nr.Tonemapper.GrainQuantization=0\nr.Tonemapper.Quality=0\n</pre>\n    </td>\n  </tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Input\">Input</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=13\" title=\"Edit section: Input\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2><p>\n<div class=\"ad-widget-container\"><div class=\"vm-placement\" data-id=\"5ee8e351a624ae2e7125852e\"></div></div><span id=\"Input_settings\"></span></p><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-input\">\n\t<tbody><tr class=\"template-infotable-head table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Keyboard and mouse</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\">State</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\">Notes</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">Remapping</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"><i>See the <a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">glossary page</a> for potential workarounds.</i></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse_acceleration\" title=\"Glossary:Mouse acceleration\">Mouse acceleration</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse#Sensitivity\" title=\"Glossary:Mouse\">Mouse sensitivity</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse\" title=\"Glossary:Mouse\">Mouse input in menus</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Invert_Y-axis\" title=\"Glossary:Invert Y-axis\">Mouse Y-axis inversion</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-secondhead table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Controller</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller support</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\t\n<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"All menus can be navigated with a controller. Supports Steam&#39;s Big Picture mode.\">Full controller support</abbr></a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">Controller remapping</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"><i>See the <a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">glossary page</a> for potential workarounds.</i></td>\n\t</tr>\n\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller sensitivity</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\n\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Invert_Y-axis\" title=\"Glossary:Invert Y-axis\">Controller Y-axis inversion</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n</tbody></table>\n\t<table class=\"mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-types\" style=\"margin-top: -16px;\">\n\t\t<tbody><tr class=\"template-infotable-secondhead table-settings-input-head-row\">\n\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Controller types</th>\n\t\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t\t</tr>\n\t</tbody></table>\n\t<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-xinput\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">XInput-compatible controllers</a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#f5f5f5;\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Xbox button prompts</a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\t\t\t\t<tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:Xbox_One_Controller\" class=\"mw-redirect\" title=\"Controller:Xbox One Controller\"><abbr title=\"Xbox One controllers only\">Impulse Trigger vibration</abbr></a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\t\t</tbody></table>\n\t\t<table class=\"pcgwikitable template-infotable\" id=\"table-settings-input-controller-dualshock\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">DualShock 4 controllers</a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"><i>See the <a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">glossary page</a> for potential workarounds.</i></td>\n\t\t\t</tr>\n\t\t\n\t\t</tbody></table>\n\t<table class=\"pcgwikitable template-infotable\" id=\"table-settings-input-controller-other\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Controllers that do not fall into any other category\">Generic/other controllers</abbr></a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t\n\t\t</tbody></table>\n<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-additional\" style=\"margin-top: -16px;\">\n\t<tbody><tr class=\"template-infotable-head table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Additional information</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t</tr>\n\t\t\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller hotplugging</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Commonly referred to as controller vibration, force feedback, rumble, or dualshock.\">Haptic feedback</abbr></a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Both controller and keyboard/mouse inputs can be used at the same time\">Simultaneous controller+KB/M</abbr></a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n</tbody></table>\t</div>\n<h2><span class=\"mw-headline\" id=\"Audio\">Audio</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=14\" title=\"Edit section: Audio\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Song_of_Horror_-_audio_settings.png\" class=\"image\"><img alt=\"Audio settings.\" src=\"https://thumbnails.pcgamingwiki.com/3/31/Song_of_Horror_-_audio_settings.png/300px-Song_of_Horror_-_audio_settings.png\" width=\"300\" height=\"57\" srcset=\"https://thumbnails.pcgamingwiki.com/3/31/Song_of_Horror_-_audio_settings.png/450px-Song_of_Horror_-_audio_settings.png 1.5x, https://thumbnails.pcgamingwiki.com/3/31/Song_of_Horror_-_audio_settings.png/600px-Song_of_Horror_-_audio_settings.png 2x\" data-file-width=\"1449\" data-file-height=\"276\" /></a></div>\n  <div class=\"article-image-text\">Audio settings.</div>\n</div>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Song_of_Horror_-_game_settings.png\" class=\"image\"><img alt=\"Game settings.\" src=\"https://thumbnails.pcgamingwiki.com/b/be/Song_of_Horror_-_game_settings.png/300px-Song_of_Horror_-_game_settings.png\" width=\"300\" height=\"160\" srcset=\"https://thumbnails.pcgamingwiki.com/b/be/Song_of_Horror_-_game_settings.png/450px-Song_of_Horror_-_game_settings.png 1.5x, https://thumbnails.pcgamingwiki.com/b/be/Song_of_Horror_-_game_settings.png/600px-Song_of_Horror_-_game_settings.png 2x\" data-file-width=\"1017\" data-file-height=\"544\" /></a></div>\n  <div class=\"article-image-text\">Game settings.</div>\n</div>\n<p><span id=\"Audio_settings\"></span></p><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-audio\">\n\t<tbody><tr class=\"template-infotable-head table-settings-audio-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-audio-head-parameter\">Audio feature</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-audio-head-rating\">State</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-audio-head-notes\">Notes</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Separate volume controls</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\">General, Voice, Music</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\"><a href=\"/wiki/Glossary:Surround_sound\" title=\"Glossary:Surround sound\">Surround sound</a></th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Always on (no native option)\" class=\"svg-icon svg-25 tickcross-always-on\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\">5.1<sup id=\"cite_ref-13\" class=\"reference\"><a href=\"#cite_note-13\">&#91;12&#93;</a></sup></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Subtitles</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\">Text size is adjustable.</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Closed captions</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Mute on focus lost</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Always on (no native option)\" class=\"svg-icon svg-25 tickcross-always-on\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\n\n\n\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Localizations\">Localizations</span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-l10n\">\n\t<tbody><tr class=\"template-infotable-head table-l10n-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-l10n-head-parameter\"><abbr title=\"Please note that some languages may not be available from all storefronts or across all versions.\">Language</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-ui\"><abbr title=\"User interface.\">UI</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-audio\">Audio</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-sub\"><abbr title=\"Subtitles or closed captions.\">Sub</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 440px;\" class=\"table-l10n-head-notes\">Notes</th>\n\t</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">English</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">French</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">German</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Spanish</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Issues_fixed\">Issues fixed</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=15\" title=\"Edit section: Issues fixed\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span id=\"Crash_on_startup_(AMD_GPUs)\"></span><span class=\"mw-headline\" id=\"Crash_on_startup_.28AMD_GPUs.29\">Crash on startup (AMD GPUs)</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=16\" title=\"Edit section: Crash on startup (AMD GPUs)\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Update AMD graphics drivers<sup id=\"cite_ref-14\" class=\"reference\"><a href=\"#cite_note-14\">&#91;13&#93;</a></sup>\n    </th>\n  </tr>\n\n</tbody></table>\n<h3><span class=\"mw-headline\" id=\"Selected_resolution_does_not_persist\">Selected resolution does not persist</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=17\" title=\"Edit section: Selected resolution does not persist\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Enable the following <a href=\"/wiki/Windows_Compatibility_Mode\" title=\"Windows Compatibility Mode\">compatibility setting</a> for the <code>SongOfHorror.exe</code> file:<sup id=\"cite_ref-15\" class=\"reference\"><a href=\"#cite_note-15\">&#91;14&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ul><li><code>Disable display scaling on high DPI settings</code></li></ul>\n    </td>\n  </tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Other_information\">Other information</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=18\" title=\"Edit section: Other information\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"API\">API</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=19\" title=\"Edit section: API\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-api\">\n\t<tbody><tr class=\"template-infotable-head table-api-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-api-head-parameter\">Technical specs</th>\n\t\t<th scope=\"col\" style=\"width: 120px;\" class=\"table-api-head-support\">Supported</th>\n\t\t<th scope=\"col\" style=\"width: 470px;\" class=\"table-api-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-api-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-api-body-parameter\"><abbr title=\"Only supported on Windows\">Direct3D</abbr></th>\n\t\t\t<td class=\"table-api-body-support\">11</td>\n\t\t\t<td class=\"table-api-body-notes\"></td>\n\t\t</tr>\n\n\n\n\n\n\n\n\n\n\n</tbody></table></div><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-api-executable\">\n\t<tbody><tr class=\"template-infotable-head table-api-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-api-head-parameter\">Executable</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-api-head-support\"><abbr title=\"Intel 32-bit (x86)\">32-bit</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-api-head-support\"><abbr title=\"Intel 64-bit (x64 / x86-64)\">64-bit</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 490px;\" class=\"table-api-head-notes\">Notes</th>\n\t</tr>\n\t<tr class=\"template-infotable-body table-api-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-api-body-parameter\">Windows</th>\n\t\t\t<td class=\"table-api-body-support\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td class=\"table-api-body-support\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-api-body-notes\"></td>\n\t\t</tr>\n\t\n\t\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Middleware\">Middleware</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=20\" title=\"Edit section: Middleware\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-middleware\">\n\t<tbody><tr class=\"template-infotable-head table-middleware-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-middleware-head-parameter\"></th>\n\t\t<th scope=\"col\" style=\"width: 120px;\" class=\"table-middleware-head-middleware\">Middleware</th>\n\t\t<th scope=\"col\" style=\"width: 470px;\" class=\"table-middleware-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-middleware-body-row\">\n\t\t<th scope=\"row\" class=\"table-middleware-body-parameter\">Physics</th>\n\t\t<td class=\"table-middleware-body-middleware\">PhysX</td>\n\t\t<td class=\"table-middleware-body-notes\"></td>\n\t</tr>\n\n\n\n\n\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"System_requirements\">System requirements</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Song_of_Horror&amp;action=edit&amp;section=21\" title=\"Edit section: System requirements\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"sysreq sysreq_Windows container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-sysreqs-windows\">\n\t<tbody><tr class=\"template-infotable-doublehead sysreq_heading table-sysreqs-head-row\">\n\t\t<th colspan=\"3\" class=\"table-sysreqs-head-OS\"><a href=\"/wiki/Windows\" title=\"Windows\">Windows</a> </th>\n\t</tr>\n\n\t<tr class=\"template-infotable-head table-sysreqs-head-row\">\n\t\t<th scope=\"col\" class=\"table-sysreqs-head-parameter\" style=\"width: 220px;\"></th>\n\t\t<th scope=\"col\" class=\"table-sysreqs-head-minimum\" style=\"width: 300px;\">Minimum</th>\n\t\t<th class=\"table-sysreqs-head-recommended\" style=\"width: 300px;\">Recommended</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Operating system (OS)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">7, 8</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">10</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Processor (CPU)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">2.6 GHz\n\t\t</td><td class=\"table-sysreqs-body-recommended\">3.0 GHz</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">System memory (RAM)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">8 GB</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">12 GB</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Hard disk drive (HDD)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">16 GB</td><td class=\"table-sysreqs-body-recommended\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Video card (GPU)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\"> Nvidia GeForce GTX 660 <br />AMD Radeon HD 7950   <br />DirectX 11 compatible\n</td><td class=\"table-sysreqs-body-recommended\">Nvidia GeForce GTX 980 <br />AMD Radeon RX 580    </td>\n\t</tr>\n\n\n\n\n\n\n</tbody></table>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> A 64-bit operating system is required.</dd></dl></div>\n<h2><span class=\"mw-headline\" id=\"Notes\">Notes</span></h2>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite_note-Proton_path_note-3\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-Proton_path_note_3-0\">1.0</a></sup> <sup><a href=\"#cite_ref-Proton_path_note_3-1\">1.1</a></sup></span> <span class=\"reference-text\">File/folder structure within this directory reflects the path(s) listed for <a href=\"#Game_data\">Windows and/or Steam game data</a> (use <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.winehq.org/Regedit\">Wine regedit</a> to access Windows registry paths). Games with <a href=\"/wiki/Store:Steam#Steam_Cloud\" title=\"Store:Steam\">Steam Cloud</a> support may store data in <code>~/.steam/steam/userdata/<a href=\"/wiki/Glossary:Game_data#User_ID\" title=\"Glossary:Game data\"><abbr title=\"The user ID or profile name (specific to your account or computer)\">&lt;user-id&gt;</abbr></a>/<abbr title=\"app ID may differ in some cases\">1096570</abbr>/</code> in addition to or instead of this directory. The app ID (1096570) may differ in some cases. Treat backslashes as forward slashes. See the <a href=\"/wiki/Glossary:Game_data#Windows_data_paths\" title=\"Glossary:Game data\">glossary page</a> for details.</span>\n</li>\n</ol></div><h2><span class=\"mw-headline\" id=\"References\">References</span></h2>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.indiedb.com/games/song-of-horror\">Song of Horror Windows, XONE, PS4 game - Indie DB</a> - last accessed on 2020-05-07</span>\n</li>\n<li id=\"cite_note-baronsmoki_refcheck-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-baronsmoki_refcheck_2-0\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-07</span>\n</li>\n<li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-08\n<dl><dd><i>Tested at 2560x1600 resolution.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-08\n<dl><dd><i>Tested at 2560x480 custom resolution.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-08\n<dl><dd><i>Tested at 2560x1080 custom resolution.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.reddit.com/r/widescreengamingforum/comments/guwy7w/song_of_horror_does_not_support_ultrawide/\">Song of Horror does not support Ultrawide Resolutions</a> - last accessed on 2020-06-02</span>\n</li>\n<li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-09\n<dl><dd><i>r.maxanisotropy gets set from 0 to 8 depending on the setting, as seen <a href=\"/wiki/Engine:Unreal_Engine_4#Enable_developer_console\" title=\"Engine:Unreal Engine 4\">in the console</a>.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-baronsmoki_refcheck_2020-05-08-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-baronsmoki_refcheck_2020-05-08_9-0\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-08</span>\n</li>\n<li id=\"cite_note-aa-10\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-aa_10-0\">9.0</a></sup> <sup><a href=\"#cite_ref-aa_10-1\">9.1</a></sup></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-08\n<dl><dd><i>The changes resulted in a visibly sharper image in the game and screenshots comparisons.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-08\n<dl><dd><i>Set to 120.000000 and saw it reflected in-game.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-12\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-12\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-08\n<dl><dd><i>Compared screenshots. Many textures appear brighter with the vignette disabled.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-13\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-13\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Baronsmoki\" title=\"User:Baronsmoki\">User:Baronsmoki</a> on 2020-05-08\n<dl><dd><i>Tested with <a href=\"/wiki/Special_K\" title=\"Special K\">Special K</a>.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-14\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-14\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/app/1096570/discussions/0/1740010344362177067/\">If your game crashed at launch and you use an AMD card, please read this &#160;:: SONG OF HORROR General Discussions</a> - last accessed on 2020-05-09<dl><dd>\"<i>AMD has already released compatible drivers (20.1.2), so please make sure you update them.</i>\"</dd></dl></span>\n</li>\n<li id=\"cite_note-15\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-15\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/app/1096570/discussions/0/1747898619775149461/\">How to fix Resolution Not Sticking &#160;:: SONG OF HORROR General Discussions</a> - last accessed on 2020-05-09</span>\n</li>\n</ol></div>\n\n<!-- \nNewPP limit report\nCached time: 20220218163634\nCache expiry: 86400\nDynamic content: false\n[SMW] In‐text annotation parser time: 0.021 seconds\nCPU time usage: 0.450 seconds\nReal time usage: 0.724 seconds\nPreprocessor visited node count: 7998/1000000\nPreprocessor generated node count: 59109/1000000\nPost‐expand include size: 165910/2097152 bytes\nTemplate argument size: 40538/2097152 bytes\nHighest expansion depth: 15/40\nExpensive parser function count: 4/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 7746/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  565.655      1 -total\n 36.26%  205.097      1 Template:Infobox_game\n  8.46%   47.868      1 Template:L10n\n  8.04%   45.500      1 Template:Video\n  7.37%   41.678      4 Template:L10n/switch\n  7.18%   40.604      1 Template:References\n  6.94%   39.229      1 Template:Input\n  5.63%   31.844      4 Template:L10n/row\n  5.45%   30.806      1 Template:Availability\n  4.73%   26.741      7 Template:Fixbox\n-->\n</div>\n<!-- Saved in parser cache with key pcgamingwiki:pcache:idhash:144865-0!canonical and timestamp 20220218163633 and revision id 1170987\n -->\n"
+    },
+    "langlinks": [],
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "Windows"
+      },
+      {
+        "sortkey": "",
+        "*": "DLC"
+      },
+      {
+        "sortkey": "",
+        "*": "No_microtransactions"
+      },
+      {
+        "sortkey": "",
+        "*": "Singleplayer"
+      },
+      {
+        "sortkey": "",
+        "*": "Cinematic_camera"
+      },
+      {
+        "sortkey": "",
+        "*": "Direct_control"
+      },
+      {
+        "sortkey": "",
+        "*": "Adventure"
+      },
+      {
+        "sortkey": "",
+        "*": "Survival_horror"
+      },
+      {
+        "sortkey": "",
+        "*": "Realistic"
+      },
+      {
+        "sortkey": "",
+        "*": "Contemporary"
+      },
+      {
+        "sortkey": "",
+        "*": "Horror"
+      },
+      {
+        "sortkey": "",
+        "*": "Games"
+      }
+    ],
+    "links": [
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Song of Horror cover.jpg"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Song of Horror - video settings.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Song of Horror - audio settings.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Song of Horror - game settings.png"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:DRM-free"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:4K Ultra HD"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Anisotropic filtering (AF)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Anti-aliasing (AA)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Borderless fullscreen windowed"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Controller"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Field of view (FOV)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Frame rate (FPS)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Game data"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:High dynamic range (HDR)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Invert Y-axis"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Mouse"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Mouse acceleration"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Multi-monitor"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Remapping"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Save game cloud syncing"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Scaling"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Surround sound"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Ultra-widescreen"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Vertical sync (Vsync)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Widescreen resolution"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Windowed"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Windows"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Steam"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Digital rights management (DRM)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "FXAA"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Special K"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "TAA"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Windows Compatibility Mode"
+      },
+      {
+        "ns": 404,
+        "exists": "",
+        "*": "Engine:Unreal Engine 4"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Protocol Games"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Raiser Games"
+      },
+      {
+        "ns": 2,
+        "exists": "",
+        "*": "User:Baronsmoki"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Adventure"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Cinematic camera"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Contemporary"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:DLC"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Direct control"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Horror"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:No microtransactions"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Realistic"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Singleplayer"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Survival horror"
+      },
+      {
+        "ns": 412,
+        "exists": "",
+        "*": "Controller:DualShock 4"
+      },
+      {
+        "ns": 412,
+        "exists": "",
+        "*": "Controller:Xbox One Controller"
+      },
+      {
+        "ns": 418,
+        "exists": "",
+        "*": "Store:GOG.com"
+      },
+      {
+        "ns": 418,
+        "exists": "",
+        "*": "Store:Steam"
+      }
+    ],
+    "templates": [
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Assignment/checkAvailable"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/developer"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/publisher"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/engine"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/date"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Date"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/reception"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Trim"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/monetization"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Glossary"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/microtransactions"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/modes"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/perspectives"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/controls"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/genres"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/art styles"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/themes"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/license"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tocbox"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Ii"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:GOG.com links"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Mm"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/store"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/DRM"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/OS"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DRM"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DRM/switch"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Term"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DLC"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DLC/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Fixbox"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:P"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Path"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Abbr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data/config"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data/saves"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Save game cloud syncing"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-nohack"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-l-nohack"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Image"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Video"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-na"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a-na"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Input"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Audio"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n/switch"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-na-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Code"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:API"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:API/switch Direct3D"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Middleware"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:System requirements"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:References"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Absent properties"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Cargo Availability"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Refurl"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Refcheck"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:DLC"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:No microtransactions"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Singleplayer"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Cinematic camera"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Direct control"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Adventure"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Survival horror"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Realistic"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Contemporary"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Horror"
+      }
+    ],
+    "images": [
+      "Song_of_Horror_cover.jpg",
+      "Icon_overlay.png",
+      "Song_of_Horror_-_video_settings.png",
+      "Song_of_Horror_-_audio_settings.png",
+      "Song_of_Horror_-_game_settings.png"
+    ],
+    "externallinks": [
+      "https://wiki.winehq.org/Regedit",
+      "https://www.indiedb.com/games/song-of-horror",
+      "https://www.reddit.com/r/widescreengamingforum/comments/guwy7w/song_of_horror_does_not_support_ultrawide/",
+      "https://steamcommunity.com/app/1096570/discussions/0/1740010344362177067/",
+      "https://steamcommunity.com/app/1096570/discussions/0/1747898619775149461/",
+      "https://www.raisergames.com/song-of-horror/",
+      "https://www.gogdb.org/product/1957403324",
+      "https://howlongtobeat.com/game?id=72846",
+      "https://www.igdb.com/games/song-of-horror",
+      "https://isthereanydeal.com/steam/app/1096570/",
+      "https://www.protondb.com/app/1096570/",
+      "https://steamdb.info/app/1096570/",
+      "https://www.mobygames.com/game/song-of-horror",
+      "https://www.metacritic.com/game/pc/song-of-horror",
+      "https://opencritic.com/game/9580/song-of-horror-complete",
+      "https://www.gog.com/forum/song_of_horror",
+      "https://support.gog.com/hc//categories/201400969?game=1957403324",
+      "https://steamcommunity.com/app/1096570/discussions/",
+      "https://af.gog.com/game/song_of_horror?as=1649876489",
+      "https://store.steampowered.com/app/1096570/?utm_source=PCGamingWiki&utm_medium=PCGamingWiki&utm_campaign=PCGamingWiki",
+      "https://community.pcgamingwiki.com/files/file/1885-song-of-horror-intro-logo-skip/"
+    ],
+    "sections": [
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Availability",
+        "number": "1",
+        "index": "1",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 1673,
+        "anchor": "Availability"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "DLC and expansion packs",
+        "number": "1.1",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "DLC_and_expansion_packs"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Version differences",
+        "number": "1.2",
+        "index": "2",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 2165,
+        "anchor": "Version_differences"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Essential improvements",
+        "number": "2",
+        "index": "3",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 2254,
+        "anchor": "Essential_improvements"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Skip intro videos",
+        "number": "2.1",
+        "index": "4",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 2281,
+        "anchor": "Skip_intro_videos"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Game data",
+        "number": "3",
+        "index": "5",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 2831,
+        "anchor": "Game_data"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Configuration file(s) location",
+        "number": "3.1",
+        "index": "6",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 2845,
+        "anchor": "Configuration_file.28s.29_location"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Save game data location",
+        "number": "3.2",
+        "index": "7",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 2990,
+        "anchor": "Save_game_data_location"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Save game cloud syncing",
+        "number": "3.3",
+        "index": "8",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 3114,
+        "anchor": "Save_game_cloud_syncing"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Video",
+        "number": "4",
+        "index": "9",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 3639,
+        "anchor": "Video"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Anti-aliasing (AA)",
+        "number": "4.1",
+        "index": "10",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 6002,
+        "anchor": "Anti-aliasing_.28AA.29"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "High frame rate",
+        "number": "4.2",
+        "index": "11",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 7018,
+        "anchor": "High_frame_rate"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Vignette",
+        "number": "4.3",
+        "index": "12",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 7473,
+        "anchor": "Vignette"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Input",
+        "number": "5",
+        "index": "13",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 7928,
+        "anchor": "Input"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Audio",
+        "number": "6",
+        "index": "14",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 9942,
+        "anchor": "Audio"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Localizations",
+        "number": "6.1",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Localizations"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Issues fixed",
+        "number": "7",
+        "index": "15",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 11104,
+        "anchor": "Issues_fixed"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Crash on startup (AMD GPUs)",
+        "number": "7.1",
+        "index": "16",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 11121,
+        "anchor": "Crash_on_startup_.28AMD_GPUs.29"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Selected resolution does not persist",
+        "number": "7.2",
+        "index": "17",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 11544,
+        "anchor": "Selected_resolution_does_not_persist"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Other information",
+        "number": "8",
+        "index": "18",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 11991,
+        "anchor": "Other_information"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "API",
+        "number": "8.1",
+        "index": "19",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 12013,
+        "anchor": "API"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Middleware",
+        "number": "8.2",
+        "index": "20",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 12936,
+        "anchor": "Middleware"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "System requirements",
+        "number": "9",
+        "index": "21",
+        "fromtitle": "Song_of_Horror",
+        "byteoffset": 13269,
+        "anchor": "System_requirements"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Notes",
+        "number": "10",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Notes"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "References",
+        "number": "11",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "References"
+      }
+    ],
+    "parsewarnings": [],
+    "displaytitle": "Song of Horror",
+    "iwlinks": [],
+    "properties": [
+      {
+        "name": "smw-semanticdata-status",
+        "*": ""
+      }
+    ]
+  }
+}

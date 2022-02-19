@@ -116,7 +116,8 @@ namespace PCGamingWikiMetadata
                     AddCSVTags(value);
                     break;
                 case "Engines":
-                    AddTag(value);
+                    // Handled via json links for now.
+                    // Limitation: engine tag will only be added if there's a corresponding link
                     break;
                 case "Series":
                     this.series.Add(new MetadataNameProperty(value));
@@ -127,7 +128,7 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void AddTag(string t)
+        public void AddTag(string t)
         {
             this.tags.Add(new MetadataNameProperty(t));
         }
