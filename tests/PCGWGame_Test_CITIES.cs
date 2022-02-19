@@ -41,7 +41,7 @@ public class PCGWGame_Test_CITIES : IDisposable
     public void TestParsePerspectives()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Bird's-eye view1");
+        arr.Should().Contain("Bird's-eye view");
     }
 
     [Fact]
