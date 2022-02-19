@@ -1,0 +1,1452 @@
+{
+  "warnings": {
+    "main": {
+      "*": "Unrecognized parameter: list."
+    }
+  },
+  "parse": {
+    "title": "Batman: Arkham Knight",
+    "pageid": 15767,
+    "revid": 1227419,
+    "text": {
+      "*": "<div class=\"mw-parser-output\">&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;&#32;<table class=\"vertical-navbox template-infobox\" id=\"infobox-game\">\n\t<caption class=\"template-infobox-title\">Batman: Arkham Knight</caption>\n<tbody><tr>\n\t\t<td class=\"template-infobox-cover\" colspan=\"2\"><a href=\"/wiki/File:Batman_Arkham_Knight_-_cover.jpg\" class=\"image\"><img alt=\"Batman: Arkham Knight cover\" src=\"https://thumbnails.pcgamingwiki.com/7/7a/Batman_Arkham_Knight_-_cover.jpg/300px-Batman_Arkham_Knight_-_cover.jpg\" width=\"300\" height=\"349\" srcset=\"https://thumbnails.pcgamingwiki.com/7/7a/Batman_Arkham_Knight_-_cover.jpg/450px-Batman_Arkham_Knight_-_cover.jpg 1.5x, https://thumbnails.pcgamingwiki.com/7/7a/Batman_Arkham_Knight_-_cover.jpg/600px-Batman_Arkham_Knight_-_cover.jpg 2x\" data-file-width=\"1500\" data-file-height=\"1745\" /></a></td>\n\t</tr>\n\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Developers</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Rocksteady_Studios\" title=\"Company:Rocksteady Studios\"></a><a href=\"/wiki/Company:Rocksteady_Studios\" title=\"Company:Rocksteady Studios\">Rocksteady Studios</a></td>\n</tr>\n<tr>\n\t<td class=\"template-infobox-type\">A Matter of Family</td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Warner_Bros._Games_Montreal\" title=\"Company:Warner Bros. Games Montreal\"></a><a href=\"/wiki/Company:Warner_Bros._Games_Montreal\" title=\"Company:Warner Bros. Games Montreal\">Warner Bros. Games Montreal</a></td>\n</tr>\n<tr>\n\t<td class=\"template-infobox-type\">Windows</td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Iron_Galaxy_Studios\" title=\"Company:Iron Galaxy Studios\"></a><a href=\"/wiki/Company:Iron_Galaxy_Studios\" title=\"Company:Iron Galaxy Studios\">Iron Galaxy Studios</a><sup id=\"cite_ref-PC_Port_Dev_1-0\" class=\"reference\"><a href=\"#cite_note-PC_Port_Dev-1\">&#91;1&#93;</a></sup></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Publishers</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Warner_Bros._Interactive_Entertainment\" title=\"Company:Warner Bros. Interactive Entertainment\"></a><a href=\"/wiki/Company:Warner_Bros._Interactive_Entertainment\" title=\"Company:Warner Bros. Interactive Entertainment\">Warner Bros. Interactive Entertainment</a></td>\n</tr>\n<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:1C-SoftClub\" title=\"Company:1C-SoftClub\"></a><a href=\"/wiki/Company:1C-SoftClub\" title=\"Company:1C-SoftClub\">1C-SoftClub</a></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Engines</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Engine:Unreal_Engine_3\" title=\"Engine:Unreal Engine 3\"></a><a href=\"/wiki/Engine:Unreal_Engine_3\" title=\"Engine:Unreal Engine 3\">Unreal Engine 3</a></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Release dates</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\">Windows</td>\n\t<td class=\"template-infobox-info\">June 23, 2015<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\">&#91;2&#93;</a></sup></td>\n</tr><tr>\n\t<td class=\"template-infobox-type\">macOS&#160;(OS&#160;X)</td>\n\t<td class=\"template-infobox-info\"><abbr title=\"While previously announced, and possibly even available to the public in some form, the full release of this version has been cancelled.\">Cancelled</abbr><sup id=\"cite_ref-linux-osx-canceled_3-0\" class=\"reference\"><a href=\"#cite_note-linux-osx-canceled-3\">&#91;3&#93;</a></sup></td>\n</tr><tr>\n\t<td class=\"template-infobox-type\">Linux</td>\n\t<td class=\"template-infobox-info\"><abbr title=\"While previously announced, and possibly even available to the public in some form, the full release of this version has been cancelled.\">Cancelled</abbr><sup id=\"cite_ref-linux-osx-canceled_3-1\" class=\"reference\"><a href=\"#cite_note-linux-osx-canceled-3\">&#91;3&#93;</a></sup></td>\n</tr><tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Reception</th>\n\t</tr>\n\t<tr>\n\t\t\t<td class=\"template-infobox-type\">Metacritic</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.metacritic.com/game/pc/batman-arkham-knight\">70</a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">OpenCritic</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://opencritic.com/game/1383/batman-arkham-knight\">86</a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">IGDB</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.igdb.com/games/batman-arkham-knight\">92</a></td>\n\t\t</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Taxonomy</th>\n\t</tr>\n\t<tr>\n\t\t\t<td class=\"template-infobox-type\">Monetization</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:DLC\" title=\"Category:DLC\"><abbr title=\"For the purposes of PCGamingWiki&#39;s taxonomy, &#39;DLC&#39; specifically refers to medium size chunks of additional game content such as maps, levels, quests, new gameplay mechanics etc. that is normally created in addition to the game, paid for and downloaded, but less substantial than an &#39;expansion pack&#39;.\">DLC</abbr></a></td>\n\t\t</tr>\n\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Microtransactions</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:No_microtransactions\" title=\"Category:No microtransactions\"><abbr title=\"Game does not contain any microtransactions.\">None</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Modes</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Singleplayer\" title=\"Category:Singleplayer\"><abbr title=\"The game supports solo play through a singleplayer mode.\">Singleplayer</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Pacing</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Real-time\" title=\"Category:Real-time\"><abbr title=\"Real-time games present the game continuously, as opposed to in turns.\">Real-time</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Perspectives</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Third-person\" title=\"Category:Third-person\"><abbr title=\"View from the third-person of a player character, normally behind or over the shoulder.\">Third-person</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Controls</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Direct_control\" title=\"Category:Direct control\"><abbr title=\"Directly control a single character at a time, usually using directional buttons and other action buttons to interact with the environment directly.\">Direct control</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Genres</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Action\" title=\"Category:Action\"><abbr title=\"Primary gameplay tests some of the following: accuracy, movement, reflexes, timing.\">Action</abbr></a>, <a href=\"/wiki/Category:Adventure\" title=\"Category:Adventure\"><abbr title=\"Primary emphasises on narrative, dialogue and puzzle solving, with less emphasis on action.\">Adventure</abbr></a>, <a href=\"/wiki/Category:Driving\" title=\"Category:Driving\"><abbr title=\"Driving gameplay, which could be in a vehicle or mount and not just as a short sequence within the greater game. Distinct from racing category.\">Driving</abbr></a>, <a href=\"/wiki/Category:Metroidvania\" title=\"Category:Metroidvania\"><abbr title=\"Metroidvania refers to games set in an explorable world that is gated in content mainly by specific abilities that need to be acquired by the player, and which gradually opens up more as the player overcomes its obstacles. Generally there is a central hub from which the player can move to various interconnected areas or levels, some degree of persistency to their game worlds and some degree of non-linear progression while subtly guiding the player towards the next intended path.\">Metroidvania</abbr></a>, <a href=\"/wiki/Category:Stealth\" title=\"Category:Stealth\"><abbr title=\"Stealth games require the player to avoid contact with enemies in the game and instead try to pass them by silently and hidden or using disguises. Goals can range from reaching a certain position, theft, sabotage, etc.\">Stealth</abbr></a></td>\n\t\t</tr>\n\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Vehicles</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Automobile\" title=\"Category:Automobile\"><abbr title=\"These games allow the player to take control of an automobile (both driving and racing it) or otherwise focus on automobiles even if they are not driven.\">Automobile</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Art styles</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Realistic\" title=\"Category:Realistic\"><abbr title=\"Aims for realistic depictions of characters and environments with no exaggerations.\">Realistic</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Themes</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Contemporary\" title=\"Category:Contemporary\"><abbr title=\"Taking place in a modern day setting, primarily any time period after World War II up to the present day. However, this does not include games that are focused on or themed after the Cold War from 1947 to 1991.\">Contemporary</abbr></a>, <a href=\"/wiki/Category:North_America\" title=\"Category:North America\"><abbr title=\"Setting is on the North American continent. This includes the United States (except Hawaii, which is in Oceania), Canada, Mexico, and Central America. Does not include games set in the Pre-Columbian Americas.\">North America</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Series</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Series:Batman:_Arkham\" title=\"Series:Batman: Arkham\">Batman: Arkham</a></td>\n\t\t</tr><tr>\n\t\t<td class=\"template-infobox-icons\" colspan=\"2\"><div title=\"Batman: Arkham Knight in GOG Database\" class=\"plainlinks template-infobox-icon svg-icon infobox-gogdb\"><a href=\"https://www.gogdb.org/product/1881970704\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight on HowLongToBeat\" class=\"template-infobox-icon svg-icon infobox-hltb\"><a href=\"https://howlongtobeat.com/game?id=18005\" title=\"Batman: Arkham Knight on HowLongToBeat\" rel=\"nofollow\"><img alt=\"Batman: Arkham Knight on HowLongToBeat\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight on IGDB\" class=\"template-infobox-icon svg-icon infobox-igdb\"><a href=\"https://www.igdb.com/games/batman-arkham-knight\" title=\"Batman: Arkham Knight on IGDB\" rel=\"nofollow\"><img alt=\"Batman: Arkham Knight on IGDB\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight on IsThereAnyDeal\" class=\"plainlinks template-infobox-icon svg-icon infobox-itad\"><a href=\"https://isthereanydeal.com/steam/app/208650/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight on ProtonDB\" class=\"plainlinks template-infobox-icon svg-icon infobox-protondb\"><a href=\"https://www.protondb.com/app/208650/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight on SteamDB\" class=\"plainlinks template-infobox-icon svg-icon infobox-steamdb\"><a href=\"https://steamdb.info/app/208650/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight guide on StrategyWiki\" class=\"template-infobox-icon svg-icon infobox-strategywiki\"><a href=\"http://strategywiki.org/wiki/Batman:_Arkham_Knight\" title=\"Batman: Arkham Knight guide on StrategyWiki\"><img alt=\"Batman: Arkham Knight guide on StrategyWiki\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight on MobyGames\" class=\"template-infobox-icon svg-icon infobox-mobygames\"><a href=\"https://www.mobygames.com/game/batman-arkham-knight\" title=\"Batman: Arkham Knight on MobyGames\" rel=\"nofollow\"><img alt=\"Batman: Arkham Knight on MobyGames\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight on Wikipedia\" class=\"template-infobox-icon svg-icon infobox-wikipedia\"><a href=\"http://en.wikipedia.org/wiki/Batman:_Arkham_Knight\" title=\"Batman: Arkham Knight on Wikipedia\"><img alt=\"Batman: Arkham Knight on Wikipedia\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight on WineHQ\" class=\"plainlinks template-infobox-icon svg-icon infobox-winehq\"><a href=\"https://appdb.winehq.org/objectManager.php?sClass=application&amp;iId=18267\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Batman: Arkham Knight on WSGF\" class=\"plainlinks template-infobox-icon svg-icon infobox-wsgf\"><a href=\"https://www.wsgf.org/dr/batman-arkham-knight/en\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t</tr></tbody></table><table class=\"pcgwikitable template-seriesbox\" id=\"seriesbox\" data-expandtext=\"Batman: Arkham\" data-collapsetext=\"Batman: Arkham\">\n\t<tbody><tr><th colspan=\"2\" class=\"template-seriesbox-title\"><a href=\"/wiki/Series:Batman:_Arkham\" title=\"Series:Batman: Arkham\">Batman: Arkham</a></th></tr>\n<tr>\n\t<td class=\"template-seriesbox-game\">Subseries of <a href=\"/wiki/Series:Batman\" title=\"Series:Batman\">Batman</a></td>\n\t<td class=\"template-seriesbox-date\"></td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/Batman:_Arkham_Asylum\" title=\"Batman: Arkham Asylum\">Batman: Arkham Asylum</a></td>\n\t<td class=\"template-seriesbox-date\">2009</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/Batman:_Arkham_City\" title=\"Batman: Arkham City\">Batman: Arkham City</a></td>\n\t<td class=\"template-seriesbox-date\">2011</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/Batman:_Arkham_Origins\" title=\"Batman: Arkham Origins\">Batman: Arkham Origins</a></td>\n\t<td class=\"template-seriesbox-date\">2013</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/Batman:_Arkham_Origins_Blackgate_Deluxe_Edition\" title=\"Batman: Arkham Origins Blackgate Deluxe Edition\">Batman: Arkham Origins Blackgate Deluxe Edition</a></td>\n\t<td class=\"template-seriesbox-date\">2014</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a class=\"mw-selflink selflink\">Batman: Arkham Knight</a></td>\n\t<td class=\"template-seriesbox-date\">2015</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/Batman:_Arkham_VR\" title=\"Batman: Arkham VR\">Batman: Arkham VR</a></td>\n\t<td class=\"template-seriesbox-date\">2017</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/Suicide_Squad:_Kill_the_Justice_League\" title=\"Suicide Squad: Kill the Justice League\">Suicide Squad: Kill the Justice League</a></td>\n\t<td class=\"template-seriesbox-date\">2022</td>\n</tr>\n</tbody></table><table class=\"pcgwikitable template-tocbox\" id=\"tocbox\">\n\t<tbody><tr><td colspan=\"2\" class=\"template-tocbox-body\"><div id=\"toc\" class=\"toc\"><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2>Contents</h2></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#Availability\"><span class=\"tocnumber\">1</span> <span class=\"toctext\">Availability</span></a>\n<ul>\n<li class=\"toclevel-2\"><a href=\"#DLC_and_expansion_packs\"><span class=\"tocnumber\">1.1</span> <span class=\"toctext\">DLC and expansion packs</span></a></li>\n<li class=\"toclevel-2 tocsection-2\"><a href=\"#Version_differences\"><span class=\"tocnumber\">1.2</span> <span class=\"toctext\">Version differences</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-3\"><a href=\"#Essential_improvements\"><span class=\"tocnumber\">2</span> <span class=\"toctext\">Essential improvements</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-4\"><a href=\"#Skip_intro_videos\"><span class=\"tocnumber\">2.1</span> <span class=\"toctext\">Skip intro videos</span></a></li>\n<li class=\"toclevel-2 tocsection-5\"><a href=\"#Arkham_Quixote\"><span class=\"tocnumber\">2.2</span> <span class=\"toctext\">Arkham Quixote</span></a></li>\n<li class=\"toclevel-2 tocsection-6\"><a href=\"#Performance_increase_on_SLI_systems\"><span class=\"tocnumber\">2.3</span> <span class=\"toctext\">Performance increase on SLI systems</span></a></li>\n<li class=\"toclevel-2 tocsection-7\"><a href=\"#Turn_off_hardware-accelerated_GPU_scheduling\"><span class=\"tocnumber\">2.4</span> <span class=\"toctext\">Turn off hardware-accelerated GPU scheduling</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-8\"><a href=\"#Game_data\"><span class=\"tocnumber\">3</span> <span class=\"toctext\">Game data</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-9\"><a href=\"#Configuration_file.28s.29_location\"><span class=\"tocnumber\">3.1</span> <span class=\"toctext\">Configuration file(s) location</span></a></li>\n<li class=\"toclevel-2 tocsection-10\"><a href=\"#Save_game_data_location\"><span class=\"tocnumber\">3.2</span> <span class=\"toctext\">Save game data location</span></a>\n<ul>\n<li class=\"toclevel-3 tocsection-11\"><a href=\"#Convert_Steam_save_data_to_GOG.com\"><span class=\"tocnumber\">3.2.1</span> <span class=\"toctext\">Convert Steam save data to GOG.com</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-2 tocsection-12\"><a href=\"#Save_game_cloud_syncing\"><span class=\"tocnumber\">3.3</span> <span class=\"toctext\">Save game cloud syncing</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-13\"><a href=\"#Video\"><span class=\"tocnumber\">4</span> <span class=\"toctext\">Video</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-14\"><a href=\"#Field_of_view_.28FOV.29\"><span class=\"tocnumber\">4.1</span> <span class=\"toctext\">Field of view (FOV)</span></a></li>\n<li class=\"toclevel-2 tocsection-15\"><a href=\"#High_frame_rate\"><span class=\"tocnumber\">4.2</span> <span class=\"toctext\">High frame rate</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-16\"><a href=\"#Input\"><span class=\"tocnumber\">5</span> <span class=\"toctext\">Input</span></a></li>\n<li class=\"toclevel-1 tocsection-17\"><a href=\"#Audio\"><span class=\"tocnumber\">6</span> <span class=\"toctext\">Audio</span></a>\n<ul>\n<li class=\"toclevel-2\"><a href=\"#Localizations\"><span class=\"tocnumber\">6.1</span> <span class=\"toctext\">Localizations</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-18\"><a href=\"#VR_support\"><span class=\"tocnumber\">7</span> <span class=\"toctext\">VR support</span></a></li>\n<li class=\"toclevel-1 tocsection-19\"><a href=\"#Issues_fixed\"><span class=\"tocnumber\">8</span> <span class=\"toctext\">Issues fixed</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-20\"><a href=\"#Xbox_One_Series_X_controller_detected_as_DualShock_4_controller\"><span class=\"tocnumber\">8.1</span> <span class=\"toctext\">Xbox One Series X controller detected as DualShock 4 controller</span></a></li>\n<li class=\"toclevel-2 tocsection-21\"><a href=\"#Slow_start_up\"><span class=\"tocnumber\">8.2</span> <span class=\"toctext\">Slow start up</span></a></li>\n<li class=\"toclevel-2 tocsection-22\"><a href=\"#Fix_for_missing_Batgirl_moves_and_DLC_characters_critical_strikes\"><span class=\"tocnumber\">8.3</span> <span class=\"toctext\">Fix for missing Batgirl moves and DLC characters critical strikes</span></a>\n<ul>\n<li class=\"toclevel-3 tocsection-23\"><a href=\"#A_simpler_method_of_implementing_the_fix_for_missing_Batgirl_moves_and_DLC_characters_critical_strikes_listed_above\"><span class=\"tocnumber\">8.3.1</span> <span class=\"toctext\">A simpler method of implementing the fix for missing Batgirl moves and DLC characters critical strikes listed above</span></a></li>\n<li class=\"toclevel-3 tocsection-24\"><a href=\"#Alternative_method_of_re-adding_a_missing_Batgirl_special_move\"><span class=\"tocnumber\">8.3.2</span> <span class=\"toctext\">Alternative method of re-adding a missing Batgirl special move</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-2 tocsection-25\"><a href=\"#Stuttering_and_low_fps_on_Windows_10_.282004_or_newer.29\"><span class=\"tocnumber\">8.4</span> <span class=\"toctext\">Stuttering and low fps on Windows 10 (2004 or newer)</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-26\"><a href=\"#Other_information\"><span class=\"tocnumber\">9</span> <span class=\"toctext\">Other information</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-27\"><a href=\"#API\"><span class=\"tocnumber\">9.1</span> <span class=\"toctext\">API</span></a></li>\n<li class=\"toclevel-2 tocsection-28\"><a href=\"#Middleware\"><span class=\"tocnumber\">9.2</span> <span class=\"toctext\">Middleware</span></a></li>\n<li class=\"toclevel-2 tocsection-29\"><a href=\"#Hide_HUD\"><span class=\"tocnumber\">9.3</span> <span class=\"toctext\">Hide HUD</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-30\"><a href=\"#System_requirements\"><span class=\"tocnumber\">10</span> <span class=\"toctext\">System requirements</span></a></li>\n<li class=\"toclevel-1\"><a href=\"#Notes\"><span class=\"tocnumber\">11</span> <span class=\"toctext\">Notes</span></a></li>\n<li class=\"toclevel-1\"><a href=\"#References\"><span class=\"tocnumber\">12</span> <span class=\"toctext\">References</span></a></li>\n</ul>\n</div>\n</td></tr>\n</tbody></table>\n<div class=\"introduction\">\n<p><i><b>Batman: Arkham Knight</b></i> is a <a href=\"/wiki/Category:Singleplayer\" title=\"Category:Singleplayer\"><abbr title=\"The game supports solo play through a singleplayer mode.\">singleplayer</abbr></a> <a href=\"/wiki/Category:Third-person\" title=\"Category:Third-person\"><abbr title=\"View from the third-person of a player character, normally behind or over the shoulder.\">third-person</abbr></a> <a href=\"/wiki/Category:Action\" title=\"Category:Action\"><abbr title=\"Primary gameplay tests some of the following: accuracy, movement, reflexes, timing.\">action</abbr></a>, <a href=\"/wiki/Category:Adventure\" title=\"Category:Adventure\"><abbr title=\"Primary emphasises on narrative, dialogue and puzzle solving, with less emphasis on action.\">adventure</abbr></a>, <a href=\"/wiki/Category:Driving\" title=\"Category:Driving\"><abbr title=\"Driving gameplay, which could be in a vehicle or mount and not just as a short sequence within the greater game. Distinct from racing category.\">driving</abbr></a>, <a href=\"/wiki/Category:Metroidvania\" title=\"Category:Metroidvania\"><abbr title=\"Metroidvania refers to games set in an explorable world that is gated in content mainly by specific abilities that need to be acquired by the player, and which gradually opens up more as the player overcomes its obstacles. Generally there is a central hub from which the player can move to various interconnected areas or levels, some degree of persistency to their game worlds and some degree of non-linear progression while subtly guiding the player towards the next intended path.\">metroidvania</abbr></a> and <a href=\"/wiki/Category:Stealth\" title=\"Category:Stealth\"><abbr title=\"Stealth games require the player to avoid contact with enemies in the game and instead try to pass them by silently and hidden or using disguises. Goals can range from reaching a certain position, theft, sabotage, etc.\">stealth</abbr></a> game&#160;in the <a href=\"/wiki/Series:Batman:_Arkham\" title=\"Series:Batman: Arkham\">Batman: Arkham</a> series.\n</p><p class=\"mw-empty-elt\">\n\n</p><p>The PC version was pulled from stores on June 24, 2015 due to being released in a poor state,<sup id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\">&#91;4&#93;</a></sup><sup id=\"cite_ref-5\" class=\"reference\"><a href=\"#cite_note-5\">&#91;5&#93;</a></sup> reworked and re-released on October 28, 2015,<sup id=\"cite_ref-6\" class=\"reference\"><a href=\"#cite_note-6\">&#91;6&#93;</a></sup><sup id=\"cite_ref-7\" class=\"reference\"><a href=\"#cite_note-7\">&#91;7&#93;</a></sup><sup id=\"cite_ref-8\" class=\"reference\"><a href=\"#cite_note-8\">&#91;8&#93;</a></sup> and continued to see additional development through early 2016 which brought various performance and stability improvements as well as bugfixes.<sup id=\"cite_ref-9\" class=\"reference\"><a href=\"#cite_note-9\">&#91;9&#93;</a></sup><sup id=\"cite_ref-10\" class=\"reference\"><a href=\"#cite_note-10\">&#91;10&#93;</a></sup><sup id=\"cite_ref-11\" class=\"reference\"><a href=\"#cite_note-11\">&#91;11&#93;</a></sup><sup id=\"cite_ref-12\" class=\"reference\"><a href=\"#cite_note-12\">&#91;12&#93;</a></sup>\n</p><p>Following the re-release and subsequent updates, it was announced that the game would not see the originally planned Mac and Linux versions.<sup id=\"cite_ref-linux-osx-canceled_3-2\" class=\"reference\"><a href=\"#cite_note-linux-osx-canceled-3\">&#91;3&#93;</a></sup>\n</p><p class=\"mw-empty-elt\">\n</p>\n</div>\n<p><b>General information</b>\n</p>\n<dl><dd></dd>\n<dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.gog.com/forum/batman_arkham_series\">GOG.com Community Discussions</a> for game series</dd>\n<dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> <a rel=\"nofollow\" class=\"external text\" href=\"https://support.gog.com/hc//categories/201400969?game=1881970704\">GOG.com Support Page</a></dd>\n<dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> <a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/app/208650/discussions/\">Steam Community Discussions</a></dd></dl>\n<h2><span class=\"mw-headline\" id=\"Availability\">Availability</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=1\" title=\"Edit section: Availability\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable sortable template-infotable\" id=\"table-availability\">\n\t<tbody><tr class=\"template-infotable-head table-availability-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-availability-head-source\">Source</th>\n\t\t<th scope=\"col\" style=\"width: 60px\" class=\"unsortable table-availability-head-DRM\"><abbr title=\"DRM required to play the game\">DRM</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 390px;\" class=\"unsortable table-availability-head-notes\">Notes</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"unsortable table-availability-head-keys\"><abbr title=\"Optional product keys for other services\">Keys</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 90px;\" class=\"table-availability-head-OS\"><abbr title=\"Operating system(s)\">OS</abbr></th>\n\t</tr>\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"aaa- Retail\">Retail  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> 5 DVD discs. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Epic Games Store\"><a rel=\"nofollow\" class=\"external text\" href=\"https://store.epicgames.com/pcgamingwiki/batman-arkham-knight\">Epic Games Store</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon drm-drmfree-asterisk\" title=\"DRM-free\"><a href=\"/wiki/Epic_Games_Store\" title=\"DRM-free after installation through Epic Games Launcher (notes may include more details)\"><img alt=\"DRM-free after installation through Epic Games Launcher (notes may include more details)\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> Includes the Premium Edition as well as the previously PS4 exclusive <b>Earth-2 Dark Knight</b> skin.<sup id=\"cite_ref-13\" class=\"reference\"><a href=\"#cite_note-13\">&#91;13&#93;</a></sup> DRM-free when launched directly from executable.<sup id=\"cite_ref-14\" class=\"reference\"><a href=\"#cite_note-14\">&#91;14&#93;</a></sup> </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"GamersGate\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/batman-arkham-knight?caff=5418682\">GamersGate</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/DD-BMAKPE?caff=5418682\">Premium Edition</a> also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Gamesplanet\"><a href=\"https://gamesplanet.com/game/2671-1?ref=pcgwiki\" rel=\"nofollow\"><img alt=\"Gamesplanet logo.svg\" src=\"https://thumbnails.pcgamingwiki.com/8/8e/Gamesplanet_logo.svg/136px-Gamesplanet_logo.svg.png\" width=\"136\" height=\"21\" srcset=\"https://thumbnails.pcgamingwiki.com/8/8e/Gamesplanet_logo.svg/204px-Gamesplanet_logo.svg.png 1.5x, https://thumbnails.pcgamingwiki.com/8/8e/Gamesplanet_logo.svg/272px-Gamesplanet_logo.svg.png 2x\" data-file-width=\"512\" data-file-height=\"80\" /></a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://gamesplanet.com/game/2671-2?ref=pcgwiki\">Premium Edition</a> also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"GOG.com\"><a rel=\"nofollow\" class=\"external text\" href=\"https://af.gog.com/game/batman_arkham_knight?as=1649876489\">GOG.com</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon drm-drmfree\" title=\"DRM-free\"><a href=\"/wiki/Glossary:DRM-free\" title=\"DRM-free\"><img alt=\"DRM-free\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://af.gog.com/game/batman_arkham_knight_premium_edition?as=1649876489\">Premium Edition</a> also available, which includes the previously PS4 exclusive <b>Earth-2 Dark Knight</b> skin.<sup id=\"cite_ref-ReferenceA_15-0\" class=\"reference\"><a href=\"#cite_note-ReferenceA-15\">&#91;15&#93;</a></sup> </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"GMG\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/batman-arkham-knight/?tap_a=1964-996bbb&amp;tap_s=341948-7fd0d2\">Green Man Gaming</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/batman-arkham-knight-premium-edition/?tap_a=1964-996bbb&amp;tap_s=341948-7fd0d2\">Premium Edition</a> also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Humble\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.humblebundle.com/store/batman-arkham-knight?partner=pcgw\">Humble Store</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.humblebundle.com/store/batman-arkham-knight-premium-edition?partner=pcgw\">Premium Edition</a> also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Steam\"><a rel=\"nofollow\" class=\"external text\" href=\"https://store.steampowered.com/app/208650/?utm_source=PCGamingWiki&amp;utm_medium=PCGamingWiki&amp;utm_campaign=PCGamingWiki\">Steam</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon drm-drmfree-asterisk\" title=\"DRM-free\"><a href=\"/wiki/Steam\" title=\"DRM-free after installation through Steam client (notes may include more details)\"><img alt=\"DRM-free after installation through Steam client (notes may include more details)\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://store.steampowered.com/sub/85500/?utm_source=PCGamingWiki&amp;utm_medium=PCGamingWiki&amp;utm_campaign=PCGamingWiki\">Premium Edition</a> also available. DRM-free when launched directly from the game executable without the Steam client running. NOTE: ONLY the base game is DRM-free. For any DLC to be recognized, the game must be launched through the Steam client.</td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n</tbody></table></div>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> <a href=\"/wiki/Denuvo#Denuvo_Anti-Tamper\" title=\"Denuvo\">Denuvo Anti-Tamper</a> <a href=\"/wiki/Digital_rights_management_(DRM)\" title=\"Digital rights management (DRM)\"><abbr title=\"Digital rights management: Commonly used to refer to copy protection and/or technical protection measures employed by companies in an attempt to limit the manipulation and copying of game data and content by end-users after the purchase, download, and/or install of the product.\">DRM</abbr></a> was removed from the Steam version on December 3, 2020.<sup id=\"cite_ref-16\" class=\"reference\"><a href=\"#cite_note-16\">&#91;16&#93;</a></sup><sup id=\"cite_ref-17\" class=\"reference\"><a href=\"#cite_note-17\">&#91;17&#93;</a></sup></dd></dl>\n<h3><span class=\"mw-headline\" id=\"DLC_and_expansion_packs\">DLC and expansion packs</span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable sortable template-infotable mw-collapsible mw-collapsed\" id=\"table-dlc\">\n\t<tbody><tr class=\"template-infotable-head table-dlc-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-dlc-head-name\">Name</th>\n\t\t<th scope=\"col\" style=\"width: 500px;\" class=\"unsortable table-dlc-head-notes\">Notes</th>\n\t\t<th scope=\"col\" style=\"width: 90px;\" class=\"unsortable table-dlc-head-OS\"></th>\n\t</tr><tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Season Pass </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> A Matter of Family </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Harley Quinn Story Pack </th>\n\t<td class=\"table-dlc-body-notes\"> Included with retail copies. </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Red Hood Story Pack </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Prototype Batmobile Skin </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Batman Classic TV Series Batmobile Pack </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> 1st Appearance Batman Skin </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Batman: Noel Skin </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Bat-Family Skin Pack </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> 1989 Movie Batmobile Pack </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Crime Fighter Challenge Pack #1 </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Crime Fighter Challenge Pack #2 </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Crime Fighter Challenge Pack #3 </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Crime Fighter Challenge Pack #4 </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Crime Fighter Challenge Pack #5 </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> GCPD Lockdown </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> 2008 Tumbler Batmobile Pack </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Catwoman's Revenge </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Robin and Batmobile Skins Pack </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> WayneTech Track Pack </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> A Flip of a Coin </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> 1970s Batman Themed Batmobile Skin </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> 2008 Movie Batman Skin </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Riddler Themed Batmobile Skin </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Original Arkham Batmobile </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Rocksteady Themed Batmobile Skin </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Season of Infamy: Most Wanted Expansion </th>\n\t<td class=\"table-dlc-body-notes\">  </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-dlc-body-row\">\n\t<th scope=\"row\" class=\"table-dlc-body-name\"> Earth-2 Dark Knight Skin </th>\n\t<td class=\"table-dlc-body-notes\"> Exclusive to <b>Epic Games Store</b><sup id=\"cite_ref-18\" class=\"reference\"><a href=\"#cite_note-18\">&#91;18&#93;</a></sup><sup id=\"cite_ref-19\" class=\"reference\"><a href=\"#cite_note-19\">&#91;19&#93;</a></sup> and <b>GOG.com</b>.<sup id=\"cite_ref-ReferenceA_15-1\" class=\"reference\"><a href=\"#cite_note-ReferenceA-15\">&#91;15&#93;</a></sup> </td>\n\t<td class=\"table-dlc-body-OS\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr></tbody></table></div>\n<dl><dd><div title=\"Disadvantage\" class=\"svg-icon svg-16 thumbs-down\"></div> Adam West skin, '60s-themed Bat-tank, and Scarecrow Nightmare Challenges are PlayStation 4 exclusives.</dd></dl>\n<h3><span class=\"mw-headline\" id=\"Version_differences\">Version differences</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=2\" title=\"Edit section: Version differences\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> <b>Premium Edition</b> includes all previously released DLCs.<sup id=\"cite_ref-20\" class=\"reference\"><a href=\"#cite_note-20\">&#91;20&#93;</a></sup></dd></dl>\n<h2><span class=\"mw-headline\" id=\"Essential_improvements\">Essential improvements</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=3\" title=\"Edit section: Essential improvements\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"Skip_intro_videos\">Skip intro videos</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=4\" title=\"Edit section: Skip intro videos\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Use the <code>-nologo</code> <a href=\"/wiki/Glossary:Command_line_arguments\" title=\"Glossary:Command line arguments\">command line argument</a><sup id=\"cite_ref-21\" class=\"reference\"><a href=\"#cite_note-21\">&#91;21&#93;</a></sup>\n    </th>\n  </tr>\n\n</tbody></table>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Delete or rename video files<sup id=\"cite_ref-22\" class=\"reference\"><a href=\"#cite_note-22\">&#91;22&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Go to <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\BmGame\\Movies\\</code>.</li>\n<li>Delete or rename <code>StartupMovie.swf</code> and <code>StartupMovieNV.swf</code>.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h3><span class=\"mw-headline\" id=\"Arkham_Quixote\">Arkham Quixote</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=5\" title=\"Edit section: Arkham Quixote\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>Mod that drastically reduces game stuttering by recycling textures allocations. More information and download can be found <a rel=\"nofollow\" class=\"external text\" href=\"https://sherief.fyi/post/arkham-quixote/\">here</a>.\n</p>\n<h3><span class=\"mw-headline\" id=\"Performance_increase_on_SLI_systems\">Performance increase on SLI systems</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=6\" title=\"Edit section: Performance increase on SLI systems\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>Because Batman: Arkham Knight heavily uses Nvidia PhysX, you can get a considerable framerate improvement by disabling SLI in the Nvidia control panel and assigning your second GPU to be dedicated to PhysX. The game does not support SLI anyway, so at least with this tweak, you can get a sort of 'semi-SLI' mode going. This should increase the framerate by around 25%, similar to an SLI profile with poor scaling.\n</p>\n<h3><span class=\"mw-headline\" id=\"Turn_off_hardware-accelerated_GPU_scheduling\">Turn off hardware-accelerated GPU scheduling</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=7\" title=\"Edit section: Turn off hardware-accelerated GPU scheduling\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<p>Hardware-accelerated GPU scheduling has a big negative performance impact and is recommended to be turned off for this game.\n</p>\n<h2><span class=\"mw-headline\" id=\"Game_data\">Game data</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=8\" title=\"Edit section: Game data\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span id=\"Configuration_file(s)_location\"></span><span class=\"mw-headline\" id=\"Configuration_file.28s.29_location\">Configuration file(s) location</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=9\" title=\"Edit section: Configuration file(s) location\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-gamedata\">\n\t<tbody><tr class=\"template-infotable-head table-gamedata-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-gamedata-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 590px;\" class=\"table-gamedata-head-location\">Location</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Windows </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\BMGame\\Config\\</span><sup id=\"cite_ref-gamedir_23-0\" class=\"reference\"><a href=\"#cite_note-gamedir-23\">&#91;Note 1&#93;</a></sup></td>\n</tr>\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Epic Games Launcher </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\">%PROGRAMFILES%\\Epic Games\\BatmanArkhamKnight\\BmGame\\SaveData\\</span></td>\n</tr>\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t\t<th scope=\"row\" class=\"table-gamedata-body-system\"><abbr title=\"Windows version on Steam running through the Proton wrapper of Steam Play on Linux\">Steam Play (Linux)</abbr></th>\n\t\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Steam_client\" title=\"Glossary:Game data\"><abbr title=\"The base Steam installation folder\">&lt;Steam-folder&gt;</abbr></a>/steamapps/compatdata/<abbr title=\"app ID may differ in some cases\">208650</abbr>/pfx/</span><sup id=\"cite_ref-Proton_path_note_24-0\" class=\"reference\"><a href=\"#cite_note-Proton_path_note-24\">&#91;Note 2&#93;</a></sup></td>\n\t</tr>\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Save_game_data_location\">Save game data location</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=10\" title=\"Edit section: Save game data location\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-gamedata\">\n\t<tbody><tr class=\"template-infotable-head table-gamedata-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-gamedata-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 590px;\" class=\"table-gamedata-head-location\">Location</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Windows </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\BMGame\\SaveData\\</span><sup id=\"cite_ref-gamedir_23-1\" class=\"reference\"><a href=\"#cite_note-gamedir-23\">&#91;Note 1&#93;</a></sup></td>\n</tr>\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Epic Games Launcher </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\">%PROGRAMFILES%\\Epic Games\\BatmanArkhamKnight\\BmGame\\SaveData\\</span></td>\n</tr>\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Steam </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Steam_client\" title=\"Glossary:Game data\"><abbr title=\"The base Steam installation folder\">&lt;Steam-folder&gt;</abbr></a>\\userdata\\<a href=\"/wiki/Glossary:Game_data#User_ID\" title=\"Glossary:Game data\"><abbr title=\"The user ID or profile name (specific to your account or computer)\">&lt;user-id&gt;</abbr></a>\\208650\\</span></td>\n</tr>\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t\t<th scope=\"row\" class=\"table-gamedata-body-system\"><abbr title=\"Windows version on Steam running through the Proton wrapper of Steam Play on Linux\">Steam Play (Linux)</abbr></th>\n\t\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Steam_client\" title=\"Glossary:Game data\"><abbr title=\"The base Steam installation folder\">&lt;Steam-folder&gt;</abbr></a>/steamapps/compatdata/<abbr title=\"app ID may differ in some cases\">208650</abbr>/pfx/</span><sup id=\"cite_ref-Proton_path_note_24-1\" class=\"reference\"><a href=\"#cite_note-Proton_path_note-24\">&#91;Note 2&#93;</a></sup></td>\n\t</tr>\n</tbody></table></div>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> Running the Steam version without the Steam client running will save to <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\BMGame\\SaveData\\</code>.</dd></dl>\n<h4><span class=\"mw-headline\" id=\"Convert_Steam_save_data_to_GOG.com\">Convert Steam save data to GOG.com</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=11\" title=\"Edit section: Convert Steam save data to GOG.com\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Manual conversion with hex editor<sup id=\"cite_ref-ReferenceA_15-2\" class=\"reference\"><a href=\"#cite_note-ReferenceA-15\">&#91;15&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Open your save file from the Steam location in your hex editor.</li>\n<li>Insert the 4 bytes <code>00 10 25 00</code> at the start of the file (do not overwrite existing bytes).</li>\n<li>Save the file and transfer to the Windows save folder as listed above.</li></ol>\n<p><b>Notes</b>\n</p>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> Converting GOG.com to Steam is done by deleting the bytes added in step 2, saving, and moving back to the Steam folder.</dd></dl>\n    </td>\n  </tr>\n</tbody></table>\n<h3><span class=\"mw-headline\" id=\"Save_game_cloud_syncing\"><a href=\"/wiki/Glossary:Save_game_cloud_syncing\" title=\"Glossary:Save game cloud syncing\">Save game cloud syncing</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=12\" title=\"Edit section: Save game cloud syncing\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable template-gamedata\" id=\"table-cloudsync\">\n\t<tbody><tr class=\"template-infotable-head table-cloudsync-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-cloudsync-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-cloudsync-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-cloudsync-head-notes\">Notes</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-cloudsync-body-row\">\n\t\t<th scope=\"row\" class=\"table-cloudsync-body-system\"><a href=\"/wiki/Store:Epic_Games_Store\" title=\"Store:Epic Games Store\">Epic Games Launcher</a></th>\n\t\t<td class=\"table-cloudsync-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-cloudsync-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-cloudsync-body-row\">\n\t\t<th scope=\"row\" class=\"table-cloudsync-body-system\"><a href=\"/wiki/Store:GOG.com\" title=\"Store:GOG.com\">GOG Galaxy</a></th>\n\t\t<td class=\"table-cloudsync-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-cloudsync-body-notes\"></td>\n\t</tr>\n\n\n\n\n\n<tr class=\"template-infotable-body table-cloudsync-body-row\">\n\t\t<th scope=\"row\" class=\"table-cloudsync-body-system\"><a href=\"/wiki/Store:Steam#Steam_Cloud\" title=\"Store:Steam\">Steam Cloud</a></th>\n\t\t<td class=\"table-cloudsync-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-cloudsync-body-notes\"></td>\n\t</tr>\n\n\n\n\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Video\">Video</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=13\" title=\"Edit section: Video\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Batman_Arkham_Knight_-_graphics_settings.png\" class=\"image\"><img alt=\"In-game graphics settings.\" src=\"https://thumbnails.pcgamingwiki.com/8/8c/Batman_Arkham_Knight_-_graphics_settings.png/300px-Batman_Arkham_Knight_-_graphics_settings.png\" width=\"300\" height=\"169\" srcset=\"https://thumbnails.pcgamingwiki.com/8/8c/Batman_Arkham_Knight_-_graphics_settings.png/450px-Batman_Arkham_Knight_-_graphics_settings.png 1.5x, https://thumbnails.pcgamingwiki.com/8/8c/Batman_Arkham_Knight_-_graphics_settings.png/600px-Batman_Arkham_Knight_-_graphics_settings.png 2x\" data-file-width=\"2560\" data-file-height=\"1440\" /></a></div>\n  <div class=\"article-image-text\">In-game graphics settings.</div>\n</div>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Batman_Arkham_Knight_-_game_settings.png\" class=\"image\"><img alt=\"In-game general settings.\" src=\"https://thumbnails.pcgamingwiki.com/7/79/Batman_Arkham_Knight_-_game_settings.png/300px-Batman_Arkham_Knight_-_game_settings.png\" width=\"300\" height=\"169\" srcset=\"https://thumbnails.pcgamingwiki.com/7/79/Batman_Arkham_Knight_-_game_settings.png/450px-Batman_Arkham_Knight_-_game_settings.png 1.5x, https://thumbnails.pcgamingwiki.com/7/79/Batman_Arkham_Knight_-_game_settings.png/600px-Batman_Arkham_Knight_-_game_settings.png 2x\" data-file-width=\"2560\" data-file-height=\"1440\" /></a></div>\n  <div class=\"article-image-text\">In-game general settings.</div>\n</div>\n<p><span id=\"Video_settings\"></span>\n</p>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-video\">\n\t<tbody><tr class=\"template-infotable-head table-settings-video-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-video-head-parameter\">Graphics feature</th>\n\t\t<th scope=\"col\" style=\"width: 50px\" class=\"table-settings-video-head-rating\">State</th>\n\t<th scope=\"col\" style=\"width: 50px\" class=\"table-settings-video-head-rating-WSGF\"><abbr title=\"Widescreen Gaming Forum awards\">WSGF</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 490px\" class=\"table-settings-video-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Widescreen_resolution\" title=\"Glossary:Widescreen resolution\">Widescreen resolution</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-video-body-rating-WSGF\"><div class=\"plainlinks svg-icon svg-25 circle-gold\" title=\"Gold - it has received a perfect score from the WSGF for its widescreen support.\"><div class=\"svg-icon svg-25 text-wsgf-ws\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.wsgf.org/dr/batman-arkham-knight/en\">&#160;</a></div></div></td>\n\t\t<td class=\"table-settings-video-body-notes\"> </td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Multi-monitor\" title=\"Glossary:Multi-monitor\"><abbr title=\"Game can run at a spanned resolution across multiple displays\">Multi-monitor</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-video-body-rating-WSGF\"><div class=\"plainlinks svg-icon svg-25 circle-silver\" title=\"Silver - without major flaws, but has at least one blemish that prevents a perfect score.\"><div class=\"svg-icon svg-25 text-wsgf-mm\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.wsgf.org/dr/batman-arkham-knight/en\">&#160;</a></div></div></td>\n\t\t<td class=\"table-settings-video-body-notes\"> Works with some issues (see the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.wsgf.org/dr/batman-arkham-knight/en\">WSGF entry</a>).</td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Ultra-widescreen\" title=\"Glossary:Ultra-widescreen\"><abbr title=\"Game can run at an ultra-widescreen (21:9) resolution\">Ultra-widescreen</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-video-body-rating-WSGF\"><div class=\"plainlinks svg-icon svg-25 circle-silver\" title=\"Silver - without major flaws, but has at least one blemish that prevents a perfect score.\"><div class=\"svg-icon svg-25 text-wsgf-uw\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.wsgf.org/dr/batman-arkham-knight/en\">&#160;</a></div></div></td>\n\t\t<td class=\"table-settings-video-body-notes\"> Works with some issues (see the <a rel=\"nofollow\" class=\"external text\" href=\"https://www.wsgf.org/dr/batman-arkham-knight/en\">WSGF entry</a>).</td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:4K_Ultra_HD\" title=\"Glossary:4K Ultra HD\"><abbr title=\"Game can run at 4K (3840x2160) resolution\">4K Ultra HD</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-video-body-rating-WSGF\"><div class=\"plainlinks svg-icon svg-25 circle-gold\" title=\"Gold - it has received a perfect score from the WSGF for its 4K support.\"><div class=\"svg-icon svg-25 text-wsgf-4k\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.wsgf.org/dr/batman-arkham-knight/en\">&#160;</a></div></div></td>\n\t\t<td class=\"table-settings-video-body-notes\"> </td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Field_of_view_(FOV)\" title=\"Glossary:Field of view (FOV)\"><abbr title=\"Game has an adjustable field of view\">Field of view (FOV)</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Hackable\" class=\"svg-icon svg-25 tickcross-hackable\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">See <a href=\"#Field_of_view_.28FOV.29\">Field of view (FOV)</a>.</td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Windowed\" title=\"Glossary:Windowed\"><abbr title=\"Game can run in a regular windowed mode\">Windowed</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Borderless_fullscreen_windowed\" title=\"Glossary:Borderless fullscreen windowed\"><abbr title=\"Game can run in a borderless fullscreen windowed mode\">Borderless fullscreen windowed</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Anisotropic_filtering_(AF)\" title=\"Glossary:Anisotropic filtering (AF)\">Anisotropic filtering (AF)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Anti-aliasing_(AA)\" title=\"Glossary:Anti-aliasing (AA)\">Anti-aliasing (AA)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"><a href=\"/wiki/SMAA\" class=\"mw-redirect\" title=\"SMAA\">SMAA</a>.</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Vertical_sync_(Vsync)\" title=\"Glossary:Vertical sync (Vsync)\">Vertical sync (Vsync)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Frame_rate_(FPS)\" title=\"Glossary:Frame rate (FPS)\"><abbr title=\"Game can run at 60 frames per second\">60 FPS</abbr> </a></th>\n\t\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Frame_rate_(FPS)\" title=\"Glossary:Frame rate (FPS)\"><abbr title=\"Game can run at 120 frames per second (or higher)\">120+ FPS</abbr></a></th>\n\t\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Hackable\" class=\"svg-icon svg-25 tickcross-hackable\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">Choice of FPS cap: 30, 60, 90. See <a href=\"#High_frame_rate\">High frame rate</a>.</td>\n\t\t</tr>\n\n\n</tbody></table></div>\n<h3><span id=\"Field_of_view_(FOV)\"></span><span class=\"mw-headline\" id=\"Field_of_view_.28FOV.29\"><a href=\"/wiki/Glossary:Field_of_view_(FOV)\" title=\"Glossary:Field of view (FOV)\">Field of view (FOV)</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=14\" title=\"Edit section: Field of view (FOV)\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Add hotkeys<span title=\"This claim needs a reference&#160;(July 2016)\"><sup style=\"white-space:nowrap;\">&#91;<i>citation needed</i>&#93;</sup></span>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Edit <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\BMGame\\Config\\BmInput.ini</code></li>\n<li>Select all lines that start with \"Bindings\" in the [Engine.PlayerInput] section.</li>\n<li>Copy and paste it into the [BmGame.RPlayerInput] section.</li>\n<li>Under the section [BmGame.RPlayerInput], add the following lines:</li></ol>\n<pre>Bindings=(Name=\"NumPadOne\",Command=\"FOV 86\")\nBindings=(Name=\"NumPadTwo\",Command=\"FOV 90\")\nBindings=(Name=\"NumPadThree\",Command=\"FOV 95\")\nBindings=(Name=\"NumPadFour\",Command=\"FOV 100\")\nBindings=(Name=\"NumPadFive\",Command=\"FOV 105\")\nBindings=(Name=\"NumPadSix\",Command=\"FOV 110\")\nBindings=(Name=\"NumPadSeven\",Command=\"FOV 115\")\nBindings=(Name=\"NumPadEight\",Command=\"FOV 120\")\nBindings=(Name=\"NumPadNine\",Command=\"FOV 125\")</pre>\n<p><b>Notes</b>\n</p>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> Higher than default values can cause much FPS drop during situations where the camera zooms out.</dd>\n<dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> Adding these lines can prevent controller trigger inputs from working correctly (e.g. batmobile acceleration). Remove the lines to fix.</dd>\n<dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> Adjusting the FOV in any way with hotkeys breaks the first person Zoom In function on the right thumbstick, causing it to zoom in much less then before, making some riddles unsolvable without reloading the last checkpoint and resetting FOV entirely</dd></dl>\n    </td>\n  </tr>\n</tbody></table>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Convert game to <a href=\"/wiki/Glossary:Scaling\" title=\"Glossary:Scaling\"><abbr title=\"Horizontal Plus: Field of view expands horizontally for wider aspect ratios. This is the optimal scaling behavior for games when faced with wider aspect resolutions.\">Hor+</abbr></a>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> Game is <a href=\"/wiki/Glossary:Scaling\" title=\"Glossary:Scaling\"><abbr title=\"Vertical Minus: Field of view reduces vertically for wider aspect ratios. This is one of the more common scaling behaviors used in games.\">Vert-</abbr></a> by default.</dd></dl>\n<ol><li>Open BmEngine.ini and change \"AspectRatioAxisConstraint=AspectRatio_MaintainXFOV\" to \"AspectRatioAxisConstraint=AspectRatio_MaintainYFOV\"</li></ol>\n<p><b>Notes</b>\n</p>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> May cause the map and some cutscenes to look weird.</dd>\n<dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> This tweak also makes the game use vertical measurement. For people who play games where the max allowed FOV is 120, you want to use hotkey values of 90 instead of 120. If you like 110 or 100, then 80 and 70 respectively.</dd></dl>\n    </td>\n  </tr>\n</tbody></table>\n<h3><span class=\"mw-headline\" id=\"High_frame_rate\"><a href=\"/wiki/Glossary:Frame_rate_(FPS)\" title=\"Glossary:Frame rate (FPS)\">High frame rate</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=15\" title=\"Edit section: High frame rate\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Change value in config file<span title=\"This claim needs a reference&#160;(July 2016)\"><sup style=\"white-space:nowrap;\">&#91;<i>citation needed</i>&#93;</sup></span>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Edit <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\BmGame\\Config\\BmSystemSettings.ini</code>.</li>\n<li>Change <code>MaxFPS=60.000000</code> to have the FPS cap you want.</li>\n<li>Save your changes and close the file.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Input\">Input</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=16\" title=\"Edit section: Input\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Batman_Arkham_Knight_-_keybinds.png\" class=\"image\"><img alt=\"In-game keyboard bindings.\" src=\"https://thumbnails.pcgamingwiki.com/d/d2/Batman_Arkham_Knight_-_keybinds.png/300px-Batman_Arkham_Knight_-_keybinds.png\" width=\"300\" height=\"169\" srcset=\"https://thumbnails.pcgamingwiki.com/d/d2/Batman_Arkham_Knight_-_keybinds.png/450px-Batman_Arkham_Knight_-_keybinds.png 1.5x, https://thumbnails.pcgamingwiki.com/d/d2/Batman_Arkham_Knight_-_keybinds.png/600px-Batman_Arkham_Knight_-_keybinds.png 2x\" data-file-width=\"2560\" data-file-height=\"1440\" /></a></div>\n  <div class=\"article-image-text\">In-game keyboard bindings.</div>\n</div>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Batman_Arkham_Knight_-_xbox.png\" class=\"image\"><img alt=\"In-game Xbox bindings.\" src=\"https://thumbnails.pcgamingwiki.com/8/82/Batman_Arkham_Knight_-_xbox.png/300px-Batman_Arkham_Knight_-_xbox.png\" width=\"300\" height=\"169\" srcset=\"https://thumbnails.pcgamingwiki.com/8/82/Batman_Arkham_Knight_-_xbox.png/450px-Batman_Arkham_Knight_-_xbox.png 1.5x, https://thumbnails.pcgamingwiki.com/8/82/Batman_Arkham_Knight_-_xbox.png/600px-Batman_Arkham_Knight_-_xbox.png 2x\" data-file-width=\"2560\" data-file-height=\"1440\" /></a></div>\n  <div class=\"article-image-text\">In-game Xbox bindings.</div>\n</div>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Batman_Arkham_Knight_-_dualshock4.png\" class=\"image\"><img alt=\"In-game DualShock 4 bindings.\" src=\"https://thumbnails.pcgamingwiki.com/c/c4/Batman_Arkham_Knight_-_dualshock4.png/300px-Batman_Arkham_Knight_-_dualshock4.png\" width=\"300\" height=\"169\" srcset=\"https://thumbnails.pcgamingwiki.com/c/c4/Batman_Arkham_Knight_-_dualshock4.png/450px-Batman_Arkham_Knight_-_dualshock4.png 1.5x, https://thumbnails.pcgamingwiki.com/c/c4/Batman_Arkham_Knight_-_dualshock4.png/600px-Batman_Arkham_Knight_-_dualshock4.png 2x\" data-file-width=\"2560\" data-file-height=\"1440\" /></a></div>\n  <div class=\"article-image-text\">In-game DualShock 4 bindings.</div>\n</div><p>\n<div class=\"ad-widget-container\"><div class=\"vm-placement\" data-id=\"5ee8e351a624ae2e7125852e\"></div></div><span id=\"Input_settings\"></span></p><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-input\">\n\t<tbody><tr class=\"template-infotable-head table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Keyboard and mouse</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\">State</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\">Notes</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">Remapping</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\">By default, &lt;Alt&gt; can only be used as a modifier (e.g. &lt;Alt&gt; + &lt;X&gt;), and cannot receive mappings.</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse_acceleration\" title=\"Glossary:Mouse acceleration\">Mouse acceleration</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse#Sensitivity\" title=\"Glossary:Mouse\">Mouse sensitivity</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse\" title=\"Glossary:Mouse\">Mouse input in menus</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Invert_Y-axis\" title=\"Glossary:Invert Y-axis\">Mouse Y-axis inversion</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-secondhead table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Controller</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller support</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\">DirectInput, XInput and <a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">DualShock 4</a> only First Generation, bugged with DualShock 4 Second Generation controllers.</td>\n\t</tr>\n\t\n<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"All menus can be navigated with a controller. Supports Steam&#39;s Big Picture mode.\">Full controller support</abbr></a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">Controller remapping</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"><i>See the <a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">glossary page</a> for potential workarounds.</i></td>\n\t</tr>\n\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller sensitivity</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\n\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Invert_Y-axis\" title=\"Glossary:Invert Y-axis\">Controller Y-axis inversion</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n</tbody></table>\n\t<table class=\"mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-types\" style=\"margin-top: -16px;\">\n\t\t<tbody><tr class=\"template-infotable-secondhead table-settings-input-head-row\">\n\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Controller types</th>\n\t\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t\t</tr>\n\t</tbody></table>\n\t<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-xinput\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">XInput-compatible controllers</a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#f5f5f5;\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Xbox button prompts</a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\t\t\t\t<tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:Xbox_One_Controller\" class=\"mw-redirect\" title=\"Controller:Xbox One Controller\"><abbr title=\"Xbox One controllers only\">Impulse Trigger vibration</abbr></a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\t\t</tbody></table>\n\t\t<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-dualshock\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">DualShock 4 controllers</a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">DualShock button prompts</a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\n\t\t\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">Light bar support</a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\">Static red color.</td>\n\t\t\t\t</tr>\n\t\t\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\">Connection modes</th>\n\t\t\t\t\t<td colspan=\"2\" class=\"table-settings-input-body-dualshock-modes\">V1, Wired<br />wireless does not register any input unless emulated xinput</td>\n\t\t\t\t</tr>\n\t\t</tbody></table>\n\t<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-other\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Controllers that do not fall into any other category\">Generic/other controllers</abbr></a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#f5f5f5;\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Button prompts</a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-button-prompts\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\">Using Logitech Rumblepad 2 show DualShock buttons.<span title=\"This claim needs a reference&#160;(March 26, 2016)\"><sup style=\"white-space:nowrap;\">&#91;<i>citation needed</i>&#93;</sup></span></td>\n\t\t\t\t</tr>\n\t\t</tbody></table>\n<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-additional\" style=\"margin-top: -16px;\">\n\t<tbody><tr class=\"template-infotable-head table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Additional information</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t</tr>\n\t\t\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller hotplugging</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Commonly referred to as controller vibration, force feedback, rumble, or dualshock.\">Haptic feedback</abbr></a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\">Both XInput and <a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">DualShock 4</a>.</td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Both controller and keyboard/mouse inputs can be used at the same time\">Simultaneous controller+KB/M</abbr></a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n</tbody></table>\t</div>\n<h2><span class=\"mw-headline\" id=\"Audio\">Audio</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=17\" title=\"Edit section: Audio\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Batman_Arkham_Knight_-_audio_settings.png\" class=\"image\"><img alt=\"In-game audio settings.\" src=\"https://thumbnails.pcgamingwiki.com/b/b4/Batman_Arkham_Knight_-_audio_settings.png/300px-Batman_Arkham_Knight_-_audio_settings.png\" width=\"300\" height=\"169\" srcset=\"https://thumbnails.pcgamingwiki.com/b/b4/Batman_Arkham_Knight_-_audio_settings.png/450px-Batman_Arkham_Knight_-_audio_settings.png 1.5x, https://thumbnails.pcgamingwiki.com/b/b4/Batman_Arkham_Knight_-_audio_settings.png/600px-Batman_Arkham_Knight_-_audio_settings.png 2x\" data-file-width=\"2560\" data-file-height=\"1440\" /></a></div>\n  <div class=\"article-image-text\">In-game audio settings.</div>\n</div>\n<p><span id=\"Audio_settings\"></span></p><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-audio\">\n\t<tbody><tr class=\"template-infotable-head table-settings-audio-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-audio-head-parameter\">Audio feature</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-audio-head-rating\">State</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-audio-head-notes\">Notes</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Separate volume controls</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\"><a href=\"/wiki/Glossary:Surround_sound\" title=\"Glossary:Surround sound\">Surround sound</a></th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\">7.1</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Subtitles</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Closed captions</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Mute on focus lost</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\n\n\n\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Localizations\">Localizations</span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-l10n\">\n\t<tbody><tr class=\"template-infotable-head table-l10n-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-l10n-head-parameter\"><abbr title=\"Please note that some languages may not be available from all storefronts or across all versions.\">Language</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-ui\"><abbr title=\"User interface.\">UI</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-audio\">Audio</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-sub\"><abbr title=\"Subtitles or closed captions.\">Sub</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 440px;\" class=\"table-l10n-head-notes\">Notes</th>\n\t</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">English</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Arabic</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Hackable\" class=\"svg-icon svg-25 tickcross-hackable\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-notes\">Fan translation by AR Team, <a rel=\"nofollow\" class=\"external text\" href=\"https://discord.com/invite/zpVpQAe\">download</a>.</td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Czech</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Hackable\" class=\"svg-icon svg-25 tickcross-hackable\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Hackable\" class=\"svg-icon svg-25 tickcross-hackable\"></div></td>\n\t<td class=\"table-l10n-body-notes\"><a rel=\"nofollow\" class=\"external text\" href=\"http://lokalizace.net\">Fan translation</a>.</td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">French</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">German</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Hungarian</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Hackable\" class=\"svg-icon svg-25 tickcross-hackable\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Hackable\" class=\"svg-icon svg-25 tickcross-hackable\"></div></td>\n\t<td class=\"table-l10n-body-notes\"><a rel=\"nofollow\" class=\"external text\" href=\"https://magyaritasok.hu/magyaritasok/batman-arkham-knight/batman-arkham-knight/2558\">Fan translation</a></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Italian</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Japanese</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Korean</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Polish</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Brazilian Portuguese</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Russian</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Spanish</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\">Windows language must be on any configuration of Spanish.</td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\"><abbr title=\"May be listed as Mexican Spanish or require OS language setting (see notes).\">Latin American Spanish</abbr></th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\">Windows language must be on Español (México).</td>\n</tr>\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"VR_support\">VR support</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=18\" title=\"Edit section: VR support\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-vr\">\n<tbody><tr class=\"template-infotable-head table-settings-vr-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-vr-head-parameter\">3D modes</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-vr-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-vr-head-notes\">Notes</th>\n\t</tr>\n\n\n\n<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:Nvidia_3D_Vision\" title=\"Glossary:Nvidia 3D Vision\">Nvidia 3D Vision</a></th>\n\t\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Hackable\" class=\"svg-icon svg-25 tickcross-hackable\"></div>\n\t\t\t</td><td colspan=\"2\" class=\"table-settings-vr-body-notes\">See <a rel=\"nofollow\" class=\"external text\" href=\"https://helixmod.blogspot.com/2018/09/batman-arkham-knight-dx11.html\">Helix Mod: Batman Arkham Knight (DX11)</a>.</td>\n\t\t</tr>\n\n\n\n\n\n<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:VorpX\" title=\"Glossary:VorpX\">vorpX</a></th>\n\t\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div>\n\t\t\t</td><td colspan=\"2\" class=\"table-settings-vr-body-notes\">G3D, Z3D<br />Officially supported game, see <a rel=\"nofollow\" class=\"external text\" href=\"https://www.vorpx.com/supported-games/\">official vorpx game list</a>.</td>\n\t\t</tr></tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Issues_fixed\">Issues fixed</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=19\" title=\"Edit section: Issues fixed\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"Xbox_One_Series_X_controller_detected_as_DualShock_4_controller\">Xbox One Series X controller detected as DualShock 4 controller</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=20\" title=\"Edit section: Xbox One Series X controller detected as DualShock 4 controller\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> If you are using a new Xbox One Series X controller via Bluetooth, the game will recognize it as a paired DualShock 4 controller and will change the button layout and logos. This only affects the game if you use the controller via Bluetooth, using it paired with a dedicated receiver will show it as an Xbox One controller.</dd></dl>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Use Special K mod<span title=\"While the game does have documented issues with controller type detection, this fix was posted by an anonymous user, meaning a self-ref is impossible from the original contributor.&#160;(2021-03-04)\"><sup style=\"white-space:nowrap;\">&#91;<i>citation needed</i>&#93;</sup></span>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Download <a href=\"/wiki/Special_K\" title=\"Special K\">Special K mod</a>, and put  <code>SpecialK64.dll</code> inside <code>&lt;path-to-game&gt;/Binaries/Win64/</code> folder.</li>\n<li>Rename  <code>SpecialK64.dll</code> to  <code>dxgi.dll</code></li>\n<li>If you are using MSI Afterburner's overlay, close it for a first execution of the mod.</li>\n<li>Run the game, and SpecialK overlay should show ingame.</li>\n<li>Press <code>CTRL + SHIFT + BACK</code> to show SpecialK options</li>\n<li>Go to <code>INPUT MANAGEMENT &gt;&gt; GAMEPAD</code> and select <code>PS4 HID INPUT</code>. Then close SpecialK and the game itself.</li>\n<li>Go back to <code>&lt;path-to-game&gt;/Binaries/Win64/</code> folder. There should be now a  <code>dxgi.ini</code> file.</li>\n<li>Edit  <code>dxgi.ini</code> file and under the section <code>[SpecialK.System]</code> change <code>IgnoreRTSSHookDelay=false</code> to true.</li>\n<li>Close  <code>dxgi.ini</code> and now you should be able to use SpecialK with MSI Afterburner's overlay.</li>\n<li>Play the game, it should recognize your controller properly now.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h3><span class=\"mw-headline\" id=\"Slow_start_up\">Slow start up</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=21\" title=\"Edit section: Slow start up\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Add a Windows Defender exclusion<span title=\"This claim needs a reference&#160;(May 2019)\"><sup style=\"white-space:nowrap;\">&#91;<i>citation needed</i>&#93;</sup></span>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Go to <b>Windows Security</b> (use search to find it), <b>Virus &amp; threat protection</b> (shield icon) and scroll down until you find <b>Virus &amp; threat protection settings</b> click on <b>Manage settings</b>.</li>\n<li>Scroll down until you find <b>Exclusions</b> and click <b>Add or remove exclusions</b>.</li>\n<li>Click <b>Add an exclusion</b> and add the game folder <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a></code>.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h3><span class=\"mw-headline\" id=\"Fix_for_missing_Batgirl_moves_and_DLC_characters_critical_strikes\">Fix for missing Batgirl moves and DLC characters critical strikes</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=22\" title=\"Edit section: Fix for missing Batgirl moves and DLC characters critical strikes\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> While able to do the \"disarm and destroy\" special takedown for Batgirl while using a gamepad, this move is unusable with a keyboard, as it has no button associated with it. This fix restores it for keyboard users as well as missing critical strikes and freeflow focus mk II of all three DLC characters (Harley Quinn, Batgirl, Red Hood). All of these features were added in Update 1.11 released in the final days of November 2015, and that update was never ported properly or patched after for keyboard players on PC.</dd></dl>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Edit BmInput.ini<sup id=\"cite_ref-dlc_characters_1st_fix_25-0\" class=\"reference\"><a href=\"#cite_note-dlc_characters_1st_fix-25\">&#91;23&#93;</a></sup><sup id=\"cite_ref-dlc_characters_2nd_fix_26-0\" class=\"reference\"><a href=\"#cite_note-dlc_characters_2nd_fix-26\">&#91;24&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<dl><dd><u>Step One. Setup</u></dd></dl>\n<ol><li>Go to the <a href=\"#Game_data\">configuration file(s) location</a>.</li>\n<li>Open <code>BmInput.ini</code>.</li>\n<li>Select all lines that start with \"Bindings\" in the <code>[Engine.PlayerInput]</code> section.</li>\n<li>Copy and paste it into the <code>[BmGame.RPlayerInput]</code> section. You need to do this because as soon as you add a binding to the <code>[BmGame.RPlayerInput]</code> section, the game will ignore bindings in the <code>[Engine.PlayerInput]</code> section.</li></ol>\n<dl><dd><u>Step Two. Adding keybindings for two additional Batgirl special takedowns</u></dd></dl>\n<ol><li>Under the section <code>[BmGame.RPlayerInput]</code>, add the following lines:<br /><code>Bindings=(Name=\"Y\",Command=\"TriggerWeaponDestroy\")</code><br /><code>Bindings=(Name=\"T\",Command=\"TriggerSecondaryGroupCombatMove\")</code></li>\n<li>Replace <code>T</code> and <code>Y</code> with the desired key for special combo 3 (\"multi ground takedown\") and special combo 2 (\"disarm and destroy\") moves respectively,—note that if a key is already used for another function it can't be associated with this action.</li>\n<li>Save the file.</li>\n<li>Right-click the file and open \"Properties\". Set file to \"Read-only\". It is not always necessary, though.</li></ol>\n<dl><dd><u>Step Three. Workaround for missing DLC characters critical strikes and freeflow focus mk II</u></dd></dl>\n<ol><li>Open <code>BmInput.ini</code>.</li>\n<li>Under the section <code>[BmGame.RPlayerInput]</code>, replace <code>Bindings=(Name=\"LeftMouseButton\",Command=\"SkipCutscene\")</code> with the following line:<br /><code>Bindings=(Name=\"LeftMouseButton\", Command=\"TriggerFearTakedown 0 | GadgetOrQuickStrike | DebugMenuSelectX | SkipCutscene | Button aQuickStrike | FireGun | Button bVehicleBoostButton | Button bFireVehicleSecondaryWeapon | SecondaryFireVehicleWeapon | BatarangBoost | OnRelease BatarangBoostReleased | DeepScanIn\")</code></li>\n<li>Save the file.</li>\n<li>Right-click the file and open \"Properties\". Set file to \"Read-only\". It is not always necessary, though.</li>\n<li>Start the game.</li>\n<li>Unassign all keybindings that use <code>Left Mouse Button</code> (for Batman, Batmobile's Pursuit and Battle modes, all three DLC characters) via in-game settings. Batman's (including all characters except for three ones of three DLCs created by WB Games Montréal) and Batmobile's controls can be unassigned from main menu. DLC characters' controls can be unassigned from any relevant AR challenge.</li>\n<li>Return to the main menu to save the progress.</li></ol>\n<dl><dd><u>Step Four. Get rid of a warning about modified configuration files when starting the game</u></dd></dl>\n<ol><li>Edit <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\BmGame\\Config\\PC\\PCEngine.ini</code></li>\n<li>Under the section <code>[Engine.GameEngine]</code>, replace <code>bDisableIniModifyWarning=False</code> with the following line:<br /><code>bDisableIniModifyWarning=True</code>.</li>\n<li>Save the file.</li>\n<li>Right-click the file and open \"Properties\". Set file to \"Read-only\". It is not always necessary, though.</li>\n<li>Start the game and enjoy.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h4><span class=\"mw-headline\" id=\"A_simpler_method_of_implementing_the_fix_for_missing_Batgirl_moves_and_DLC_characters_critical_strikes_listed_above\">A simpler method of implementing the fix for missing Batgirl moves and DLC characters critical strikes listed above</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=23\" title=\"Edit section: A simpler method of implementing the fix for missing Batgirl moves and DLC characters critical strikes listed above\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> This method is incompatible with the one listed above. Make sure you're using <code>BmInput.ini</code> without any presence of bindings in the <code>[BmGame.RPlayerInput]</code> section. This method offers to create separate source file content of which will be imported in the main <code>BmInput.ini</code> file every time game is launched.</dd></dl>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Create additional BmInput.ini<sup id=\"cite_ref-dlc_characters_1st_fix_25-1\" class=\"reference\"><a href=\"#cite_note-dlc_characters_1st_fix-25\">&#91;23&#93;</a></sup><sup id=\"cite_ref-dlc_characters_2nd_fix_26-1\" class=\"reference\"><a href=\"#cite_note-dlc_characters_2nd_fix-26\">&#91;24&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Go to the <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\DLC\\356474\\Content\\BmGame\\</code> (for example; you can choose some other DLC folder).</li>\n<li>Create empty folder and name it as you wish e.g. \"Batgirl moves\".</li>\n<li>Create empty <code>BmInput.ini</code> in this folder.</li>\n<li>Add the following lines for missing Batgirl moves: <br /><code>[Engine.PlayerInput]</code><br /><code>.Bindings=(Name=\"T\",Command=\"TriggerSecondaryGroupCombatMove\")</code><br /><code>.Bindings=(Name=\"Y\",Command=\"TriggerWeaponDestroy\")</code></li>\n<li>Replace <code>Y</code> and <code>T</code> with the desired key for special combo 2 (\"disarm and destroy\") and special combo 3 (\"multi ground takedown\") moves respectively,—note that if a key is already used for another function it can't be associated with this action.</li>\n<li>Under the section <code>[Engine.PlayerInput]</code>, add the following line for DLC characters critical strikes:<br /><code>.Bindings=(Name=\"LeftMouseButton\",Command=\"BrakeButton | TriggerFearTakedown 0 | GadgetOrQuickStrike | DebugMenuSelectX | SkipCutscene | Button aQuickStrike | FireGun | Button bVehicleBoostButton | Button bFireVehicleSecondaryWeapon | SecondaryFireVehicleWeapon | BatarangBoost | OnRelease BatarangBoostReleased | DeepScanIn\")</code></li>\n<li>Save the file.</li>\n<li>Start the game.</li>\n<li>Unassign all keybindings that use <code>Left Mouse Button</code> (for Batman, Batmobile's Pursuit and Battle modes, all three DLC characters) via in-game settings.\n<ol><li>Batman's (including all characters except for three ones of three DLCs created by WB Games Montréal) and Batmobile's controls can be unassigned from main menu.</li>\n<li>DLC characters' controls can be unassigned from any relevant AR challenge.</li></ol></li>\n<li>Return to the main menu to save the progress.</li>\n<li>Enjoy.</li></ol>\n<dl><dd><u>Bonus. Adding special combo 0 one-key binding and additional one-key bindings for any other actions</u></dd></dl>\n<ol><li>You can also bind special combo 0 move (\"bat swarm\" from the previous <i>Arkham</i> games replaced with environment takedown, batmobile-assisted takedown, weapon steal and etc. in <i>Arkham Knight</i>) to a single key. For this, under the section <code>[Engine.PlayerInput]</code>, add the following line: <br /><code>.Bindings=(Name=\"R\",Command=\"TriggerPrimaryGroupCombatMove\")</code></li>\n<li>If you want to use <code>R</code> key for this action like in the previous <i>Arkham</i> games, you should change the default keybinding for \"look behind\" action via Batmobile's pursuit mode controls in the main menu.</li>\n<li>You can bind one action to more than one key. For example, for binding \"weapon and destroy\" to second a thumb mouse button, under the section <code>[Engine.PlayerInput]</code>, add the following line: <br /><code>.Bindings=(Name=\"ThumbMouseButton2\",Command=\"TriggerWeaponDestroy\")</code></li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h4><span class=\"mw-headline\" id=\"Alternative_method_of_re-adding_a_missing_Batgirl_special_move\">Alternative method of re-adding a missing Batgirl special move</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=24\" title=\"Edit section: Alternative method of re-adding a missing Batgirl special move\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> This method is compatible with both methods listed above.</dd></dl>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Create additional BmGame.ini<sup id=\"cite_ref-dlc_characters_1st_fix_25-2\" class=\"reference\"><a href=\"#cite_note-dlc_characters_1st_fix-25\">&#91;23&#93;</a></sup><sup id=\"cite_ref-dlc_characters_2nd_fix_26-2\" class=\"reference\"><a href=\"#cite_note-dlc_characters_2nd_fix-26\">&#91;24&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Go to the <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\DLC\\356474\\Content\\BmGame\\</code> (for example; you can choose some other DLC folder).</li>\n<li>Create empty folder and name it as you wish e.g. \"Batgirl moves\".</li>\n<li>Create empty <code>BmGame.ini</code> in this folder.</li>\n<li>Add the following lines for one of the missing Batgirl moves, \"disarm and destroy\": <br /><code>[BmGame.RGameInfo]</code><br /><code>DefaultBatgirlKeyMap=(Ability=\"$GFxUI.KeyboardControls.SpecialComboTakedown2\",PrimaryKeyName=\"$PC.Keys.Two\",SecondaryKeyName=\"$PC.Keys.UNASSIGNED\",Command=\"TriggerWeaponDestroy\",bPrimaryCtrl=0,bPrimaryShift=0,bPrimaryAlt=1, Icon=\"CI_SpecialCombo2,CI_CombatSpecialTop\")</code></li>\n<li>The special takedown 2 option will replace the photo mode shortcut for Batgirl in the game controls. Now, you can set every key you want for this action, even <code>Alt</code>+<code>2</code> default two-keys binding.</li>\n<li>Save the file.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h3><span id=\"Stuttering_and_low_fps_on_Windows_10_(2004_or_newer)\"></span><span class=\"mw-headline\" id=\"Stuttering_and_low_fps_on_Windows_10_.282004_or_newer.29\">Stuttering and low fps on Windows 10 (2004 or newer)</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=25\" title=\"Edit section: Stuttering and low fps on Windows 10 (2004 or newer)\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div>This game uses PhysX so it doesn't get along with the Windows 10 HAGS technology</dd></dl>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Disable Hardware Accelerated GPU Scheduling (HAGS)\n    </th>\n  </tr>\n\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Other_information\">Other information</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=26\" title=\"Edit section: Other information\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"API\">API</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=27\" title=\"Edit section: API\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-api\">\n\t<tbody><tr class=\"template-infotable-head table-api-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-api-head-parameter\">Technical specs</th>\n\t\t<th scope=\"col\" style=\"width: 120px;\" class=\"table-api-head-support\">Supported</th>\n\t\t<th scope=\"col\" style=\"width: 470px;\" class=\"table-api-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-api-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-api-body-parameter\"><abbr title=\"Only supported on Windows\">Direct3D</abbr></th>\n\t\t\t<td class=\"table-api-body-support\">11</td>\n\t\t\t<td class=\"table-api-body-notes\"></td>\n\t\t</tr>\n\n\n\n\n\n\n\n\n\n<tr class=\"template-infotable-body table-api-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-api-body-parameter\">Shader Model support</th>\n\t\t\t<td class=\"table-api-body-support\">5</td>\n\t\t\t<td class=\"table-api-body-notes\"></td>\n\t\t</tr>\n</tbody></table></div><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-api-executable\">\n\t<tbody><tr class=\"template-infotable-head table-api-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-api-head-parameter\">Executable</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-api-head-support\"><abbr title=\"Intel 32-bit (x86)\">32-bit</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-api-head-support\"><abbr title=\"Intel 64-bit (x64 / x86-64)\">64-bit</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 490px;\" class=\"table-api-head-notes\">Notes</th>\n\t</tr>\n\t<tr class=\"template-infotable-body table-api-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-api-body-parameter\">Windows</th>\n\t\t\t<td class=\"table-api-body-support\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td class=\"table-api-body-support\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-api-body-notes\"></td>\n\t\t</tr>\n\t\n\t\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Middleware\">Middleware</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=28\" title=\"Edit section: Middleware\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-middleware\">\n\t<tbody><tr class=\"template-infotable-head table-middleware-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-middleware-head-parameter\"></th>\n\t\t<th scope=\"col\" style=\"width: 120px;\" class=\"table-middleware-head-middleware\">Middleware</th>\n\t\t<th scope=\"col\" style=\"width: 470px;\" class=\"table-middleware-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-middleware-body-row\">\n\t\t<th scope=\"row\" class=\"table-middleware-body-parameter\">Physics</th>\n\t\t<td class=\"table-middleware-body-middleware\">PhysX</td>\n\t\t<td class=\"table-middleware-body-notes\"></td>\n\t</tr>\n<tr class=\"template-infotable-body table-middleware-body-row\">\n\t\t<th scope=\"row\" class=\"table-middleware-body-parameter\">Audio</th>\n\t\t<td class=\"table-middleware-body-middleware\">Wwise</td>\n\t\t<td class=\"table-middleware-body-notes\"></td>\n\t</tr>\n<tr class=\"template-infotable-body table-middleware-body-row\">\n\t\t<th scope=\"row\" class=\"table-middleware-body-parameter\">Interface</th>\n\t\t<td class=\"table-middleware-body-middleware\">Scaleform</td>\n\t\t<td class=\"table-middleware-body-notes\"></td>\n\t</tr>\n\n\n\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Hide_HUD\">Hide HUD</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=29\" title=\"Edit section: Hide HUD\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Add hotkeys<span title=\"This claim needs a reference&#160;(September 2016)\"><sup style=\"white-space:nowrap;\">&#91;<i>citation needed</i>&#93;</sup></span>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Edit <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\BMGame\\Config\\BmInput.ini</code></li>\n<li>Select all lines that start with \"Bindings\" in the [Engine.PlayerInput] section.</li>\n<li>Copy and paste it into the [BmGame.RPlayerInput] section.</li>\n<li>Under the section [BmGame.RPlayerInput], add the following line:</li></ol>\n<pre>Bindings=(Name=\"NumPadZero\",Command=\"ToggleHUD\")</pre>\n    </td>\n  </tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"System_requirements\">System requirements</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Batman:_Arkham_Knight&amp;action=edit&amp;section=30\" title=\"Edit section: System requirements\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"sysreq sysreq_Windows container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-sysreqs-windows\">\n\t<tbody><tr class=\"template-infotable-doublehead sysreq_heading table-sysreqs-head-row\">\n\t\t<th colspan=\"3\" class=\"table-sysreqs-head-OS\"><a href=\"/wiki/Windows\" title=\"Windows\">Windows</a> </th>\n\t</tr>\n\n\t<tr class=\"template-infotable-head table-sysreqs-head-row\">\n\t\t<th scope=\"col\" class=\"table-sysreqs-head-parameter\" style=\"width: 220px;\"></th>\n\t\t<th scope=\"col\" class=\"table-sysreqs-head-minimum\" style=\"width: 300px;\">Minimum</th>\n\t\t<th class=\"table-sysreqs-head-recommended\" style=\"width: 300px;\">Recommended</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Operating system (OS)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">7 SP1</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">8.1</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Processor (CPU)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">Intel Core i5-750 2.67 GHz<br />AMD Phenom II X4 965 3.4 GHz</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">Intel Core i7-3770 3.4 GHz<br />AMD FX-8350 4.0 GHz</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">System memory (RAM)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">6 GB</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">8 GB</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Hard disk drive (HDD)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">45 GB</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">55 GB</td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Video card (GPU)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\"> Nvidia GeForce GTX 660 <br />AMD Radeon HD 7870  <br />2 GB of <abbr title=\"Video RAM\">VRAM</abbr> <br />DirectX 11 compatible\n</td><td class=\"table-sysreqs-body-recommended\">Nvidia GeForce GTX 760 <br />AMD Radeon HD 7950  <br />3 GB of <abbr title=\"Video RAM\">VRAM</abbr>  <br />DirectX 11 compatible</td>\n\t</tr>\n\n\n\n\n\n<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Other</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">Broadband Internet Connection required to activate and for some online features</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">The publisher recommends using an SSD due to mechanical hard drive performance issues.<sup id=\"cite_ref-27\" class=\"reference\"><a href=\"#cite_note-27\">&#91;25&#93;</a></sup></td>\n\t</tr>\n</tbody></table>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> A 64-bit system is required.</dd>\n<dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> For ultra setting the publisher lists an Nvidia GeForce GTX 980 and 4 GB of VRAM as the minimum requirement.<sup id=\"cite_ref-requpdate_28-0\" class=\"reference\"><a href=\"#cite_note-requpdate-28\">&#91;26&#93;</a></sup></dd>\n<dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> The recommended requirements are only for 30FPS, not 60+ as most would expect.</dd></dl></div>\n<h2><span class=\"mw-headline\" id=\"Notes\">Notes</span></h2>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite_note-gamedir-23\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-gamedir_23-0\">1.0</a></sup> <sup><a href=\"#cite_ref-gamedir_23-1\">1.1</a></sup></span> <span class=\"reference-text\">When running this game without elevated privileges (<b>Run as administrator</b> option), write operations against a location below <code><a href=\"/wiki/Glossary:Game_data#Shared_applications\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%PROGRAMFILES%</abbr></a></code>, <code><a href=\"/wiki/Glossary:Game_data#Shared_application_data\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%PROGRAMDATA%</abbr></a></code>, or <code><a href=\"/wiki/Glossary:Game_data#Windows\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%WINDIR%</abbr></a></code> might be redirected to <code><a href=\"/wiki/Glossary:Game_data#User_application_data\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%LOCALAPPDATA%</abbr></a>\\VirtualStore</code> on Windows Vista and later (<a href=\"/wiki/Game_data#Installation_folder\" class=\"mw-redirect\" title=\"Game data\">more details</a>).</span>\n</li>\n<li id=\"cite_note-Proton_path_note-24\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-Proton_path_note_24-0\">2.0</a></sup> <sup><a href=\"#cite_ref-Proton_path_note_24-1\">2.1</a></sup></span> <span class=\"reference-text\">File/folder structure within this directory reflects the path(s) listed for <a href=\"#Game_data\">Windows and/or Steam game data</a> (use <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.winehq.org/Regedit\">Wine regedit</a> to access Windows registry paths). Games with <a href=\"/wiki/Store:Steam#Steam_Cloud\" title=\"Store:Steam\">Steam Cloud</a> support may store data in <code>~/.steam/steam/userdata/<a href=\"/wiki/Glossary:Game_data#User_ID\" title=\"Glossary:Game data\"><abbr title=\"The user ID or profile name (specific to your account or computer)\">&lt;user-id&gt;</abbr></a>/<abbr title=\"app ID may differ in some cases\">208650</abbr>/</code> in addition to or instead of this directory. The app ID (208650) may differ in some cases. Treat backslashes as forward slashes. See the <a href=\"/wiki/Glossary:Game_data#Windows_data_paths\" title=\"Glossary:Game data\">glossary page</a> for details.</span>\n</li>\n</ol></div><h2><span class=\"mw-headline\" id=\"References\">References</span></h2>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite_note-PC_Port_Dev-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-PC_Port_Dev_1-0\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.eurogamer.net/articles/2015-06-23-rocksteady-and-external-pc-development-partner-investigating-batman-arkham-knight-performance-issues\">Rocksteady and \"external PC development partner\" investigating Batman: Arkham Knight performance issues &#8226; Eurogamer.net</a></span>\n</li>\n<li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.youtube.com/watch?v=FX1uGqXD2n8\">Official Batman: Arkham Knight Launch Trailer - YouTube</a></span>\n</li>\n<li id=\"cite_note-linux-osx-canceled-3\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-linux-osx-canceled_3-0\">3.0</a></sup> <sup><a href=\"#cite_ref-linux-osx-canceled_3-1\">3.1</a></sup> <sup><a href=\"#cite_ref-linux-osx-canceled_3-2\">3.2</a></sup></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/games/208650/announcements/detail/974270303556117703\">Steam - Batman: Arkham Knight no longer coming to Mac and Linux</a> - last accessed on 2019-09-20</span>\n</li>\n<li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.eurogamer.net/articles/digitalfoundry-2015-batman-arkham-knight-pc-lacks-console-visual-features\">Eurogamer - It gets worse - Batman: Arkham Knight on PC lacks console visual features</a> - last accessed on 2019-09-20</span>\n</li>\n<li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.eurogamer.net/articles/2015-06-25-warner-suspends-batman-arkham-knight-pc-sales\">Eurogamer - Warner suspends Batman: Arkham Knight PC sales</a> - last accessed on 2019-09-20</span>\n</li>\n<li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/games/208650/announcements/detail/128710064900030355\">PC Release Date Announced - Steam Community&#160;:: Group Announcements&#160;:: Batman™: Arkham Knight</a></span>\n</li>\n<li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.eurogamer.net/articles/2015-11-02-warner-bros-offers-full-refund-for-still-broken-batman-arkham-knight-pc\">Eurogamer.net - Warner Bros. offers full refund for still-broken Batman: Arkham Knight PC</a></span>\n</li>\n<li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.eurogamer.net/articles/digitalfoundry-2015-re-released-batman-arkham-knight-performance-analysis\">Eurogamer.net - Performance Analysis: Batman on PC is still a disappointment</a></span>\n</li>\n<li id=\"cite_note-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-9\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/games/208650/announcements/detail/128713039396595557\">Steam - PC Update - November 24th</a> - last accessed on 2019-09-20</span>\n</li>\n<li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/games/208650/announcements/detail/128715036853504337\">Steam - PC Update - December 17th</a> - last accessed on 2019-09-20</span>\n</li>\n<li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/games/208650/announcements/detail/987779636943328192\">Steam - PC Update - January 19th</a> - last accessed on 2019-09-20</span>\n</li>\n<li id=\"cite_note-12\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-12\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/games/208650/announcements/detail/988910005438490775\">Steam - PC Update - March 8th</a> - last accessed on 2019-09-20</span>\n</li>\n<li id=\"cite_note-13\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-13\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Aemony\" title=\"User:Aemony\">User:Aemony</a> on 2019-09-21\n<dl><dd><i>Verified by matching the DLC folders on EGS to their Steam equivalence (the folders are named after the Steam AppIDs they were given on Steam). The DLCs were not present on the same day as the game went live on Epic Game Store, but was added a day later as part of a ~15 GB update.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-14\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-14\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Aemony\" title=\"User:Aemony\">User:Aemony</a> on 2019-09-19</span>\n</li>\n<li id=\"cite_note-ReferenceA-15\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-ReferenceA_15-0\">15.0</a></sup> <sup><a href=\"#cite_ref-ReferenceA_15-1\">15.1</a></sup> <sup><a href=\"#cite_ref-ReferenceA_15-2\">15.2</a></sup></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Hman360\" title=\"User:Hman360\">User:Hman360</a> on 2020-12-12</span>\n</li>\n<li id=\"cite_note-16\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-16\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Aemony\" title=\"User:Aemony\">User:Aemony</a> on 2020-12-03</span>\n</li>\n<li id=\"cite_note-17\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-17\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamdb.info/depot/208651/history/?changeid=M:5300142995515379449\">SteamDB - Batman™: Arkham Knight Depot - Displaying change #M:5300142995515379449</a> - last accessed on 2020-12-03</span>\n</li>\n<li id=\"cite_note-18\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-18\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/groups/SpecialK_Mods/discussions/0/3570700856110421443/?ctp=214#c1629663905424631233\">Steam Group - Special K - v 0.10.3 - [Framepacing Percentile Analysis</a> - Comment by Wastelander121] - last accessed on 2019-09-23<dl><dd>\"<i>The EGS version also contains the Earth 2 skin which was exclusive to PS4. All other exclusives aren't there.</i>\"</dd></dl></span>\n</li>\n<li id=\"cite_note-19\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-19\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Aemony\" title=\"User:Aemony\">User:Aemony</a> on 2019-09-23\n<dl><dd><i>The <b>368100</b> folder of the copy on EGS corresponds to the <a rel=\"nofollow\" class=\"external text\" href=\"https://steamdb.info/depot/368100/subs/\">368100</a> DLC ID on Steam, which was never released on Steam.</i></dd></dl>\n</span></li>\n<li id=\"cite_note-20\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-20\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/app/208650/discussions/0/350532795324659563/\">Steam Community - Batman: Arkham Knight - Premium Edition</a> - last accessed on 2019-09-27</span>\n</li>\n<li id=\"cite_note-21\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-21\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=467136779\">Disable Startup Logos</a> - last accessed on 2020-11-16</span>\n</li>\n<li id=\"cite_note-22\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-22\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/app/208650/discussions/0/594821545178847216/\">How to: Skip Intros</a> - last accessed on 2020-11-16</span>\n</li>\n<li id=\"cite_note-dlc_characters_1st_fix-25\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-dlc_characters_1st_fix_25-0\">23.0</a></sup> <sup><a href=\"#cite_ref-dlc_characters_1st_fix_25-1\">23.1</a></sup> <sup><a href=\"#cite_ref-dlc_characters_1st_fix_25-2\">23.2</a></sup></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=2067765261\">Steam Community&#160;:: Guide&#160;:: Batgirl Disarm and Destroy + Multi Ground Takedown combo on Keyboard.</a> - last accessed on 2020-11-17</span>\n</li>\n<li id=\"cite_note-dlc_characters_2nd_fix-26\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-dlc_characters_2nd_fix_26-0\">24.0</a></sup> <sup><a href=\"#cite_ref-dlc_characters_2nd_fix_26-1\">24.1</a></sup> <sup><a href=\"#cite_ref-dlc_characters_2nd_fix_26-2\">24.2</a></sup></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=2273881118\">Steam Community&#160;:: Guide&#160;:: DLC Characters Critical Strikes + Batgirl Special Takedowns fix on Keyboard</a> - last accessed on 2020-11-17</span>\n</li>\n<li id=\"cite_note-27\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-27\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/games/208650/announcements/detail/145587678164818505\">Steam&#160;:: Update on Performance</a></span>\n</li>\n<li id=\"cite_note-requpdate-28\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-requpdate_28-0\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"http://community.wbgames.com/t5/Official-Announcements/Update-on-PC-Minimum-Specs/m-p/569523/\">Update on PC Minimum Specs</a></span>\n</li>\n</ol></div>\n\n<!-- \nNewPP limit report\nCached time: 20220219085707\nCache expiry: 86400\nDynamic content: false\n[SMW] In‐text annotation parser time: 0.038 seconds\nCPU time usage: 0.797 seconds\nReal time usage: 1.297 seconds\nPreprocessor visited node count: 16233/1000000\nPreprocessor generated node count: 77420/1000000\nPost‐expand include size: 384128/2097152 bytes\nTemplate argument size: 129340/2097152 bytes\nHighest expansion depth: 15/40\nExpensive parser function count: 8/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 18667/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00% 1019.326      1 -total\n 33.81%  344.625      1 Template:Infobox_game\n 14.65%  149.349      1 Template:L10n\n 13.83%  140.975     14 Template:L10n/switch\n 10.88%  110.863     14 Template:L10n/row\n  6.00%   61.134      1 Template:Availability\n  5.95%   60.669      1 Template:References\n  5.57%   56.746      8 Template:Availability/row\n  4.82%   49.106      1 Template:Infobox_game/row/taxonomy/genres\n  4.71%   48.047      1 Template:Input\n-->\n</div>\n<!-- Saved in parser cache with key pcgamingwiki:pcache:idhash:15767-0!canonical and timestamp 20220219085705 and revision id 1227419\n -->\n"
+    },
+    "langlinks": [],
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "Featured"
+      },
+      {
+        "sortkey": "",
+        "*": "Windows"
+      },
+      {
+        "sortkey": "",
+        "*": "OS_X"
+      },
+      {
+        "sortkey": "",
+        "*": "Linux"
+      },
+      {
+        "sortkey": "",
+        "*": "DLC"
+      },
+      {
+        "sortkey": "",
+        "*": "No_microtransactions"
+      },
+      {
+        "sortkey": "",
+        "*": "Singleplayer"
+      },
+      {
+        "sortkey": "",
+        "*": "Real-time"
+      },
+      {
+        "sortkey": "",
+        "*": "Third-person"
+      },
+      {
+        "sortkey": "",
+        "*": "Direct_control"
+      },
+      {
+        "sortkey": "",
+        "*": "Action"
+      },
+      {
+        "sortkey": "",
+        "*": "Adventure"
+      },
+      {
+        "sortkey": "",
+        "*": "Driving"
+      },
+      {
+        "sortkey": "",
+        "*": "Metroidvania"
+      },
+      {
+        "sortkey": "",
+        "*": "Stealth"
+      },
+      {
+        "sortkey": "",
+        "*": "Automobile"
+      },
+      {
+        "sortkey": "",
+        "*": "Realistic"
+      },
+      {
+        "sortkey": "",
+        "*": "Contemporary"
+      },
+      {
+        "sortkey": "",
+        "*": "North_America"
+      },
+      {
+        "sortkey": "",
+        "*": "Games"
+      },
+      {
+        "sortkey": "",
+        "*": "Invalid_template_usage_(Game_data)"
+      },
+      {
+        "sortkey": "",
+        "*": "Pages_needing_references"
+      },
+      {
+        "sortkey": "",
+        "*": "GOG.com_Enhancement_Project"
+      }
+    ],
+    "links": [
+      {
+        "ns": 4,
+        "exists": "",
+        "*": "PCGamingWiki:Featured article hub"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Batman Arkham Knight - cover.jpg"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Batman Arkham Knight - graphics settings.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Batman Arkham Knight - game settings.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Batman Arkham Knight - keybinds.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Batman Arkham Knight - xbox.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Batman Arkham Knight - dualshock4.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Batman Arkham Knight - audio settings.png"
+      },
+      {
+        "ns": 402,
+        "exists": "",
+        "*": "Series:Batman: Arkham"
+      },
+      {
+        "ns": 402,
+        "exists": "",
+        "*": "Series:Batman"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Steam"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Windows"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Epic Games Store"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Batman: Arkham Asylum"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Batman: Arkham City"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Batman: Arkham Origins"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Batman: Arkham Origins Blackgate Deluxe Edition"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Batman: Arkham VR"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Denuvo"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Digital rights management (DRM)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Game data"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "SMAA"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Special K"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Suicide Squad: Kill the Justice League"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:DRM-free"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:4K Ultra HD"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Anisotropic filtering (AF)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Anti-aliasing (AA)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Borderless fullscreen windowed"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Command line arguments"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Controller"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Field of view (FOV)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Frame rate (FPS)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Game data"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Invert Y-axis"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Mouse"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Mouse acceleration"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Multi-monitor"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Nvidia 3D Vision"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Remapping"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Save game cloud syncing"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Scaling"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Surround sound"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Ultra-widescreen"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Vertical sync (Vsync)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:VorpX"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Widescreen resolution"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Windowed"
+      },
+      {
+        "ns": 404,
+        "exists": "",
+        "*": "Engine:Unreal Engine 3"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Rocksteady Studios"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Warner Bros. Games Montreal"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Iron Galaxy Studios"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Warner Bros. Interactive Entertainment"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:1C-SoftClub"
+      },
+      {
+        "ns": 2,
+        "exists": "",
+        "*": "User:Aemony"
+      },
+      {
+        "ns": 2,
+        "exists": "",
+        "*": "User:Hman360"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Action"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Adventure"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Automobile"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Contemporary"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:DLC"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Direct control"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Driving"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Metroidvania"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:No microtransactions"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:North America"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Real-time"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Realistic"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Singleplayer"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Stealth"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Third-person"
+      },
+      {
+        "ns": 412,
+        "exists": "",
+        "*": "Controller:DualShock 4"
+      },
+      {
+        "ns": 412,
+        "exists": "",
+        "*": "Controller:Xbox One Controller"
+      },
+      {
+        "ns": 418,
+        "exists": "",
+        "*": "Store:Epic Games Store"
+      },
+      {
+        "ns": 418,
+        "exists": "",
+        "*": "Store:GOG.com"
+      },
+      {
+        "ns": 418,
+        "exists": "",
+        "*": "Store:Steam"
+      }
+    ],
+    "templates": [
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Featured article"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Assignment/checkAvailable"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/developer"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/porter"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/publisher"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/engine"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/date"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Date"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Abbr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/reception"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Trim"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/monetization"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Glossary"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/microtransactions"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/modes"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/pacing"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/perspectives"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/controls"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/genres"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/sports"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/vehicles"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/art styles"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/themes"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/series"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/WSGF"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/license"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Series"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Seriesbox"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Seriesbox/parent"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Seriesbox/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tocbox"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Introduction"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:GOG.com links"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Mm"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/store"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/DRM"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/OS"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Store link"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Ii"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Removed DRM"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Removed DRM/switch"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Term"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DLC"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DLC/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:--"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Fixbox"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:P"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Path"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data/config"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data/note"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data/saves"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Save game cloud syncing"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-nohack"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-l-nohack"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Image"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Video"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:WSGF"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-na"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a-na"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Cn"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Citation needed"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Input"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Prompts"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Audio"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n/switch"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-na-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:VR support"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:File"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Code"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:API"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:API/switch Direct3D"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Middleware"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:System requirements"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:References"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Absent properties"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Cargo Availability"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Refurl"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Refcheck"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Refsnip"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:GOG.com Enhancement Project"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:DLC"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:No microtransactions"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Singleplayer"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Real-time"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Third-person"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Direct control"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Action"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Adventure"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Driving"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Metroidvania"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Stealth"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Automobile"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Realistic"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Contemporary"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:North America"
+      },
+      {
+        "ns": 402,
+        "exists": "",
+        "*": "Series:Batman: Arkham"
+      }
+    ],
+    "images": [
+      "Featured_article_ribbon.svg",
+      "Batman_Arkham_Knight_-_cover.jpg",
+      "Icon_overlay.png",
+      "Gamesplanet_logo.svg",
+      "Batman_Arkham_Knight_-_graphics_settings.png",
+      "Batman_Arkham_Knight_-_game_settings.png",
+      "Batman_Arkham_Knight_-_keybinds.png",
+      "Batman_Arkham_Knight_-_xbox.png",
+      "Batman_Arkham_Knight_-_dualshock4.png",
+      "Batman_Arkham_Knight_-_audio_settings.png"
+    ],
+    "externallinks": [
+      "https://wiki.winehq.org/Regedit",
+      "https://www.eurogamer.net/articles/2015-06-23-rocksteady-and-external-pc-development-partner-investigating-batman-arkham-knight-performance-issues",
+      "https://www.youtube.com/watch?v=FX1uGqXD2n8",
+      "https://steamcommunity.com/games/208650/announcements/detail/974270303556117703",
+      "https://www.eurogamer.net/articles/digitalfoundry-2015-batman-arkham-knight-pc-lacks-console-visual-features",
+      "https://www.eurogamer.net/articles/2015-06-25-warner-suspends-batman-arkham-knight-pc-sales",
+      "https://steamcommunity.com/games/208650/announcements/detail/128710064900030355",
+      "https://www.eurogamer.net/articles/2015-11-02-warner-bros-offers-full-refund-for-still-broken-batman-arkham-knight-pc",
+      "https://www.eurogamer.net/articles/digitalfoundry-2015-re-released-batman-arkham-knight-performance-analysis",
+      "https://steamcommunity.com/games/208650/announcements/detail/128713039396595557",
+      "https://steamcommunity.com/games/208650/announcements/detail/128715036853504337",
+      "https://steamcommunity.com/games/208650/announcements/detail/987779636943328192",
+      "https://steamcommunity.com/games/208650/announcements/detail/988910005438490775",
+      "https://steamdb.info/depot/208651/history/?changeid=M:5300142995515379449",
+      "https://steamcommunity.com/groups/SpecialK_Mods/discussions/0/3570700856110421443/?ctp=214#c1629663905424631233",
+      "https://steamdb.info/depot/368100/subs/",
+      "https://steamcommunity.com/app/208650/discussions/0/350532795324659563/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=467136779",
+      "https://steamcommunity.com/app/208650/discussions/0/594821545178847216/",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2067765261",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=2273881118",
+      "https://steamcommunity.com/games/208650/announcements/detail/145587678164818505",
+      "http://community.wbgames.com/t5/Official-Announcements/Update-on-PC-Minimum-Specs/m-p/569523/",
+      "https://www.gogdb.org/product/1881970704",
+      "https://howlongtobeat.com/game?id=18005",
+      "https://www.igdb.com/games/batman-arkham-knight",
+      "https://isthereanydeal.com/steam/app/208650/",
+      "https://www.protondb.com/app/208650/",
+      "https://steamdb.info/app/208650/",
+      "https://www.mobygames.com/game/batman-arkham-knight",
+      "https://appdb.winehq.org/objectManager.php?sClass=application&iId=18267",
+      "https://www.wsgf.org/dr/batman-arkham-knight/en",
+      "https://gamesplanet.com/game/2671-1?ref=pcgwiki",
+      "https://www.metacritic.com/game/pc/batman-arkham-knight",
+      "https://opencritic.com/game/1383/batman-arkham-knight",
+      "https://www.gog.com/forum/batman_arkham_series",
+      "https://support.gog.com/hc//categories/201400969?game=1881970704",
+      "https://steamcommunity.com/app/208650/discussions/",
+      "https://store.epicgames.com/pcgamingwiki/batman-arkham-knight",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/batman-arkham-knight?caff=5418682",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/DD-BMAKPE?caff=5418682",
+      "https://gamesplanet.com/game/2671-2?ref=pcgwiki",
+      "https://af.gog.com/game/batman_arkham_knight?as=1649876489",
+      "https://af.gog.com/game/batman_arkham_knight_premium_edition?as=1649876489",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/batman-arkham-knight/?tap_a=1964-996bbb&tap_s=341948-7fd0d2",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/batman-arkham-knight-premium-edition/?tap_a=1964-996bbb&tap_s=341948-7fd0d2",
+      "https://www.humblebundle.com/store/batman-arkham-knight?partner=pcgw",
+      "https://www.humblebundle.com/store/batman-arkham-knight-premium-edition?partner=pcgw",
+      "https://store.steampowered.com/app/208650/?utm_source=PCGamingWiki&utm_medium=PCGamingWiki&utm_campaign=PCGamingWiki",
+      "https://store.steampowered.com/sub/85500/?utm_source=PCGamingWiki&utm_medium=PCGamingWiki&utm_campaign=PCGamingWiki",
+      "https://sherief.fyi/post/arkham-quixote/",
+      "https://discord.com/invite/zpVpQAe",
+      "http://lokalizace.net",
+      "https://magyaritasok.hu/magyaritasok/batman-arkham-knight/batman-arkham-knight/2558",
+      "https://helixmod.blogspot.com/2018/09/batman-arkham-knight-dx11.html",
+      "https://www.vorpx.com/supported-games/"
+    ],
+    "sections": [
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Availability",
+        "number": "1",
+        "index": "1",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 5303,
+        "anchor": "Availability"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "DLC and expansion packs",
+        "number": "1.1",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "DLC_and_expansion_packs"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Version differences",
+        "number": "1.2",
+        "index": "2",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 10037,
+        "anchor": "Version_differences"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Essential improvements",
+        "number": "2",
+        "index": "3",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 10309,
+        "anchor": "Essential_improvements"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Skip intro videos",
+        "number": "2.1",
+        "index": "4",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 10336,
+        "anchor": "Skip_intro_videos"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Arkham Quixote",
+        "number": "2.2",
+        "index": "5",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 10948,
+        "anchor": "Arkham_Quixote"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Performance increase on SLI systems",
+        "number": "2.3",
+        "index": "6",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 11142,
+        "anchor": "Performance_increase_on_SLI_systems"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Turn off hardware-accelerated GPU scheduling",
+        "number": "2.4",
+        "index": "7",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 11599,
+        "anchor": "Turn_off_hardware-accelerated_GPU_scheduling"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Game data",
+        "number": "3",
+        "index": "8",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 11776,
+        "anchor": "Game_data"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Configuration file(s) location",
+        "number": "3.1",
+        "index": "9",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 11790,
+        "anchor": "Configuration_file.28s.29_location"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Save game data location",
+        "number": "3.2",
+        "index": "10",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 12001,
+        "anchor": "Save_game_data_location"
+      },
+      {
+        "toclevel": 3,
+        "level": "4",
+        "line": "Convert Steam save data to GOG.com",
+        "number": "3.2.1",
+        "index": "11",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 12392,
+        "anchor": "Convert_Steam_save_data_to_GOG.com"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Save game cloud syncing",
+        "number": "3.3",
+        "index": "12",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 12959,
+        "anchor": "Save_game_cloud_syncing"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Video",
+        "number": "4",
+        "index": "13",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 13489,
+        "anchor": "Video"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Field of view (FOV)",
+        "number": "4.1",
+        "index": "14",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 15148,
+        "anchor": "Field_of_view_.28FOV.29"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "High frame rate",
+        "number": "4.2",
+        "index": "15",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 17036,
+        "anchor": "High_frame_rate"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Input",
+        "number": "5",
+        "index": "16",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 17348,
+        "anchor": "Input"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Audio",
+        "number": "6",
+        "index": "17",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 20012,
+        "anchor": "Audio"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Localizations",
+        "number": "6.1",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Localizations"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "VR support",
+        "number": "7",
+        "index": "18",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 22646,
+        "anchor": "VR_support"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Issues fixed",
+        "number": "8",
+        "index": "19",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 24177,
+        "anchor": "Issues_fixed"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Xbox One Series X controller detected as DualShock 4 controller",
+        "number": "8.1",
+        "index": "20",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 24194,
+        "anchor": "Xbox_One_Series_X_controller_detected_as_DualShock_4_controller"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Slow start up",
+        "number": "8.2",
+        "index": "21",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 25799,
+        "anchor": "Slow_start_up"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Fix for missing Batgirl moves and DLC characters critical strikes",
+        "number": "8.3",
+        "index": "22",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 26282,
+        "anchor": "Fix_for_missing_Batgirl_moves_and_DLC_characters_critical_strikes"
+      },
+      {
+        "toclevel": 3,
+        "level": "4",
+        "line": "A simpler method of implementing the fix for missing Batgirl moves and DLC characters critical strikes listed above",
+        "number": "8.3.1",
+        "index": "23",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 30388,
+        "anchor": "A_simpler_method_of_implementing_the_fix_for_missing_Batgirl_moves_and_DLC_characters_critical_strikes_listed_above"
+      },
+      {
+        "toclevel": 3,
+        "level": "4",
+        "line": "Alternative method of re-adding a missing Batgirl special move",
+        "number": "8.3.2",
+        "index": "24",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 33794,
+        "anchor": "Alternative_method_of_re-adding_a_missing_Batgirl_special_move"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Stuttering and low fps on Windows 10 (2004 or newer)",
+        "number": "8.4",
+        "index": "25",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 34983,
+        "anchor": "Stuttering_and_low_fps_on_Windows_10_.282004_or_newer.29"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Other information",
+        "number": "9",
+        "index": "26",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 35206,
+        "anchor": "Other_information"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "API",
+        "number": "9.1",
+        "index": "27",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 35228,
+        "anchor": "API"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Middleware",
+        "number": "9.2",
+        "index": "28",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 36179,
+        "anchor": "Middleware"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Hide HUD",
+        "number": "9.3",
+        "index": "29",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 36484,
+        "anchor": "Hide_HUD"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "System requirements",
+        "number": "10",
+        "index": "30",
+        "fromtitle": "Batman:_Arkham_Knight",
+        "byteoffset": 36900,
+        "anchor": "System_requirements"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Notes",
+        "number": "11",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Notes"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "References",
+        "number": "12",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "References"
+      }
+    ],
+    "parsewarnings": [],
+    "displaytitle": "Batman: Arkham Knight",
+    "iwlinks": [
+      {
+        "prefix": "strategywiki",
+        "url": "http://strategywiki.org/wiki/Batman:_Arkham_Knight",
+        "*": "strategywiki:Batman: Arkham Knight"
+      },
+      {
+        "prefix": "wikipedia",
+        "url": "http://en.wikipedia.org/wiki/Batman:_Arkham_Knight",
+        "*": "wikipedia:Batman: Arkham Knight"
+      }
+    ],
+    "properties": [
+      {
+        "name": "smw-semanticdata-status",
+        "*": ""
+      }
+    ]
+  }
+}

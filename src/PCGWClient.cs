@@ -86,7 +86,7 @@ namespace PCGamingWikiMetadata
             return gameResults.OrderBy(game => NameStringCompare(searchName, game.Name)).ToList<GenericItemOption>();
         }
 
-        public void FetchGamePageContent(PCGWGame game)
+        public virtual void FetchGamePageContent(PCGWGame game)
         {
             var request = new RestRequest("/", Method.GET);
             request.AddParameter("action", "parse", ParameterType.QueryString);
@@ -102,7 +102,10 @@ namespace PCGamingWikiMetadata
                     Console.WriteLine($"Encountered API error: {error.ToString()}");
                 }
 
-                PCGamingWikiHTMLParser parser = new PCGamingWikiHTMLParser(content["parse"]["text"]["*"].ToString(), game);
+                PCGamingWikiJSONParser jsonParser = new PCGamingWikiJSONParser(content, game);
+                PCGamingWikiHTMLParser parser = new PCGamingWikiHTMLParser(jsonParser.PageHTMLText(), game);
+
+                jsonParser.ParseGameDataJson();
                 parser.ApplyGameMetadata();
             }
             catch (Exception e)

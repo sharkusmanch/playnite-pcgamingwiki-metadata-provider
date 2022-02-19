@@ -43,9 +43,6 @@ namespace PCGamingWikiMetadata
                             break;
 
                         case "td":
-                            logger.Debug($"before: {text}");
-                            text = ParseText(child);
-                            logger.Debug($"after: {text}");
                             switch (child.Attributes["class"].Value)
                             {
                                 case "template-infobox-type":
@@ -71,7 +68,6 @@ namespace PCGamingWikiMetadata
                                             ApplyReleaseDate(key, text);
                                             break;
                                         case "Engines":
-                                            Console.WriteLine(text);
                                             this.game.AddTaxonomy("Engines", text);
                                             break;
                                         case "Developers":
@@ -169,27 +165,10 @@ namespace PCGamingWikiMetadata
 
         private string ParseText(HtmlNode node)
         {
-            try
-            {
-                var nodes = node.SelectNodes("./a");
+            var nodes = node.SelectNodes("./a");
+            var currNode = nodes[nodes.Count - 1];
 
-                // if (nodes.Count >= 1)
-                // {
-                //     return node.InnerText;
-                // }
-
-                Console.WriteLine(nodes.Count.ToString());
-                Console.WriteLine((nodes.Count - 1).ToString());
-
-                return nodes[nodes.Count - 1].InnerText;
-            }
-            catch (Exception e)
-            {
-                logger.Debug("error parsing text");
-                logger.Debug(e.ToString());
-                return "fail";
-            }
-
+            return currNode.InnerText.Trim();
         }
     }
 }

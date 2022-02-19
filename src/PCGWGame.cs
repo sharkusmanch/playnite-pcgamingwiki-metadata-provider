@@ -92,7 +92,7 @@ namespace PCGamingWikiMetadata
                 case "Microtransactions":
                     break;
                 case "Modes":
-                    this.features.AddRange(CSVToMetadataNameProperty(value));
+                    this.features.Add(new MetadataNameProperty(value));
                     break;
                 case "Pacing":
                     AddCSVTags(value);
@@ -116,7 +116,8 @@ namespace PCGamingWikiMetadata
                     AddCSVTags(value);
                     break;
                 case "Engines":
-                    AddTag(value);
+                    // Handled via json links for now.
+                    // Limitation: engine tag will only be added if there's a corresponding link
                     break;
                 case "Series":
                     this.series.Add(new MetadataNameProperty(value));
@@ -127,14 +128,20 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void AddTag(string t)
+        public void AddTag(string t)
         {
             this.tags.Add(new MetadataNameProperty(t));
         }
 
         private void AddCSVTags(string csv)
         {
-            this.tags.AddRange(CSVToMetadataNameProperty(csv));
+            logger.Debug($"csv tags {csv}");
+            string[] tags = SplitCSVString(csv);
+
+            foreach (string tag in tags)
+            {
+                AddTag(tag);
+            }
         }
 
         public ReleaseDate? WindowsReleaseDate()
@@ -154,17 +161,6 @@ namespace PCGamingWikiMetadata
         public void AddReleaseDate(string platform, DateTime? date)
         {
             this.ReleaseDates[platform] = new ReleaseDate((DateTime)date);
-        }
-
-        private MetadataNameProperty[] CSVToMetadataNameProperty(string csv)
-        {
-            string[] values = SplitCSVString(csv);
-            return Array.ConvertAll(values, new Converter<string, MetadataNameProperty>(StringToMetadataNameProperty));
-        }
-
-        private MetadataNameProperty StringToMetadataNameProperty(string s)
-        {
-            return new MetadataNameProperty(s);
         }
 
         public string[] SplitCSVString(string csv)
