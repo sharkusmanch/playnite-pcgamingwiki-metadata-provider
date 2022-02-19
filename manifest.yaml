@@ -1,5 +1,13 @@
 AddonId: PCGamingWikiMetadata_c038558e-427b-4551-be4c-be7009ce5a8d
 Packages:
+- Version: 0.3.3
+  RequiredApiVersion: 6.2.2
+  ReleaseDate: 2022-02-19
+  PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v0.3.3/PCGamingWiki_Metadata_Provider_v0.3.3.pext
+  Changelog:
+    - Add Xbox Play Anywhere tag for supported Xbox titles
+    - Fix issue parsing text values where a citation was present
+    - Parsing improvements
 - Version: 0.3.2
   RequiredApiVersion: 6.2.2
   ReleaseDate: 2022-02-19

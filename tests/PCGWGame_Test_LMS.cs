@@ -17,6 +17,13 @@ public class PCGWGame_Test_LMS : IDisposable
     }
 
     [Fact]
+    public void TestParseWindowsReleaseDate()
+    {
+        var date = this.testGame.WindowsReleaseDate().ToString();
+        date.Should().Match("8/10/2021");
+    }
+
+    [Fact]
     public void TestParseDevelopers()
     {
         var arr = this.testGame.Developers.Select(i => i.ToString()).ToArray();

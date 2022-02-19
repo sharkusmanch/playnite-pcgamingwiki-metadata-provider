@@ -30,6 +30,8 @@ namespace PCGamingWikiMetadata
 
         private IDictionary<string, ReleaseDate?> ReleaseDates;
 
+        public Game LibraryGame;
+
         public PCGWGame()
         {
             this.links = new List<Link>();
@@ -89,6 +91,8 @@ namespace PCGamingWikiMetadata
         {
             switch (type)
             {
+                case "Monetization":
+                    break;
                 case "Microtransactions":
                     break;
                 case "Modes":
@@ -118,6 +122,7 @@ namespace PCGamingWikiMetadata
                 case "Engines":
                     // Handled via json links for now.
                     // Limitation: engine tag will only be added if there's a corresponding link
+                    AddCSVTags(value);
                     break;
                 case "Series":
                     this.series.Add(new MetadataNameProperty(value));
@@ -135,7 +140,6 @@ namespace PCGamingWikiMetadata
 
         private void AddCSVTags(string csv)
         {
-            logger.Debug($"csv tags {csv}");
             string[] tags = SplitCSVString(csv);
 
             foreach (string tag in tags)
@@ -177,6 +181,14 @@ namespace PCGamingWikiMetadata
             foreach (string genre in genres)
             {
                 this.genres.Add(new MetadataNameProperty(genre));
+            }
+        }
+
+        public void SetXboxPlayAnywhere()
+        {
+            if (BuiltinExtensions.GetExtensionFromId(this.LibraryGame.PluginId) == BuiltinExtension.XboxLibrary)
+            {
+                this.AddTag("Xbox Play Anywhere");
             }
         }
     }

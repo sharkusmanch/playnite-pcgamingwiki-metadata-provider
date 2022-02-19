@@ -17,6 +17,13 @@ public class PCGWGame_Test_CITIES : IDisposable
     }
 
     [Fact]
+    public void TestParseWindowsReleaseDate()
+    {
+        var date = this.testGame.WindowsReleaseDate().ToString();
+        date.Should().Match("3/10/2015");
+    }
+
+    [Fact]
     public void TestParseDevelopers()
     {
         var arr = this.testGame.Developers.Select(i => i.ToString()).ToArray();
@@ -68,7 +75,7 @@ public class PCGWGame_Test_CITIES : IDisposable
     public void TestParseEngine()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Unity");
+        arr.Should().Contain("Unity 5");
     }
 
     [Fact]

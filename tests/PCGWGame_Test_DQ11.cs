@@ -8,12 +8,22 @@ public class PCGWGame_Test_DQ11 : IDisposable
 {
     private PCGWGame testGame;
     private PCGWClient client;
+    private TestMetadataRequestOptions options;
 
     public PCGWGame_Test_DQ11()
     {
         this.testGame = new PCGWGame("dq11", -1);
-        this.client = new LocalPCGWClient();
+        this.options = new TestMetadataRequestOptions();
+        this.options.SetGameSourceXbox();
+        this.client = new LocalPCGWClient(this.options);
         this.client.FetchGamePageContent(this.testGame);
+    }
+
+    [Fact]
+    public void TestParseWindowsReleaseDate()
+    {
+        var date = this.testGame.WindowsReleaseDate().ToString();
+        date.Should().Match("12/4/2020");
     }
 
     [Fact]
@@ -28,6 +38,13 @@ public class PCGWGame_Test_DQ11 : IDisposable
     {
         var arr = this.testGame.Publishers.Select(i => i.ToString()).ToArray();
         arr.Should().BeEquivalentTo("Square Enix");
+    }
+
+    [Fact]
+    public void TestParseSeries()
+    {
+        var arr = this.testGame.Series.Select(i => i.ToString()).ToArray();
+        arr.Should().BeEquivalentTo("Dragon Quest");
     }
 
     [Fact]
@@ -83,6 +100,13 @@ public class PCGWGame_Test_DQ11 : IDisposable
     {
         var arr = this.testGame.Features.Select(i => i.ToString()).ToArray();
         arr.Should().Contain("Singleplayer");
+    }
+
+    [Fact]
+    public void TestParseXboxPlayAnywhere()
+    {
+        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
+        arr.Should().Contain("Xbox Play Anywhere");
     }
 
     public void Dispose()

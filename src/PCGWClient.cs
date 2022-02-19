@@ -1,3 +1,4 @@
+using Playnite.SDK.Plugins;
 using Playnite.SDK;
 using RestSharp;
 using System;
@@ -12,10 +13,12 @@ namespace PCGamingWikiMetadata
         private readonly ILogger logger = LogManager.GetLogger();
         private readonly string baseUrl = @"https://www.pcgamingwiki.com/w/api.php";
         private RestClient client;
+        protected MetadataRequestOptions options;
 
-        public PCGWClient()
+        public PCGWClient(MetadataRequestOptions options)
         {
             client = new RestClient(baseUrl);
+            this.options = options;
         }
 
         public JObject ExecuteRequest(RestRequest request)
@@ -92,6 +95,8 @@ namespace PCGamingWikiMetadata
             request.AddParameter("action", "parse", ParameterType.QueryString);
             request.AddParameter("page", game.Name.Replace(" ", "_"), ParameterType.QueryString);
 
+            game.LibraryGame = this.options.GameData;
+
             try
             {
                 JObject content = ExecuteRequest(request);
@@ -99,7 +104,7 @@ namespace PCGamingWikiMetadata
 
                 if (content.TryGetValue("error", out error))
                 {
-                    Console.WriteLine($"Encountered API error: {error.ToString()}");
+                    logger.Error($"Encountered API error: {error.ToString()}");
                 }
 
                 PCGamingWikiJSONParser jsonParser = new PCGamingWikiJSONParser(content, game);
@@ -110,7 +115,7 @@ namespace PCGamingWikiMetadata
             }
             catch (Exception e)
             {
-                Console.WriteLine($"Error performing FetchGamePageContent: {e}");
+                logger.Error($"Error performing FetchGamePageContent: {e}");
             }
         }
 
