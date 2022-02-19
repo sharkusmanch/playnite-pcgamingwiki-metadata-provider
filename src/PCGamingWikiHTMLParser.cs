@@ -43,6 +43,9 @@ namespace PCGamingWikiMetadata
                             break;
 
                         case "td":
+                            logger.Debug($"before: {text}");
+                            text = ParseText(child);
+                            logger.Debug($"after: {text}");
                             switch (child.Attributes["class"].Value)
                             {
                                 case "template-infobox-type":
@@ -68,6 +71,7 @@ namespace PCGamingWikiMetadata
                                             ApplyReleaseDate(key, text);
                                             break;
                                         case "Engines":
+                                            Console.WriteLine(text);
                                             this.game.AddTaxonomy("Engines", text);
                                             break;
                                         case "Developers":
@@ -154,7 +158,7 @@ namespace PCGamingWikiMetadata
 
         private void AddCompany(HtmlNode node, IList<MetadataProperty> list)
         {
-            string company = ParseCompany(node);
+            string company = ParseText(node);
             if (company == null)
             {
                 logger.Debug("Unable to parse company");
@@ -163,10 +167,29 @@ namespace PCGamingWikiMetadata
             list.Add(new MetadataNameProperty(company));
         }
 
-        private string ParseCompany(HtmlNode node)
+        private string ParseText(HtmlNode node)
         {
-            var nodes = node.SelectNodes("./a");
-            return nodes[nodes.Count - 1].InnerText;
+            try
+            {
+                var nodes = node.SelectNodes("./a");
+
+                // if (nodes.Count >= 1)
+                // {
+                //     return node.InnerText;
+                // }
+
+                Console.WriteLine(nodes.Count.ToString());
+                Console.WriteLine((nodes.Count - 1).ToString());
+
+                return nodes[nodes.Count - 1].InnerText;
+            }
+            catch (Exception e)
+            {
+                logger.Debug("error parsing text");
+                logger.Debug(e.ToString());
+                return "fail";
+            }
+
         }
     }
 }

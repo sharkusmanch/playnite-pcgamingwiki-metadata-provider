@@ -92,7 +92,7 @@ namespace PCGamingWikiMetadata
                 case "Microtransactions":
                     break;
                 case "Modes":
-                    this.features.Add(new MetadataNameProperty(value));
+                    this.features.AddRange(CSVToMetadataNameProperty(value));
                     break;
                 case "Pacing":
                     AddCSVTags(value);
@@ -134,13 +134,7 @@ namespace PCGamingWikiMetadata
 
         private void AddCSVTags(string csv)
         {
-            logger.Debug($"csv tags {csv}");
-            string[] tags = SplitCSVString(csv);
-
-            foreach (string tag in tags)
-            {
-                AddTag(tag);
-            }
+            this.tags.AddRange(CSVToMetadataNameProperty(csv));
         }
 
         public ReleaseDate? WindowsReleaseDate()
@@ -160,6 +154,17 @@ namespace PCGamingWikiMetadata
         public void AddReleaseDate(string platform, DateTime? date)
         {
             this.ReleaseDates[platform] = new ReleaseDate((DateTime)date);
+        }
+
+        private MetadataNameProperty[] CSVToMetadataNameProperty(string csv)
+        {
+            string[] values = SplitCSVString(csv);
+            return Array.ConvertAll(values, new Converter<string, MetadataNameProperty>(StringToMetadataNameProperty));
+        }
+
+        private MetadataNameProperty StringToMetadataNameProperty(string s)
+        {
+            return new MetadataNameProperty(s);
         }
 
         public string[] SplitCSVString(string csv)
