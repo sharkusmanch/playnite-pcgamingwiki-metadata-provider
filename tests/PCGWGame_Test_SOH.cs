@@ -17,6 +17,13 @@ public class PCGWGame_Test_SOH : IDisposable
     }
 
     [Fact]
+    public void TestParseWindowsReleaseDate()
+    {
+        var date = this.testGame.WindowsReleaseDate().ToString();
+        date.Should().Match("10/31/2019");
+    }
+
+    [Fact]
     public void TestParseDevelopers()
     {
         var arr = this.testGame.Developers.Select(i => i.ToString()).ToArray();

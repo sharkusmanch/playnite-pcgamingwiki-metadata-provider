@@ -17,6 +17,13 @@ public class PCGWGame_Test_BAT : IDisposable
     }
 
     [Fact]
+    public void TestParseWindowsReleaseDate()
+    {
+        var date = this.testGame.WindowsReleaseDate().ToString();
+        date.Should().Match("6/23/2015");
+    }
+
+    [Fact]
     public void TestParseDevelopers()
     {
         var arr = this.testGame.Developers.Select(i => i.ToString()).ToArray();
@@ -28,6 +35,13 @@ public class PCGWGame_Test_BAT : IDisposable
     {
         var arr = this.testGame.Publishers.Select(i => i.ToString()).ToArray();
         arr.Should().BeEquivalentTo("Warner Bros. Interactive Entertainment", "1C-SoftClub");
+    }
+
+    [Fact]
+    public void TestParseSeries()
+    {
+        var arr = this.testGame.Series.Select(i => i.ToString()).ToArray();
+        arr.Should().BeEquivalentTo("Batman: Arkham");
     }
 
     [Fact]

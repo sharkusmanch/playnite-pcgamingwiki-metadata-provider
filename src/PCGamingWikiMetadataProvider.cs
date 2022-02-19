@@ -69,7 +69,6 @@ namespace PCGamingWikiMetadata
                 if (item != null)
                 {
                     var searchItem = item as PCGWGame;
-                    logger.Debug($"GetPCGWMetadata for {searchItem.Name}");
                     this.pcgwData = (PCGWGame)item;
                     this.client.FetchGamePageContent(this.pcgwData);
                 }
@@ -110,7 +109,7 @@ namespace PCGamingWikiMetadata
         {
             this.options = options;
             this.plugin = plugin;
-            this.client = new PCGWClient();
+            this.client = new PCGWClient(this.options);
         }
 
         public override string GetName(GetMetadataFieldArgs args)
@@ -195,7 +194,6 @@ namespace PCGamingWikiMetadata
                     this.pcgwData.GetMetacriticReception(out score))
                 )
             {
-                logger.Debug($"Got critic score for {this.pcgwData.Name}");
                 return score;
             }
 

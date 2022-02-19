@@ -24,6 +24,11 @@ namespace PCGamingWikiMetadata
 
         public void ApplyGameMetadata()
         {
+            ParseInfobox();
+        }
+
+        private void ParseInfobox()
+        {
             var table = this.doc.DocumentNode.SelectSingleNode("//table[@id='infobox-game']");
             string currentHeader = "";
 
@@ -33,9 +38,16 @@ namespace PCGamingWikiMetadata
 
                 foreach (var child in row.SelectNodes(".//th|td"))
                 {
+                    var removeChil = child.SelectNodes(".//sup");
+
+                    if (removeChil != null)
+                    {
+                        child.RemoveChildren(removeChil);
+                    }
+
                     const string pattern = @"[\t\s]";
                     string text = Regex.Replace(child.InnerText.Trim(), pattern, " ");
-                    logger.Debug(currentHeader);
+
                     switch (child.Name)
                     {
                         case "th":
@@ -129,8 +141,6 @@ namespace PCGamingWikiMetadata
 
         private void AddLinks(HtmlNode icons)
         {
-            logger.Debug("Adding links");
-
             string url;
             foreach (var c in icons.ChildNodes)
             {
@@ -154,12 +164,7 @@ namespace PCGamingWikiMetadata
 
         private void AddCompany(HtmlNode node, IList<MetadataProperty> list)
         {
-            string company = ParseText(node);
-            if (company == null)
-            {
-                logger.Debug("Unable to parse company");
-                return;
-            }
+            string company = node.InnerText;
             list.Add(new MetadataNameProperty(company));
         }
 
