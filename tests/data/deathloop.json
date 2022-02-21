@@ -1,0 +1,1174 @@
+{
+  "warnings": {
+    "main": {
+      "*": "Unrecognized parameter: list."
+    }
+  },
+  "parse": {
+    "title": "Deathloop",
+    "pageid": 158798,
+    "revid": 1189049,
+    "text": {
+      "*": "<div class=\"mw-parser-output\"><table class=\"vertical-navbox template-infobox\" id=\"infobox-game\">\n\t<caption class=\"template-infobox-title\">Deathloop</caption>\n<tbody><tr>\n\t\t<td class=\"template-infobox-cover\" colspan=\"2\"><a href=\"/wiki/File:Deathloop_cover.jpg\" class=\"image\"><img alt=\"Deathloop cover\" src=\"https://thumbnails.pcgamingwiki.com/a/a7/Deathloop_cover.jpg/300px-Deathloop_cover.jpg\" width=\"300\" height=\"450\" srcset=\"https://thumbnails.pcgamingwiki.com/a/a7/Deathloop_cover.jpg/450px-Deathloop_cover.jpg 1.5x, https://thumbnails.pcgamingwiki.com/a/a7/Deathloop_cover.jpg/600px-Deathloop_cover.jpg 2x\" data-file-width=\"1440\" data-file-height=\"2160\" /></a></td>\n\t</tr>\n\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Developers</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Arkane_Studios\" title=\"Company:Arkane Studios\"></a><a href=\"/wiki/Company:Arkane_Studios\" title=\"Company:Arkane Studios\">Arkane Studios</a></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Publishers</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Bethesda_Softworks\" title=\"Company:Bethesda Softworks\"></a><a href=\"/wiki/Company:Bethesda_Softworks\" title=\"Company:Bethesda Softworks\">Bethesda Softworks</a></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Engines</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Engine:Void_Engine\" title=\"Engine:Void Engine\"></a><a href=\"/wiki/Engine:Void_Engine\" title=\"Engine:Void Engine\">Void Engine</a><sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\">&#91;1&#93;</a></sup></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Release dates</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\">Windows</td>\n\t<td class=\"template-infobox-info\">September 14, 2021</td>\n</tr><tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Reception</th>\n\t</tr>\n\t<tr>\n\t\t\t<td class=\"template-infobox-type\">Metacritic</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.metacritic.com/game/pc/deathloop\">87</a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">OpenCritic</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://opencritic.com/game/10993/deathloop\">88</a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">IGDB</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.igdb.com/games/deathloop\">90</a></td>\n\t\t</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Taxonomy</th>\n\t</tr>\n\t<tr>\n\t\t\t<td class=\"template-infobox-type\">Modes</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Singleplayer\" title=\"Category:Singleplayer\"><abbr title=\"The game supports solo play through a singleplayer mode.\">Singleplayer</abbr></a>, <a href=\"/wiki/Category:Multiplayer\" title=\"Category:Multiplayer\"><abbr title=\"The game supports some form of multiplayer either locally (e.g. hot seat play/pass-and-play) or remotely across the network or internet.\">Multiplayer</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Pacing</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Real-time\" title=\"Category:Real-time\"><abbr title=\"Real-time games present the game continuously, as opposed to in turns.\">Real-time</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Perspectives</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:First-person\" title=\"Category:First-person\"><abbr title=\"View from the first-person.\">First-person</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Controls</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Direct_control\" title=\"Category:Direct control\"><abbr title=\"Directly control a single character at a time, usually using directional buttons and other action buttons to interact with the environment directly.\">Direct control</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Genres</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Immersive_sim\" title=\"Category:Immersive sim\"><abbr title=\"Immersive sims are made up of simulated systems that respond to a variety of player actions which, combined with a comparatively broad array of player abilities, allow the game to support varied and creative solutions to problems, as well as emergent gameplay beyond what has been explicitly designed by the developer.\">Immersive sim</abbr></a>, <a href=\"/wiki/Category:Shooter\" title=\"Category:Shooter\"><abbr title=\"Shooter games are a broad action genre in which the player shoots enemies or targets as a primary gameplay mechanic. This can be from any perspective.\">Shooter</abbr></a>, <a href=\"/wiki/Category:Action\" title=\"Category:Action\"><abbr title=\"Primary gameplay tests some of the following: accuracy, movement, reflexes, timing.\">Action</abbr></a></td>\n\t\t</tr>\n\n\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Art styles</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Stylized\" title=\"Category:Stylized\"><abbr title=\"Rather hard to define on its own,&quot;stylized&quot;refers to something with its own distinct visual style. However, it is more often than not also used for exaggerated realism or hyperrealism, such where the game&#39;s world or environment is rendered realistically but contains some exaggerations, ranging from the subtle (e.g. a highly idealized version of an otherwise realistic environment; think&quot;Disneyfied&quot;versions of the real world) to the obvious (e.g. buildings with architecture that&#39;s very difficult or otherwise impossible to pull off in real life).\">Stylized</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Themes</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Supernatural\" title=\"Category:Supernatural\"><abbr title=\"Supernatural games have elements that are based on the real-world but violate natural laws, e.g. superheroes, vampires, werewolves. However, the elements are not so far away from our natural world that they constitute &#91;&#91;:Category:Fantasy|fantasy&#93;&#93; or &#91;&#91;:Category:Sci-fi|sci-fi&#93;&#93;.\">Supernatural</abbr></a></td>\n\t\t</tr><tr>\n\t\t<td class=\"template-infobox-icons\" colspan=\"2\"><div title=\"Official site\" class=\"plainlinks template-infobox-icon svg-icon infobox-official-site\"><a href=\"https://bethesda.net/game/deathloop\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Deathloop on HowLongToBeat\" class=\"template-infobox-icon svg-icon infobox-hltb\"><a href=\"https://howlongtobeat.com/game?id=68258\" title=\"Deathloop on HowLongToBeat\" rel=\"nofollow\"><img alt=\"Deathloop on HowLongToBeat\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Deathloop on IGDB\" class=\"template-infobox-icon svg-icon infobox-igdb\"><a href=\"https://www.igdb.com/games/deathloop\" title=\"Deathloop on IGDB\" rel=\"nofollow\"><img alt=\"Deathloop on IGDB\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Deathloop on IsThereAnyDeal\" class=\"plainlinks template-infobox-icon svg-icon infobox-itad\"><a href=\"https://isthereanydeal.com/steam/app/1252330/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Deathloop on ProtonDB\" class=\"plainlinks template-infobox-icon svg-icon infobox-protondb\"><a href=\"https://www.protondb.com/app/1252330/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Deathloop on SteamDB\" class=\"plainlinks template-infobox-icon svg-icon infobox-steamdb\"><a href=\"https://steamdb.info/app/1252330/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Deathloop on MobyGames\" class=\"template-infobox-icon svg-icon infobox-mobygames\"><a href=\"https://www.mobygames.com/game/deathloop\" title=\"Deathloop on MobyGames\" rel=\"nofollow\"><img alt=\"Deathloop on MobyGames\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"Deathloop on Wikipedia\" class=\"template-infobox-icon svg-icon infobox-wikipedia\"><a href=\"http://en.wikipedia.org/wiki/Deathloop\" title=\"Deathloop on Wikipedia\"><img alt=\"Deathloop on Wikipedia\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t</tr></tbody></table><table class=\"pcgwikitable template-tocbox\" id=\"tocbox\">\n\t<tbody><tr><td colspan=\"2\" class=\"template-tocbox-body\"><div id=\"toc\" class=\"toc\"><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2>Contents</h2></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#Availability\"><span class=\"tocnumber\">1</span> <span class=\"toctext\">Availability</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-2\"><a href=\"#Version_differences\"><span class=\"tocnumber\">1.1</span> <span class=\"toctext\">Version differences</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-3\"><a href=\"#Essential_improvements\"><span class=\"tocnumber\">2</span> <span class=\"toctext\">Essential improvements</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-4\"><a href=\"#Skip_intro_videos\"><span class=\"tocnumber\">2.1</span> <span class=\"toctext\">Skip intro videos</span></a></li>\n<li class=\"toclevel-2 tocsection-5\"><a href=\"#Reduce_loading_times\"><span class=\"tocnumber\">2.2</span> <span class=\"toctext\">Reduce loading times</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-6\"><a href=\"#Game_data\"><span class=\"tocnumber\">3</span> <span class=\"toctext\">Game data</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-7\"><a href=\"#Configuration_file.28s.29_location\"><span class=\"tocnumber\">3.1</span> <span class=\"toctext\">Configuration file(s) location</span></a></li>\n<li class=\"toclevel-2 tocsection-8\"><a href=\"#Save_game_data_location\"><span class=\"tocnumber\">3.2</span> <span class=\"toctext\">Save game data location</span></a></li>\n<li class=\"toclevel-2 tocsection-9\"><a href=\"#Save_game_cloud_syncing\"><span class=\"tocnumber\">3.3</span> <span class=\"toctext\">Save game cloud syncing</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-10\"><a href=\"#Video\"><span class=\"tocnumber\">4</span> <span class=\"toctext\">Video</span></a></li>\n<li class=\"toclevel-1 tocsection-11\"><a href=\"#Input\"><span class=\"tocnumber\">5</span> <span class=\"toctext\">Input</span></a></li>\n<li class=\"toclevel-1 tocsection-12\"><a href=\"#Audio\"><span class=\"tocnumber\">6</span> <span class=\"toctext\">Audio</span></a>\n<ul>\n<li class=\"toclevel-2\"><a href=\"#Localizations\"><span class=\"tocnumber\">6.1</span> <span class=\"toctext\">Localizations</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-13\"><a href=\"#Network\"><span class=\"tocnumber\">7</span> <span class=\"toctext\">Network</span></a>\n<ul>\n<li class=\"toclevel-2\"><a href=\"#Multiplayer_types\"><span class=\"tocnumber\">7.1</span> <span class=\"toctext\">Multiplayer types</span></a></li>\n<li class=\"toclevel-2\"><a href=\"#Connection_types\"><span class=\"tocnumber\">7.2</span> <span class=\"toctext\">Connection types</span></a></li>\n<li class=\"toclevel-2\"><a href=\"#Ports\"><span class=\"tocnumber\">7.3</span> <span class=\"toctext\">Ports</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-14\"><a href=\"#VR_support\"><span class=\"tocnumber\">8</span> <span class=\"toctext\">VR support</span></a></li>\n<li class=\"toclevel-1 tocsection-15\"><a href=\"#Other_information\"><span class=\"tocnumber\">9</span> <span class=\"toctext\">Other information</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-16\"><a href=\"#API\"><span class=\"tocnumber\">9.1</span> <span class=\"toctext\">API</span></a></li>\n<li class=\"toclevel-2 tocsection-17\"><a href=\"#Middleware\"><span class=\"tocnumber\">9.2</span> <span class=\"toctext\">Middleware</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-18\"><a href=\"#System_requirements\"><span class=\"tocnumber\">10</span> <span class=\"toctext\">System requirements</span></a></li>\n<li class=\"toclevel-1\"><a href=\"#Notes\"><span class=\"tocnumber\">11</span> <span class=\"toctext\">Notes</span></a></li>\n<li class=\"toclevel-1\"><a href=\"#References\"><span class=\"tocnumber\">12</span> <span class=\"toctext\">References</span></a></li>\n</ul>\n</div>\n</td></tr>\n</tbody></table>\n<div class=\"introduction\">\n<p><i><b>Deathloop</b></i> is a <a href=\"/wiki/Category:First-person\" title=\"Category:First-person\"><abbr title=\"View from the first-person.\">first-person</abbr></a> <a href=\"/wiki/Category:Action\" title=\"Category:Action\"><abbr title=\"Primary gameplay tests some of the following: accuracy, movement, reflexes, timing.\">action</abbr></a>, <a href=\"/wiki/Category:Adventure\" title=\"Category:Adventure\"><abbr title=\"Primary emphasises on narrative, dialogue and puzzle solving, with less emphasis on action.\">adventure</abbr></a> and <a href=\"/wiki/Category:Shooter\" title=\"Category:Shooter\"><abbr title=\"Shooter games are a broad action genre in which the player shoots enemies or targets as a primary gameplay mechanic. This can be from any perspective.\">shooter</abbr></a> game developed by <a href=\"/wiki/Company:Arkane_Studios\" title=\"Company:Arkane Studios\">Arkane Lyon</a> and published by <a href=\"/wiki/Company:Bethesda_Softworks\" title=\"Company:Bethesda Softworks\">Bethesda Softworks</a>. \n</p><p>The game serves as a slight departure from Arkane's previous releases, the <i><a href=\"/wiki/Series:Dishonored\" title=\"Series:Dishonored\">Dishonored</a></i> series and <i><a href=\"/wiki/Prey_(2017)\" title=\"Prey (2017)\">Prey</a></i>, by featuring a time-loop mechanic, where players restart upon death, alongside a time-of-day that changes when moving between levels and forgoing any consequences for not playing stealthily. It also features a multiplayer \"invasion\" mode, where a player-controlled enemy must hunt down the main protagonist.<sup id=\"cite_ref-2\" class=\"reference\"><a href=\"#cite_note-2\">&#91;2&#93;</a></sup>\n</p><p class=\"mw-empty-elt\">\n\n</p><p>After being delayed from an initial late 2020 release date due to the <a href=\"http://en.wikipedia.org/wiki/COVID-19_pandemic\" class=\"extiw\" title=\"wikipedia:COVID-19 pandemic\">COVID-19 pandemic</a>, and followed by subsequent further delays, <i>Deathloop</i> released on <a href=\"/wiki/Bethesda.net\" class=\"mw-redirect\" title=\"Bethesda.net\">Bethesda.net</a> and <a href=\"/wiki/Steam\" class=\"mw-redirect\" title=\"Steam\">Steam</a> on September 14, 2021.<sup id=\"cite_ref-3\" class=\"reference\"><a href=\"#cite_note-3\">&#91;3&#93;</a></sup><sup id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\">&#91;4&#93;</a></sup> Although the PC release is not missing any features from other versions of the game, two \"unique weapons\" are omitted from the Deluxe Edition and pre-order bonuses, due to those items being console exclusive.<sup id=\"cite_ref-5\" class=\"reference\"><a href=\"#cite_note-5\">&#91;5&#93;</a></sup>\n</p><p class=\"mw-empty-elt\">\n\n</p><p>Reviews by critics praised most of the game's elements, with detractors suggesting that it borrowed too much from <i>Dishonored</i> and that some areas of the game felt lacking, such as periods of backtracking.<sup id=\"cite_ref-6\" class=\"reference\"><a href=\"#cite_note-6\">&#91;6&#93;</a></sup><sup id=\"cite_ref-7\" class=\"reference\"><a href=\"#cite_note-7\">&#91;7&#93;</a></sup> Other reviewers additionally pointed out that a key element in Arkane's previous games, a quick save button, is intentionally omitted from <i>Deathloop</i>.<sup id=\"cite_ref-8\" class=\"reference\"><a href=\"#cite_note-8\">&#91;8&#93;</a></sup> After the game released, it was additionally noted by user reviews and media outlets that the game can suffer from performance and stuttering issues on some systems, with an update releasing soon after to address stuttering during mouse movement and to confirm that the remaining issues were being investigated.<sup id=\"cite_ref-rps_9-0\" class=\"reference\"><a href=\"#cite_note-rps-9\">&#91;9&#93;</a></sup><sup id=\"cite_ref-10\" class=\"reference\"><a href=\"#cite_note-10\">&#91;10&#93;</a></sup> These issues were fixed in a patch released the following month.\n</p>\n</div>\n<p><b>General information</b>\n</p>\n<dl><dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> <a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/app/1252330/discussions/\">Steam Community Discussions</a></dd></dl>\n<h2><span class=\"mw-headline\" id=\"Availability\">Availability</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=1\" title=\"Edit section: Availability\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable sortable template-infotable\" id=\"table-availability\">\n\t<tbody><tr class=\"template-infotable-head table-availability-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-availability-head-source\">Source</th>\n\t\t<th scope=\"col\" style=\"width: 60px\" class=\"unsortable table-availability-head-DRM\"><abbr title=\"DRM required to play the game\">DRM</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 390px;\" class=\"unsortable table-availability-head-notes\">Notes</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"unsortable table-availability-head-keys\"><abbr title=\"Optional product keys for other services\">Keys</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 90px;\" class=\"table-availability-head-OS\"><abbr title=\"Operating system(s)\">OS</abbr></th>\n\t</tr>\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"aaa- Retail\">Retail  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div class=\"svg-25 svg-icon drm-account\" title=\"Account based\"><a href=\"/wiki/Glossary:Account-based\" title=\"Account\"><img alt=\"Account\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> No disc included. <br /> Deluxe Edition also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Bethesda.net\"><a rel=\"nofollow\" class=\"external text\" href=\"https://bethesda.net/en/store/product/DE1CDXPCBG01BASE\">Bethesda.net</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-bethesda\"><a href=\"/wiki/Bethesda.net\" title=\"Bethesda.net Launcher\"><img alt=\"Bethesda.net Launcher\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> Deluxe Edition. Standard Edition also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"GamersGate\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/deathloop?caff=5418682\">GamersGate</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div class=\"svg-25 svg-icon drm-account\" title=\"Account based\"><a href=\"/wiki/Glossary:Account-based\" title=\"Account\"><img alt=\"Account\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/deathloop-deluxe-edition?caff=5418682\">Deluxe Edition</a> also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Gamesplanet\"><a href=\"https://gamesplanet.com/game/4869-1?ref=pcgwiki\" rel=\"nofollow\"><img alt=\"Gamesplanet logo.svg\" src=\"https://thumbnails.pcgamingwiki.com/8/8e/Gamesplanet_logo.svg/136px-Gamesplanet_logo.svg.png\" width=\"136\" height=\"21\" srcset=\"https://thumbnails.pcgamingwiki.com/8/8e/Gamesplanet_logo.svg/204px-Gamesplanet_logo.svg.png 1.5x, https://thumbnails.pcgamingwiki.com/8/8e/Gamesplanet_logo.svg/272px-Gamesplanet_logo.svg.png 2x\" data-file-width=\"512\" data-file-height=\"80\" /></a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div class=\"svg-25 svg-icon drm-account\" title=\"Account based\"><a href=\"/wiki/Glossary:Account-based\" title=\"Account\"><img alt=\"Account\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://gamesplanet.com/game/4869-2?ref=pcgwiki\">Deluxe Edition</a> also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"GMG\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/deathloop-pc/?tap_a=1964-996bbb&amp;tap_s=341948-7fd0d2\">Green Man Gaming</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div class=\"svg-25 svg-icon drm-account\" title=\"Account based\"><a href=\"/wiki/Glossary:Account-based\" title=\"Account\"><img alt=\"Account\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/deathloop-deluxe-edition-pc/?tap_a=1964-996bbb&amp;tap_s=341948-7fd0d2\">Deluxe Edition</a> also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Humble\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.humblebundle.com/store/deathloop?partner=pcgw\">Humble Store</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div class=\"svg-25 svg-icon drm-account\" title=\"Account based\"><a href=\"/wiki/Glossary:Account-based\" title=\"Account\"><img alt=\"Account\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.humblebundle.com/store/deathloop-deluxe-edition?partner=pcgw\">Deluxe Edition</a> also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Steam\"><a rel=\"nofollow\" class=\"external text\" href=\"https://store.steampowered.com/app/1252330/?utm_source=PCGamingWiki&amp;utm_medium=PCGamingWiki&amp;utm_campaign=PCGamingWiki\">Steam</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div class=\"svg-25 svg-icon drm-account\" title=\"Account based\"><a href=\"/wiki/Glossary:Account-based\" title=\"Account\"><img alt=\"Account\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> <a rel=\"nofollow\" class=\"external text\" href=\"https://store.steampowered.com/sub/626138/?utm_source=PCGamingWiki&amp;utm_medium=PCGamingWiki&amp;utm_campaign=PCGamingWiki\">Deluxe Edition</a> also available. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"opacity: 70%;\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"zzz-unavailable- Epic Games Store\"><a rel=\"nofollow\" class=\"external text\" href=\"https://store.epicgames.com/pcgamingwiki/deathloop\">Epic Games Store</a>  (<abbr title=\"Although the product is or has been listed on this source, it is currently not available for purchase. The row is retained for historical reference.\"><i>unavailable</i></abbr>)</th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon drm-unknown\" title=\"DRM details are not known\"><a href=\"/wiki/Digital_rights_management_(DRM)\" title=\"DRM details are not known\"><img alt=\"DRM details are not known\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\"> Coming soon. </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n</tbody></table></div>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> All versions require a <a href=\"/wiki/Store:Bethesda.net\" title=\"Store:Bethesda.net\">Bethesda.net</a> account and <a href=\"/wiki/Denuvo#Denuvo_Anti-Tamper\" title=\"Denuvo\">Denuvo Anti-Tamper</a>&#32;<a href=\"/wiki/Digital_rights_management_(DRM)\" title=\"Digital rights management (DRM)\"><abbr title=\"Digital rights management: Commonly used to refer to copy protection and/or technical protection measures employed by companies in an attempt to limit the manipulation and copying of game data and content by end-users after the purchase, download, and/or install of the product.\">DRM</abbr></a>.</dd>\n<dd><div title=\"Disadvantage\" class=\"svg-icon svg-16 thumbs-down\"></div> The <a rel=\"nofollow\" class=\"external text\" href=\"https://images.ctfassets.net/rporu91m20dc/43O653uakaYwisNx5CwYOX/360a499a6740d80fceb2354d84b7ca7e/Deathloop_Standard_PreOrder_Sony-EN-ESRB-06.jpg?q=70\">Royal Protector Machete</a> and <a rel=\"nofollow\" class=\"external text\" href=\"https://images.ctfassets.net/rporu91m20dc/62bjdx7UcdY22h9kDW2SLn/10112d85bbc67fcfa5db0575a0761398/Deathloop_DeluxeEdition_PreOrder_Sony-EN-ESRB-06.jpg?q=70\">Transtar Trencher</a> are PlayStation 5 exclusive.</dd></dl>\n<h3><span class=\"mw-headline\" id=\"Version_differences\">Version differences</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=2\" title=\"Edit section: Version differences\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> <b>Deluxe Edition</b> includes two character skins, two weapon skins, two Trinkets and a selection of the game's soundtrack.</dd>\n<dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> <b>Pre-orders</b> included the Storm Rider skin for Colt and one Trinket.</dd></dl>\n<h2><span class=\"mw-headline\" id=\"Essential_improvements\">Essential improvements</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=3\" title=\"Edit section: Essential improvements\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"Skip_intro_videos\">Skip intro videos</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=4\" title=\"Edit section: Skip intro videos\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Skip company logos and legal warnings<sup id=\"cite_ref-11\" class=\"reference\"><a href=\"#cite_note-11\">&#91;11&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Go to <code><a href=\"/wiki/Glossary:Game_data#Installation_folder\" title=\"Glossary:Game data\"><abbr title=\"The base installation folder\">&lt;path-to-game&gt;</abbr></a>\\base\\video\\</code>.</li>\n<li>Rename, move or delete <code>arkane.bk2</code>, <code>bethesda.bk2</code>, <code>legal.bk2</code> and <code>warning.bk2</code>.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h3><span class=\"mw-headline\" id=\"Reduce_loading_times\">Reduce loading times</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=5\" title=\"Edit section: Reduce loading times\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<table class=\"pcgwikitable fixbox\">\n  <tbody><tr>\n    <th class=\"fixbox-title\">\n<div title=\"Fix\" class=\"svg-icon svg-16 fixbox-icon\"></div>Loading times are tied to framerate<sup id=\"cite_ref-12\" class=\"reference\"><a href=\"#cite_note-12\">&#91;12&#93;</a></sup>\n    </th>\n  </tr>\n<tr>\n    <td class=\"fixbox-body\">\n<ol><li>Do not limit framerate with 3rd party limiters like Rivatuner statistics server or your Nvidia/AMD control panel.</li>\n<li>Disable V-sync on your Nvidia/AMD control panel on this game's profile.</li>\n<li>Only use the In-game Vsync and Frame limiter settings.</li></ol>\n    </td>\n  </tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"Game_data\">Game data</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=6\" title=\"Edit section: Game data\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span id=\"Configuration_file(s)_location\"></span><span class=\"mw-headline\" id=\"Configuration_file.28s.29_location\">Configuration file(s) location</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=7\" title=\"Edit section: Configuration file(s) location\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-gamedata\">\n\t<tbody><tr class=\"template-infotable-head table-gamedata-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-gamedata-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 590px;\" class=\"table-gamedata-head-location\">Location</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Windows </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#User_profile\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%USERPROFILE%</abbr></a>\\Saved Games\\Arkane Studios\\Deathloop\\base\\</span></td>\n</tr>\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t\t<th scope=\"row\" class=\"table-gamedata-body-system\"><abbr title=\"Windows version on Steam running through the Proton wrapper of Steam Play on Linux\">Steam Play (Linux)</abbr></th>\n\t\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Steam_client\" title=\"Glossary:Game data\"><abbr title=\"The base Steam installation folder\">&lt;Steam-folder&gt;</abbr></a>/steamapps/compatdata/<abbr title=\"app ID may differ in some cases\">1252330</abbr>/pfx/</span><sup id=\"cite_ref-Proton_path_note_13-0\" class=\"reference\"><a href=\"#cite_note-Proton_path_note-13\">&#91;Note 1&#93;</a></sup></td>\n\t</tr>\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Save_game_data_location\">Save game data location</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=8\" title=\"Edit section: Save game data location\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-gamedata\">\n\t<tbody><tr class=\"template-infotable-head table-gamedata-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-gamedata-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 590px;\" class=\"table-gamedata-head-location\">Location</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Windows </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#User_profile\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%USERPROFILE%</abbr></a>\\Saved Games\\Arkane Studios\\Deathloop\\base\\savegame\\<a href=\"/wiki/Glossary:Game_data#User_ID\" title=\"Glossary:Game data\"><abbr title=\"The user ID or profile name (specific to your account or computer)\">&lt;user-id&gt;</abbr></a>\\</span></td>\n</tr>\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t\t<th scope=\"row\" class=\"table-gamedata-body-system\"><abbr title=\"Windows version on Steam running through the Proton wrapper of Steam Play on Linux\">Steam Play (Linux)</abbr></th>\n\t\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Steam_client\" title=\"Glossary:Game data\"><abbr title=\"The base Steam installation folder\">&lt;Steam-folder&gt;</abbr></a>/steamapps/compatdata/<abbr title=\"app ID may differ in some cases\">1252330</abbr>/pfx/</span><sup id=\"cite_ref-Proton_path_note_13-1\" class=\"reference\"><a href=\"#cite_note-Proton_path_note-13\">&#91;Note 1&#93;</a></sup></td>\n\t</tr>\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Save_game_cloud_syncing\"><a href=\"/wiki/Glossary:Save_game_cloud_syncing\" title=\"Glossary:Save game cloud syncing\">Save game cloud syncing</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=9\" title=\"Edit section: Save game cloud syncing\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable template-gamedata\" id=\"table-cloudsync\">\n\t<tbody><tr class=\"template-infotable-head table-cloudsync-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-cloudsync-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-cloudsync-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-cloudsync-head-notes\">Notes</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-cloudsync-body-row\">\n\t\t<th scope=\"row\" class=\"table-cloudsync-body-system\"><a href=\"/wiki/Store:Epic_Games_Store\" title=\"Store:Epic Games Store\">Epic Games Launcher</a></th>\n\t\t<td class=\"table-cloudsync-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t<td class=\"table-cloudsync-body-notes\"></td>\n\t</tr>\n\n\n\n\n\n\n\n<tr class=\"template-infotable-body table-cloudsync-body-row\">\n\t\t<th scope=\"row\" class=\"table-cloudsync-body-system\"><a href=\"/wiki/Store:Steam#Steam_Cloud\" title=\"Store:Steam\">Steam Cloud</a></th>\n\t\t<td class=\"table-cloudsync-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-cloudsync-body-notes\"></td>\n\t</tr>\n\n\n\n\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Video\">Video</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=10\" title=\"Edit section: Video\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Deathloop_VideoSettings.png\" class=\"image\"><img alt=\"Video settings\" src=\"https://thumbnails.pcgamingwiki.com/1/1b/Deathloop_VideoSettings.png/300px-Deathloop_VideoSettings.png\" width=\"300\" height=\"298\" srcset=\"https://thumbnails.pcgamingwiki.com/1/1b/Deathloop_VideoSettings.png/450px-Deathloop_VideoSettings.png 1.5x, https://thumbnails.pcgamingwiki.com/1/1b/Deathloop_VideoSettings.png/600px-Deathloop_VideoSettings.png 2x\" data-file-width=\"1573\" data-file-height=\"1560\" /></a></div>\n  <div class=\"article-image-text\">Video settings</div>\n</div>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Deathloop_AdvancedVideoSettings.png\" class=\"image\"><img alt=\"Advanced video settings\" src=\"https://thumbnails.pcgamingwiki.com/7/73/Deathloop_AdvancedVideoSettings.png/300px-Deathloop_AdvancedVideoSettings.png\" width=\"300\" height=\"337\" srcset=\"https://thumbnails.pcgamingwiki.com/7/73/Deathloop_AdvancedVideoSettings.png/450px-Deathloop_AdvancedVideoSettings.png 1.5x, https://thumbnails.pcgamingwiki.com/7/73/Deathloop_AdvancedVideoSettings.png/600px-Deathloop_AdvancedVideoSettings.png 2x\" data-file-width=\"1579\" data-file-height=\"1775\" /></a></div>\n  <div class=\"article-image-text\">Advanced video settings</div>\n</div>\n<p><span id=\"Video_settings\"></span>\n</p>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-video\">\n\t<tbody><tr class=\"template-infotable-head table-settings-video-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-video-head-parameter\">Graphics feature</th>\n\t\t<th scope=\"col\" style=\"width: 50px\" class=\"table-settings-video-head-rating\">State</th>\n\t<th scope=\"col\" style=\"width: 540px\" class=\"table-settings-video-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Widescreen_resolution\" title=\"Glossary:Widescreen resolution\">Widescreen resolution</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> </td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Multi-monitor\" title=\"Glossary:Multi-monitor\"><abbr title=\"Game can run at a spanned resolution across multiple displays\">Multi-monitor</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> </td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Ultra-widescreen\" title=\"Glossary:Ultra-widescreen\"><abbr title=\"Game can run at an ultra-widescreen (21:9) resolution\">Ultra-widescreen</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> <a href=\"/wiki/Glossary:Scaling\" title=\"Glossary:Scaling\"><abbr title=\"Horizontal Plus: Field of view expands horizontally for wider aspect ratios. This is the optimal scaling behavior for games when faced with wider aspect resolutions.\">Hor+</abbr></a> gameplay at 21:9 aspect ratio. User interface elements are locked to 16:9.<sup id=\"cite_ref-14\" class=\"reference\"><a href=\"#cite_note-14\">&#91;13&#93;</a></sup></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:4K_Ultra_HD\" title=\"Glossary:4K Ultra HD\"><abbr title=\"Game can run at 4K (3840x2160) resolution\">4K Ultra HD</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> </td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Field_of_view_(FOV)\" title=\"Glossary:Field of view (FOV)\"><abbr title=\"Game has an adjustable field of view\">Field of view (FOV)</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"><a href=\"/wiki/Glossary:Scaling\" title=\"Glossary:Scaling\"><abbr title=\"Horizontal Plus: Field of view expands horizontally for wider aspect ratios. This is the optimal scaling behavior for games when faced with wider aspect resolutions.\">Hor+</abbr></a> field of view from 65° to 110°.<br />Vertical FOV is adjusted with a fixed ratio of 16:9.</td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Windowed\" title=\"Glossary:Windowed\"><abbr title=\"Game can run in a regular windowed mode\">Windowed</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Borderless_fullscreen_windowed\" title=\"Glossary:Borderless fullscreen windowed\"><abbr title=\"Game can run in a borderless fullscreen windowed mode\">Borderless fullscreen windowed</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Anisotropic_filtering_(AF)\" title=\"Glossary:Anisotropic filtering (AF)\">Anisotropic filtering (AF)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"><i>See the <a href=\"/wiki/Glossary:Anisotropic_filtering_(AF)\" title=\"Glossary:Anisotropic filtering (AF)\">glossary page</a> for potential workarounds.</i></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Anti-aliasing_(AA)\" title=\"Glossary:Anti-aliasing (AA)\">Anti-aliasing (AA)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">Post-process anti-aliasing. <a href=\"/wiki/DLSS\" class=\"mw-redirect\" title=\"DLSS\">DLSS</a> is supported.</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Vertical_sync_(Vsync)\" title=\"Glossary:Vertical sync (Vsync)\">Vertical sync (Vsync)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Frame_rate_(FPS)\" title=\"Glossary:Frame rate (FPS)\"><abbr title=\"Game can run at 60 frames per second\">60 FPS</abbr> and <abbr title=\"Game can run at 120 frames per second (or higher)\">120+ FPS</abbr></a></th>\n\t\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">Up to 120 FPS with Vsync disabled, or higher if Vsync is enabled on a display with a refresh rate higher than 120 Hz.<sup id=\"cite_ref-15\" class=\"reference\"><a href=\"#cite_note-15\">&#91;14&#93;</a></sup></td>\n\t\t</tr>\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:High_dynamic_range_(HDR)\" title=\"Glossary:High dynamic range (HDR)\"><abbr title=\"Game supports expanded color space on HDR-compatible displays\">High dynamic range display (HDR)</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">Requires HDR to be enabled in Windows.</td>\n\t</tr>\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><abbr title=\"Game implements ray tracing\">Ray tracing</abbr></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">Supports ray traced shadows and ray traced ambient occlusion.</td>\n\t</tr>\n</tbody></table></div>\n<ul class=\"gallery mw-gallery-traditional\">\n\t\t<li class=\"gallerybox\" style=\"width: 155px\"><div style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px;\"><div style=\"margin:23.5px auto;\"><a href=\"/wiki/File:Deathloop_HUDSettings.png\" class=\"image\"><img alt=\"\" src=\"https://thumbnails.pcgamingwiki.com/2/23/Deathloop_HUDSettings.png/120px-Deathloop_HUDSettings.png\" width=\"120\" height=\"103\" srcset=\"https://thumbnails.pcgamingwiki.com/2/23/Deathloop_HUDSettings.png/180px-Deathloop_HUDSettings.png 1.5x, https://thumbnails.pcgamingwiki.com/2/23/Deathloop_HUDSettings.png/240px-Deathloop_HUDSettings.png 2x\" data-file-width=\"1573\" data-file-height=\"1356\" /></a></div></div>\n\t\t\t<div class=\"gallerytext\">\n<p>HUD settings\n</p>\n\t\t\t</div>\n\t\t</div></li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\"><div style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px;\"><div style=\"margin:41px auto;\"><a href=\"/wiki/File:Deathloop_16x9.png\" class=\"image\"><img alt=\"\" src=\"https://thumbnails.pcgamingwiki.com/3/34/Deathloop_16x9.png/120px-Deathloop_16x9.png\" width=\"120\" height=\"68\" srcset=\"https://thumbnails.pcgamingwiki.com/3/34/Deathloop_16x9.png/180px-Deathloop_16x9.png 1.5x, https://thumbnails.pcgamingwiki.com/3/34/Deathloop_16x9.png/240px-Deathloop_16x9.png 2x\" data-file-width=\"1920\" data-file-height=\"1080\" /></a></div></div>\n\t\t\t<div class=\"gallerytext\">\n<p>16:9 aspect ratio at 110° FOV\n</p>\n\t\t\t</div>\n\t\t</div></li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\"><div style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px;\"><div style=\"margin:49.5px auto;\"><a href=\"/wiki/File:Deathloop_21x9.png\" class=\"image\"><img alt=\"\" src=\"https://thumbnails.pcgamingwiki.com/6/63/Deathloop_21x9.png/120px-Deathloop_21x9.png\" width=\"120\" height=\"51\" srcset=\"https://thumbnails.pcgamingwiki.com/6/63/Deathloop_21x9.png/180px-Deathloop_21x9.png 1.5x, https://thumbnails.pcgamingwiki.com/6/63/Deathloop_21x9.png/240px-Deathloop_21x9.png 2x\" data-file-width=\"2560\" data-file-height=\"1080\" /></a></div></div>\n\t\t\t<div class=\"gallerytext\">\n<p>21:9 aspect ratio at 110° FOV\n</p>\n\t\t\t</div>\n\t\t</div></li>\n</ul>\n<h2><span class=\"mw-headline\" id=\"Input\">Input</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=11\" title=\"Edit section: Input\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Deathloop_Controls_MouseKeyboard.png\" class=\"image\"><img alt=\"Keyboard and mouse control settings\" src=\"https://thumbnails.pcgamingwiki.com/e/e5/Deathloop_Controls_MouseKeyboard.png/300px-Deathloop_Controls_MouseKeyboard.png\" width=\"300\" height=\"143\" srcset=\"https://thumbnails.pcgamingwiki.com/e/e5/Deathloop_Controls_MouseKeyboard.png/450px-Deathloop_Controls_MouseKeyboard.png 1.5x, https://thumbnails.pcgamingwiki.com/e/e5/Deathloop_Controls_MouseKeyboard.png/600px-Deathloop_Controls_MouseKeyboard.png 2x\" data-file-width=\"1603\" data-file-height=\"762\" /></a></div>\n  <div class=\"article-image-text\">Keyboard and mouse control settings</div>\n</div>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Deathloop_KeyBindings.png\" class=\"image\"><img alt=\"Key bindings\" src=\"https://thumbnails.pcgamingwiki.com/b/b2/Deathloop_KeyBindings.png/300px-Deathloop_KeyBindings.png\" width=\"300\" height=\"578\" srcset=\"https://thumbnails.pcgamingwiki.com/b/b2/Deathloop_KeyBindings.png/450px-Deathloop_KeyBindings.png 1.5x, https://thumbnails.pcgamingwiki.com/b/b2/Deathloop_KeyBindings.png/600px-Deathloop_KeyBindings.png 2x\" data-file-width=\"1573\" data-file-height=\"3029\" /></a></div>\n  <div class=\"article-image-text\">Key bindings</div>\n</div><p>\n<div class=\"ad-widget-container\"><div class=\"vm-placement\" data-id=\"5ee8e351a624ae2e7125852e\"></div></div><span id=\"Input_settings\"></span></p><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-input\">\n\t<tbody><tr class=\"template-infotable-head table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Keyboard and mouse</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\">State</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\">Notes</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">Remapping</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse_acceleration\" title=\"Glossary:Mouse acceleration\">Mouse acceleration</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse#Sensitivity\" title=\"Glossary:Mouse\">Mouse sensitivity</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\">Separate sensitivity adjustment available for aiming down sights.</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse\" title=\"Glossary:Mouse\">Mouse input in menus</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Invert_Y-axis\" title=\"Glossary:Invert Y-axis\">Mouse Y-axis inversion</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-secondhead table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Controller</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller support</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\t\n<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"All menus can be navigated with a controller. Supports Steam&#39;s Big Picture mode.\">Full controller support</abbr></a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">Controller remapping</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"><i>See the <a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">glossary page</a> for potential workarounds.</i></td>\n\t</tr>\n\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller sensitivity</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\">Separate sliders for X-axis and Y-axis.</td>\n\t\t</tr>\n\n\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Invert_Y-axis\" title=\"Glossary:Invert Y-axis\">Controller Y-axis inversion</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n</tbody></table>\n\t<table class=\"mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-types\" style=\"margin-top: -16px;\">\n\t\t<tbody><tr class=\"template-infotable-secondhead table-settings-input-head-row\">\n\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Controller types</th>\n\t\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t\t</tr>\n\t</tbody></table>\n\t<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-xinput\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">XInput-compatible controllers</a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#f5f5f5;\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Xbox button prompts</a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\t\t\t\t<tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:Xbox_One_Controller\" class=\"mw-redirect\" title=\"Controller:Xbox One Controller\"><abbr title=\"Xbox One controllers only\">Impulse Trigger vibration</abbr></a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\t\t</tbody></table>\n\t\t<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-dualshock\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">DualShock 4 controllers</a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"><a href=\"/wiki/Controller:DualSense\" title=\"Controller:DualSense\">DualSense</a> is also natively supported, including adaptive triggers.<sup id=\"cite_ref-16\" class=\"reference\"><a href=\"#cite_note-16\">&#91;15&#93;</a></sup></td>\n\t\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">DualShock button prompts</a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\n\t\t\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">Light bar support</a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\t\t\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\">Connection modes</th>\n\t\t\t\t\t<td colspan=\"2\" class=\"table-settings-input-body-dualshock-modes\">Wired<br />DualSense tested</td>\n\t\t\t\t</tr>\n\t\t</tbody></table>\n\t<table class=\"pcgwikitable template-infotable\" id=\"table-settings-input-controller-other\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Controllers that do not fall into any other category\">Generic/other controllers</abbr></a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"><i>See the <a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">glossary page</a> for potential workarounds.</i></td>\n\t\t\t</tr>\n\t\t\n\t\t</tbody></table>\n<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-additional\" style=\"margin-top: -16px;\">\n\t<tbody><tr class=\"template-infotable-head table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Additional information</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t</tr>\n\t\t\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller hotplugging</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Commonly referred to as controller vibration, force feedback, rumble, or dualshock.\">Haptic feedback</abbr></a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Both controller and keyboard/mouse inputs can be used at the same time\">Simultaneous controller+KB/M</abbr></a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n</tbody></table>\t</div>\n<ul class=\"gallery mw-gallery-traditional\">\n\t\t<li class=\"gallerybox\" style=\"width: 155px\"><div style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px;\"><div style=\"margin:27.5px auto;\"><a href=\"/wiki/File:Deathloop_GameplaySettings.png\" class=\"image\"><img alt=\"\" src=\"https://thumbnails.pcgamingwiki.com/4/48/Deathloop_GameplaySettings.png/120px-Deathloop_GameplaySettings.png\" width=\"120\" height=\"95\" srcset=\"https://thumbnails.pcgamingwiki.com/4/48/Deathloop_GameplaySettings.png/180px-Deathloop_GameplaySettings.png 1.5x, https://thumbnails.pcgamingwiki.com/4/48/Deathloop_GameplaySettings.png/240px-Deathloop_GameplaySettings.png 2x\" data-file-width=\"1576\" data-file-height=\"1248\" /></a></div></div>\n\t\t\t<div class=\"gallerytext\">\n<p>Gameplay settings\n</p>\n\t\t\t</div>\n\t\t</div></li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\"><div style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px;\"><div style=\"margin:35.5px auto;\"><a href=\"/wiki/File:Deathloop_ControllerSettings.png\" class=\"image\"><img alt=\"\" src=\"https://thumbnails.pcgamingwiki.com/d/de/Deathloop_ControllerSettings.png/120px-Deathloop_ControllerSettings.png\" width=\"120\" height=\"79\" srcset=\"https://thumbnails.pcgamingwiki.com/d/de/Deathloop_ControllerSettings.png/180px-Deathloop_ControllerSettings.png 1.5x, https://thumbnails.pcgamingwiki.com/d/de/Deathloop_ControllerSettings.png/240px-Deathloop_ControllerSettings.png 2x\" data-file-width=\"1576\" data-file-height=\"1042\" /></a></div></div>\n\t\t\t<div class=\"gallerytext\">\n<p>Controller settings\n</p>\n\t\t\t</div>\n\t\t</div></li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\"><div style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px;\"><div style=\"margin:42.5px auto;\"><a href=\"/wiki/File:Deathloop_Controller_Xbox.png\" class=\"image\"><img alt=\"\" src=\"https://thumbnails.pcgamingwiki.com/b/b9/Deathloop_Controller_Xbox.png/120px-Deathloop_Controller_Xbox.png\" width=\"120\" height=\"65\" srcset=\"https://thumbnails.pcgamingwiki.com/b/b9/Deathloop_Controller_Xbox.png/180px-Deathloop_Controller_Xbox.png 1.5x, https://thumbnails.pcgamingwiki.com/b/b9/Deathloop_Controller_Xbox.png/240px-Deathloop_Controller_Xbox.png 2x\" data-file-width=\"1816\" data-file-height=\"978\" /></a></div></div>\n\t\t\t<div class=\"gallerytext\">\n<p>Button assignments for an <a href=\"/wiki/Controller:Xbox_Wireless_Controller\" title=\"Controller:Xbox Wireless Controller\">Xbox Wireless Controller</a>\n</p>\n\t\t\t</div>\n\t\t</div></li>\n\t\t<li class=\"gallerybox\" style=\"width: 155px\"><div style=\"width: 155px\">\n\t\t\t<div class=\"thumb\" style=\"width: 150px;\"><div style=\"margin:42.5px auto;\"><a href=\"/wiki/File:Deathloop_Controller_DualSense.png\" class=\"image\"><img alt=\"\" src=\"https://thumbnails.pcgamingwiki.com/a/a2/Deathloop_Controller_DualSense.png/120px-Deathloop_Controller_DualSense.png\" width=\"120\" height=\"65\" srcset=\"https://thumbnails.pcgamingwiki.com/a/a2/Deathloop_Controller_DualSense.png/180px-Deathloop_Controller_DualSense.png 1.5x, https://thumbnails.pcgamingwiki.com/a/a2/Deathloop_Controller_DualSense.png/240px-Deathloop_Controller_DualSense.png 2x\" data-file-width=\"1816\" data-file-height=\"978\" /></a></div></div>\n\t\t\t<div class=\"gallerytext\">\n<p>Button assignments for a <a href=\"/wiki/Controller:DualSense\" title=\"Controller:DualSense\">DualSense</a> controller\n</p>\n\t\t\t</div>\n\t\t</div></li>\n</ul>\n<h2><span class=\"mw-headline\" id=\"Audio\">Audio</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=12\" title=\"Edit section: Audio\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Deathloop_VolumeSettings.png\" class=\"image\"><img alt=\"Volume settings\" src=\"https://thumbnails.pcgamingwiki.com/c/c4/Deathloop_VolumeSettings.png/300px-Deathloop_VolumeSettings.png\" width=\"300\" height=\"99\" srcset=\"https://thumbnails.pcgamingwiki.com/c/c4/Deathloop_VolumeSettings.png/450px-Deathloop_VolumeSettings.png 1.5x, https://thumbnails.pcgamingwiki.com/c/c4/Deathloop_VolumeSettings.png/600px-Deathloop_VolumeSettings.png 2x\" data-file-width=\"1582\" data-file-height=\"522\" /></a></div>\n  <div class=\"article-image-text\">Volume settings</div>\n</div>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Deathloop_AudioOutputSettings.png\" class=\"image\"><img alt=\"Audio output settings\" src=\"https://thumbnails.pcgamingwiki.com/d/d8/Deathloop_AudioOutputSettings.png/300px-Deathloop_AudioOutputSettings.png\" width=\"300\" height=\"40\" srcset=\"https://thumbnails.pcgamingwiki.com/d/d8/Deathloop_AudioOutputSettings.png/450px-Deathloop_AudioOutputSettings.png 1.5x, https://thumbnails.pcgamingwiki.com/d/d8/Deathloop_AudioOutputSettings.png/600px-Deathloop_AudioOutputSettings.png 2x\" data-file-width=\"1574\" data-file-height=\"210\" /></a></div>\n  <div class=\"article-image-text\">Audio output settings</div>\n</div>\n<div class=\"article-image\">\n  <div class=\"article-image-pic\"><a href=\"/wiki/File:Deathloop_LanguageSubtitlesSettings.png\" class=\"image\"><img alt=\"Language and subtitle settings\" src=\"https://thumbnails.pcgamingwiki.com/1/16/Deathloop_LanguageSubtitlesSettings.png/300px-Deathloop_LanguageSubtitlesSettings.png\" width=\"300\" height=\"81\" srcset=\"https://thumbnails.pcgamingwiki.com/1/16/Deathloop_LanguageSubtitlesSettings.png/450px-Deathloop_LanguageSubtitlesSettings.png 1.5x, https://thumbnails.pcgamingwiki.com/1/16/Deathloop_LanguageSubtitlesSettings.png/600px-Deathloop_LanguageSubtitlesSettings.png 2x\" data-file-width=\"1582\" data-file-height=\"429\" /></a></div>\n  <div class=\"article-image-text\">Language and subtitle settings</div>\n</div>\n<p><span id=\"Audio_settings\"></span></p><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-audio\">\n\t<tbody><tr class=\"template-infotable-head table-settings-audio-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-audio-head-parameter\">Audio feature</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-audio-head-rating\">State</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-audio-head-notes\">Notes</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Separate volume controls</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\">Master, Music, SFX and Speech.</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\"><a href=\"/wiki/Glossary:Surround_sound\" title=\"Glossary:Surround sound\">Surround sound</a></th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\">Also supports 3D Audio for stereo headphones.</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Subtitles</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\">Subtitle size can be adjusted between small, medium and large.</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Closed captions</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Mute on focus lost</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\n\n\n\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Localizations\">Localizations</span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-l10n\">\n\t<tbody><tr class=\"template-infotable-head table-l10n-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-l10n-head-parameter\"><abbr title=\"Please note that some languages may not be available from all storefronts or across all versions.\">Language</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-ui\"><abbr title=\"User interface.\">UI</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-audio\">Audio</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-sub\"><abbr title=\"Subtitles or closed captions.\">Sub</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 440px;\" class=\"table-l10n-head-notes\">Notes</th>\n\t</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">English</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Arabic</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Simplified Chinese</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Traditional Chinese</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">French</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">German</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Italian</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Japanese</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Korean</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Polish</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Brazilian Portuguese</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Russian</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Spanish</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\"><abbr title=\"May be listed as Mexican Spanish or require OS language setting (see notes).\">Latin American Spanish</abbr></th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Network\">Network</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=13\" title=\"Edit section: Network\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"Multiplayer_types\">Multiplayer types</span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-network-multiplayer\">\n\t<tbody><tr class=\"template-infotable-head table-network-multiplayer-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-network-multiplayer-head-parameter\">Type</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-network-multiplayer-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-network-multiplayer-head-players\">Players</th>\n\t\t<th scope=\"col\" style=\"width: 490px;\" class=\"table-network-multiplayer-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-network-multiplayer-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-multiplayer-body-parameter\"><a href=\"/wiki/Glossary:Local_play\" title=\"Glossary:Local play\"><abbr title=\"Multiplayer on a single device/screen.\">Local play</abbr></a></th>\n\t\t<td class=\"table-network-multiplayer-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-network-multiplayer-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-network-multiplayer-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-multiplayer-body-parameter\"><a href=\"/wiki/Glossary:LAN_play\" title=\"Glossary:LAN play\"><abbr title=\"Local Area Network multiplayer. Multiple devices playing together over the same network connection without using an external server as a host.\">LAN play</abbr></a></th>\n\t\t<td class=\"table-network-multiplayer-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div>\n\t\t</td><td colspan=\"2\" class=\"table-network-multiplayer-body-notes\"></td>\n\t</tr>\n\t<tr class=\"template-infotable-body table-network-multiplayer-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-multiplayer-body-parameter\"><a href=\"/wiki/Glossary:Online_play\" title=\"Glossary:Online play\"><abbr title=\"Multiplayer over an internet connection.\">Online play</abbr></a></th>\n\t\t<td class=\"table-network-multiplayer-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div>\n\t\t</td><td class=\"table-network-multiplayer-body-players\">2</td>\n\t\t<td colspan=\"2\" class=\"table-network-multiplayer-body-notes\">Versus<br />Optional \"invasions\" by other players during gameplay.</td>\n\t</tr>\n\n</tbody></table></div><h3><span class=\"mw-headline\" id=\"Connection_types\">Connection types</span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-network-connection\">\n\t<tbody><tr class=\"template-infotable-head table-network-connection-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-network-connection-head-parameter\">Type</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-network-connection-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-network-connection-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-network-connection-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-connection-body-parameter\"><a href=\"/wiki/Glossary:Matchmaking\" title=\"Glossary:Matchmaking\"><abbr title=\"Automatic server and/or game lobby search functionality. Searches are sometimes based on player skill level and other factors.\">Matchmaking</abbr></a></th>\n\t\t<td class=\"table-network-connection-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-network-connection-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-network-connection-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-connection-body-parameter\"><a href=\"/wiki/Glossary:Peer-to-peer\" title=\"Glossary:Peer-to-peer\"><abbr title=\"Multiplayer games are created by connecting players together and using their devices to send and receive data between each other.\">Peer-to-peer</abbr></a></th>\n\t\t<td class=\"table-network-connection-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-network-connection-body-notes\"><sup id=\"cite_ref-17\" class=\"reference\"><a href=\"#cite_note-17\">&#91;16&#93;</a></sup></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-network-connection-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-connection-body-parameter\"><a href=\"/wiki/Glossary:Dedicated\" title=\"Glossary:Dedicated\"><abbr title=\"Official game server software and/or developer-hosted servers for multiplayer are provided.\">Dedicated</abbr></a></th>\n\t\t<td class=\"table-network-connection-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-network-connection-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-network-connection-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-connection-body-parameter\"><a href=\"/wiki/Glossary:Self-hosting\" title=\"Glossary:Self-hosting\"><abbr title=\"Servers can be created and hosted by any player who wishes to do so.\">Self-hosting</abbr></a></th>\n\t\t<td class=\"table-network-connection-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-network-connection-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-network-connection-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-connection-body-parameter\"><a href=\"/wiki/Glossary:Direct_IP\" title=\"Glossary:Direct IP\"><abbr title=\"Players can connect directly to a server or computer by entering its IP address.\">Direct IP</abbr></a></th>\n\t\t<td class=\"table-network-connection-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-network-connection-body-notes\"></td>\n\t</tr>\n</tbody></table></div><h3><span class=\"mw-headline\" id=\"Ports\">Ports</span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-network-ports\">\n\t<tbody><tr class=\"template-infotable-head table-network-ports-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-network-ports-head-parameter\">Protocol</th>\n\t\t<th scope=\"col\" style=\"width: 590px;\" class=\"table-network-ports-head-value\">Port(s) and/or port range(s)<sup id=\"cite_ref-18\" class=\"reference\"><a href=\"#cite_note-18\">&#91;17&#93;</a></sup></th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-network-ports-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-ports-body-parameter\">TCP</th>\n\t\t<td class=\"table-network-ports-body-value\">27015, 27036</td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-network-ports-body-row\">\n\t\t<th scope=\"row\" class=\"table-network-ports-body-parameter\">UDP</th>\n\t\t<td class=\"table-network-ports-body-value\">27015, 27031-27036</td>\n\t</tr>\n</tbody></table></div>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> <a href=\"http://en.wikipedia.org/wiki/Universal_Plug_and_Play\" class=\"extiw\" title=\"wikipedia:Universal Plug and Play\">Universal Plug and Play</a> (UPnP) support status is unknown.</dd></dl>\n<h2><span class=\"mw-headline\" id=\"VR_support\">VR support</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=14\" title=\"Edit section: VR support\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-vr\">\n<tbody><tr class=\"template-infotable-head table-settings-vr-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-vr-head-parameter\">3D modes</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-vr-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-vr-head-notes\">Notes</th>\n\t</tr>\n\n\n\n\n\n\n\n\n\n<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:VorpX\" title=\"Glossary:VorpX\">vorpX</a></th>\n\t\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div>\n\t\t\t</td><td colspan=\"2\" class=\"table-settings-vr-body-notes\">Z3D, DirectVR<br />Officially supported game, see <a rel=\"nofollow\" class=\"external text\" href=\"https://www.vorpx.com/supported-games/\">official vorpx game list</a>.</td>\n\t\t</tr></tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Other_information\">Other information</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=15\" title=\"Edit section: Other information\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"API\">API</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=16\" title=\"Edit section: API\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-api\">\n\t<tbody><tr class=\"template-infotable-head table-api-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-api-head-parameter\">Technical specs</th>\n\t\t<th scope=\"col\" style=\"width: 120px;\" class=\"table-api-head-support\">Supported</th>\n\t\t<th scope=\"col\" style=\"width: 470px;\" class=\"table-api-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-api-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-api-body-parameter\"><abbr title=\"Only supported on Windows\">Direct3D</abbr></th>\n\t\t\t<td class=\"table-api-body-support\">12</td>\n\t\t\t<td class=\"table-api-body-notes\"></td>\n\t\t</tr>\n\n\n\n\n\n\n\n\n\n\n</tbody></table></div><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-api-executable\">\n\t<tbody><tr class=\"template-infotable-head table-api-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-api-head-parameter\">Executable</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-api-head-support\"><abbr title=\"Intel 32-bit (x86)\">32-bit</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-api-head-support\"><abbr title=\"Intel 64-bit (x64 / x86-64)\">64-bit</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 490px;\" class=\"table-api-head-notes\">Notes</th>\n\t</tr>\n\t<tr class=\"template-infotable-body table-api-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-api-body-parameter\">Windows</th>\n\t\t\t<td class=\"table-api-body-support\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td class=\"table-api-body-support\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-api-body-notes\"></td>\n\t\t</tr>\n\t\n\t\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Middleware\">Middleware</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=17\" title=\"Edit section: Middleware\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-middleware\">\n\t<tbody><tr class=\"template-infotable-head table-middleware-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-middleware-head-parameter\"></th>\n\t\t<th scope=\"col\" style=\"width: 120px;\" class=\"table-middleware-head-middleware\">Middleware</th>\n\t\t<th scope=\"col\" style=\"width: 470px;\" class=\"table-middleware-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-middleware-body-row\">\n\t\t<th scope=\"row\" class=\"table-middleware-body-parameter\">Physics</th>\n\t\t<td class=\"table-middleware-body-middleware\">Havok</td>\n\t\t<td class=\"table-middleware-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-middleware-body-row\">\n\t\t<th scope=\"row\" class=\"table-middleware-body-parameter\">Interface</th>\n\t\t<td class=\"table-middleware-body-middleware\">Iggy Game UI</td>\n\t\t<td class=\"table-middleware-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-middleware-body-row\">\n\t\t<th scope=\"row\" class=\"table-middleware-body-parameter\">Cutscenes</th>\n\t\t<td class=\"table-middleware-body-middleware\">Bink Video</td>\n\t\t<td class=\"table-middleware-body-notes\"></td>\n\t</tr>\n\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"System_requirements\">System requirements</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=Deathloop&amp;action=edit&amp;section=18\" title=\"Edit section: System requirements\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"sysreq sysreq_Windows container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-sysreqs-windows\">\n\t<tbody><tr class=\"template-infotable-doublehead sysreq_heading table-sysreqs-head-row\">\n\t\t<th colspan=\"3\" class=\"table-sysreqs-head-OS\"><a href=\"/wiki/Windows\" title=\"Windows\">Windows</a> </th>\n\t</tr>\n\n\t<tr class=\"template-infotable-head table-sysreqs-head-row\">\n\t\t<th scope=\"col\" class=\"table-sysreqs-head-parameter\" style=\"width: 220px;\"></th>\n\t\t<th scope=\"col\" class=\"table-sysreqs-head-minimum\" style=\"width: 300px;\">Minimum</th>\n\t\t<th class=\"table-sysreqs-head-recommended\" style=\"width: 300px;\">Recommended</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Operating system (OS)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">10 (1909)</td><td class=\"table-sysreqs-body-recommended\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Processor (CPU)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">Intel Core i5-8400<br />AMD Ryzen 5 1600</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">Intel Core i7-9700K<br />AMD Ryzen 7 2700X</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">System memory (RAM)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">12 GB</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">16 GB</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Hard disk drive (HDD)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">30 GB</td><td class=\"table-sysreqs-body-recommended\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Video card (GPU)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\"> Nvidia GeForce GTX 1060 <br />AMD Radeon RX 580  <br />6 GB of <abbr title=\"Video RAM\">VRAM</abbr> <br />DirectX 12 compatible\n</td><td class=\"table-sysreqs-body-recommended\">Nvidia GeForce RTX 2060 <br />AMD Radeon RX 5700    </td>\n\t</tr>\n\n\n\n\n\n\n</tbody></table>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> A 64-bit operating system is required.</dd></dl></div>\n<h2><span class=\"mw-headline\" id=\"Notes\">Notes</span></h2>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite_note-Proton_path_note-13\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-Proton_path_note_13-0\">1.0</a></sup> <sup><a href=\"#cite_ref-Proton_path_note_13-1\">1.1</a></sup></span> <span class=\"reference-text\">File/folder structure within this directory reflects the path(s) listed for <a href=\"#Game_data\">Windows and/or Steam game data</a> (use <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.winehq.org/Regedit\">Wine regedit</a> to access Windows registry paths). Games with <a href=\"/wiki/Store:Steam#Steam_Cloud\" title=\"Store:Steam\">Steam Cloud</a> support may store data in <code>~/.steam/steam/userdata/<a href=\"/wiki/Glossary:Game_data#User_ID\" title=\"Glossary:Game data\"><abbr title=\"The user ID or profile name (specific to your account or computer)\">&lt;user-id&gt;</abbr></a>/<abbr title=\"app ID may differ in some cases\">1252330</abbr>/</code> in addition to or instead of this directory. The app ID (1252330) may differ in some cases. Treat backslashes as forward slashes. See the <a href=\"/wiki/Glossary:Game_data#Windows_data_paths\" title=\"Glossary:Game data\">glossary page</a> for details.</span>\n</li>\n</ol></div><h2><span class=\"mw-headline\" id=\"References\">References</span></h2>\n<div class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.eurogamer.net/articles/2021-08-26-deathloop-is-not-at-all-what-i-expected\">Eurogamer - Deathloop is not at all what I expected</a> - last accessed on 2021-09-06</span>\n</li>\n<li id=\"cite_note-2\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-2\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.vg247.com/deathloop-interview-ps5-dishonored-persona-dark-souls-cluedo\">VG247 - Deathloop interview - a strange blend of Dishonored, Persona, Dark Souls and… Cluedo?</a> - last accessed on 2021-09-13</span>\n</li>\n<li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.polygon.com/2020/8/18/21373600/deathloop-delay-release-date-ps4-ps5-pc-arkane-studios-bethesda-softworks\">Polygon - Deathloop delayed to next year, says Arkane</a> - last accessed on 2021-09-13</span>\n</li>\n<li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.videogameschronicle.com/news/deathloop-delayed/\">Video Games Chronicle - Bethesda’s PS5 exclusive Deathloop has been delayed</a> - last accessed on 2021-09-13</span>\n</li>\n<li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://bethesda.net/en/article/5hdixoZZXAlqWIqXA4SuMM/pre-order-deathloop-for-exclusive-items\">{{{title}}}</a> - last accessed on 2021-09-25</span>\n</li>\n<li id=\"cite_note-6\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-6\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.eurogamer.net/articles/2021-09-12-deathloop-review\">Eurogamer - Deathloop review - not Arkane's most surprising game, but possibly its best</a> - last accessed on 2021-09-13</span>\n</li>\n<li id=\"cite_note-7\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-7\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.gamepressure.com/editorials/reviews/deathloop-review-is-times-on-arcanes-side/z1494\">Gamepressure - Deathloop Review - Is Time’s on Arcane’s Side?</a> - last accessed on 2021-09-13</span>\n</li>\n<li id=\"cite_note-8\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-8\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.pcgamer.com/deathloop-review/\">PC Gamer - Deathloop Review</a> - last accessed on 2021-09-13</span>\n</li>\n<li id=\"cite_note-rps-9\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-rps_9-0\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.rockpapershotgun.com/deathloop-is-out-now-but-some-pc-players-report-stuttering\">Rock Paper Shotgun - Deathloop is out now, but some PC players report stuttering</a> - last accessed on 2021-09-15</span>\n</li>\n<li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-10\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://store.steampowered.com/news/app/1252330/view/5568127835954403762\">Steam News: DEATHLOOP - DEATHLOOP PC Stuttering Issue Update</a> - last accessed on 2021-09-25</span>\n</li>\n<li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-11\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Shadowstealer7\" title=\"User:Shadowstealer7\">User:Shadowstealer7</a> on 2021-09-13</span>\n</li>\n<li id=\"cite_note-12\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-12\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/w/index.php?title=User:Skyebaron1&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Skyebaron1 (page does not exist)\">User:Skyebaron1</a> on 2021-11-24</span>\n</li>\n<li id=\"cite_note-14\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-14\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Shadowstealer7\" title=\"User:Shadowstealer7\">User:Shadowstealer7</a> on 2021-09-13</span>\n</li>\n<li id=\"cite_note-15\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-15\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.rockpapershotgun.com/deathloop-pc-performance-best-settings\">Rock Paper Shotgun - Deathloop: PC performance guide and the best settings to use</a> - last accessed on 2021-09-14</span>\n</li>\n<li id=\"cite_note-16\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-16\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Shadowstealer7\" title=\"User:Shadowstealer7\">User:Shadowstealer7</a> on 2021-09-13</span>\n</li>\n<li id=\"cite_note-17\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-17\">↑</a></span> <span class=\"reference-text\">Verified by <a href=\"/wiki/User:Shadowstealer7\" title=\"User:Shadowstealer7\">User:Shadowstealer7</a> on 2021-09-24\n<dl><dd><i>After playing some of the game's online invasions it becomes obvious the game exhibits the standard behaviour found in P2P games, namely having to deal with rubber banding when the host has a poor connection</i></dd></dl>\n</span></li>\n<li id=\"cite_note-18\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-18\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://portforward.com/deathloop/\">Portforward - Open Ports on Your Router for Deathloop</a> - last accessed on 2021-09-24</span>\n</li>\n</ol></div>\n\n<!-- \nNewPP limit report\nCached time: 20220221113453\nCache expiry: 86400\nDynamic content: false\n[SMW] In‐text annotation parser time: 0.011 seconds\nCPU time usage: 0.596 seconds\nReal time usage: 0.966 seconds\nPreprocessor visited node count: 12166/1000000\nPreprocessor generated node count: 69458/1000000\nPost‐expand include size: 259916/2097152 bytes\nTemplate argument size: 68743/2097152 bytes\nHighest expansion depth: 15/40\nExpensive parser function count: 8/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 15045/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  766.645      1 -total\n 28.40%  217.744      1 Template:Infobox_game\n 20.32%  155.779      1 Template:L10n\n 19.16%  146.864     14 Template:L10n/switch\n 14.91%  114.281     14 Template:L10n/row\n  8.19%   62.790      1 Template:Availability\n  7.81%   59.878      8 Template:Availability/row\n  6.69%   51.291      1 Template:References\n  4.58%   35.078      1 Template:Input\n  4.27%   32.730      1 Template:Infobox_game/row/taxonomy/genres\n-->\n</div>\n<!-- Saved in parser cache with key pcgamingwiki:pcache:idhash:158798-0!canonical and timestamp 20220221113452 and revision id 1189049\n -->\n"
+    },
+    "langlinks": [],
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "Windows"
+      },
+      {
+        "sortkey": "",
+        "*": "Singleplayer"
+      },
+      {
+        "sortkey": "",
+        "*": "Multiplayer"
+      },
+      {
+        "sortkey": "",
+        "*": "Real-time"
+      },
+      {
+        "sortkey": "",
+        "*": "First-person"
+      },
+      {
+        "sortkey": "",
+        "*": "Direct_control"
+      },
+      {
+        "sortkey": "",
+        "*": "Immersive_sim"
+      },
+      {
+        "sortkey": "",
+        "*": "Shooter"
+      },
+      {
+        "sortkey": "",
+        "*": "Action"
+      },
+      {
+        "sortkey": "",
+        "*": "Stylized"
+      },
+      {
+        "sortkey": "",
+        "*": "Supernatural"
+      },
+      {
+        "sortkey": "",
+        "*": "Games"
+      }
+    ],
+    "links": [
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Deathloop cover.jpg"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Deathloop VideoSettings.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Deathloop AdvancedVideoSettings.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Deathloop Controls MouseKeyboard.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Deathloop KeyBindings.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Deathloop VolumeSettings.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Deathloop AudioOutputSettings.png"
+      },
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:Deathloop LanguageSubtitlesSettings.png"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Steam"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Windows"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Bethesda.net"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Digital rights management (DRM)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "DLSS"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Denuvo"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Prey (2017)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Account-based"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:4K Ultra HD"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Anisotropic filtering (AF)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Anti-aliasing (AA)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Borderless fullscreen windowed"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Controller"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Dedicated"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Direct IP"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Field of view (FOV)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Frame rate (FPS)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Game data"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:High dynamic range (HDR)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Invert Y-axis"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:LAN play"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Local play"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Matchmaking"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Mouse"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Mouse acceleration"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Multi-monitor"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Online play"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Peer-to-peer"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Remapping"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Save game cloud syncing"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Scaling"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Self-hosting"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Surround sound"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Ultra-widescreen"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Vertical sync (Vsync)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:VorpX"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Widescreen resolution"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Windowed"
+      },
+      {
+        "ns": 404,
+        "exists": "",
+        "*": "Engine:Void Engine"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Arkane Studios"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Bethesda Softworks"
+      },
+      {
+        "ns": 2,
+        "exists": "",
+        "*": "User:Shadowstealer7"
+      },
+      {
+        "ns": 2,
+        "*": "User:Skyebaron1"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Action"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Adventure"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Direct control"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:First-person"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Immersive sim"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Multiplayer"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Real-time"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Shooter"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Singleplayer"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Stylized"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Supernatural"
+      },
+      {
+        "ns": 402,
+        "exists": "",
+        "*": "Series:Dishonored"
+      },
+      {
+        "ns": 412,
+        "exists": "",
+        "*": "Controller:DualSense"
+      },
+      {
+        "ns": 412,
+        "exists": "",
+        "*": "Controller:DualShock 4"
+      },
+      {
+        "ns": 412,
+        "exists": "",
+        "*": "Controller:Xbox One Controller"
+      },
+      {
+        "ns": 412,
+        "exists": "",
+        "*": "Controller:Xbox Wireless Controller"
+      },
+      {
+        "ns": 418,
+        "exists": "",
+        "*": "Store:Bethesda.net"
+      },
+      {
+        "ns": 418,
+        "exists": "",
+        "*": "Store:Epic Games Store"
+      },
+      {
+        "ns": 418,
+        "exists": "",
+        "*": "Store:Steam"
+      }
+    ],
+    "templates": [
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Assignment/checkAvailable"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/developer"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/publisher"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/engine"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/date"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Date"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/reception"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Trim"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/monetization"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/microtransactions"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/modes"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Glossary"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/pacing"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/perspectives"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/controls"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/genres"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/sports"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/vehicles"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/art styles"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/themes"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/series"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/license"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tocbox"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Introduction"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:W"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Mm"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/store"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/DRM"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/OS"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Store link"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Abbr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Ii"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DRM"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DRM/switch"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Term"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:--"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Fixbox"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:P"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Path"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data/config"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data/saves"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Save game cloud syncing"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-nohack"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-l-nohack"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Image"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Video"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-na"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a-na"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Input"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Audio"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n/switch"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-na-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Network/Multiplayer"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Network/Multiplayer/switch3"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Network/Connections"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Network/Ports"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:VR support"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:API"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:API/switch Direct3D"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Middleware"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:System requirements"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:References"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Absent properties"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Cargo Availability"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Refurl"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Refcheck"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Singleplayer"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Multiplayer"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Real-time"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:First-person"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Direct control"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Immersive sim"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Shooter"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Action"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Stylized"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Supernatural"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Adventure"
+      }
+    ],
+    "images": [
+      "Deathloop_HUDSettings.png",
+      "Deathloop_16x9.png",
+      "Deathloop_21x9.png",
+      "Deathloop_GameplaySettings.png",
+      "Deathloop_ControllerSettings.png",
+      "Deathloop_Controller_Xbox.png",
+      "Deathloop_Controller_DualSense.png",
+      "Deathloop_cover.jpg",
+      "Icon_overlay.png",
+      "Gamesplanet_logo.svg",
+      "Deathloop_VideoSettings.png",
+      "Deathloop_AdvancedVideoSettings.png",
+      "Deathloop_Controls_MouseKeyboard.png",
+      "Deathloop_KeyBindings.png",
+      "Deathloop_VolumeSettings.png",
+      "Deathloop_AudioOutputSettings.png",
+      "Deathloop_LanguageSubtitlesSettings.png"
+    ],
+    "externallinks": [
+      "https://wiki.winehq.org/Regedit",
+      "https://www.eurogamer.net/articles/2021-08-26-deathloop-is-not-at-all-what-i-expected",
+      "https://www.vg247.com/deathloop-interview-ps5-dishonored-persona-dark-souls-cluedo",
+      "https://www.polygon.com/2020/8/18/21373600/deathloop-delay-release-date-ps4-ps5-pc-arkane-studios-bethesda-softworks",
+      "https://www.videogameschronicle.com/news/deathloop-delayed/",
+      "https://bethesda.net/en/article/5hdixoZZXAlqWIqXA4SuMM/pre-order-deathloop-for-exclusive-items",
+      "https://www.eurogamer.net/articles/2021-09-12-deathloop-review",
+      "https://www.gamepressure.com/editorials/reviews/deathloop-review-is-times-on-arcanes-side/z1494",
+      "https://www.pcgamer.com/deathloop-review/",
+      "https://www.rockpapershotgun.com/deathloop-is-out-now-but-some-pc-players-report-stuttering",
+      "https://store.steampowered.com/news/app/1252330/view/5568127835954403762",
+      "https://www.rockpapershotgun.com/deathloop-pc-performance-best-settings",
+      "https://portforward.com/deathloop/",
+      "https://bethesda.net/game/deathloop",
+      "https://howlongtobeat.com/game?id=68258",
+      "https://www.igdb.com/games/deathloop",
+      "https://isthereanydeal.com/steam/app/1252330/",
+      "https://www.protondb.com/app/1252330/",
+      "https://steamdb.info/app/1252330/",
+      "https://www.mobygames.com/game/deathloop",
+      "https://gamesplanet.com/game/4869-1?ref=pcgwiki",
+      "https://www.metacritic.com/game/pc/deathloop",
+      "https://opencritic.com/game/10993/deathloop",
+      "https://steamcommunity.com/app/1252330/discussions/",
+      "https://bethesda.net/en/store/product/DE1CDXPCBG01BASE",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/deathloop?caff=5418682",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/deathloop-deluxe-edition?caff=5418682",
+      "https://gamesplanet.com/game/4869-2?ref=pcgwiki",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/deathloop-pc/?tap_a=1964-996bbb&tap_s=341948-7fd0d2",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/deathloop-deluxe-edition-pc/?tap_a=1964-996bbb&tap_s=341948-7fd0d2",
+      "https://www.humblebundle.com/store/deathloop?partner=pcgw",
+      "https://www.humblebundle.com/store/deathloop-deluxe-edition?partner=pcgw",
+      "https://store.steampowered.com/app/1252330/?utm_source=PCGamingWiki&utm_medium=PCGamingWiki&utm_campaign=PCGamingWiki",
+      "https://store.steampowered.com/sub/626138/?utm_source=PCGamingWiki&utm_medium=PCGamingWiki&utm_campaign=PCGamingWiki",
+      "https://store.epicgames.com/pcgamingwiki/deathloop",
+      "https://images.ctfassets.net/rporu91m20dc/43O653uakaYwisNx5CwYOX/360a499a6740d80fceb2354d84b7ca7e/Deathloop_Standard_PreOrder_Sony-EN-ESRB-06.jpg?q=70",
+      "https://images.ctfassets.net/rporu91m20dc/62bjdx7UcdY22h9kDW2SLn/10112d85bbc67fcfa5db0575a0761398/Deathloop_DeluxeEdition_PreOrder_Sony-EN-ESRB-06.jpg?q=70",
+      "https://www.vorpx.com/supported-games/"
+    ],
+    "sections": [
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Availability",
+        "number": "1",
+        "index": "1",
+        "fromtitle": "Deathloop",
+        "byteoffset": 5543,
+        "anchor": "Availability"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Version differences",
+        "number": "1.1",
+        "index": "2",
+        "fromtitle": "Deathloop",
+        "byteoffset": 7162,
+        "anchor": "Version_differences"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Essential improvements",
+        "number": "2",
+        "index": "3",
+        "fromtitle": "Deathloop",
+        "byteoffset": 7400,
+        "anchor": "Essential_improvements"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Skip intro videos",
+        "number": "2.1",
+        "index": "4",
+        "fromtitle": "Deathloop",
+        "byteoffset": 7427,
+        "anchor": "Skip_intro_videos"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Reduce loading times",
+        "number": "2.2",
+        "index": "5",
+        "fromtitle": "Deathloop",
+        "byteoffset": 7757,
+        "anchor": "Reduce_loading_times"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Game data",
+        "number": "3",
+        "index": "6",
+        "fromtitle": "Deathloop",
+        "byteoffset": 8159,
+        "anchor": "Game_data"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Configuration file(s) location",
+        "number": "3.1",
+        "index": "7",
+        "fromtitle": "Deathloop",
+        "byteoffset": 8173,
+        "anchor": "Configuration_file.28s.29_location"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Save game data location",
+        "number": "3.2",
+        "index": "8",
+        "fromtitle": "Deathloop",
+        "byteoffset": 8317,
+        "anchor": "Save_game_data_location"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Save game cloud syncing",
+        "number": "3.3",
+        "index": "9",
+        "fromtitle": "Deathloop",
+        "byteoffset": 8472,
+        "anchor": "Save_game_cloud_syncing"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Video",
+        "number": "4",
+        "index": "10",
+        "fromtitle": "Deathloop",
+        "byteoffset": 9000,
+        "anchor": "Video"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Input",
+        "number": "5",
+        "index": "11",
+        "fromtitle": "Deathloop",
+        "byteoffset": 11169,
+        "anchor": "Input"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Audio",
+        "number": "6",
+        "index": "12",
+        "fromtitle": "Deathloop",
+        "byteoffset": 13921,
+        "anchor": "Audio"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Localizations",
+        "number": "6.1",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Localizations"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Network",
+        "number": "7",
+        "index": "13",
+        "fromtitle": "Deathloop",
+        "byteoffset": 16696,
+        "anchor": "Network"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Multiplayer types",
+        "number": "7.1",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Multiplayer_types"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Connection types",
+        "number": "7.2",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Connection_types"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Ports",
+        "number": "7.3",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Ports"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "VR support",
+        "number": "8",
+        "index": "14",
+        "fromtitle": "Deathloop",
+        "byteoffset": 17938,
+        "anchor": "VR_support"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Other information",
+        "number": "9",
+        "index": "15",
+        "fromtitle": "Deathloop",
+        "byteoffset": 19395,
+        "anchor": "Other_information"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "API",
+        "number": "9.1",
+        "index": "16",
+        "fromtitle": "Deathloop",
+        "byteoffset": 19417,
+        "anchor": "API"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Middleware",
+        "number": "9.2",
+        "index": "17",
+        "fromtitle": "Deathloop",
+        "byteoffset": 20367,
+        "anchor": "Middleware"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "System requirements",
+        "number": "10",
+        "index": "18",
+        "fromtitle": "Deathloop",
+        "byteoffset": 20721,
+        "anchor": "System_requirements"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Notes",
+        "number": "11",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Notes"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "References",
+        "number": "12",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "References"
+      }
+    ],
+    "parsewarnings": [],
+    "displaytitle": "Deathloop",
+    "iwlinks": [
+      {
+        "prefix": "wikipedia",
+        "url": "http://en.wikipedia.org/wiki/Deathloop",
+        "*": "wikipedia:Deathloop"
+      },
+      {
+        "prefix": "wikipedia",
+        "url": "http://en.wikipedia.org/wiki/COVID-19_pandemic",
+        "*": "wikipedia:COVID-19 pandemic"
+      },
+      {
+        "prefix": "wikipedia",
+        "url": "http://en.wikipedia.org/wiki/Universal_Plug_and_Play",
+        "*": "wikipedia:Universal Plug and Play"
+      }
+    ],
+    "properties": [
+      {
+        "name": "smw-semanticdata-status",
+        "*": ""
+      }
+    ]
+  }
+}
