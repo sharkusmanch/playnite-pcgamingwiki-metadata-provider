@@ -96,7 +96,7 @@ namespace PCGamingWikiMetadata
                 case "Microtransactions":
                     break;
                 case "Modes":
-                    this.features.Add(new MetadataNameProperty(value));
+                    AddCSVFeatures(value);
                     break;
                 case "Pacing":
                     AddCSVTags(value);
@@ -120,12 +120,10 @@ namespace PCGamingWikiMetadata
                     AddCSVTags(value);
                     break;
                 case "Engines":
-                    // Handled via json links for now.
-                    // Limitation: engine tag will only be added if there's a corresponding link
                     AddCSVTags(value);
                     break;
                 case "Series":
-                    this.series.Add(new MetadataNameProperty(value));
+                    AddCSVSeries(value);
                     break;
                 default:
                     logger.Debug($"Unknown taxonomy {type}");
@@ -136,6 +134,36 @@ namespace PCGamingWikiMetadata
         public void AddTag(string t)
         {
             this.tags.Add(new MetadataNameProperty(t));
+        }
+
+        public void AddFeature(string t)
+        {
+            this.features.Add(new MetadataNameProperty(t));
+        }
+
+        public void AddSeries(string t)
+        {
+            this.series.Add(new MetadataNameProperty(t));
+        }
+
+        private void AddCSVSeries(string csv)
+        {
+            string[] tags = SplitCSVString(csv);
+
+            foreach (string tag in tags)
+            {
+                AddSeries(tag);
+            }
+        }
+
+        private void AddCSVFeatures(string csv)
+        {
+            string[] tags = SplitCSVString(csv);
+
+            foreach (string tag in tags)
+            {
+                AddFeature(tag);
+            }
         }
 
         private void AddCSVTags(string csv)
