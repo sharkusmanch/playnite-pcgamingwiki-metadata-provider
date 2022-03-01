@@ -8,11 +8,15 @@ public class PCGWGame_Test_BAT : IDisposable
 {
     private PCGWGame testGame;
     private PCGWClient client;
+    private TestMetadataRequestOptions options;
+
 
     public PCGWGame_Test_BAT()
     {
         this.testGame = new PCGWGame("batman_ak", -1);
-        this.client = new LocalPCGWClient();
+        this.options = new TestMetadataRequestOptions();
+        this.options.SetGameSourceEpic();
+        this.client = new LocalPCGWClient(this.options);
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -104,6 +108,20 @@ public class PCGWGame_Test_BAT : IDisposable
     {
         var arr = this.testGame.Features.Select(i => i.ToString()).ToArray();
         arr.Should().Contain("Singleplayer");
+    }
+
+    [Fact]
+    public void TestCloudSaves()
+    {
+        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
+        arr.Should().Contain("No Cloud Saves");
+    }
+
+    [Fact]
+    public void TestControllerSupport()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("Full Controller Support");
     }
 
     public void Dispose()

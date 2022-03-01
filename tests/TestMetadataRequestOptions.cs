@@ -15,8 +15,18 @@ public class TestMetadataRequestOptions : MetadataRequestOptions
         this.GameData.PluginId = BuiltinExtensions.GetIdFromExtension(BuiltinExtension.SteamLibrary);
     }
 
+    public void SetGameSourceEpic()
+    {
+        this.GameData.PluginId = BuiltinExtensions.GetIdFromExtension(BuiltinExtension.EpicLibrary);
+    }
+
     public void SetGameSourceXbox()
     {
         this.GameData.PluginId = BuiltinExtensions.GetIdFromExtension(BuiltinExtension.XboxLibrary);
+    }
+    
+    public void SetGameSourceBattleNet()
+    {
+        this.GameData.PluginId = BuiltinExtensions.GetIdFromExtension(BuiltinExtension.BattleNetLibrary);
     }
 }

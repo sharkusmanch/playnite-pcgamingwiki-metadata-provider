@@ -24,27 +24,103 @@ namespace PCGamingWikiMetadata
 
         public void ApplyGameMetadata()
         {
+            ParseInput();
+            ParseCloudSync();
             ParseInfobox();
+        }
+
+        private void RemoveCitationsFromHTMLNode(HtmlNode node)
+        {
+            var removeChil = node.SelectNodes(".//sup");
+
+            if (removeChil != null)
+            {
+                node.RemoveChildren(removeChil);
+            }
+        }
+
+        private void ParseInput()
+        {
+            var table = this.doc.DocumentNode.SelectSingleNode("//table[@id='table-settings-input']");
+
+            if (table == null)
+            {
+                return;
+            }
+
+            var rows = table.SelectNodes("//tr[@class='template-infotable-body table-settings-input-body-row']");
+
+            string param = "";
+
+            foreach (HtmlNode row in rows)
+            {
+                foreach (HtmlNode child in row.SelectNodes(".//th|td"))
+                {
+                    switch (child.Attributes["class"].Value)
+                    {
+                        case "table-settings-input-body-parameter":
+                            param = child.FirstChild.InnerText;
+                            break;
+                        case "table-settings-input-body-rating":
+                            switch (param)
+                            {
+                                case "Full controller support":
+                                    this.game.AddControllerSupport(child.FirstChild.Attributes["title"].Value);
+                                    break;
+                                default:
+                                    break;
+
+                            }
+                            param = "";
+                            break;
+                    }
+                }
+            }
+        }
+
+        private void ParseCloudSync()
+        {
+            var table = this.doc.DocumentNode.SelectSingleNode("//table[@id='table-cloudsync']");
+
+            if (table == null)
+            {
+                return;
+            }
+
+            var rows = table.SelectNodes("//tr[@class='template-infotable-body table-cloudsync-body-row']");
+
+            string launcher = "";
+
+            foreach (HtmlNode row in rows)
+            {
+                foreach (HtmlNode child in row.SelectNodes(".//th|td"))
+                {
+                    switch (child.Attributes["class"].Value)
+                    {
+                        case "table-cloudsync-body-system":
+                            launcher = child.FirstChild.InnerText;
+                            break;
+                        case "table-cloudsync-body-rating":
+                            this.game.AddCloudSaves(launcher, child.FirstChild.Attributes["title"].Value);
+                            launcher = "";
+                            break;
+                    }
+                }
+            }
         }
 
         private void ParseInfobox()
         {
-            var table = this.doc.DocumentNode.SelectSingleNode("//table[@id='infobox-game']");
+            HtmlNode table = this.doc.DocumentNode.SelectSingleNode("//table[@id='infobox-game']");
             string currentHeader = "";
 
-            foreach (var row in table.SelectNodes(".//tr"))
+            foreach (HtmlNode row in table.SelectNodes(".//tr"))
             {
                 string key = "";
 
-                foreach (var child in row.SelectNodes(".//th|td"))
+                foreach (HtmlNode child in row.SelectNodes(".//th|td"))
                 {
-                    var removeChil = child.SelectNodes(".//sup");
-
-                    if (removeChil != null)
-                    {
-                        child.RemoveChildren(removeChil);
-                    }
-
+                    RemoveCitationsFromHTMLNode(child);
                     const string pattern = @"[\t\s]";
                     string text = Regex.Replace(child.InnerText.Trim(), pattern, " ");
 

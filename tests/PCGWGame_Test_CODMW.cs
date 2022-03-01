@@ -4,17 +4,18 @@ using System;
 using System.Linq;
 using FluentAssertions;
 
-public class PCGWGame_Test_DQ11 : IDisposable
+public class PCGWGame_Test_CODMW : IDisposable
 {
     private PCGWGame testGame;
     private PCGWClient client;
     private TestMetadataRequestOptions options;
 
-    public PCGWGame_Test_DQ11()
+
+    public PCGWGame_Test_CODMW()
     {
-        this.testGame = new PCGWGame("dq11", -1);
+        this.testGame = new PCGWGame("codmw", -1);
         this.options = new TestMetadataRequestOptions();
-        this.options.SetGameSourceXbox();
+        this.options.SetGameSourceBattleNet();
         this.client = new LocalPCGWClient(this.options);
         this.client.FetchGamePageContent(this.testGame);
     }
@@ -23,90 +24,77 @@ public class PCGWGame_Test_DQ11 : IDisposable
     public void TestParseWindowsReleaseDate()
     {
         var date = this.testGame.WindowsReleaseDate().ToString();
-        date.Should().Match("12/4/2020");
+        date.Should().Match("10/25/2019");
     }
 
     [Fact]
     public void TestParseDevelopers()
     {
         var arr = this.testGame.Developers.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Square Enix", "ArtePiazza", "Orca");
+        arr.Should().BeEquivalentTo("Infinity Ward", "High Moon Studios", "Sledgehammer Games", "Raven Software", "Beenox");
     }
 
     [Fact]
     public void TestParsePublishers()
     {
         var arr = this.testGame.Publishers.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Square Enix");
+        arr.Should().BeEquivalentTo("Activision");
     }
 
     [Fact]
     public void TestParseSeries()
     {
         var arr = this.testGame.Series.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Dragon Quest");
+        arr.Should().BeEquivalentTo("Call of Duty: Modern Warfare");
     }
 
     [Fact]
     public void TestParseGenres()
     {
         var arr = this.testGame.Genres.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("RPG", "JRPG");
+        arr.Should().BeEquivalentTo("Action", "Shooter", "Battle royale");
     }
 
     [Fact]
     public void TestParsePerspectives()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Third-person", "Top-down view");
+        arr.Should().Contain("First-person");
     }
 
     [Fact]
     public void TestParseControls()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Menu-based", "Direct control");
-    }
-
-    [Fact]
-    public void TestParseVehicles()
-    {
-        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Flight", "Naval/watercraft", "Track racing");
+        arr.Should().Contain("Direct control");
     }
 
     [Fact]
     public void TestParseArtStyles()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Anime", "Pixel art");
+        arr.Should().Contain("Realistic");
     }
 
     [Fact]
     public void TestParsePacing()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Turn-based");
+        arr.Should().Contain("Real-time");
     }
+
     [Fact]
-    public void TestParseEngine()
+    public void TestParseThemes()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Unreal Engine 4");
+        arr.Should().Contain("Middle East");
     }
 
     [Fact]
     public void TestParseModes()
     {
         var arr = this.testGame.Features.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Singleplayer");
-    }
-
-    [Fact]
-    public void TestParseXboxPlayAnywhere()
-    {
-        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Xbox Play Anywhere");
+        arr.Should().Contain("Singleplayer", "Multiplayer");
     }
 
     [Fact]
