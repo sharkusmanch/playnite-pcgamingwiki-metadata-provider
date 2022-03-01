@@ -28,8 +28,6 @@ namespace PCGamingWikiMetadata
         public List<MetadataProperty> Tags { get { return tags; } }
 
         private IDictionary<string, int?> reception;
-        private IDictionary<string, bool?> cloudSaves;
-
         private IDictionary<string, ReleaseDate?> ReleaseDates;
 
         public Game LibraryGame;
@@ -45,7 +43,6 @@ namespace PCGamingWikiMetadata
             this.tags = new List<MetadataProperty>();
             this.ReleaseDates = new Dictionary<string, ReleaseDate?>();
             this.reception = new Dictionary<string, int?>();
-            this.cloudSaves = new Dictionary<string, bool?>();
         }
 
         public PCGWGame(string name, int pageid) : this()
