@@ -24,7 +24,7 @@ public class TestMetadataRequestOptions : MetadataRequestOptions
     {
         this.GameData.PluginId = BuiltinExtensions.GetIdFromExtension(BuiltinExtension.XboxLibrary);
     }
-    
+
     public void SetGameSourceBattleNet()
     {
         this.GameData.PluginId = BuiltinExtensions.GetIdFromExtension(BuiltinExtension.BattleNetLibrary);
