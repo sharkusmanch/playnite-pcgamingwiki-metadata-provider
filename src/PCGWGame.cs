@@ -26,8 +26,8 @@ namespace PCGamingWikiMetadata
         public List<Link> Links { get { return links; } }
         private List<MetadataProperty> tags;
         public List<MetadataProperty> Tags { get { return tags; } }
-        public IDictionary<string, int?> reception;
 
+        private IDictionary<string, int?> reception;
         private IDictionary<string, ReleaseDate?> ReleaseDates;
 
         public Game LibraryGame;
@@ -85,6 +85,55 @@ namespace PCGamingWikiMetadata
         protected bool GetReception(string aggregator, out int? score)
         {
             return this.reception.TryGetValue(aggregator, out score);
+        }
+
+        public void AddControllerSupport(string description)
+        {
+            if (description == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("Full Controller Support");
+            }
+        }
+
+        public void AddCloudSaves(string launcher, string description)
+        {
+            BuiltinExtension? extension = LauncherNameToPluginID(launcher);
+
+            if (BuiltinExtensions.GetExtensionFromId(this.LibraryGame.PluginId) == extension)
+            {
+                switch (description)
+                {
+                    case PCGamingWikiType.Rating.NativeSupport:
+                        this.AddFeature("Cloud Saves");
+                        break;
+                    case PCGamingWikiType.Rating.NotSupported:
+                        this.AddTag("No Cloud Saves");
+                        break;
+                    case PCGamingWikiType.Rating.Unknown:
+                        break;
+                }
+            }
+        }
+
+        private BuiltinExtension? LauncherNameToPluginID(string launcher)
+        {
+            switch (launcher)
+            {
+                case PCGamingWikiType.Cloud.Steam:
+                    return BuiltinExtension.SteamLibrary;
+                case PCGamingWikiType.Cloud.Xbox:
+                    return BuiltinExtension.XboxLibrary;
+                case PCGamingWikiType.Cloud.GOG:
+                    return BuiltinExtension.GogLibrary;
+                case PCGamingWikiType.Cloud.Epic:
+                    return BuiltinExtension.EpicLibrary;
+                case PCGamingWikiType.Cloud.Ubisoft:
+                    return BuiltinExtension.UplayLibrary;
+                case PCGamingWikiType.Cloud.Origin:
+                    return BuiltinExtension.OriginLibrary;
+                default:
+                    return null;
+            }
         }
 
         public void AddTaxonomy(string type, string value)

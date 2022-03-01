@@ -44,6 +44,13 @@ public class PCGWGame_Test_LMS : IDisposable
         arr.Should().Contain("Singleplayer");
     }
 
+    [Fact]
+    public void TestControllerSupport()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("Full Controller Support");
+    }
+
     public void Dispose()
     {
 

@@ -8,11 +8,14 @@ public class PCGWGame_Test_CITIES : IDisposable
 {
     private PCGWGame testGame;
     private PCGWClient client;
+    private TestMetadataRequestOptions options;
 
     public PCGWGame_Test_CITIES()
     {
         this.testGame = new PCGWGame("cities", -1);
-        this.client = new LocalPCGWClient();
+        this.options = new TestMetadataRequestOptions();
+        this.options.SetGameSourceSteam();
+        this.client = new LocalPCGWClient(this.options);
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -83,6 +86,23 @@ public class PCGWGame_Test_CITIES : IDisposable
     {
         var arr = this.testGame.Features.Select(i => i.ToString()).ToArray();
         arr.Should().Contain("Singleplayer");
+    }
+
+    [Fact]
+    public void TestCloudSaves()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("Cloud Saves");
+
+        var tags = this.testGame.Tags.Select(i => i.ToString()).ToArray();
+        tags.Should().NotContain("No Cloud Saves");
+    }
+
+    [Fact]
+    public void TestControllerSupport()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("Full Controller Support");
     }
 
     public void Dispose()
