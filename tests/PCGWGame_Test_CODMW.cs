@@ -108,7 +108,7 @@ public class PCGWGame_Test_CODMW : IDisposable
     public void TestMultiplayer()
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
-        features.Should().NotContain("Online Multiplayer", "Online Multiplayer: Co-op", "Online Multiplayer: Versus");
+        features.Should().NotContain("Online Multiplayer: 8+", "Online Multiplayer: Co-op", "Online Multiplayer: Versus");
         features.Should().NotContain("LAN Multiplayer", "LAN Multiplayer: Co-op", "LAN Multiplayer: Versus");
         features.Should().NotContain("Local Multiplayer", "Local Multiplayer: Co-op", "Local Multiplayer: Versus");
     }

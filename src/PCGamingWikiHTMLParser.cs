@@ -16,6 +16,8 @@ namespace PCGamingWikiMetadata
         private PCGWGame game;
         private PCGamingWikiMetadataSettings settings;
 
+        public const short UndefinedPlayerCount = -1;
+
         public PCGamingWikiHTMLParser(string html, PCGWGame game, PCGamingWikiMetadataSettings settings)
         {
             this.doc = new HtmlDocument();
@@ -63,6 +65,7 @@ namespace PCGamingWikiMetadata
             var rows = SelectTableRowsByClass("table-network-multiplayer", "template-infotable-body table-network-multiplayer-body-row");
             string networkType = "";
             string rating = "";
+            short playerCount = UndefinedPlayerCount;
 
             foreach (HtmlNode row in rows)
             {
@@ -76,19 +79,22 @@ namespace PCGamingWikiMetadata
                         case "table-network-multiplayer-body-rating":
                             rating = child.FirstChild.Attributes["title"].Value;
                             break;
+                        case "table-network-multiplayer-body-players":
+                            Int16.TryParse(child.FirstChild.InnerText, out playerCount);
+                            break;
                         case "table-network-multiplayer-body-notes":
                             IList<string> notes = ParseMultiplayerNotes(child);
 
                             switch (networkType)
                             {
                                 case "Local play":
-                                    this.game.AddMultiplayerLocal(rating, notes);
+                                    this.game.AddMultiplayerLocal(rating, playerCount, notes);
                                     break;
                                 case "LAN play":
-                                    this.game.AddMultiplayerLAN(rating, notes);
+                                    this.game.AddMultiplayerLAN(rating, playerCount, notes);
                                     break;
                                 case "Online play":
-                                    this.game.AddMultiplayerOnline(rating, notes);
+                                    this.game.AddMultiplayerOnline(rating, playerCount, notes);
                                     break;
                                 default:
                                     break;
@@ -96,6 +102,7 @@ namespace PCGamingWikiMetadata
                             }
                             rating = "";
                             networkType = "";
+                            playerCount = UndefinedPlayerCount;
                             break;
                     }
                 }
