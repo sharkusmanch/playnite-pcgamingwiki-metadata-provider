@@ -87,11 +87,19 @@ namespace PCGamingWikiMetadata
             return this.reception.TryGetValue(aggregator, out score);
         }
 
-        public void AddControllerSupport(string description)
+        public void AddFullControllerSupport(string description)
         {
             if (description == PCGamingWikiType.Rating.NativeSupport)
             {
                 this.AddFeature("Full Controller Support");
+            }
+        }
+
+        public void AddControllerSupport(string description)
+        {
+            if (description == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("Controller Support");
             }
         }
 
@@ -112,6 +120,41 @@ namespace PCGamingWikiMetadata
                     case PCGamingWikiType.Rating.Unknown:
                         break;
                 }
+            }
+        }
+
+        private void AddMultiplayerFeatures(string featureBaseName, IList<string> types)
+        {
+            foreach (string type in types)
+            {
+                this.AddFeature($"{featureBaseName}: {type}");
+            }
+        }
+
+        public void AddMultiplayerLocal(string rating, IList<string> types)
+        {
+            if (rating == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("Local Multiplayer");
+                AddMultiplayerFeatures("Local Multiplayer", types);
+            }
+        }
+
+        public void AddMultiplayerLAN(string rating, IList<string> types)
+        {
+            if (rating == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("LAN Multiplayer");
+                AddMultiplayerFeatures("LAN Multiplayer", types);
+            }
+        }
+
+        public void AddMultiplayerOnline(string rating, IList<string> types)
+        {
+            if (rating == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("Online Multiplayer");
+                AddMultiplayerFeatures("Online Multiplayer", types);
             }
         }
 

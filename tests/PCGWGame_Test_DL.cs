@@ -7,12 +7,13 @@ using FluentAssertions;
 public class PCGWGame_Test_DL : IDisposable
 {
     private PCGWGame testGame;
-    private PCGWClient client;
+    private LocalPCGWClient client;
 
     public PCGWGame_Test_DL()
     {
         this.testGame = new PCGWGame("deathloop", -1);
         this.client = new LocalPCGWClient();
+        this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -97,6 +98,15 @@ public class PCGWGame_Test_DL : IDisposable
     {
         var arr = this.testGame.Features.Select(i => i.ToString()).ToArray();
         arr.Should().Contain("Singleplayer", "Multiplayer");
+    }
+
+    [Fact]
+    public void TestMultiplayer()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("Online Multiplayer: Versus");
+        features.Should().NotContain("Online Multiplayer: Co-Op", "LAN Multiplayer: Co-Op", "LAN Multiplayer: Versus");
+        features.Should().NotContain("Local Multiplayer: Co-Op", "Local Multiplayer: Versus");
     }
 
     public void Dispose()

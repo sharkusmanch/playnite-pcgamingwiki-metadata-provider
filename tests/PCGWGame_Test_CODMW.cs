@@ -7,9 +7,8 @@ using FluentAssertions;
 public class PCGWGame_Test_CODMW : IDisposable
 {
     private PCGWGame testGame;
-    private PCGWClient client;
+    private LocalPCGWClient client;
     private TestMetadataRequestOptions options;
-
 
     public PCGWGame_Test_CODMW()
     {
@@ -17,6 +16,7 @@ public class PCGWGame_Test_CODMW : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceBattleNet();
         this.client = new LocalPCGWClient(this.options);
+        this.client.GetSettings().ImportMultiplayerTypes = false;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -102,6 +102,15 @@ public class PCGWGame_Test_CODMW : IDisposable
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().Contain("Full Controller Support");
+    }
+
+    [Fact]
+    public void TestMultiplayer()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("Online Multiplayer", "Online Multiplayer: Co-op", "Online Multiplayer: Versus");
+        features.Should().NotContain("LAN Multiplayer", "LAN Multiplayer: Co-op", "LAN Multiplayer: Versus");
+        features.Should().NotContain("Local Multiplayer", "Local Multiplayer: Co-op", "Local Multiplayer: Versus");
     }
 
     public void Dispose()

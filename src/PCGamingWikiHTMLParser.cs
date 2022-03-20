@@ -14,12 +14,14 @@ namespace PCGamingWikiMetadata
         private readonly ILogger logger = LogManager.GetLogger();
         private HtmlDocument doc;
         private PCGWGame game;
+        private PCGamingWikiMetadataSettings settings;
 
-        public PCGamingWikiHTMLParser(string html, PCGWGame game)
+        public PCGamingWikiHTMLParser(string html, PCGWGame game, PCGamingWikiMetadataSettings settings)
         {
             this.doc = new HtmlDocument();
             this.doc.LoadHtml(html);
             this.game = game;
+            this.settings = settings;
         }
 
         public void ApplyGameMetadata()
@@ -27,6 +29,11 @@ namespace PCGamingWikiMetadata
             ParseInput();
             ParseCloudSync();
             ParseInfobox();
+
+            if (this.settings.ImportMultiplayerTypes)
+            {
+                ParseMultiplayer();
+            }
         }
 
         private void RemoveCitationsFromHTMLNode(HtmlNode node)
@@ -39,17 +46,85 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void ParseInput()
+        private IList<HtmlNode> SelectTableRowsByClass(string tableId, string rowClass)
         {
-            var table = this.doc.DocumentNode.SelectSingleNode("//table[@id='table-settings-input']");
+            var table = this.doc.DocumentNode.SelectSingleNode($"//table[@id='{tableId}']");
 
-            if (table == null)
+            if (table != null)
             {
-                return;
+                return table.SelectNodes($"//tr[@class='{rowClass}']");
             }
 
-            var rows = table.SelectNodes("//tr[@class='template-infotable-body table-settings-input-body-row']");
+            return new List<HtmlNode>();
+        }
 
+        private void ParseMultiplayer()
+        {
+            var rows = SelectTableRowsByClass("table-network-multiplayer", "template-infotable-body table-network-multiplayer-body-row");
+            string networkType = "";
+            string rating = "";
+
+            foreach (HtmlNode row in rows)
+            {
+                foreach (HtmlNode child in row.SelectNodes(".//th|td"))
+                {
+                    switch (child.Attributes["class"].Value)
+                    {
+                        case "table-network-multiplayer-body-parameter":
+                            networkType = child.FirstChild.InnerText;
+                            break;
+                        case "table-network-multiplayer-body-rating":
+                            rating = child.FirstChild.Attributes["title"].Value;
+                            break;
+                        case "table-network-multiplayer-body-notes":
+                            IList<string> notes = ParseMultiplayerNotes(child);
+
+                            switch (networkType)
+                            {
+                                case "Local play":
+                                    this.game.AddMultiplayerLocal(rating, notes);
+                                    break;
+                                case "LAN play":
+                                    this.game.AddMultiplayerLAN(rating, notes);
+                                    break;
+                                case "Online play":
+                                    this.game.AddMultiplayerOnline(rating, notes);
+                                    break;
+                                default:
+                                    break;
+
+                            }
+                            rating = "";
+                            networkType = "";
+                            break;
+                    }
+                }
+            }
+        }
+
+        private IList<string> ParseMultiplayerNotes(HtmlNode notes)
+        {
+            List<string> multiplayerTypes = new List<string>();
+
+            Regex pattern = new Regex(@"class=""table-network-multiplayer-body-notes"">(?<mode1>(Co-op|Versus))?(,)?(&#32;)?(?<mode2>(Co-op|Versus))?<br>");
+            Match match = pattern.Match(notes.OuterHtml);
+
+            if (match.Groups["mode1"].Success)
+            {
+                multiplayerTypes.Add(match.Groups["mode1"].Value);
+            }
+
+            if (match.Groups["mode2"].Success)
+            {
+                multiplayerTypes.Add(match.Groups["mode2"].Value);
+            }
+
+            return multiplayerTypes;
+        }
+
+        private void ParseInput()
+        {
+            var rows = SelectTableRowsByClass("table-settings-input", "template-infotable-body table-settings-input-body-row");
             string param = "";
 
             foreach (HtmlNode row in rows)
@@ -65,6 +140,9 @@ namespace PCGamingWikiMetadata
                             switch (param)
                             {
                                 case "Full controller support":
+                                    this.game.AddFullControllerSupport(child.FirstChild.Attributes["title"].Value);
+                                    break;
+                                case "Controller support":
                                     this.game.AddControllerSupport(child.FirstChild.Attributes["title"].Value);
                                     break;
                                 default:
@@ -80,15 +158,7 @@ namespace PCGamingWikiMetadata
 
         private void ParseCloudSync()
         {
-            var table = this.doc.DocumentNode.SelectSingleNode("//table[@id='table-cloudsync']");
-
-            if (table == null)
-            {
-                return;
-            }
-
-            var rows = table.SelectNodes("//tr[@class='template-infotable-body table-cloudsync-body-row']");
-
+            var rows = SelectTableRowsByClass("table-cloudsync", "template-infotable-body table-cloudsync-body-row");
             string launcher = "";
 
             foreach (HtmlNode row in rows)
@@ -156,7 +226,10 @@ namespace PCGamingWikiMetadata
                                             ApplyReleaseDate(key, text);
                                             break;
                                         case "Engines":
-                                            this.game.AddTaxonomy("Engines", text);
+                                            if (this.settings.ImportEngineTags)
+                                            {
+                                                this.game.AddTaxonomy("Engines", text);
+                                            }
                                             break;
                                         case "Developers":
                                             AddCompany(child, this.game.Developers);

@@ -109,7 +109,7 @@ namespace PCGamingWikiMetadata
         {
             this.options = options;
             this.plugin = plugin;
-            this.client = new PCGWClient(this.options);
+            this.client = new PCGWClient(this.options, (PCGamingWikiMetadataSettings)this.plugin.GetSettings(false));
         }
 
         public override string GetName(GetMetadataFieldArgs args)

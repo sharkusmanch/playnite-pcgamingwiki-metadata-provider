@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCPCGWSettingsImportXboxPlayAnywhere">Add Xbox Play Anywhere tag to supported titles</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportEngineTags">Add game engine tags</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Add detailed multiplayer features</sys:String>
+
+</ResourceDictionary>

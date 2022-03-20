@@ -124,6 +124,15 @@ public class PCGWGame_Test_BAT : IDisposable
         features.Should().Contain("Full Controller Support");
     }
 
+    [Fact]
+    public void TestMultiplayer()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("Online Multiplayer: Co-Op", "Online Multiplayer: Versus");
+        features.Should().NotContain("LAN Multiplayer: Co-Op", "LAN Multiplayer: Versus");
+        features.Should().NotContain("Local Multiplayer: Co-Op", "Local Multiplayer: Versus");
+    }
+
     public void Dispose()
     {
 

@@ -6,10 +6,13 @@ namespace PCGamingWikiMetadata
     {
         private PCGWGame game;
         private JObject content;
-        public PCGamingWikiJSONParser(JObject content, PCGWGame game)
+        private PCGamingWikiMetadataSettings settings;
+
+        public PCGamingWikiJSONParser(JObject content, PCGWGame game, PCGamingWikiMetadataSettings settings)
         {
             this.content = content;
             this.game = game;
+            this.settings = settings;
         }
 
         public void ParseGameDataJson()
@@ -24,7 +27,7 @@ namespace PCGamingWikiMetadata
 
             JToken playAnywhere = this.content.SelectToken("$.parse.links[?(@.* == 'List of Xbox Play Anywhere games')]");
 
-            if (playAnywhere != null)
+            if (playAnywhere != null && this.settings.ImportXboxPlayAnywhere)
             {
                 game.SetXboxPlayAnywhere();
             }

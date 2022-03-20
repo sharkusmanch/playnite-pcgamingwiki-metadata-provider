@@ -4,19 +4,19 @@ using System;
 using System.Linq;
 using FluentAssertions;
 
-public class PCGWGame_Test_DQ11 : IDisposable
+public class PCGWGame_Test_OVERCOOKED : IDisposable
 {
     private PCGWGame testGame;
     private LocalPCGWClient client;
     private TestMetadataRequestOptions options;
 
-    public PCGWGame_Test_DQ11()
+    public PCGWGame_Test_OVERCOOKED()
     {
-        this.testGame = new PCGWGame("dq11", -1);
+        this.testGame = new PCGWGame("overcooked", -1);
         this.options = new TestMetadataRequestOptions();
-        this.options.SetGameSourceXbox();
+        this.options.SetGameSourceOrigin();
         this.client = new LocalPCGWClient(this.options);
-        this.client.GetSettings().ImportEngineTags = false;
+        this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -24,76 +24,62 @@ public class PCGWGame_Test_DQ11 : IDisposable
     public void TestParseWindowsReleaseDate()
     {
         var date = this.testGame.WindowsReleaseDate().ToString();
-        date.Should().Match("12/4/2020");
+        date.Should().Match("8/3/2016");
     }
 
     [Fact]
     public void TestParseDevelopers()
     {
         var arr = this.testGame.Developers.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Square Enix", "ArtePiazza", "Orca");
+        arr.Should().BeEquivalentTo("Ghost Town Games");
     }
 
     [Fact]
     public void TestParsePublishers()
     {
         var arr = this.testGame.Publishers.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Square Enix");
-    }
-
-    [Fact]
-    public void TestParseSeries()
-    {
-        var arr = this.testGame.Series.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Dragon Quest");
+        arr.Should().BeEquivalentTo("Team17");
     }
 
     [Fact]
     public void TestParseGenres()
     {
         var arr = this.testGame.Genres.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("RPG", "JRPG");
+        arr.Should().BeEquivalentTo("Action", "Party game", "Simulation");
     }
 
     [Fact]
     public void TestParsePerspectives()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Third-person", "Top-down view");
+        arr.Should().Contain("Bird's-eye view");
     }
 
     [Fact]
     public void TestParseControls()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Menu-based", "Direct control");
-    }
-
-    [Fact]
-    public void TestParseVehicles()
-    {
-        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Flight", "Naval/watercraft", "Track racing");
-    }
-
-    [Fact]
-    public void TestParseArtStyles()
-    {
-        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Anime", "Pixel art");
+        arr.Should().Contain("Direct control");
     }
 
     [Fact]
     public void TestParsePacing()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Turn-based");
+        arr.Should().Contain("Real-time");
+    }
+
+    [Fact]
+    public void TestParseThemes()
+    {
+        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
+        arr.Should().Contain("Fantasy");
     }
     [Fact]
     public void TestParseEngine()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().NotContain("Unreal Engine 4");
+        arr.Should().Contain("Unity 5");
     }
 
     [Fact]
@@ -104,17 +90,29 @@ public class PCGWGame_Test_DQ11 : IDisposable
     }
 
     [Fact]
-    public void TestParseXboxPlayAnywhere()
+    public void TestCloudSaves()
     {
-        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Xbox Play Anywhere");
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("Cloud Saves");
+
+        var tags = this.testGame.Tags.Select(i => i.ToString()).ToArray();
+        tags.Should().NotContain("No Cloud Saves");
     }
 
     [Fact]
     public void TestControllerSupport()
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
-        features.Should().Contain("Full Controller Support");
+        features.Should().Contain("Full Controller Support", "Controller Support");
+    }
+
+    [Fact]
+    public void TestMultiplayer()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("Online Multiplayer", "Online Multiplayer: Co-op", "Online Multiplayer: Versus");
+        features.Should().NotContain("LAN Multiplayer", "LAN Multiplayer: Co-op", "LAN Multiplayer: Versus");
+        features.Should().Contain("Local Multiplayer", "Local Multiplayer: Co-op", "Local Multiplayer: Versus");
     }
 
     public void Dispose()

@@ -6,6 +6,16 @@
              mc:Ignorable="d"
              d:DesignHeight="400" d:DesignWidth="600">
     <StackPanel>
-        <TextBlock Text="No settings currently available"/>
+        <StackPanel Margin="15">
+            <CheckBox IsChecked="{Binding ImportEngineTags}" Content="{DynamicResource LOCPCGWSettingsImportEngineTags}"/>
+        </StackPanel>
+
+        <StackPanel Margin="15">
+            <CheckBox IsChecked="{Binding ImportXboxPlayAnywhere}" Content="{DynamicResource LOCPCGWSettingsImportXboxPlayAnywhere}"/>
+        </StackPanel>
+
+        <StackPanel Margin="15">
+            <CheckBox IsChecked="{Binding ImportMultiplayerTypes}" Content="{DynamicResource LOCPCGWSettingsImportMultiplayerTypes}"/>
+        </StackPanel>
     </StackPanel>
 </UserControl>
