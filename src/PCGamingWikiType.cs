@@ -4,6 +4,7 @@ namespace PCGamingWikiType
     {
         public const string NativeSupport = "Native support";
         public const string NotSupported = "No native support";
+        public const string Hackable = "Hackable";
         public const string Unknown = "Unknown";
     }
 
@@ -15,5 +16,11 @@ namespace PCGamingWikiType
         public const string GOG = "GOG Galaxy";
         public const string Ubisoft = "Ubisoft Connect";
         public const string Origin = "Origin";
+    }
+
+    public class Multiplayer
+    {
+        public const string Versus = "Versus";
+        public const string Coop = "Co-op";
     }
 }

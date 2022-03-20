@@ -7,7 +7,7 @@ using FluentAssertions;
 public class PCGWGame_Test_DQ11 : IDisposable
 {
     private PCGWGame testGame;
-    private PCGWClient client;
+    private LocalPCGWClient client;
     private TestMetadataRequestOptions options;
 
     public PCGWGame_Test_DQ11()
@@ -16,6 +16,7 @@ public class PCGWGame_Test_DQ11 : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceXbox();
         this.client = new LocalPCGWClient(this.options);
+        this.client.GetSettings().ImportEngineTags = false;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -92,7 +93,7 @@ public class PCGWGame_Test_DQ11 : IDisposable
     public void TestParseEngine()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Unreal Engine 4");
+        arr.Should().NotContain("Unreal Engine 4");
     }
 
     [Fact]

@@ -5,12 +5,31 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.ComponentModel;
 
 namespace PCGamingWikiMetadata
 {
-    public class PCGamingWikiMetadataSettings : ISettings
+    public class PCGamingWikiMetadataSettings : ISettings, INotifyPropertyChanged
     {
         private readonly PCGamingWikiMetadata plugin;
+
+        public event PropertyChangedEventHandler PropertyChanged;
+        private void NotifyPropertyChanged(string propertyName)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+
+        private bool importEngineTags = true;
+        public bool ImportEngineTags { get { return importEngineTags; } set { importEngineTags = value; ; NotifyPropertyChanged("ImportEngineTags"); } }
+        private bool importXboxPlayAnywhere = true;
+        public bool ImportXboxPlayAnywhere { get { return importXboxPlayAnywhere; } set { importXboxPlayAnywhere = value; ; NotifyPropertyChanged("ImportXboxPlayAnywhere"); } }
+
+        private bool importMultiplayerTypes = true;
+        public bool ImportMultiplayerTypes { get { return importMultiplayerTypes; } set { importMultiplayerTypes = value; ; NotifyPropertyChanged("ImportMultiplayerTypes"); } }
+
 
         // Parameterless constructor must exist if you want to use LoadPluginSettings method.
         public PCGamingWikiMetadataSettings()
@@ -28,7 +47,9 @@ namespace PCGamingWikiMetadata
             // LoadPluginSettings returns null if not saved data is available.
             if (savedSettings != null)
             {
-                // empty for now
+                ImportEngineTags = savedSettings.ImportEngineTags;
+                ImportXboxPlayAnywhere = savedSettings.ImportXboxPlayAnywhere;
+                ImportMultiplayerTypes = savedSettings.ImportMultiplayerTypes;
             }
         }
 

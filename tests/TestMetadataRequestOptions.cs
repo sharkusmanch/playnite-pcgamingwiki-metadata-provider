@@ -29,4 +29,9 @@ public class TestMetadataRequestOptions : MetadataRequestOptions
     {
         this.GameData.PluginId = BuiltinExtensions.GetIdFromExtension(BuiltinExtension.BattleNetLibrary);
     }
+
+    public void SetGameSourceOrigin()
+    {
+        this.GameData.PluginId = BuiltinExtensions.GetIdFromExtension(BuiltinExtension.OriginLibrary);
+    }
 }
