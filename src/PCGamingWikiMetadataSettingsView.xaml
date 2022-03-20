@@ -9,11 +9,11 @@
         <StackPanel Margin="15">
             <CheckBox IsChecked="{Binding ImportEngineTags}" Content="{DynamicResource LOCPCGWSettingsImportEngineTags}"/>
         </StackPanel>
-        
+
         <StackPanel Margin="15">
             <CheckBox IsChecked="{Binding ImportXboxPlayAnywhere}" Content="{DynamicResource LOCPCGWSettingsImportXboxPlayAnywhere}"/>
         </StackPanel>
-        
+
         <StackPanel Margin="15">
             <CheckBox IsChecked="{Binding ImportMultiplayerTypes}" Content="{DynamicResource LOCPCGWSettingsImportMultiplayerTypes}"/>
         </StackPanel>
