@@ -123,7 +123,7 @@ public class PCGWGame_Test_BAT : IDisposable
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().Contain("Full Controller Support");
     }
-    
+
     [Fact]
     public void TestMultiplayer()
     {
