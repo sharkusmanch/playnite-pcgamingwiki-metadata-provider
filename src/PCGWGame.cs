@@ -123,39 +123,55 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void AddMultiplayerFeatures(string featureBaseName, IList<string> types)
+        private void AddMultiplayerFeatures(string rating, string featureBaseName, short playerCount, IList<string> types)
         {
+            if (rating != PCGamingWikiType.Rating.NativeSupport)
+            {
+                return;
+            }
+
             foreach (string type in types)
             {
                 this.AddFeature($"{featureBaseName}: {type}");
             }
-        }
 
-        public void AddMultiplayerLocal(string rating, IList<string> types)
-        {
-            if (rating == PCGamingWikiType.Rating.NativeSupport)
+            if (playerCount == PCGamingWikiHTMLParser.UndefinedPlayerCount)
             {
-                this.AddFeature("Local Multiplayer");
-                AddMultiplayerFeatures("Local Multiplayer", types);
+                this.AddFeature(featureBaseName);
+                return;
+            }
+
+            if (playerCount == 2)
+            {
+                this.AddFeature($"{featureBaseName}: 2");
+            }
+            else if (playerCount > 2 && playerCount <= 4)
+            {
+                this.AddFeature($"{featureBaseName}: 2-4");
+            }
+            else if (playerCount > 4 && playerCount <= 8)
+            {
+                this.AddFeature($"{featureBaseName}: 4-8");
+            }
+            else if (playerCount > 8)
+            {
+                this.AddFeature($"{featureBaseName}: 8+");
             }
         }
 
-        public void AddMultiplayerLAN(string rating, IList<string> types)
+        public void AddMultiplayerLocal(string rating, short playerCount, IList<string> types)
         {
-            if (rating == PCGamingWikiType.Rating.NativeSupport)
-            {
-                this.AddFeature("LAN Multiplayer");
-                AddMultiplayerFeatures("LAN Multiplayer", types);
-            }
+            AddMultiplayerFeatures(rating, "Local Multiplayer", playerCount, types);
         }
 
-        public void AddMultiplayerOnline(string rating, IList<string> types)
+        public void AddMultiplayerLAN(string rating, short playerCount, IList<string> types)
         {
-            if (rating == PCGamingWikiType.Rating.NativeSupport)
-            {
-                this.AddFeature("Online Multiplayer");
-                AddMultiplayerFeatures("Online Multiplayer", types);
-            }
+            AddMultiplayerFeatures(rating, "LAN Multiplayer", playerCount, types);
+        }
+
+        public void AddMultiplayerOnline(string rating, short playerCount, IList<string> types)
+        {
+            AddMultiplayerFeatures(rating, "Online Multiplayer", playerCount, types);
         }
 
         private BuiltinExtension? LauncherNameToPluginID(string launcher)

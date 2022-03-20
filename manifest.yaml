@@ -1,5 +1,11 @@
 AddonId: PCGamingWikiMetadata_c038558e-427b-4551-be4c-be7009ce5a8d
 Packages:
+- Version: 0.5.1
+  RequiredApiVersion: 6.2.2
+  ReleaseDate: 2022-03-20
+  PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v0.5.1/PCGamingWiki_Metadata_Provider_v0.5.1.pext
+  Changelog:
+    - Add player counts (when available) to the multiplayer featuress
 - Version: 0.5.0
   RequiredApiVersion: 6.2.2
   ReleaseDate: 2022-03-20
