@@ -7,12 +7,13 @@ using FluentAssertions;
 public class PCGWGame_Test_DL : IDisposable
 {
     private PCGWGame testGame;
-    private PCGWClient client;
+    private LocalPCGWClient client;
 
     public PCGWGame_Test_DL()
     {
         this.testGame = new PCGWGame("deathloop", -1);
         this.client = new LocalPCGWClient();
+        this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 

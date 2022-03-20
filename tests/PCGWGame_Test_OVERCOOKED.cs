@@ -7,7 +7,7 @@ using FluentAssertions;
 public class PCGWGame_Test_OVERCOOKED : IDisposable
 {
     private PCGWGame testGame;
-    private PCGWClient client;
+    private LocalPCGWClient client;
     private TestMetadataRequestOptions options;
 
     public PCGWGame_Test_OVERCOOKED()
@@ -16,6 +16,7 @@ public class PCGWGame_Test_OVERCOOKED : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceOrigin();
         this.client = new LocalPCGWClient(this.options);
+        this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 
