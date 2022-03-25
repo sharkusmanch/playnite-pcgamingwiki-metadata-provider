@@ -13,10 +13,16 @@ namespace PCGamingWikiMetadata
 
         private PCGWClient client;
 
-        private PCGWGame pcgwData;
+        private PCGWGameController gameController;
         private static readonly ILogger logger = LogManager.GetLogger();
 
         private List<MetadataField> availableFields;
+
+        protected PCGamingWikiMetadataProvider() : base()
+        {
+            this.gameController = new PCGWGameController((PCGamingWikiMetadataSettings)this.plugin.GetSettings(false));
+        }
+
         public override List<MetadataField> AvailableFields
         {
             get
@@ -32,7 +38,7 @@ namespace PCGamingWikiMetadata
 
         private List<MetadataField> GetAvailableFields()
         {
-            if (pcgwData == null)
+            if (this.gameController.Game == null)
             {
                 GetPCGWMetadata();
             }
@@ -54,7 +60,7 @@ namespace PCGamingWikiMetadata
 
         private void GetPCGWMetadata()
         {
-            if (pcgwData != null)
+            if (this.gameController.Game != null)
             {
                 return;
             }
@@ -69,12 +75,12 @@ namespace PCGamingWikiMetadata
                 if (item != null)
                 {
                     var searchItem = item as PCGWGame;
-                    this.pcgwData = (PCGWGame)item;
-                    this.client.FetchGamePageContent(this.pcgwData);
+                    this.gameController.Game = (PCGWGame)item;
+                    this.client.FetchGamePageContent(this.gameController.Game);
                 }
                 else
                 {
-                    this.pcgwData = new PCGWGame();
+                    this.gameController.Game = new PCGWGame();
                     logger.Warn($"Cancelled search");
                 }
             }
@@ -86,7 +92,7 @@ namespace PCGamingWikiMetadata
 
                     if (results.Count == 0)
                     {
-                        this.pcgwData = new PCGWGame();
+                        this.gameController.Game = new PCGWGame();
                         return;
                     }
 
@@ -95,8 +101,8 @@ namespace PCGamingWikiMetadata
                         logger.Warn($"More than one result for {options.GameData.Name}. Using first result.");
                     }
 
-                    this.pcgwData = (PCGWGame)results[0];
-                    this.client.FetchGamePageContent(this.pcgwData);
+                    this.gameController.Game = (PCGWGame)results[0];
+                    this.client.FetchGamePageContent(this.gameController.Game);
                 }
                 catch (Exception e)
                 {
@@ -109,14 +115,14 @@ namespace PCGamingWikiMetadata
         {
             this.options = options;
             this.plugin = plugin;
-            this.client = new PCGWClient(this.options, (PCGamingWikiMetadataSettings)this.plugin.GetSettings(false));
+            this.client = new PCGWClient(this.options, this.gameController);
         }
 
         public override string GetName(GetMetadataFieldArgs args)
         {
             if (AvailableFields.Contains(MetadataField.Name))
             {
-                return this.pcgwData.Name;
+                return this.gameController.Game.Name;
             }
 
             return base.GetName(args);
@@ -127,7 +133,7 @@ namespace PCGamingWikiMetadata
         {
             if (AvailableFields.Contains(MetadataField.Links))
             {
-                return this.pcgwData.Links;
+                return this.gameController.Game.Links;
             }
 
             return base.GetLinks(args);
@@ -137,7 +143,7 @@ namespace PCGamingWikiMetadata
         {
             if (AvailableFields.Contains(MetadataField.ReleaseDate))
             {
-                return this.pcgwData.WindowsReleaseDate();
+                return this.gameController.Game.WindowsReleaseDate();
             }
 
             return base.GetReleaseDate(args);
@@ -148,7 +154,7 @@ namespace PCGamingWikiMetadata
 
             if (AvailableFields.Contains(MetadataField.Genres))
             {
-                return this.pcgwData.Genres;
+                return this.gameController.Game.Genres;
             }
 
             return base.GetGenres(args);
@@ -158,7 +164,7 @@ namespace PCGamingWikiMetadata
         {
             if (AvailableFields.Contains(MetadataField.Features))
             {
-                return this.pcgwData.Features;
+                return this.gameController.Game.Features;
             }
 
             return base.GetFeatures(args);
@@ -168,7 +174,7 @@ namespace PCGamingWikiMetadata
         {
             if (AvailableFields.Contains(MetadataField.Series))
             {
-                return this.pcgwData.Series;
+                return this.gameController.Game.Series;
             }
 
             return base.GetSeries(args);
@@ -178,7 +184,7 @@ namespace PCGamingWikiMetadata
         {
             if (AvailableFields.Contains(MetadataField.Developers))
             {
-                return this.pcgwData.Developers;
+                return this.gameController.Game.Developers;
             }
 
             return base.GetDevelopers(args);
@@ -189,9 +195,9 @@ namespace PCGamingWikiMetadata
             int? score;
 
             if (AvailableFields.Contains(MetadataField.CriticScore) &&
-                    (this.pcgwData.GetOpenCriticReception(out score) ||
-                    this.pcgwData.GetIGDBReception(out score) ||
-                    this.pcgwData.GetMetacriticReception(out score))
+                    (this.gameController.Game.GetOpenCriticReception(out score) ||
+                    this.gameController.Game.GetIGDBReception(out score) ||
+                    this.gameController.Game.GetMetacriticReception(out score))
                 )
             {
                 return score;
@@ -204,7 +210,7 @@ namespace PCGamingWikiMetadata
         {
             if (AvailableFields.Contains(MetadataField.Publishers))
             {
-                return this.pcgwData.Publishers;
+                return this.gameController.Game.Publishers;
             }
 
             return base.GetPublishers(args);
@@ -214,7 +220,7 @@ namespace PCGamingWikiMetadata
         {
             if (AvailableFields.Contains(MetadataField.Tags))
             {
-                return this.pcgwData.Tags;
+                return this.gameController.Game.Tags;
             }
 
             return base.GetTags(args);

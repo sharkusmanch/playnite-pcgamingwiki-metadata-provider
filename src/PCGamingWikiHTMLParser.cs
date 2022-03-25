@@ -8,22 +8,20 @@ using Playnite.SDK.Models;
 
 namespace PCGamingWikiMetadata
 {
-
     public class PCGamingWikiHTMLParser
     {
         private readonly ILogger logger = LogManager.GetLogger();
         private HtmlDocument doc;
-        private PCGWGame game;
-        private PCGamingWikiMetadataSettings settings;
+        private PCGWGameController gameController;
 
         public const short UndefinedPlayerCount = -1;
 
-        public PCGamingWikiHTMLParser(string html, PCGWGame game, PCGamingWikiMetadataSettings settings)
+        public PCGamingWikiHTMLParser(string html, PCGWGameController gameController)
         {
             this.doc = new HtmlDocument();
             this.doc.LoadHtml(html);
-            this.game = game;
-            this.settings = settings;
+            // this.gameController.Game = game;
+            this.gameController = gameController;
         }
 
         public void ApplyGameMetadata()
@@ -31,11 +29,7 @@ namespace PCGamingWikiMetadata
             ParseInput();
             ParseCloudSync();
             ParseInfobox();
-
-            if (this.settings.ImportMultiplayerTypes)
-            {
-                ParseMultiplayer();
-            }
+            ParseMultiplayer();
         }
 
         private void RemoveCitationsFromHTMLNode(HtmlNode node)
@@ -88,13 +82,13 @@ namespace PCGamingWikiMetadata
                             switch (networkType)
                             {
                                 case "Local play":
-                                    this.game.AddMultiplayerLocal(rating, playerCount, notes);
+                                    this.gameController.Game.AddMultiplayerLocal(rating, playerCount, notes);
                                     break;
                                 case "LAN play":
-                                    this.game.AddMultiplayerLAN(rating, playerCount, notes);
+                                    this.gameController.Game.AddMultiplayerLAN(rating, playerCount, notes);
                                     break;
                                 case "Online play":
-                                    this.game.AddMultiplayerOnline(rating, playerCount, notes);
+                                    this.gameController.Game.AddMultiplayerOnline(rating, playerCount, notes);
                                     break;
                                 default:
                                     break;
@@ -147,10 +141,10 @@ namespace PCGamingWikiMetadata
                             switch (param)
                             {
                                 case "Full controller support":
-                                    this.game.AddFullControllerSupport(child.FirstChild.Attributes["title"].Value);
+                                    this.gameController.Game.AddFullControllerSupport(child.FirstChild.Attributes["title"].Value);
                                     break;
                                 case "Controller support":
-                                    this.game.AddControllerSupport(child.FirstChild.Attributes["title"].Value);
+                                    this.gameController.Game.AddControllerSupport(child.FirstChild.Attributes["title"].Value);
                                     break;
                                 default:
                                     break;
@@ -178,7 +172,7 @@ namespace PCGamingWikiMetadata
                             launcher = child.FirstChild.InnerText;
                             break;
                         case "table-cloudsync-body-rating":
-                            this.game.AddCloudSaves(launcher, child.FirstChild.Attributes["title"].Value);
+                            this.gameController.Game.AddCloudSaves(launcher, child.FirstChild.Attributes["title"].Value);
                             launcher = "";
                             break;
                     }
@@ -224,7 +218,7 @@ namespace PCGamingWikiMetadata
                                     switch (currentHeader)
                                     {
                                         case "Taxonomy":
-                                            this.game.AddTaxonomy(key, text);
+                                            this.gameController.AddTaxonomy(key, text);
                                             break;
                                         case "Reception":
                                             AddReception(key, child);
@@ -232,17 +226,14 @@ namespace PCGamingWikiMetadata
                                         case "Release dates":
                                             ApplyReleaseDate(key, text);
                                             break;
-                                        case "Engines":
-                                            if (this.settings.ImportEngineTags)
-                                            {
-                                                this.game.AddTaxonomy("Engines", text);
-                                            }
+                                        case PCGamingWikiType.Taxonomy.Engines:
+                                            this.gameController.AddTaxonomy(PCGamingWikiType.Taxonomy.Engines, text);
                                             break;
                                         case "Developers":
-                                            AddCompany(child, this.game.Developers);
+                                            AddCompany(child, this.gameController.Game.Developers);
                                             break;
                                         case "Publishers":
-                                            AddCompany(child, this.game.Publishers);
+                                            AddCompany(child, this.gameController.Game.Publishers);
                                             break;
                                         default:
                                             logger.Debug($"ApplyGameMetadata unknown header {currentHeader}");
@@ -262,7 +253,7 @@ namespace PCGamingWikiMetadata
 
             if (Int32.TryParse(node.SelectNodes(".//a")[0].InnerText, out score))
             {
-                this.game.AddReception(aggregator, score);
+                this.gameController.Game.AddReception(aggregator, score);
             }
             else
             {
@@ -279,7 +270,7 @@ namespace PCGamingWikiMetadata
                 return;
             }
 
-            this.game.AddReleaseDate(platform, ParseWikiDate(releaseDate));
+            this.gameController.Game.AddReleaseDate(platform, ParseWikiDate(releaseDate));
         }
 
         private DateTime? ParseWikiDate(string dateString)
@@ -290,7 +281,7 @@ namespace PCGamingWikiMetadata
             }
             else
             {
-                logger.Error($"Unable to parse date: {dateString}");
+                logger.Error($"Unable to parse date for {this.gameController.Game.Name}: {dateString}");
                 return null;
             }
         }
@@ -304,15 +295,15 @@ namespace PCGamingWikiMetadata
                 switch (c.Attributes["Title"].Value)
                 {
                     case var title when new Regex(@"^Official site$").IsMatch(title):
-                        this.game.Links.Add(new Playnite.SDK.Models.Link("Official site", url));
+                        this.gameController.Game.Links.Add(new Playnite.SDK.Models.Link("Official site", url));
                         break;
                     case var title when new Regex(@"GOG Database$").IsMatch(title):
-                        this.game.Links.Add(new Playnite.SDK.Models.Link("GOG Database", url));
+                        this.gameController.Game.Links.Add(new Playnite.SDK.Models.Link("GOG Database", url));
                         break;
                     default:
                         string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
                         string titleComp = linkTitle[linkTitle.Length - 1];
-                        this.game.Links.Add(new Playnite.SDK.Models.Link(titleComp, url));
+                        this.gameController.Game.Links.Add(new Playnite.SDK.Models.Link(titleComp, url));
                         break;
                 }
             }

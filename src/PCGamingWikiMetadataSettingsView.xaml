@@ -5,17 +5,25 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
              mc:Ignorable="d"
              d:DesignHeight="400" d:DesignWidth="600">
-    <StackPanel>
-        <StackPanel Margin="15">
-            <CheckBox IsChecked="{Binding ImportEngineTags}" Content="{DynamicResource LOCPCGWSettingsImportEngineTags}"/>
-        </StackPanel>
 
-        <StackPanel Margin="15">
-            <CheckBox IsChecked="{Binding ImportXboxPlayAnywhere}" Content="{DynamicResource LOCPCGWSettingsImportXboxPlayAnywhere}"/>
-        </StackPanel>
+    <TabControl Name="tcSettings">
+        <TabItem Header="{DynamicResource LOCPCGWSettingsTabFeatures}">
+            <StackPanel>
+                <StackPanel Margin="15">
+                    <CheckBox IsChecked="{Binding ImportXboxPlayAnywhere}" Content="{DynamicResource LOCPCGWSettingsImportXboxPlayAnywhere}"/>
+                </StackPanel>
 
-        <StackPanel Margin="15">
-            <CheckBox IsChecked="{Binding ImportMultiplayerTypes}" Content="{DynamicResource LOCPCGWSettingsImportMultiplayerTypes}"/>
-        </StackPanel>
-    </StackPanel>
+                <StackPanel Margin="15">
+                    <CheckBox IsChecked="{Binding ImportMultiplayerTypes}" Content="{DynamicResource LOCPCGWSettingsImportMultiplayerTypes}"/>
+                </StackPanel>
+            </StackPanel>
+        </TabItem>
+        <TabItem Header="{DynamicResource LOCPCGWSettingsTabTags}">
+            <StackPanel>
+                <StackPanel Margin="15">
+                    <CheckBox IsChecked="{Binding ImportTagEngine}" Content="{DynamicResource LOCPCGWSettingsImportTagEngine}"/>
+                </StackPanel>
+            </StackPanel>
+        </TabItem>
+    </TabControl>
 </UserControl>

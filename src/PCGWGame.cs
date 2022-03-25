@@ -195,49 +195,49 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        public void AddTaxonomy(string type, string value)
-        {
-            switch (type)
-            {
-                case "Monetization":
-                    break;
-                case "Microtransactions":
-                    break;
-                case "Modes":
-                    AddCSVFeatures(value);
-                    break;
-                case "Pacing":
-                    AddCSVTags(value);
-                    break;
-                case "Perspectives":
-                    AddCSVTags(value);
-                    break;
-                case "Controls":
-                    AddCSVTags(value);
-                    break;
-                case "Genres":
-                    AddGenres(value);
-                    break;
-                case "Vehicles":
-                    AddCSVTags(value);
-                    break;
-                case "Art styles":
-                    AddCSVTags(value);
-                    break;
-                case "Themes":
-                    AddCSVTags(value);
-                    break;
-                case "Engines":
-                    AddCSVTags(value);
-                    break;
-                case "Series":
-                    AddCSVSeries(value);
-                    break;
-                default:
-                    logger.Debug($"Unknown taxonomy {type}");
-                    break;
-            }
-        }
+        // public void AddTaxonomy(string type, string value)
+        // {
+        //     switch (type)
+        //     {
+        //         // case PCGamingWikiType.Taxonomy.Monetization:
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Microtransactions:
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Modes:
+        //         //     AddCSVFeatures(value);
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Pacing:
+        //         //     AddCSVTags(value);
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Perspectives:
+        //         //     AddCSVTags(value);
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Controls:
+        //         //     AddCSVTags(value);
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Genres:
+        //         //     AddGenres(value);
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Vehicles:
+        //         //     AddCSVTags(value);
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.ArtStyles:
+        //         //     AddCSVTags(value);
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Themes:
+        //         //     AddCSVTags(value);
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Engines:
+        //         //     AddCSVTags(value);
+        //         //     break;
+        //         // case PCGamingWikiType.Taxonomy.Series:
+        //         //     AddCSVSeries(value);
+        //         //     break;
+        //         default:
+        //             logger.Debug($"Unknown taxonomy for game {this.Name} {type}");
+        //             break;
+        //     }
+        // }
 
         public void AddTag(string t)
         {
@@ -254,7 +254,7 @@ namespace PCGamingWikiMetadata
             this.series.Add(new MetadataNameProperty(t));
         }
 
-        private void AddCSVSeries(string csv)
+        public void AddCSVSeries(string csv)
         {
             string[] tags = SplitCSVString(csv);
 
@@ -264,7 +264,7 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void AddCSVFeatures(string csv)
+        public void AddCSVFeatures(string csv)
         {
             string[] tags = SplitCSVString(csv);
 
@@ -274,7 +274,7 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void AddCSVTags(string csv)
+        public void AddCSVTags(string csv)
         {
             string[] tags = SplitCSVString(csv);
 
@@ -324,7 +324,7 @@ namespace PCGamingWikiMetadata
         {
             if (BuiltinExtensions.GetExtensionFromId(this.LibraryGame.PluginId) == BuiltinExtension.XboxLibrary)
             {
-                this.AddTag("Xbox Play Anywhere");
+                this.AddFeature("Xbox Play Anywhere");
             }
         }
     }

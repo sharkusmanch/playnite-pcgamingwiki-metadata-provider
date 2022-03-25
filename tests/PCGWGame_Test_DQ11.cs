@@ -16,7 +16,7 @@ public class PCGWGame_Test_DQ11 : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceXbox();
         this.client = new LocalPCGWClient(this.options);
-        this.client.GetSettings().ImportEngineTags = false;
+        this.client.GetSettings().ImportTagEngine = false;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -106,7 +106,7 @@ public class PCGWGame_Test_DQ11 : IDisposable
     [Fact]
     public void TestParseXboxPlayAnywhere()
     {
-        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
+        var arr = this.testGame.Features.Select(i => i.ToString()).ToArray();
         arr.Should().Contain("Xbox Play Anywhere");
     }
 

@@ -23,4 +23,19 @@ namespace PCGamingWikiType
         public const string Versus = "Versus";
         public const string Coop = "Co-op";
     }
+
+    public class Taxonomy{
+        public const string Monetization = "Monetization";
+        public const string Microtransactions = "Microtransactions";
+        public const string Modes = "Modes";
+        public const string Pacing = "Pacing";
+        public const string Perspectives = "Perspectives";
+        public const string Controls = "Controls";
+        public const string Genres = "Genres";
+        public const string Vehicles = "Vehicles";
+        public const string Themes = "Themes";
+        public const string Engines = "Engines";
+        public const string Series = "Series";
+        public const string ArtStyles = "Art styles";
+    }
 }

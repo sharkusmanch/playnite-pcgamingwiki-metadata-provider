@@ -4,15 +4,13 @@ namespace PCGamingWikiMetadata
 {
     public class PCGamingWikiJSONParser
     {
-        private PCGWGame game;
+        private PCGWGameController gameController;
         private JObject content;
-        private PCGamingWikiMetadataSettings settings;
-
-        public PCGamingWikiJSONParser(JObject content, PCGWGame game, PCGamingWikiMetadataSettings settings)
+        public PCGamingWikiJSONParser(JObject content, PCGWGameController gameController)
         {
             this.content = content;
-            this.game = game;
-            this.settings = settings;
+            this.gameController = gameController;
+            // this.settings = settings;
         }
 
         public void ParseGameDataJson()
@@ -27,10 +25,10 @@ namespace PCGamingWikiMetadata
 
             JToken playAnywhere = this.content.SelectToken("$.parse.links[?(@.* == 'List of Xbox Play Anywhere games')]");
 
-            if (playAnywhere != null && this.settings.ImportXboxPlayAnywhere)
-            {
-                game.SetXboxPlayAnywhere();
-            }
+            // if (playAnywhere != null && this.settings.ImportXboxPlayAnywhere)
+            // {
+                gameController.Game.SetXboxPlayAnywhere();
+            // }
         }
 
         public string PageHTMLText()

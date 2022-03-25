@@ -14,13 +14,13 @@ namespace PCGamingWikiMetadata
         private readonly string baseUrl = @"https://www.pcgamingwiki.com/w/api.php";
         private RestClient client;
         protected MetadataRequestOptions options;
-        protected PCGamingWikiMetadataSettings settings;
+        protected PCGWGameController gameController;
 
-        public PCGWClient(MetadataRequestOptions options, PCGamingWikiMetadataSettings settings)
+        public PCGWClient(MetadataRequestOptions options, PCGWGameController gameController)
         {
             client = new RestClient(baseUrl);
             this.options = options;
-            this.settings = settings;
+            this.gameController = gameController;
         }
 
         public JObject ExecuteRequest(RestRequest request)
@@ -109,15 +109,15 @@ namespace PCGamingWikiMetadata
                     logger.Error($"Encountered API error: {error.ToString()}");
                 }
 
-                PCGamingWikiJSONParser jsonParser = new PCGamingWikiJSONParser(content, game, this.settings);
-                PCGamingWikiHTMLParser parser = new PCGamingWikiHTMLParser(jsonParser.PageHTMLText(), game, this.settings);
+                PCGamingWikiJSONParser jsonParser = new PCGamingWikiJSONParser(content, this.gameController);
+                PCGamingWikiHTMLParser parser = new PCGamingWikiHTMLParser(jsonParser.PageHTMLText(), this.gameController);
 
                 jsonParser.ParseGameDataJson();
                 parser.ApplyGameMetadata();
             }
             catch (Exception e)
             {
-                logger.Error($"Error performing FetchGamePageContent: {e}");
+                logger.Error($"Error performing FetchGamePageContent for {game.Name}: {e}");
             }
         }
 

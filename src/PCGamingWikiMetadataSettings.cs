@@ -1,10 +1,5 @@
-﻿using Newtonsoft.Json;
-using Playnite.SDK;
-using System;
+﻿using Playnite.SDK;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.ComponentModel;
 
 namespace PCGamingWikiMetadata
@@ -22,8 +17,25 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private bool importEngineTags = true;
-        public bool ImportEngineTags { get { return importEngineTags; } set { importEngineTags = value; ; NotifyPropertyChanged("ImportEngineTags"); } }
+        private bool importTagEngine = true;
+        public bool ImportTagEngine { get { return importTagEngine; } set { importTagEngine = value; ; NotifyPropertyChanged("ImportTagEngine"); } }
+        private bool importTagMonetization = true;
+        public bool ImportTagMonetization { get { return importTagMonetization; } set { importTagMonetization = value; ; NotifyPropertyChanged("ImportTagMonetization"); } }
+        private bool importTagMicrotransactions = true;
+        public bool ImportTagMicrotransactions { get { return importTagMicrotransactions; } set { importTagMicrotransactions = value; ; NotifyPropertyChanged("ImportTagMicrotransactions"); } }
+        private bool importTagModes = true;
+        public bool ImportTagModes { get { return importTagModes; } set { importTagModes = value; ; NotifyPropertyChanged("ImportTagModes"); } }
+        private bool importTagPacing = true;
+        public bool ImportTagPacing { get { return importTagPacing; } set { importTagPacing = value; ; NotifyPropertyChanged("ImportTagPacing"); } }
+        private bool importTagPerspectives = true;
+        public bool ImportTagPerspectives { get { return importTagPerspectives; } set { importTagPerspectives = value; ; NotifyPropertyChanged("ImportTagPerspectives"); } }
+        private bool importTagControls = true;
+        public bool ImportTagControls { get { return importTagControls; } set { importTagControls = value; ; NotifyPropertyChanged("ImportTagControls"); } }
+        private bool importTagVehicles = true;
+        public bool ImportTagVehicles { get { return importTagVehicles; } set { importTagVehicles = value; ; NotifyPropertyChanged("ImportTagVehicles"); } }
+        private bool importTagThemes = true;
+        public bool ImportTagThemes { get { return importTagThemes; } set { importTagThemes = value; ; NotifyPropertyChanged("ImportTagThemes"); } }
+
         private bool importXboxPlayAnywhere = true;
         public bool ImportXboxPlayAnywhere { get { return importXboxPlayAnywhere; } set { importXboxPlayAnywhere = value; ; NotifyPropertyChanged("ImportXboxPlayAnywhere"); } }
 
@@ -47,7 +59,7 @@ namespace PCGamingWikiMetadata
             // LoadPluginSettings returns null if not saved data is available.
             if (savedSettings != null)
             {
-                ImportEngineTags = savedSettings.ImportEngineTags;
+                ImportTagEngine = savedSettings.ImportTagEngine;
                 ImportXboxPlayAnywhere = savedSettings.ImportXboxPlayAnywhere;
                 ImportMultiplayerTypes = savedSettings.ImportMultiplayerTypes;
             }
