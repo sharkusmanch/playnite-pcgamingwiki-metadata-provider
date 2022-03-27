@@ -195,50 +195,6 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        // public void AddTaxonomy(string type, string value)
-        // {
-        //     switch (type)
-        //     {
-        //         // case PCGamingWikiType.Taxonomy.Monetization:
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Microtransactions:
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Modes:
-        //         //     AddCSVFeatures(value);
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Pacing:
-        //         //     AddCSVTags(value);
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Perspectives:
-        //         //     AddCSVTags(value);
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Controls:
-        //         //     AddCSVTags(value);
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Genres:
-        //         //     AddGenres(value);
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Vehicles:
-        //         //     AddCSVTags(value);
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.ArtStyles:
-        //         //     AddCSVTags(value);
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Themes:
-        //         //     AddCSVTags(value);
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Engines:
-        //         //     AddCSVTags(value);
-        //         //     break;
-        //         // case PCGamingWikiType.Taxonomy.Series:
-        //         //     AddCSVSeries(value);
-        //         //     break;
-        //         default:
-        //             logger.Debug($"Unknown taxonomy for game {this.Name} {type}");
-        //             break;
-        //     }
-        // }
-
         public void AddTag(string t)
         {
             this.tags.Add(new MetadataNameProperty(t));

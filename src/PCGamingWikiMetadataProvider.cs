@@ -18,11 +18,6 @@ namespace PCGamingWikiMetadata
 
         private List<MetadataField> availableFields;
 
-        protected PCGamingWikiMetadataProvider() : base()
-        {
-            this.gameController = new PCGWGameController((PCGamingWikiMetadataSettings)this.plugin.GetSettings(false));
-        }
-
         public override List<MetadataField> AvailableFields
         {
             get
@@ -60,6 +55,8 @@ namespace PCGamingWikiMetadata
 
         private void GetPCGWMetadata()
         {
+            logger.Debug("GetPCGWMetadata");
+
             if (this.gameController.Game != null)
             {
                 return;
@@ -67,6 +64,7 @@ namespace PCGamingWikiMetadata
 
             if (!options.IsBackgroundDownload)
             {
+                logger.Debug("not background");
                 var item = plugin.PlayniteApi.Dialogs.ChooseItemWithSearch(null, (a) =>
                 {
                     return client.SearchGames(a);
@@ -115,6 +113,7 @@ namespace PCGamingWikiMetadata
         {
             this.options = options;
             this.plugin = plugin;
+            this.gameController = new PCGWGameController((PCGamingWikiMetadataSettings)this.plugin.GetSettings(false));
             this.client = new PCGWClient(this.options, this.gameController);
         }
 

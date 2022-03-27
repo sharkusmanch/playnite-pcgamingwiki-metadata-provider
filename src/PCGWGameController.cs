@@ -11,7 +11,7 @@ namespace PCGamingWikiMetadata
         private PCGamingWikiMetadataSettings settings;
         public PCGamingWikiMetadataSettings Settings { get { return settings; } }
         
-        private Dictionary<string, bool> taxonomySettings;
+        private Dictionary<string, Func<bool>> taxonomySettings;
         private Dictionary<string, Action<string>> taxonomyFunctions;
 
         public PCGWGameController(PCGamingWikiMetadataSettings settings)
@@ -29,17 +29,17 @@ namespace PCGamingWikiMetadata
 
         private void InitalizeSettingsMappings()
         {
-            this.taxonomySettings = new Dictionary<string, bool>()
+            this.taxonomySettings = new Dictionary<string, Func<bool>>()
             {
-                { PCGamingWikiType.Taxonomy.Engines, this.settings.ImportTagEngine },
-                { PCGamingWikiType.Taxonomy.Monetization, this.settings.ImportTagMonetization },
-                { PCGamingWikiType.Taxonomy.Microtransactions, this.settings.ImportTagMicrotransactions },
-                { PCGamingWikiType.Taxonomy.Modes, this.settings.ImportTagModes },
-                { PCGamingWikiType.Taxonomy.Pacing, this.settings.ImportTagPacing },
-                { PCGamingWikiType.Taxonomy.Perspectives, this.settings.ImportTagPerspectives },
-                { PCGamingWikiType.Taxonomy.Controls, this.settings.ImportTagControls },
-                { PCGamingWikiType.Taxonomy.Vehicles, this.settings.ImportTagVehicles },
-                { PCGamingWikiType.Taxonomy.Themes, this.settings.ImportTagThemes },
+                { PCGamingWikiType.Taxonomy.Engines, new Func<bool>( () => this.settings.ImportTagEngine) },
+                { PCGamingWikiType.Taxonomy.Monetization, new Func<bool>( () => this.settings.ImportTagMonetization) },
+                { PCGamingWikiType.Taxonomy.Microtransactions, new Func<bool>( () => this.settings.ImportTagMicrotransactions) },
+                { PCGamingWikiType.Taxonomy.Modes, new Func<bool>( () => this.settings.ImportTagModes) },
+                { PCGamingWikiType.Taxonomy.Pacing, new Func<bool>( () => this.settings.ImportTagPacing) },
+                { PCGamingWikiType.Taxonomy.Perspectives, new Func<bool>( () => this.settings.ImportTagPerspectives) },
+                { PCGamingWikiType.Taxonomy.Controls, new Func<bool>( () => this.settings.ImportTagControls) },
+                { PCGamingWikiType.Taxonomy.Vehicles, new Func<bool>( () => this.settings.ImportTagVehicles) },
+                { PCGamingWikiType.Taxonomy.Themes, new Func<bool>( () => this.settings.ImportTagThemes) },
             };
 
             this.taxonomyFunctions = new Dictionary<string, Action<string>>()
@@ -60,10 +60,10 @@ namespace PCGamingWikiMetadata
 
         public void AddTaxonomy(string key, string text)
         {
-            bool enabled;
+            Func<bool> enabled;
             bool settingExists = this.taxonomySettings.TryGetValue(key, out enabled);
 
-            if (settingExists && !enabled)
+            if (settingExists && !(enabled.Invoke()))
             {
                 return;
             }

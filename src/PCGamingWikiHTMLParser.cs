@@ -20,7 +20,6 @@ namespace PCGamingWikiMetadata
         {
             this.doc = new HtmlDocument();
             this.doc.LoadHtml(html);
-            // this.gameController.Game = game;
             this.gameController = gameController;
         }
 

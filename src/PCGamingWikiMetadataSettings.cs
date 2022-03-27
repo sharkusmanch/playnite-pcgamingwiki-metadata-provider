@@ -59,9 +59,18 @@ namespace PCGamingWikiMetadata
             // LoadPluginSettings returns null if not saved data is available.
             if (savedSettings != null)
             {
-                ImportTagEngine = savedSettings.ImportTagEngine;
                 ImportXboxPlayAnywhere = savedSettings.ImportXboxPlayAnywhere;
                 ImportMultiplayerTypes = savedSettings.ImportMultiplayerTypes;
+                
+                ImportTagEngine = savedSettings.ImportTagEngine;
+                ImportTagMonetization = savedSettings.ImportTagMonetization;
+                ImportTagMicrotransactions = savedSettings.ImportTagMicrotransactions;
+                ImportTagModes = savedSettings.ImportTagModes;
+                ImportTagPacing = savedSettings.ImportTagPacing;
+                ImportTagPerspectives = savedSettings.ImportTagPerspectives;
+                ImportTagControls = savedSettings.ImportTagControls;
+                ImportTagVehicles = savedSettings.ImportTagVehicles;
+                ImportTagThemes = savedSettings.ImportTagThemes;
             }
         }
 
