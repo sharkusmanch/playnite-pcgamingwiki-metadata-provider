@@ -40,6 +40,7 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.Taxonomy.Controls, new Func<bool>( () => this.settings.ImportTagControls) },
                 { PCGamingWikiType.Taxonomy.Vehicles, new Func<bool>( () => this.settings.ImportTagVehicles) },
                 { PCGamingWikiType.Taxonomy.Themes, new Func<bool>( () => this.settings.ImportTagThemes) },
+                { PCGamingWikiType.Taxonomy.ArtStyles, new Func<bool>( () => this.settings.ImportTagArtStyle) },
             };
 
             this.taxonomyFunctions = new Dictionary<string, Action<string>>()
@@ -53,6 +54,7 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.Taxonomy.Pacing, new Action<string>( value => this.Game.AddCSVTags(value)) },
                 { PCGamingWikiType.Taxonomy.Modes, new Action<string>( value => this.Game.AddCSVFeatures(value)) },
                 { PCGamingWikiType.Taxonomy.Genres, new Action<string>( value => this.Game.AddGenres(value)) },
+                { PCGamingWikiType.Taxonomy.Series, new Action<string>( value => this.Game.AddCSVSeries(value)) },
                 { PCGamingWikiType.Taxonomy.Series, new Action<string>( value => this.Game.AddCSVSeries(value)) },
 
             };

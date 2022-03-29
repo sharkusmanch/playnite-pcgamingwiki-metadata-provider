@@ -4,7 +4,18 @@
     <sys:String x:Key="LOCPCGWSettingsTabTags">Tags</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabFeatures">Features</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportXboxPlayAnywhere">Add Xbox Play Anywhere feature to supported titles</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportTagEngine">Add game engine tags</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagEngine">Game Engine</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMonetization">Monetization</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMicrotransactions">Microtransactions</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagModes">Modes</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPacing">Pacing</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPerspectives">Perspectives</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagControls">Controls</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagVehicles">Vehicles</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagThemes">Themes</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagArtStyle">Art Style</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTaxonomyTags">Taxonomy Tags</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOther">Other</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Add detailed multiplayer features</sys:String>
 
 </ResourceDictionary>

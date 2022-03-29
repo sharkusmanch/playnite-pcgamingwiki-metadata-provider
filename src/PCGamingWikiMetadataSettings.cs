@@ -35,6 +35,10 @@ namespace PCGamingWikiMetadata
         public bool ImportTagVehicles { get { return importTagVehicles; } set { importTagVehicles = value; ; NotifyPropertyChanged("ImportTagVehicles"); } }
         private bool importTagThemes = true;
         public bool ImportTagThemes { get { return importTagThemes; } set { importTagThemes = value; ; NotifyPropertyChanged("ImportTagThemes"); } }
+        private bool importTagArtStyle = true;
+        public bool ImportTagArtStyle { get { return importTagArtStyle; } set { importTagArtStyle = value; ; NotifyPropertyChanged("ImportTagArtStyle"); } }
+        private bool importTagNoCloudSaves = true;
+        public bool ImportTagNoCloudSaves { get { return importTagNoCloudSaves; } set { importTagNoCloudSaves = value; ; NotifyPropertyChanged("ImportTagNoCloudSaves"); } }
 
         private bool importXboxPlayAnywhere = true;
         public bool ImportXboxPlayAnywhere { get { return importXboxPlayAnywhere; } set { importXboxPlayAnywhere = value; ; NotifyPropertyChanged("ImportXboxPlayAnywhere"); } }
@@ -71,6 +75,8 @@ namespace PCGamingWikiMetadata
                 ImportTagControls = savedSettings.ImportTagControls;
                 ImportTagVehicles = savedSettings.ImportTagVehicles;
                 ImportTagThemes = savedSettings.ImportTagThemes;
+                ImportTagArtStyle = savedSettings.ImportTagArtStyle;
+                ImportTagNoCloudSaves = savedSettings.ImportTagNoCloudSaves;
             }
         }
 

@@ -16,7 +16,19 @@ public class PCGWGame_Test_DQ11 : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceXbox();
         this.client = new LocalPCGWClient(this.options);
+
         this.client.GetSettings().ImportTagEngine = false;
+        this.client.GetSettings().ImportTagArtStyle = false;
+        this.client.GetSettings().ImportTagMonetization = false;
+        this.client.GetSettings().ImportTagMicrotransactions = false;
+        this.client.GetSettings().ImportTagModes = false;
+        this.client.GetSettings().ImportTagPacing = false;
+        this.client.GetSettings().ImportTagPerspectives = false;
+        this.client.GetSettings().ImportTagControls = false;
+        this.client.GetSettings().ImportTagVehicles = false;
+        this.client.GetSettings().ImportTagThemes = false;
+        this.client.GetSettings().ImportTagArtStyle = false;
+
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -59,35 +71,35 @@ public class PCGWGame_Test_DQ11 : IDisposable
     public void TestParsePerspectives()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Third-person", "Top-down view");
+        arr.Should().NotContain("Third-person", "Top-down view");
     }
 
     [Fact]
     public void TestParseControls()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Menu-based", "Direct control");
+        arr.Should().NotContain("Menu-based", "Direct control");
     }
 
     [Fact]
     public void TestParseVehicles()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Flight", "Naval/watercraft", "Track racing");
+        arr.Should().NotContain("Flight", "Naval/watercraft", "Track racing");
     }
 
     [Fact]
     public void TestParseArtStyles()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Anime", "Pixel art");
+        arr.Should().NotContain("Anime", "Pixel art");
     }
 
     [Fact]
     public void TestParsePacing()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Turn-based");
+        arr.Should().NotContain("Turn-based");
     }
     [Fact]
     public void TestParseEngine()

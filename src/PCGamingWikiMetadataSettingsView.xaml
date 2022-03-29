@@ -20,9 +20,44 @@
         </TabItem>
         <TabItem Header="{DynamicResource LOCPCGWSettingsTabTags}">
             <StackPanel>
-                <StackPanel Margin="15">
+                <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsTaxonomyTags}"/>
+                <StackPanel Margin="5">
                     <CheckBox IsChecked="{Binding ImportTagEngine}" Content="{DynamicResource LOCPCGWSettingsImportTagEngine}"/>
                 </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagMonetization}" Content="{DynamicResource LOCPCGWSettingsImportTagMonetization}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagMicrotransactions}" Content="{DynamicResource LOCPCGWSettingsImportTagMicrotransactions}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagModes}" Content="{DynamicResource LOCPCGWSettingsImportTagModes}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagPacing}" Content="{DynamicResource LOCPCGWSettingsImportTagPacing}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagPerspectives}" Content="{DynamicResource LOCPCGWSettingsImportTagPerspectives}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagControls}" Content="{DynamicResource LOCPCGWSettingsImportTagControls}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagVehicles}" Content="{DynamicResource LOCPCGWSettingsImportTagVehicles}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagThemes}" Content="{DynamicResource LOCPCGWSettingsImportTagThemes}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagArtStyle}" Content="{DynamicResource LOCPCGWSettingsImportTagArtStyle}"/>
+                </StackPanel>
+            </StackPanel>
+            <StackPanel>
+                <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsOther}"/>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportTagEngine}" Content="{DynamicResource LOCPCGWSettingsImportTagEngine}"/>
+                </StackPanel>
+
             </StackPanel>
         </TabItem>
     </TabControl>
