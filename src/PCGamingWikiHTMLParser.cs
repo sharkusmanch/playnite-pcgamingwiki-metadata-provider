@@ -89,6 +89,9 @@ namespace PCGamingWikiMetadata
                                 case "Online play":
                                     this.gameController.Game.AddMultiplayerOnline(rating, playerCount, notes);
                                     break;
+                                case "Asynchronous multiplayer":
+                                    this.gameController.Game.AddFeature(rating, playerCount, notes);
+                                    break;
                                 default:
                                     break;
 

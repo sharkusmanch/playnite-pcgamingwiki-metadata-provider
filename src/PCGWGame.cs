@@ -174,6 +174,11 @@ namespace PCGamingWikiMetadata
             AddMultiplayerFeatures(rating, "Online Multiplayer", playerCount, types);
         }
 
+        public void AddMultiplayerAsynchronous(string rating, short playerCount, IList<string> types)
+        {
+            AddMultiplayerFeatures(rating, "Asynchronous Multiplayer", playerCount, types);
+        }
+
         private BuiltinExtension? LauncherNameToPluginID(string launcher)
         {
             switch (launcher)
