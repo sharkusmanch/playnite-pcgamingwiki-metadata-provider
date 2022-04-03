@@ -1,12 +1,14 @@
 AddonId: PCGamingWikiMetadata_c038558e-427b-4551-be4c-be7009ce5a8d
 Packages:
-- Version: 0.5.2
+- Version: 1.0.0
   RequiredApiVersion: 6.2.2
-  ReleaseDate: 2022-03-22
-  PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v0.5.2/PCGamingWiki_Metadata_Provider_v0.5.2.pext
+  ReleaseDate: 2022-04-03
+  PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v1.0.0/PCGamingWiki_Metadata_Provider_v1.0.0.pext
   Changelog:
     - Move Xbox Play Anywhere from Tag to Feature
-    - Add tabs in settings windows to differentiate Tags and Features
+    - Add Features for HDR and Ray Tracing
+    - Add support for Asynchronous multiplayer type
+    - Add settings for most Tags and Features to allow specifying which are imported
 - Version: 0.5.1
   RequiredApiVersion: 6.2.2
   ReleaseDate: 2022-03-20

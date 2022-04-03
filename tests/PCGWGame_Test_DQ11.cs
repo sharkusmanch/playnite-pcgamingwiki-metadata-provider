@@ -21,7 +21,6 @@ public class PCGWGame_Test_DQ11 : IDisposable
         this.client.GetSettings().ImportTagArtStyle = false;
         this.client.GetSettings().ImportTagMonetization = false;
         this.client.GetSettings().ImportTagMicrotransactions = false;
-        this.client.GetSettings().ImportTagModes = false;
         this.client.GetSettings().ImportTagPacing = false;
         this.client.GetSettings().ImportTagPerspectives = false;
         this.client.GetSettings().ImportTagControls = false;

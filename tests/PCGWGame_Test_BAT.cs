@@ -7,7 +7,7 @@ using FluentAssertions;
 public class PCGWGame_Test_BAT : IDisposable
 {
     private PCGWGame testGame;
-    private PCGWClient client;
+    private LocalPCGWClient client;
     private TestMetadataRequestOptions options;
 
 
@@ -17,6 +17,7 @@ public class PCGWGame_Test_BAT : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceEpic();
         this.client = new LocalPCGWClient(this.options);
+        this.client.GetSettings().ImportTagNoCloudSaves = false;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -114,7 +115,7 @@ public class PCGWGame_Test_BAT : IDisposable
     public void TestCloudSaves()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("No Cloud Saves");
+        arr.Should().NotContain("No Cloud Saves");
     }
 
     [Fact]

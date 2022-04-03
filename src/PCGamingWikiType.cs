@@ -6,6 +6,7 @@ namespace PCGamingWikiType
         public const string NotSupported = "No native support";
         public const string Hackable = "Hackable";
         public const string Unknown = "Unknown";
+        public const string Limited = "Limited native support";
     }
 
     public class Cloud
@@ -22,6 +23,10 @@ namespace PCGamingWikiType
     {
         public const string Versus = "Versus";
         public const string Coop = "Co-op";
+        public const string Local = "Local play";
+        public const string LAN = "LAN play";
+        public const string Online = "Online play";
+        public const string Asynchronous = "Asynchronous multiplayer";
     }
 
     public class Taxonomy{
@@ -37,5 +42,10 @@ namespace PCGamingWikiType
         public const string Engines = "Engines";
         public const string Series = "Series";
         public const string ArtStyles = "Art styles";
+    }
+
+    public class Video{
+        public const string RayTracing = "Ray tracing";
+        public const string HDR = "High dynamic range display (HDR)";
     }
 }

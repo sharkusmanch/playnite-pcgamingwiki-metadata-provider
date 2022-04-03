@@ -22,10 +22,7 @@ namespace PCGamingWikiMetadata
         private bool importTagMonetization = true;
         public bool ImportTagMonetization { get { return importTagMonetization; } set { importTagMonetization = value; ; NotifyPropertyChanged("ImportTagMonetization"); } }
         private bool importTagMicrotransactions = true;
-        public bool ImportTagMicrotransactions { get { return importTagMicrotransactions; } set { importTagMicrotransactions = value; ; NotifyPropertyChanged("ImportTagMicrotransactions"); } }
-        private bool importTagModes = true;
-        public bool ImportTagModes { get { return importTagModes; } set { importTagModes = value; ; NotifyPropertyChanged("ImportTagModes"); } }
-        private bool importTagPacing = true;
+        public bool ImportTagMicrotransactions { get { return importTagMicrotransactions; } set { importTagMicrotransactions = value; ; NotifyPropertyChanged("ImportTagMicrotransactions"); } }        private bool importTagPacing = true;
         public bool ImportTagPacing { get { return importTagPacing; } set { importTagPacing = value; ; NotifyPropertyChanged("ImportTagPacing"); } }
         private bool importTagPerspectives = true;
         public bool ImportTagPerspectives { get { return importTagPerspectives; } set { importTagPerspectives = value; ; NotifyPropertyChanged("ImportTagPerspectives"); } }
@@ -46,6 +43,10 @@ namespace PCGamingWikiMetadata
         private bool importMultiplayerTypes = false;
         public bool ImportMultiplayerTypes { get { return importMultiplayerTypes; } set { importMultiplayerTypes = value; ; NotifyPropertyChanged("ImportMultiplayerTypes"); } }
 
+        private bool importFeatureHDR = true;
+        public bool ImportFeatureHDR { get { return importFeatureHDR; } set { importFeatureHDR = value; ; NotifyPropertyChanged("ImportFeatureHDR"); } }
+        private bool importFeatureRayTracing = true;
+        public bool ImportFeatureRayTracing { get { return importFeatureRayTracing; } set { importFeatureRayTracing = value; ; NotifyPropertyChanged("ImportFeatureRayTracing"); } }
 
         // Parameterless constructor must exist if you want to use LoadPluginSettings method.
         public PCGamingWikiMetadataSettings()
@@ -69,7 +70,6 @@ namespace PCGamingWikiMetadata
                 ImportTagEngine = savedSettings.ImportTagEngine;
                 ImportTagMonetization = savedSettings.ImportTagMonetization;
                 ImportTagMicrotransactions = savedSettings.ImportTagMicrotransactions;
-                ImportTagModes = savedSettings.ImportTagModes;
                 ImportTagPacing = savedSettings.ImportTagPacing;
                 ImportTagPerspectives = savedSettings.ImportTagPerspectives;
                 ImportTagControls = savedSettings.ImportTagControls;
@@ -77,6 +77,9 @@ namespace PCGamingWikiMetadata
                 ImportTagThemes = savedSettings.ImportTagThemes;
                 ImportTagArtStyle = savedSettings.ImportTagArtStyle;
                 ImportTagNoCloudSaves = savedSettings.ImportTagNoCloudSaves;
+
+                ImportFeatureHDR = savedSettings.ImportFeatureHDR;
+                ImportFeatureRayTracing = savedSettings.ImportFeatureRayTracing;
             }
         }
 

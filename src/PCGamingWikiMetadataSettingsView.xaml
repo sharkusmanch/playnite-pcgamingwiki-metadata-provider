@@ -9,10 +9,17 @@
     <TabControl Name="tcSettings">
         <TabItem Header="{DynamicResource LOCPCGWSettingsTabFeatures}">
             <StackPanel>
+                <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsVideoFeatures}"/>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportFeatureRayTracing}" Content="{DynamicResource LOCPCGWSettingsImportHDR}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportFeatureHDR}" Content="{DynamicResource LOCPCGWSettingsImportRayTracing}"/>
+                </StackPanel>
+                <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsOtherFeatures}"/>
                 <StackPanel Margin="15">
                     <CheckBox IsChecked="{Binding ImportXboxPlayAnywhere}" Content="{DynamicResource LOCPCGWSettingsImportXboxPlayAnywhere}"/>
                 </StackPanel>
-
                 <StackPanel Margin="15">
                     <CheckBox IsChecked="{Binding ImportMultiplayerTypes}" Content="{DynamicResource LOCPCGWSettingsImportMultiplayerTypes}"/>
                 </StackPanel>
@@ -29,9 +36,6 @@
                 </StackPanel>
                 <StackPanel Margin="5">
                     <CheckBox IsChecked="{Binding ImportTagMicrotransactions}" Content="{DynamicResource LOCPCGWSettingsImportTagMicrotransactions}"/>
-                </StackPanel>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagModes}" Content="{DynamicResource LOCPCGWSettingsImportTagModes}"/>
                 </StackPanel>
                 <StackPanel Margin="5">
                     <CheckBox IsChecked="{Binding ImportTagPacing}" Content="{DynamicResource LOCPCGWSettingsImportTagPacing}"/>
@@ -51,13 +55,10 @@
                 <StackPanel Margin="5">
                     <CheckBox IsChecked="{Binding ImportTagArtStyle}" Content="{DynamicResource LOCPCGWSettingsImportTagArtStyle}"/>
                 </StackPanel>
-            </StackPanel>
-            <StackPanel>
-                <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsOther}"/>
+                <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsOtherTags}"/>
                 <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagEngine}" Content="{DynamicResource LOCPCGWSettingsImportTagEngine}"/>
+                    <CheckBox IsChecked="{Binding ImportTagNoCloudSaves}" Content="{DynamicResource LOCPCGWSettingsImportTagNoCloudSaves}"/>
                 </StackPanel>
-
             </StackPanel>
         </TabItem>
     </TabControl>

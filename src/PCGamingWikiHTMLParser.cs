@@ -29,6 +29,7 @@ namespace PCGamingWikiMetadata
             ParseCloudSync();
             ParseInfobox();
             ParseMultiplayer();
+            ParseVideo();
         }
 
         private void RemoveCitationsFromHTMLNode(HtmlNode node)
@@ -51,6 +52,36 @@ namespace PCGamingWikiMetadata
             }
 
             return new List<HtmlNode>();
+        }
+
+        private void ParseVideo()
+        {
+            var rows = SelectTableRowsByClass("table-settings-video", "template-infotable-body table-settings-video-body-row");
+            logger.Debug($"Video row count: {rows.Count}");
+            string feature = "";
+            string rating = "";
+
+            foreach (HtmlNode row in rows)
+            {
+                foreach (HtmlNode child in row.SelectNodes(".//th|td"))
+                {
+                    switch (child.Attributes["class"].Value)
+                    {
+                        case "table-settings-video-body-parameter":
+                            feature = child.FirstChild.InnerText;
+                            logger.Debug(feature);
+                            break;
+                        case "table-settings-video-body-rating":
+                            rating = child.FirstChild.Attributes["title"].Value;
+                            logger.Debug(rating);
+                            break;
+                    }
+                }
+
+                this.gameController.AddVideoFeature(feature, rating);
+                feature = "";
+                rating = "";
+            }
         }
 
         private void ParseMultiplayer()
@@ -77,25 +108,7 @@ namespace PCGamingWikiMetadata
                             break;
                         case "table-network-multiplayer-body-notes":
                             IList<string> notes = ParseMultiplayerNotes(child);
-
-                            switch (networkType)
-                            {
-                                case "Local play":
-                                    this.gameController.Game.AddMultiplayerLocal(rating, playerCount, notes);
-                                    break;
-                                case "LAN play":
-                                    this.gameController.Game.AddMultiplayerLAN(rating, playerCount, notes);
-                                    break;
-                                case "Online play":
-                                    this.gameController.Game.AddMultiplayerOnline(rating, playerCount, notes);
-                                    break;
-                                case "Asynchronous multiplayer":
-                                    this.gameController.Game.AddFeature(rating, playerCount, notes);
-                                    break;
-                                default:
-                                    break;
-
-                            }
+                            this.gameController.AddMultiplayer(networkType, rating, playerCount, notes);
                             rating = "";
                             networkType = "";
                             playerCount = UndefinedPlayerCount;
@@ -174,7 +187,7 @@ namespace PCGamingWikiMetadata
                             launcher = child.FirstChild.InnerText;
                             break;
                         case "table-cloudsync-body-rating":
-                            this.gameController.Game.AddCloudSaves(launcher, child.FirstChild.Attributes["title"].Value);
+                            this.gameController.AddCloudSaves(launcher, child.FirstChild.Attributes["title"].Value);
                             launcher = "";
                             break;
                     }
