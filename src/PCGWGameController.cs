@@ -59,7 +59,7 @@ namespace PCGamingWikiMetadata
             };
         }
 
-        private bool IsSettingEnabled(string key)
+        private bool IsSettingDisabled(string key)
         {
             Func<bool> enabled;
             bool settingExists = this.settingsMap.TryGetValue(key, out enabled);
@@ -68,7 +68,7 @@ namespace PCGamingWikiMetadata
 
         public void AddTaxonomy(string key, string text)
         {
-            if (IsSettingEnabled(key))
+            if (IsSettingDisabled(key))
             {
                 return;
             }
@@ -128,10 +128,13 @@ namespace PCGamingWikiMetadata
 
         public void AddVideoFeature(string key, string rating)
         {
-            if (IsSettingEnabled(key) && NativeOrLimitedSupport(rating))
+            if (IsSettingDisabled(key) || !NativeOrLimitedSupport(rating))
             {
                 return;
             }
+
+            logger.Debug($"Adding {key} {rating} for {Game.Name}");
+            logger.Debug($"Supported {NativeOrLimitedSupport(rating)}");
 
             switch (key)
             {
@@ -156,6 +159,8 @@ namespace PCGamingWikiMetadata
 
         private bool NativeOrLimitedSupport(string rating)
         {
+            logger.Debug(rating);
+
             return rating == PCGamingWikiType.Rating.NativeSupport ||
                 rating == PCGamingWikiType.Rating.Limited;
         }

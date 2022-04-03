@@ -28,6 +28,8 @@ public class PCGWGame_Test_DQ11 : IDisposable
         this.client.GetSettings().ImportTagThemes = false;
         this.client.GetSettings().ImportTagArtStyle = false;
         this.client.GetSettings().ImportXboxPlayAnywhere = false;
+        this.client.GetSettings().ImportFeatureHDR = true;
+        this.client.GetSettings().ImportFeatureRayTracing = true;
 
         this.client.FetchGamePageContent(this.testGame);
     }
@@ -128,6 +130,20 @@ public class PCGWGame_Test_DQ11 : IDisposable
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().Contain("Full Controller Support");
+    }
+
+    [Fact]
+    public void TestHDR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("HDR");
+    }
+
+    [Fact]
+    public void TestRayTracing()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("Ray Tracing");
     }
 
     public void Dispose()

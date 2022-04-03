@@ -115,6 +115,20 @@ public class PCGWGame_Test_OVERCOOKED : IDisposable
         features.Should().Contain("Local Multiplayer: 2-4", "Local Multiplayer: Co-op", "Local Multiplayer: Versus");
     }
 
+    [Fact]
+    public void TestHDR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("HDR");
+    }
+
+    [Fact]
+    public void TestRayTracing()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("Ray Tracing");
+    }
+
     public void Dispose()
     {
 
