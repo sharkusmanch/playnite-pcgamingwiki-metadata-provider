@@ -29,7 +29,8 @@ namespace PCGamingWikiType
         public const string Asynchronous = "Asynchronous multiplayer";
     }
 
-    public class Taxonomy{
+    public class Taxonomy
+    {
         public const string Monetization = "Monetization";
         public const string Microtransactions = "Microtransactions";
         public const string Modes = "Modes";
@@ -44,7 +45,8 @@ namespace PCGamingWikiType
         public const string ArtStyles = "Art styles";
     }
 
-    public class Video{
+    public class Video
+    {
         public const string RayTracing = "Ray tracing";
         public const string HDR = "High dynamic range display (HDR)";
     }

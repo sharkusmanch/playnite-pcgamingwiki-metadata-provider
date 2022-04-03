@@ -22,7 +22,8 @@ namespace PCGamingWikiMetadata
         private bool importTagMonetization = true;
         public bool ImportTagMonetization { get { return importTagMonetization; } set { importTagMonetization = value; ; NotifyPropertyChanged("ImportTagMonetization"); } }
         private bool importTagMicrotransactions = true;
-        public bool ImportTagMicrotransactions { get { return importTagMicrotransactions; } set { importTagMicrotransactions = value; ; NotifyPropertyChanged("ImportTagMicrotransactions"); } }        private bool importTagPacing = true;
+        public bool ImportTagMicrotransactions { get { return importTagMicrotransactions; } set { importTagMicrotransactions = value; ; NotifyPropertyChanged("ImportTagMicrotransactions"); } }
+        private bool importTagPacing = true;
         public bool ImportTagPacing { get { return importTagPacing; } set { importTagPacing = value; ; NotifyPropertyChanged("ImportTagPacing"); } }
         private bool importTagPerspectives = true;
         public bool ImportTagPerspectives { get { return importTagPerspectives; } set { importTagPerspectives = value; ; NotifyPropertyChanged("ImportTagPerspectives"); } }
@@ -66,7 +67,7 @@ namespace PCGamingWikiMetadata
             {
                 ImportXboxPlayAnywhere = savedSettings.ImportXboxPlayAnywhere;
                 ImportMultiplayerTypes = savedSettings.ImportMultiplayerTypes;
-                
+
                 ImportTagEngine = savedSettings.ImportTagEngine;
                 ImportTagMonetization = savedSettings.ImportTagMonetization;
                 ImportTagMicrotransactions = savedSettings.ImportTagMicrotransactions;

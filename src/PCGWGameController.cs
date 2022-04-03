@@ -10,7 +10,7 @@ namespace PCGamingWikiMetadata
         public PCGWGame Game;
         private PCGamingWikiMetadataSettings settings;
         public PCGamingWikiMetadataSettings Settings { get { return settings; } }
-        
+
         private Dictionary<string, Func<bool>> settingsMap;
         private Dictionary<string, Action<string>> taxonomyFunctions;
 
@@ -143,6 +143,14 @@ namespace PCGamingWikiMetadata
                     break;
                 default:
                     break;
+            }
+        }
+
+        public void SetXboxPlayAnywhere()
+        {
+            if (this.settings.ImportXboxPlayAnywhere)
+            {
+                this.Game.SetXboxPlayAnywhere();
             }
         }
 

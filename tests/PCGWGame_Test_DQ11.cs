@@ -27,6 +27,7 @@ public class PCGWGame_Test_DQ11 : IDisposable
         this.client.GetSettings().ImportTagVehicles = false;
         this.client.GetSettings().ImportTagThemes = false;
         this.client.GetSettings().ImportTagArtStyle = false;
+        this.client.GetSettings().ImportXboxPlayAnywhere = false;
 
         this.client.FetchGamePageContent(this.testGame);
     }
@@ -119,7 +120,7 @@ public class PCGWGame_Test_DQ11 : IDisposable
     public void TestParseXboxPlayAnywhere()
     {
         var arr = this.testGame.Features.Select(i => i.ToString()).ToArray();
-        arr.Should().Contain("Xbox Play Anywhere");
+        arr.Should().NotContain("Xbox Play Anywhere");
     }
 
     [Fact]

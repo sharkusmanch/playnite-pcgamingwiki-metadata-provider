@@ -15,20 +15,8 @@ namespace PCGamingWikiMetadata
 
         public void ParseGameDataJson()
         {
-            // Limitation: engine tag will only be added if there's a corresponding link
-            // JToken engine = this.content.SelectToken("$.parse.links[?(@.ns == 404)]");
-
-            // if (engine != null)
-            // {
-            //     game.AddTag(engine["*"].ToString().Split(':')[1]);
-            // }
-
             JToken playAnywhere = this.content.SelectToken("$.parse.links[?(@.* == 'List of Xbox Play Anywhere games')]");
-
-            // if (playAnywhere != null && this.settings.ImportXboxPlayAnywhere)
-            // {
-                gameController.Game.SetXboxPlayAnywhere();
-            // }
+            gameController.SetXboxPlayAnywhere();
         }
 
         public string PageHTMLText()
