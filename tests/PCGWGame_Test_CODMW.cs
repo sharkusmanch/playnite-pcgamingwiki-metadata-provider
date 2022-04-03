@@ -107,6 +107,20 @@ public class PCGWGame_Test_CODMW : IDisposable
     }
 
     [Fact]
+    public void TestHDR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("HDR");
+    }
+
+    [Fact]
+    public void TestRayTracing()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("Ray Tracing");
+    }
+
+    [Fact]
     public void TestMultiplayer()
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();

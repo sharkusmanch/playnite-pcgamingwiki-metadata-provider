@@ -55,6 +55,20 @@ public class PCGWGame_Test_CITIES : IDisposable
     }
 
     [Fact]
+    public void TestHDR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("HDR");
+    }
+
+    [Fact]
+    public void TestRayTracing()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("Ray Tracing");
+    }
+
+    [Fact]
     public void TestParseControls()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();

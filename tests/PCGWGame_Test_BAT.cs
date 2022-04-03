@@ -134,6 +134,20 @@ public class PCGWGame_Test_BAT : IDisposable
         features.Should().NotContain("Local Multiplayer: Co-Op", "Local Multiplayer: Versus");
     }
 
+    [Fact]
+    public void TestHDR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("HDR");
+    }
+
+    [Fact]
+    public void TestRayTracing()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("Ray Tracing");
+    }
+
     public void Dispose()
     {
 
