@@ -103,26 +103,6 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        public void AddCloudSaves(string launcher, string description)
-        {
-            BuiltinExtension? extension = LauncherNameToPluginID(launcher);
-
-            if (BuiltinExtensions.GetExtensionFromId(this.LibraryGame.PluginId) == extension)
-            {
-                switch (description)
-                {
-                    case PCGamingWikiType.Rating.NativeSupport:
-                        this.AddFeature("Cloud Saves");
-                        break;
-                    case PCGamingWikiType.Rating.NotSupported:
-                        this.AddTag("No Cloud Saves");
-                        break;
-                    case PCGamingWikiType.Rating.Unknown:
-                        break;
-                }
-            }
-        }
-
         private void AddMultiplayerFeatures(string rating, string featureBaseName, short playerCount, IList<string> types)
         {
             if (rating != PCGamingWikiType.Rating.NativeSupport)
@@ -174,69 +154,9 @@ namespace PCGamingWikiMetadata
             AddMultiplayerFeatures(rating, "Online Multiplayer", playerCount, types);
         }
 
-        private BuiltinExtension? LauncherNameToPluginID(string launcher)
+        public void AddMultiplayerAsynchronous(string rating, short playerCount, IList<string> types)
         {
-            switch (launcher)
-            {
-                case PCGamingWikiType.Cloud.Steam:
-                    return BuiltinExtension.SteamLibrary;
-                case PCGamingWikiType.Cloud.Xbox:
-                    return BuiltinExtension.XboxLibrary;
-                case PCGamingWikiType.Cloud.GOG:
-                    return BuiltinExtension.GogLibrary;
-                case PCGamingWikiType.Cloud.Epic:
-                    return BuiltinExtension.EpicLibrary;
-                case PCGamingWikiType.Cloud.Ubisoft:
-                    return BuiltinExtension.UplayLibrary;
-                case PCGamingWikiType.Cloud.Origin:
-                    return BuiltinExtension.OriginLibrary;
-                default:
-                    return null;
-            }
-        }
-
-        public void AddTaxonomy(string type, string value)
-        {
-            switch (type)
-            {
-                case "Monetization":
-                    break;
-                case "Microtransactions":
-                    break;
-                case "Modes":
-                    AddCSVFeatures(value);
-                    break;
-                case "Pacing":
-                    AddCSVTags(value);
-                    break;
-                case "Perspectives":
-                    AddCSVTags(value);
-                    break;
-                case "Controls":
-                    AddCSVTags(value);
-                    break;
-                case "Genres":
-                    AddGenres(value);
-                    break;
-                case "Vehicles":
-                    AddCSVTags(value);
-                    break;
-                case "Art styles":
-                    AddCSVTags(value);
-                    break;
-                case "Themes":
-                    AddCSVTags(value);
-                    break;
-                case "Engines":
-                    AddCSVTags(value);
-                    break;
-                case "Series":
-                    AddCSVSeries(value);
-                    break;
-                default:
-                    logger.Debug($"Unknown taxonomy {type}");
-                    break;
-            }
+            AddMultiplayerFeatures(rating, "Asynchronous Multiplayer", playerCount, types);
         }
 
         public void AddTag(string t)
@@ -254,7 +174,7 @@ namespace PCGamingWikiMetadata
             this.series.Add(new MetadataNameProperty(t));
         }
 
-        private void AddCSVSeries(string csv)
+        public void AddCSVSeries(string csv)
         {
             string[] tags = SplitCSVString(csv);
 
@@ -264,7 +184,7 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void AddCSVFeatures(string csv)
+        public void AddCSVFeatures(string csv)
         {
             string[] tags = SplitCSVString(csv);
 
@@ -274,7 +194,7 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private void AddCSVTags(string csv)
+        public void AddCSVTags(string csv)
         {
             string[] tags = SplitCSVString(csv);
 
@@ -324,7 +244,7 @@ namespace PCGamingWikiMetadata
         {
             if (BuiltinExtensions.GetExtensionFromId(this.LibraryGame.PluginId) == BuiltinExtension.XboxLibrary)
             {
-                this.AddTag("Xbox Play Anywhere");
+                this.AddFeature("Xbox Play Anywhere");
             }
         }
     }

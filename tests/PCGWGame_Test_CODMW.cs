@@ -16,7 +16,9 @@ public class PCGWGame_Test_CODMW : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceBattleNet();
         this.client = new LocalPCGWClient(this.options);
-        this.client.GetSettings().ImportMultiplayerTypes = false;
+        this.client.GetSettings().ImportMultiplayerTypes = true;
+        this.client.GetSettings().ImportFeatureHDR = true;
+        this.client.GetSettings().ImportFeatureRayTracing = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -108,7 +110,7 @@ public class PCGWGame_Test_CODMW : IDisposable
     public void TestMultiplayer()
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
-        features.Should().NotContain("Online Multiplayer: 8+", "Online Multiplayer: Co-op", "Online Multiplayer: Versus");
+        features.Should().Contain("Online Multiplayer: 8+", "Online Multiplayer: Co-op", "Online Multiplayer: Versus");
         features.Should().NotContain("LAN Multiplayer", "LAN Multiplayer: Co-op", "LAN Multiplayer: Versus");
         features.Should().NotContain("Local Multiplayer", "Local Multiplayer: Co-op", "Local Multiplayer: Versus");
     }

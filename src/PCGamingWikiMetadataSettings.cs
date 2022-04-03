@@ -1,10 +1,5 @@
-﻿using Newtonsoft.Json;
-using Playnite.SDK;
-using System;
+﻿using Playnite.SDK;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.ComponentModel;
 
 namespace PCGamingWikiMetadata
@@ -22,14 +17,37 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        private bool importEngineTags = true;
-        public bool ImportEngineTags { get { return importEngineTags; } set { importEngineTags = value; ; NotifyPropertyChanged("ImportEngineTags"); } }
+        private bool importTagEngine = true;
+        public bool ImportTagEngine { get { return importTagEngine; } set { importTagEngine = value; ; NotifyPropertyChanged("ImportTagEngine"); } }
+        private bool importTagMonetization = true;
+        public bool ImportTagMonetization { get { return importTagMonetization; } set { importTagMonetization = value; ; NotifyPropertyChanged("ImportTagMonetization"); } }
+        private bool importTagMicrotransactions = true;
+        public bool ImportTagMicrotransactions { get { return importTagMicrotransactions; } set { importTagMicrotransactions = value; ; NotifyPropertyChanged("ImportTagMicrotransactions"); } }
+        private bool importTagPacing = true;
+        public bool ImportTagPacing { get { return importTagPacing; } set { importTagPacing = value; ; NotifyPropertyChanged("ImportTagPacing"); } }
+        private bool importTagPerspectives = true;
+        public bool ImportTagPerspectives { get { return importTagPerspectives; } set { importTagPerspectives = value; ; NotifyPropertyChanged("ImportTagPerspectives"); } }
+        private bool importTagControls = true;
+        public bool ImportTagControls { get { return importTagControls; } set { importTagControls = value; ; NotifyPropertyChanged("ImportTagControls"); } }
+        private bool importTagVehicles = true;
+        public bool ImportTagVehicles { get { return importTagVehicles; } set { importTagVehicles = value; ; NotifyPropertyChanged("ImportTagVehicles"); } }
+        private bool importTagThemes = true;
+        public bool ImportTagThemes { get { return importTagThemes; } set { importTagThemes = value; ; NotifyPropertyChanged("ImportTagThemes"); } }
+        private bool importTagArtStyle = true;
+        public bool ImportTagArtStyle { get { return importTagArtStyle; } set { importTagArtStyle = value; ; NotifyPropertyChanged("ImportTagArtStyle"); } }
+        private bool importTagNoCloudSaves = true;
+        public bool ImportTagNoCloudSaves { get { return importTagNoCloudSaves; } set { importTagNoCloudSaves = value; ; NotifyPropertyChanged("ImportTagNoCloudSaves"); } }
+
         private bool importXboxPlayAnywhere = true;
         public bool ImportXboxPlayAnywhere { get { return importXboxPlayAnywhere; } set { importXboxPlayAnywhere = value; ; NotifyPropertyChanged("ImportXboxPlayAnywhere"); } }
 
         private bool importMultiplayerTypes = false;
         public bool ImportMultiplayerTypes { get { return importMultiplayerTypes; } set { importMultiplayerTypes = value; ; NotifyPropertyChanged("ImportMultiplayerTypes"); } }
 
+        private bool importFeatureHDR = true;
+        public bool ImportFeatureHDR { get { return importFeatureHDR; } set { importFeatureHDR = value; ; NotifyPropertyChanged("ImportFeatureHDR"); } }
+        private bool importFeatureRayTracing = true;
+        public bool ImportFeatureRayTracing { get { return importFeatureRayTracing; } set { importFeatureRayTracing = value; ; NotifyPropertyChanged("ImportFeatureRayTracing"); } }
 
         // Parameterless constructor must exist if you want to use LoadPluginSettings method.
         public PCGamingWikiMetadataSettings()
@@ -47,9 +65,22 @@ namespace PCGamingWikiMetadata
             // LoadPluginSettings returns null if not saved data is available.
             if (savedSettings != null)
             {
-                ImportEngineTags = savedSettings.ImportEngineTags;
                 ImportXboxPlayAnywhere = savedSettings.ImportXboxPlayAnywhere;
                 ImportMultiplayerTypes = savedSettings.ImportMultiplayerTypes;
+
+                ImportTagEngine = savedSettings.ImportTagEngine;
+                ImportTagMonetization = savedSettings.ImportTagMonetization;
+                ImportTagMicrotransactions = savedSettings.ImportTagMicrotransactions;
+                ImportTagPacing = savedSettings.ImportTagPacing;
+                ImportTagPerspectives = savedSettings.ImportTagPerspectives;
+                ImportTagControls = savedSettings.ImportTagControls;
+                ImportTagVehicles = savedSettings.ImportTagVehicles;
+                ImportTagThemes = savedSettings.ImportTagThemes;
+                ImportTagArtStyle = savedSettings.ImportTagArtStyle;
+                ImportTagNoCloudSaves = savedSettings.ImportTagNoCloudSaves;
+
+                ImportFeatureHDR = savedSettings.ImportFeatureHDR;
+                ImportFeatureRayTracing = savedSettings.ImportFeatureRayTracing;
             }
         }
 
