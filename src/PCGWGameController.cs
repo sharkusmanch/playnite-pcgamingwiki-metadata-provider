@@ -42,6 +42,9 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.Taxonomy.ArtStyles, new Func<bool>( () => this.settings.ImportTagArtStyle) },
                 { PCGamingWikiType.Video.HDR, new Func<bool>( () => this.settings.ImportFeatureHDR) },
                 { PCGamingWikiType.Video.RayTracing, new Func<bool>( () => this.settings.ImportFeatureRayTracing) },
+                { PCGamingWikiType.Video.FPS120Plus, new Func<bool>( () => this.settings.ImportFeatureFramerate120) },
+                { PCGamingWikiType.Video.FPS60, new Func<bool>( () => this.settings.ImportFeatureFramerate60) },
+                { PCGamingWikiType.Video.Ultrawide, new Func<bool>( () => this.settings.ImportFeatureUltrawide) },
             };
 
             this.taxonomyFunctions = new Dictionary<string, Action<string>>()
@@ -133,9 +136,6 @@ namespace PCGamingWikiMetadata
                 return;
             }
 
-            logger.Debug($"Adding {key} {rating} for {Game.Name}");
-            logger.Debug($"Supported {NativeOrLimitedSupport(rating)}");
-
             switch (key)
             {
                 case PCGamingWikiType.Video.HDR:
@@ -143,6 +143,19 @@ namespace PCGamingWikiMetadata
                     break;
                 case PCGamingWikiType.Video.RayTracing:
                     this.Game.AddFeature("Ray Tracing");
+                    break;
+                case PCGamingWikiType.Video.FPS60:
+                    this.Game.SetFramerate60();
+                    break;
+                case PCGamingWikiType.Video.FPS120Plus:
+                    this.Game.SetFramerate120Plus();
+                    break;
+                case PCGamingWikiType.Video.Ultrawide:
+                    this.Game.AddFeature("Ultra-widescreen");
+                    break;
+                case PCGamingWikiType.Video.FPS60And120:
+                    this.AddVideoFeature(PCGamingWikiType.Video.FPS60, rating);
+                    this.AddVideoFeature(PCGamingWikiType.Video.FPS120Plus, rating);
                     break;
                 default:
                     break;
@@ -159,8 +172,6 @@ namespace PCGamingWikiMetadata
 
         private bool NativeOrLimitedSupport(string rating)
         {
-            logger.Debug(rating);
-
             return rating == PCGamingWikiType.Rating.NativeSupport ||
                 rating == PCGamingWikiType.Rating.Limited;
         }

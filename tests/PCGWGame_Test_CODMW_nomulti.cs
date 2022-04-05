@@ -19,6 +19,9 @@ public class PCGWGame_Test_CODMW_nomulti : IDisposable
         this.client.GetSettings().ImportMultiplayerTypes = false;
         this.client.GetSettings().ImportFeatureHDR = false;
         this.client.GetSettings().ImportFeatureRayTracing = false;
+        this.client.GetSettings().ImportFeatureFramerate60 = false;
+        this.client.GetSettings().ImportFeatureFramerate120 = true;
+        this.client.GetSettings().ImportFeatureUltrawide = false;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -127,6 +130,21 @@ public class PCGWGame_Test_CODMW_nomulti : IDisposable
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().NotContain("Ray Tracing");
+    }
+
+    [Fact]
+    public void TestFPS()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("60 FPS");
+        features.Should().Contain("120+ FPS");
+    }
+
+    [Fact]
+    public void TestUltrawide()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("Ultra-widescreen");
     }
 
     public void Dispose()

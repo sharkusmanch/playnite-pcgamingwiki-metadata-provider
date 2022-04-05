@@ -19,6 +19,9 @@ public class PCGWGame_Test_CODMW : IDisposable
         this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.GetSettings().ImportFeatureHDR = true;
         this.client.GetSettings().ImportFeatureRayTracing = true;
+        this.client.GetSettings().ImportFeatureFramerate60 = true;
+        this.client.GetSettings().ImportFeatureFramerate120 = true;
+        this.client.GetSettings().ImportFeatureUltrawide = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -121,12 +124,26 @@ public class PCGWGame_Test_CODMW : IDisposable
     }
 
     [Fact]
+    public void TestFPS()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("120+ FPS", "60 FPS");
+    }
+
+    [Fact]
     public void TestMultiplayer()
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().Contain("Online Multiplayer: 8+", "Online Multiplayer: Co-op", "Online Multiplayer: Versus");
         features.Should().NotContain("LAN Multiplayer", "LAN Multiplayer: Co-op", "LAN Multiplayer: Versus");
         features.Should().NotContain("Local Multiplayer", "Local Multiplayer: Co-op", "Local Multiplayer: Versus");
+    }
+
+    [Fact]
+    public void TestUltrawide()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("Ultra-widescreen");
     }
 
     public void Dispose()

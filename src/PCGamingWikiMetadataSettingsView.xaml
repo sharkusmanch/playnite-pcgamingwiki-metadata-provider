@@ -16,6 +16,15 @@
                 <StackPanel Margin="5">
                     <CheckBox IsChecked="{Binding ImportFeatureHDR}" Content="{DynamicResource LOCPCGWSettingsImportRayTracing}"/>
                 </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportFeatureFramerate60}" Content="{DynamicResource LOCPCGWSettingsImportFramerate60}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportFeatureFramerate120}" Content="{DynamicResource LOCPCGWSettingsImportFramerate120}"/>
+                </StackPanel>
+                <StackPanel Margin="5">
+                    <CheckBox IsChecked="{Binding ImportFeatureUltrawide}" Content="{DynamicResource LOCPCGWSettingsImportUltrawide}"/>
+                </StackPanel>
                 <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsOtherFeatures}"/>
                 <StackPanel Margin="15">
                     <CheckBox IsChecked="{Binding ImportXboxPlayAnywhere}" Content="{DynamicResource LOCPCGWSettingsImportXboxPlayAnywhere}"/>
@@ -30,12 +39,6 @@
                 <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsTaxonomyTags}"/>
                 <StackPanel Margin="5">
                     <CheckBox IsChecked="{Binding ImportTagEngine}" Content="{DynamicResource LOCPCGWSettingsImportTagEngine}"/>
-                </StackPanel>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagMonetization}" Content="{DynamicResource LOCPCGWSettingsImportTagMonetization}"/>
-                </StackPanel>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagMicrotransactions}" Content="{DynamicResource LOCPCGWSettingsImportTagMicrotransactions}"/>
                 </StackPanel>
                 <StackPanel Margin="5">
                     <CheckBox IsChecked="{Binding ImportTagPacing}" Content="{DynamicResource LOCPCGWSettingsImportTagPacing}"/>

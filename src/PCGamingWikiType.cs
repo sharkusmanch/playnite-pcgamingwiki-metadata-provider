@@ -49,5 +49,9 @@ namespace PCGamingWikiType
     {
         public const string RayTracing = "Ray tracing";
         public const string HDR = "High dynamic range display (HDR)";
+        public const string Ultrawide = "Ultra-widescreen";
+        public const string FPS60 = "60 FPS";
+        public const string FPS120Plus = "120+ FPS";
+        public const string FPS60And120 = "60 FPS and 120+ FPS";
     }
 }
