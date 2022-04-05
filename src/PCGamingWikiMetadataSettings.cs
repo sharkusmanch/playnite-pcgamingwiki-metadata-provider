@@ -48,6 +48,12 @@ namespace PCGamingWikiMetadata
         public bool ImportFeatureHDR { get { return importFeatureHDR; } set { importFeatureHDR = value; ; NotifyPropertyChanged("ImportFeatureHDR"); } }
         private bool importFeatureRayTracing = true;
         public bool ImportFeatureRayTracing { get { return importFeatureRayTracing; } set { importFeatureRayTracing = value; ; NotifyPropertyChanged("ImportFeatureRayTracing"); } }
+        private bool importFeatureFramerate60 = false;
+        public bool ImportFeatureFramerate60 { get { return importFeatureFramerate60; } set { importFeatureFramerate60 = value; ; NotifyPropertyChanged("ImportFeatureFramerate60"); } }
+        private bool importFeatureFramerate120 = false;
+        public bool ImportFeatureFramerate120 { get { return importFeatureFramerate120; } set { importFeatureFramerate120 = value; ; NotifyPropertyChanged("ImportFeatureFramerate120"); } }
+        private bool importFeatureUltrawide = false;
+        public bool ImportFeatureUltrawide { get { return importFeatureUltrawide; } set { importFeatureUltrawide = value; ; NotifyPropertyChanged("ImportFeatureUltrawide"); } }
 
         // Parameterless constructor must exist if you want to use LoadPluginSettings method.
         public PCGamingWikiMetadataSettings()
@@ -81,6 +87,9 @@ namespace PCGamingWikiMetadata
 
                 ImportFeatureHDR = savedSettings.ImportFeatureHDR;
                 ImportFeatureRayTracing = savedSettings.ImportFeatureRayTracing;
+                ImportFeatureFramerate120 = savedSettings.ImportFeatureFramerate120;
+                ImportFeatureFramerate60 = savedSettings.ImportFeatureFramerate60;
+                ImportFeatureUltrawide = savedSettings.ImportFeatureUltrawide;
             }
         }
 

@@ -103,6 +103,16 @@ namespace PCGamingWikiMetadata
             }
         }
 
+        public void SetFramerate60()
+        {
+            AddFeature("60 FPS");
+        }
+
+        public void SetFramerate120Plus()
+        {
+            AddFeature("120+ FPS");
+        }
+
         private void AddMultiplayerFeatures(string rating, string featureBaseName, short playerCount, IList<string> types)
         {
             if (rating != PCGamingWikiType.Rating.NativeSupport)

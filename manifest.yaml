@@ -1,5 +1,13 @@
 AddonId: PCGamingWikiMetadata_c038558e-427b-4551-be4c-be7009ce5a8d
 Packages:
+- Version: 1.0.2
+  RequiredApiVersion: 6.2.2
+  ReleaseDate: 2022-04-04
+  PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v1.0.2/PCGamingWiki_Metadata_Provider_v1.0.2.pext
+  Changelog:
+    - Add features for supported frame rate
+    - Add feature for ultrawide support
+    - Remove unused tag settings
 - Version: 1.0.1
   RequiredApiVersion: 6.2.2
   ReleaseDate: 2022-04-03

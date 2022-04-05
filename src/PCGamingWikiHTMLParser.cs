@@ -68,7 +68,7 @@ namespace PCGamingWikiMetadata
                     switch (child.Attributes["class"].Value)
                     {
                         case "table-settings-video-body-parameter":
-                            feature = child.FirstChild.InnerText;
+                            feature = child.FirstChild.InnerText.Trim();
                             logger.Debug(feature);
                             break;
                         case "table-settings-video-body-rating":

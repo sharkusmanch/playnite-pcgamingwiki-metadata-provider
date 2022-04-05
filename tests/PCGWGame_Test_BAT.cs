@@ -18,6 +18,8 @@ public class PCGWGame_Test_BAT : IDisposable
         this.options.SetGameSourceEpic();
         this.client = new LocalPCGWClient(this.options);
         this.client.GetSettings().ImportTagNoCloudSaves = false;
+        this.client.GetSettings().ImportFeatureFramerate60 = true;
+        this.client.GetSettings().ImportFeatureFramerate120 = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -146,6 +148,14 @@ public class PCGWGame_Test_BAT : IDisposable
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().NotContain("Ray Tracing");
+    }
+
+    [Fact]
+    public void TestFPS()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().Contain("60 FPS");
+        features.Should().NotContain("120+ FPS");
     }
 
     public void Dispose()
