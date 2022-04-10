@@ -204,6 +204,23 @@ namespace PCGamingWikiMetadata
             }
         }
 
+        public void AddCSVTags(string csv, string prefix, bool prefixEnabled)
+        {
+            if (!prefixEnabled)
+            {
+                AddCSVTags(csv);
+            }
+            else
+            {
+                string[] tags = SplitCSVString(csv);
+
+                foreach (string tag in tags)
+                {
+                    AddTag($"[{prefix}] {tag}");
+                }
+            }
+        }
+
         public void AddCSVTags(string csv)
         {
             string[] tags = SplitCSVString(csv);

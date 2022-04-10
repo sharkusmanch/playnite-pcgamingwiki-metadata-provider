@@ -17,6 +17,8 @@ namespace PCGamingWikiMetadata
             }
         }
 
+        private bool addTagPrefix = false;
+        public bool AddTagPrefix { get { return addTagPrefix; } set { addTagPrefix = value; ; NotifyPropertyChanged("AddTagPrefix"); } }
         private bool importTagEngine = true;
         public bool ImportTagEngine { get { return importTagEngine; } set { importTagEngine = value; ; NotifyPropertyChanged("ImportTagEngine"); } }
         private bool importTagMonetization = true;
@@ -74,6 +76,7 @@ namespace PCGamingWikiMetadata
                 ImportXboxPlayAnywhere = savedSettings.ImportXboxPlayAnywhere;
                 ImportMultiplayerTypes = savedSettings.ImportMultiplayerTypes;
 
+                AddTagPrefix = savedSettings.AddTagPrefix;
                 ImportTagEngine = savedSettings.ImportTagEngine;
                 ImportTagMonetization = savedSettings.ImportTagMonetization;
                 ImportTagMicrotransactions = savedSettings.ImportTagMicrotransactions;

@@ -10,13 +10,16 @@ namespace PCGamingWikiMetadata
         {
             this.content = content;
             this.gameController = gameController;
-            // this.settings = settings;
         }
 
         public void ParseGameDataJson()
         {
             JToken playAnywhere = this.content.SelectToken("$.parse.links[?(@.* == 'List of Xbox Play Anywhere games')]");
-            gameController.SetXboxPlayAnywhere();
+
+            if (playAnywhere != null)
+            {
+                gameController.SetXboxPlayAnywhere();
+            }
         }
 
         public string PageHTMLText()
