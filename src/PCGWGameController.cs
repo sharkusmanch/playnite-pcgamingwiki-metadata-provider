@@ -49,13 +49,13 @@ namespace PCGamingWikiMetadata
 
             this.taxonomyFunctions = new Dictionary<string, Action<string>>()
             {
-                { PCGamingWikiType.Taxonomy.Engines, new Action<string>( value => this.Game.AddCSVTags(value)) },
-                { PCGamingWikiType.Taxonomy.Themes, new Action<string>( value => this.Game.AddCSVTags(value)) },
-                { PCGamingWikiType.Taxonomy.ArtStyles, new Action<string>( value => this.Game.AddCSVTags(value)) },
-                { PCGamingWikiType.Taxonomy.Vehicles, new Action<string>( value => this.Game.AddCSVTags(value)) },
-                { PCGamingWikiType.Taxonomy.Controls, new Action<string>( value => this.Game.AddCSVTags(value)) },
-                { PCGamingWikiType.Taxonomy.Perspectives, new Action<string>( value => this.Game.AddCSVTags(value)) },
-                { PCGamingWikiType.Taxonomy.Pacing, new Action<string>( value => this.Game.AddCSVTags(value)) },
+                { PCGamingWikiType.Taxonomy.Engines, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagEngine"), this.settings.AddTagPrefix)) },
+                { PCGamingWikiType.Taxonomy.Themes, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagThemes"), this.settings.AddTagPrefix)) },
+                { PCGamingWikiType.Taxonomy.ArtStyles, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagArtStyle"), this.settings.AddTagPrefix)) },
+                { PCGamingWikiType.Taxonomy.Vehicles, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagVehicles"), this.settings.AddTagPrefix)) },
+                { PCGamingWikiType.Taxonomy.Controls, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagControls"), this.settings.AddTagPrefix)) },
+                { PCGamingWikiType.Taxonomy.Perspectives, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagPerspectives"), this.settings.AddTagPrefix)) },
+                { PCGamingWikiType.Taxonomy.Pacing, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagPacing"), this.settings.AddTagPrefix)) },
                 { PCGamingWikiType.Taxonomy.Modes, new Action<string>( value => this.Game.AddCSVFeatures(value)) },
                 { PCGamingWikiType.Taxonomy.Genres, new Action<string>( value => this.Game.AddGenres(value)) },
                 { PCGamingWikiType.Taxonomy.Series, new Action<string>( value => this.Game.AddCSVSeries(value)) },

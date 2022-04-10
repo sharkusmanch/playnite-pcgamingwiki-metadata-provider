@@ -15,6 +15,7 @@
     <sys:String x:Key="LOCPCGWSettingsImportTagThemes">Themes</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportTagArtStyle">Art Style</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportTagNoCloudSaves">Add tag for games that don't support cloud saves</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsAddTagsPrefix">Add type prefix for enabled tags</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTaxonomyTags">Taxonomy Tags</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Other Tags</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Other Features</sys:String>
