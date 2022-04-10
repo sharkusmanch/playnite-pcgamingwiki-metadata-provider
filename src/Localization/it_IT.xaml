@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCPCGWSettingsTabTags">Tag</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabFeatures">Caratteristiche</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportXboxPlayAnywhere">Aggiungi la funzionalità Xbox Play Anywhere ai titoli supportati</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagEngine">Motore di gioco</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMonetization">Monetizzazione</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMicrotransactions">Microtransazioni</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagModes">Modalità</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPacing">Stimolazione</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPerspectives">Prospettive</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagControls">Controlli</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagVehicles">Veicoli</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagThemes">Temi</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagArtStyle">Stile artistico</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagNoCloudSaves">Aggiungi tag per i giochi che non supportano i salvataggi nel cloud</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsAddTagsPrefix">Aggiungi il prefisso del tipo per i tag abilitati</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTaxonomyTags">Tag di tassonomia</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherTags">Altri tag</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Altre caratteristiche</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Funzionalità video</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Ray Tracing</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 FPS</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 FPS</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Ultra widescreen</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Aggiungi funzionalità multiplayer dettagliate</sys:String>
+
+</ResourceDictionary>

@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCPCGWSettingsTabTags">Merkers</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabFeatures">Kenmerke</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportXboxPlayAnywhere">Voeg Xbox Play Anywhere-funksie by gesteunde titels</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagEngine">Spelenjin</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMonetization">Monetisering</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMicrotransactions">Mikrotransaksies</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagModes">Modusse</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPacing">Tempo</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPerspectives">Perspektiewe</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagControls">Kontroles</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagVehicles">Voertuie</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagThemes">Temas</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagArtStyle">Kuns Styl</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagNoCloudSaves">Voeg merker by vir speletjies wat nie wolk stoor ondersteun nie</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsAddTagsPrefix">Voeg tipe voorvoegsel by vir geaktiveerde merkers</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTaxonomyTags">Taksonomie-etikette</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherTags">Ander Tags</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Ander eienskappe</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Video-kenmerke</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Straalopsporing</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 FPS</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 FPS</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Ultrawye skerm</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Straalopsporing</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Voeg gedetailleerde multiplayer-kenmerke by</sys:String>
+
+</ResourceDictionary>

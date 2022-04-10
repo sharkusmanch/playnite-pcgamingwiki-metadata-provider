@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCPCGWSettingsTabTags">Мітки</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabFeatures">Особливості</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportXboxPlayAnywhere">Додайте функцію Xbox Play Anywhere до підтримуваних ігор</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagEngine">Ігровий движок</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMonetization">Монетизація</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMicrotransactions">Мікротранзакції</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagModes">Режими</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPacing">Швидкість</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPerspectives">Перспективи</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagControls">Елементи керування</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagVehicles">транспортні засоби</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagThemes">Теми</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagArtStyle">Художній стиль</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagNoCloudSaves">Додайте тег для ігор, які не підтримують хмарне збереження</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsAddTagsPrefix">Додайте префікс типу для ввімкнених тегів</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTaxonomyTags">Теги таксономії</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherTags">Інші теги</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Інші особливості</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Особливості відео</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Трасування променів</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 кадрів в секунду</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 кадрів в секунду</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Ультра широкоформатний</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Трасування променів</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Додайте детальні функції для кількох гравців</sys:String>
+
+</ResourceDictionary>

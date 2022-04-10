@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCPCGWSettingsTabTags">Címkék</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabFeatures">Jellemzők</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportXboxPlayAnywhere">Adja hozzá az Xbox Play Anywhere funkciót a támogatott játékokhoz</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagEngine">Game Engine</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMonetization">Bevételszerzés</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMicrotransactions">Mikrotranzakciók</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagModes">Módok</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPacing">Lépés</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPerspectives">Perspektívák</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagControls">Vezérlők</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagVehicles">Járművek</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagThemes">Témák</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagArtStyle">Művészeti stílus</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagNoCloudSaves">Adjon hozzá címkét azokhoz a játékokhoz, amelyek nem támogatják a felhőalapú mentést</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsAddTagsPrefix">Típuselőtag hozzáadása az engedélyezett címkékhez</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTaxonomyTags">Taxonómiai címkék</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherTags">Egyéb címkék</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Más funkciók</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Videó funkciók</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Sugárkövetés</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 FPS</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 FPS</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Ultra széles képernyő</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Sugárkövetés</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Adjon hozzá részletes többjátékos funkciókat</sys:String>
+
+</ResourceDictionary>

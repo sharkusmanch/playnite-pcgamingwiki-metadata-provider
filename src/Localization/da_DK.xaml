@@ -1,0 +1,32 @@
+﻿<?xml version="1.0"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sys="clr-namespace:System;assembly=mscorlib">
+
+    <sys:String x:Key="LOCPCGWSettingsTabTags">Tags</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabFeatures">Funktioner</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportXboxPlayAnywhere">Tilføj Xbox Play Anywhere-funktionen til understøttede titler</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagEngine">Spilmotor</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMonetization">Indtægtsgenerering</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagMicrotransactions">Mikrotransaktioner</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagModes">Tilstande</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPacing">Pacing</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagPerspectives">Perspektiver</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagControls">Kontrolelementer</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagVehicles">Køretøjer</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagThemes">Temaer</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagArtStyle">Kunststil</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportTagNoCloudSaves">Tilføj tag til spil, der ikke understøtter skylagring</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsAddTagsPrefix">Tilføj typepræfiks for aktiverede tags</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTaxonomyTags">Taksonomi tags</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherTags">Andre tags</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Andre funktioner</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Videofunktioner</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Ray Tracing</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 FPS</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 FPS</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Ultra Widescreen</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Tilføj detaljerede multiplayer-funktioner</sys:String>
+
+</ResourceDictionary>
