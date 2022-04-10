@@ -19,7 +19,7 @@ public class PCGWGame_Test_YAKUZA4 : IDisposable
         this.options.SetGameSourceXbox();
         this.client = new LocalPCGWClient(this.options);
 
-        // Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US"); 
+        // Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
         this.client.GetSettings().AddTagPrefix = false;
         this.client.GetSettings().ImportXboxPlayAnywhere = true;
