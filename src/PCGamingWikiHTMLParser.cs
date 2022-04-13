@@ -4,7 +4,6 @@ using HtmlAgilityPack;
 using System.Text.RegularExpressions;
 using Playnite.SDK;
 using System.Globalization;
-using Playnite.SDK.Models;
 
 namespace PCGamingWikiMetadata
 {
@@ -207,8 +206,7 @@ namespace PCGamingWikiMetadata
                 foreach (HtmlNode child in row.SelectNodes(".//th|td"))
                 {
                     RemoveCitationsFromHTMLNode(child);
-                    const string pattern = @"[\t\s]";
-                    string text = Regex.Replace(child.InnerText.Trim(), pattern, " ");
+                    string text = HtmlEntity.DeEntitize(child.InnerText.Trim());
 
                     switch (child.Name)
                     {
@@ -245,10 +243,10 @@ namespace PCGamingWikiMetadata
                                             this.gameController.AddTaxonomy(PCGamingWikiType.Taxonomy.Engines, text);
                                             break;
                                         case "Developers":
-                                            AddCompany(child, this.gameController.Game.Developers);
+                                            this.gameController.AddDeveloper(text);
                                             break;
                                         case "Publishers":
-                                            AddCompany(child, this.gameController.Game.Publishers);
+                                            this.gameController.AddPublisher(text);
                                             break;
                                         default:
                                             logger.Debug($"ApplyGameMetadata unknown header {currentHeader}");
@@ -322,20 +320,6 @@ namespace PCGamingWikiMetadata
                         break;
                 }
             }
-        }
-
-        private void AddCompany(HtmlNode node, IList<MetadataProperty> list)
-        {
-            string company = node.InnerText;
-            list.Add(new MetadataNameProperty(company));
-        }
-
-        private string ParseText(HtmlNode node)
-        {
-            var nodes = node.SelectNodes("./a");
-            var currNode = nodes[nodes.Count - 1];
-
-            return currNode.InnerText.Trim();
         }
     }
 }

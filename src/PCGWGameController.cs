@@ -1,4 +1,5 @@
 using Playnite.SDK;
+using Playnite.SDK.Models;
 using System.Collections.Generic;
 using System;
 
@@ -201,6 +202,16 @@ namespace PCGamingWikiMetadata
                     break;
 
             }
+        }
+
+        public void AddDeveloper(string name)
+        {
+            this.Game.Developers.Add(new MetadataNameProperty(name));
+        }
+
+        public void AddPublisher(string name)
+        {
+            this.Game.Publishers.Add(new MetadataNameProperty(name));
         }
     }
 }
