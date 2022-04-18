@@ -5,6 +5,8 @@ using System;
 using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
 using System.Linq;
+using System.Web;
+using System.Text;
 
 namespace PCGamingWikiMetadata
 {
@@ -45,8 +47,13 @@ namespace PCGamingWikiMetadata
         private string NormalizeSearchString(string search)
         {
             string updated = search.Replace("-", " ");
+            
+            // updated = System.Web.HttpUtility.UrlEncode(updated);
+            return Uri.EscapeDataString(updated);
+            // byte[] bytes = Encoding.Default.GetBytes(updated);
+            // updated = Encoding.UTF8.GetString(bytes);
 
-            return updated;
+            // return updated;
         }
 
         public List<GenericItemOption> SearchGames(string searchName)
@@ -55,11 +62,14 @@ namespace PCGamingWikiMetadata
             logger.Info(searchName);
 
             var request = new RestRequest("/", Method.GET);
+            request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
+            request.AddHeader("Accept", "application/json, text/json, text/x-json");
+
             request.AddParameter("action", "query", ParameterType.QueryString);
             request.AddParameter("list", "search", ParameterType.QueryString);
             request.AddParameter("srlimit", 300, ParameterType.QueryString);
             request.AddParameter("srwhat", "title", ParameterType.QueryString);
-            request.AddParameter("srsearch", NormalizeSearchString(searchName), ParameterType.QueryString);
+            request.AddParameter("srsearch", NormalizeSearchString(searchName), ParameterType.QueryStringWithoutEncode);
 
             try
             {
