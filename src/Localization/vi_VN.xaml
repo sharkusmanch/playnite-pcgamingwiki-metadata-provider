@@ -29,7 +29,7 @@
     <sys:String x:Key="LOCPCGWSettingsImportVR">VR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">HTC Vive</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows Mixed Reality</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Thực tế hỗn hợp Windows</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Có hi vọng</sys:String>
