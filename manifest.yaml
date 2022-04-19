@@ -5,7 +5,7 @@ Packages:
   ReleaseDate: 2022-04-18
   PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v1.0.5/PCGamingWiki_Metadata_Provider_v1.0.5.pext
   Changelog:
-    - Fix search when game title contains special characters
+    - Fix search matching when game title contains special characters
 - Version: 1.0.4
   RequiredApiVersion: 6.2.2
   ReleaseDate: 2022-04-12
