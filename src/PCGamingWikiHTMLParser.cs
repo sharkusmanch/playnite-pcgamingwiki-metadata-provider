@@ -56,7 +56,6 @@ namespace PCGamingWikiMetadata
         private void ParseVideo()
         {
             var rows = SelectTableRowsByClass("table-settings-video", "template-infotable-body table-settings-video-body-row");
-            logger.Debug($"Video row count: {rows.Count}");
             string feature = "";
             string rating = "";
 
@@ -68,11 +67,9 @@ namespace PCGamingWikiMetadata
                     {
                         case "table-settings-video-body-parameter":
                             feature = child.FirstChild.InnerText.Trim();
-                            logger.Debug(feature);
                             break;
                         case "table-settings-video-body-rating":
                             rating = child.FirstChild.Attributes["title"].Value;
-                            logger.Debug(rating);
                             break;
                     }
                 }
