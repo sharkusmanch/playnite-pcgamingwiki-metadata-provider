@@ -26,6 +26,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 إطارًا في الثانية</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 إطارًا في الثانية</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportUltrawide">شاشة عريضة للغاية</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVR">VR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">HTC Vive</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows Mixed Reality</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">تتبع الشعاع</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">أضف ميزات مفصلة متعددة اللاعبين</sys:String>
 
