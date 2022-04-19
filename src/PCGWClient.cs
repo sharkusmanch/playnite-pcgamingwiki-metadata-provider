@@ -5,6 +5,7 @@ using System;
 using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
 using System.Linq;
+using System.Text;
 using System.Web;
 
 namespace PCGamingWikiMetadata
@@ -21,6 +22,7 @@ namespace PCGamingWikiMetadata
         {
             client = new RestClient(baseUrl);
             client.UserAgent = "Playnite";
+            client.Encoding = Encoding.UTF8;
             this.options = options;
             this.gameController = gameController;
         }
@@ -28,9 +30,7 @@ namespace PCGamingWikiMetadata
         public JObject ExecuteRequest(RestRequest request)
         {
             request.AddParameter("format", "json", ParameterType.QueryString);
-            // request.AddHeader();
-            // request.OnBeforeDeserialization = resp => { resp.ContentType = "application/json"; };
-
+            
             var fullUrl = client.BuildUri(request);
             logger.Info(fullUrl.ToString());
 
@@ -54,12 +54,7 @@ namespace PCGamingWikiMetadata
 
         private string NormalizeSearchString(string search)
         {
-            string updated = search.Replace("-", " ");
-            updated = HttpUtility.UrlEncode(updated);
-            logger.Debug($"encoded: {updated}");
-            logger.Debug($"decoded: {HttpUtility.UrlDecode(updated)}");
-            return updated;
-            // return Uri.EscapeDataString(updated);
+            return search.Replace("-", " ");
         }
 
         public List<GenericItemOption> SearchGames(string searchName)
@@ -68,18 +63,14 @@ namespace PCGamingWikiMetadata
             logger.Info(searchName);
 
             var request = new RestRequest("/", Method.GET);
-            request.AddHeader("Content-Type", "application/x-www-form-urlencoded; charset=utf-8");
+            request.AddHeader("Content-Type", "application/x-www-form-urlencoded");
             request.AddHeader("Accept", "application/json, text/json, text/x-json");
 
             request.AddParameter("action", "query", ParameterType.QueryString);
             request.AddParameter("list", "search", ParameterType.QueryString);
             request.AddParameter("srlimit", 300, ParameterType.QueryString);
             request.AddParameter("srwhat", "title", ParameterType.QueryString);
-            
-            string escapedName = NormalizeSearchString(searchName);
-            logger.Debug($"Escaped search name: {escapedName}");
-            // request.AddQueryParameter("srsearch", escapedName, false);
-            request.AddParameter("srsearch", escapedName, ParameterType.QueryStringWithoutEncode);
+            request.AddParameter("srsearch", $"\"{NormalizeSearchString(searchName)}\"", ParameterType.QueryString);
 
             try
             {
