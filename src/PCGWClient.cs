@@ -32,7 +32,7 @@ namespace PCGamingWikiMetadata
 
             var fullUrl = client.BuildUri(request);
             logger.Info(fullUrl.ToString());
-            
+
             var response = client.Execute(request);
 
             if (response.ErrorException != null)
