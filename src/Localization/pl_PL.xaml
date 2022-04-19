@@ -26,6 +26,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Ultraszerokoekranowy</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVR">VR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">HTC Vive</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Rzeczywistość mieszana systemu Windows</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Śledzenie promieni</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Dodaj szczegółowe funkcje gry wieloosobowej</sys:String>
 

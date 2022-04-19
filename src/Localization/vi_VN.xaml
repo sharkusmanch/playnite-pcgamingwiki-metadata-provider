@@ -26,6 +26,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Màn hình siêu rộng</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVR">VR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">HTC Vive</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Thực tế hỗn hợp Windows</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Có hi vọng</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Thêm các tính năng nhiều người chơi chi tiết</sys:String>
 

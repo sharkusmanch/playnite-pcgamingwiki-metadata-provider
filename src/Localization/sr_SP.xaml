@@ -26,6 +26,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 ФПС</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 ФПС</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Ултра Видесцреен</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVR">ВР</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">ХТЦ Виве</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROSVR">ОСВР</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Виндовс Микед Реалити</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Оцулус Рифт</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">ворпКс</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Раи Трацинг</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Додајте детаљне функције за више играча</sys:String>
 

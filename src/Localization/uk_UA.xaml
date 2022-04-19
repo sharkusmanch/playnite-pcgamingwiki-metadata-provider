@@ -26,6 +26,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 кадрів в секунду</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 кадрів в секунду</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Ультра широкоформатний</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVR">VR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">HTC Vive</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROSVR">ОСВР</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows Mixed Reality</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Трасування променів</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Додайте детальні функції для кількох гравців</sys:String>
 

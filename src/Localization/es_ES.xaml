@@ -26,6 +26,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportUltrawide">Pantalla ultra ancha</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVR">realidad virtual</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">htc vive</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Realidad mixta de Windows</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">grieta del óculo</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Trazado de rayos</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Añade funciones multijugador detalladas</sys:String>
 

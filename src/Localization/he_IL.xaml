@@ -26,6 +26,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportUltrawide">מסך רחב במיוחד</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVR">VR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">HTC Vive</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows Mixed Reality</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">אוקולוס ריפט</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">הוסף תכונות מרובה משתתפים מפורטות</sys:String>
 
