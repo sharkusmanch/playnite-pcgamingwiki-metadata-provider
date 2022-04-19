@@ -17,6 +17,7 @@ public class PCGWGame_Test_CODMW : IDisposable
         this.options.SetGameSourceBattleNet();
         this.client = new LocalPCGWClient(this.options);
         this.client.GetSettings().ImportMultiplayerTypes = true;
+        this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportFeatureHDR = true;
         this.client.GetSettings().ImportFeatureRayTracing = true;
         this.client.GetSettings().ImportFeatureFramerate60 = true;
@@ -146,6 +147,12 @@ public class PCGWGame_Test_CODMW : IDisposable
         features.Should().Contain("Ultra-widescreen");
     }
 
+    [Fact]
+    public void TestVR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("VR");
+    }
     public void Dispose()
     {
 

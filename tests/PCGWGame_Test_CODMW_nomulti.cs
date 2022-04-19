@@ -22,6 +22,7 @@ public class PCGWGame_Test_CODMW_nomulti : IDisposable
         this.client.GetSettings().ImportFeatureFramerate60 = false;
         this.client.GetSettings().ImportFeatureFramerate120 = true;
         this.client.GetSettings().ImportFeatureUltrawide = false;
+        this.client.GetSettings().ImportFeatureVR = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -147,6 +148,12 @@ public class PCGWGame_Test_CODMW_nomulti : IDisposable
         features.Should().NotContain("Ultra-widescreen");
     }
 
+    [Fact]
+    public void TestVR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("VR");
+    }
     public void Dispose()
     {
 

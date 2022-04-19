@@ -119,6 +119,12 @@ public class PCGWGame_Test_CITIES : IDisposable
         features.Should().NotContain("Full Controller Support");
     }
 
+    [Fact]
+    public void TestVR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("VR");
+    }
     public void Dispose()
     {
 

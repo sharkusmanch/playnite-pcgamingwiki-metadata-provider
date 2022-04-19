@@ -46,6 +46,12 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.Video.FPS120Plus, new Func<bool>( () => this.settings.ImportFeatureFramerate120) },
                 { PCGamingWikiType.Video.FPS60, new Func<bool>( () => this.settings.ImportFeatureFramerate60) },
                 { PCGamingWikiType.Video.Ultrawide, new Func<bool>( () => this.settings.ImportFeatureUltrawide) },
+                { PCGamingWikiType.Video.VR, new Func<bool>( () => this.settings.ImportFeatureVR) },
+                { PCGamingWikiType.VRHeadsets.HTCVive, new Func<bool>( () => this.settings.ImportFeatureVRHTCVive) },
+                { PCGamingWikiType.VRHeadsets.OculusRift, new Func<bool>( () => this.settings.ImportFeatureVROculusRift) },
+                { PCGamingWikiType.VRHeadsets.OSVR, new Func<bool>( () => this.settings.ImportFeatureVROSVR) },
+                { PCGamingWikiType.VRHeadsets.WindowsMixedReality, new Func<bool>( () => this.settings.ImportFeatureVRWMR) },
+                { PCGamingWikiType.VRHeadsets.Vorpx, new Func<bool>( () => this.settings.ImportFeatureVRvorpX) },
             };
 
             this.taxonomyFunctions = new Dictionary<string, Action<string>>()
@@ -128,6 +134,16 @@ namespace PCGamingWikiMetadata
                         break;
                 }
             }
+        }
+
+        public void AddVRFeature(string headset, string rating)
+        {
+            if (IsSettingDisabled(PCGamingWikiType.Video.VR) || IsSettingDisabled(headset) || !NativeOrLimitedSupport(rating))
+            {
+                return;
+            }
+
+            this.Game.AddVRFeature();
         }
 
         public void AddVideoFeature(string key, string rating)

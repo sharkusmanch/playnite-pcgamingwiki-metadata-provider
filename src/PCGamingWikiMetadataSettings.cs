@@ -56,6 +56,22 @@ namespace PCGamingWikiMetadata
         public bool ImportFeatureFramerate120 { get { return importFeatureFramerate120; } set { importFeatureFramerate120 = value; ; NotifyPropertyChanged("ImportFeatureFramerate120"); } }
         private bool importFeatureUltrawide = false;
         public bool ImportFeatureUltrawide { get { return importFeatureUltrawide; } set { importFeatureUltrawide = value; ; NotifyPropertyChanged("ImportFeatureUltrawide"); } }
+        private bool importFeatureVR = false;
+        public bool ImportFeatureVR { get { return importFeatureVR; } set { importFeatureVR = value; ; NotifyPropertyChanged("ImportFeatureVR"); } }
+
+        private bool importFeatureVRHTCVive = true;
+        public bool ImportFeatureVRHTCVive { get { return importFeatureVRHTCVive; } set { importFeatureVRHTCVive = value; ; NotifyPropertyChanged("ImportFeatureVRHTCVive"); } }
+
+        private bool importFeatureVROculusRift = true;
+        public bool ImportFeatureVROculusRift { get { return importFeatureVROculusRift; } set { importFeatureVROculusRift = value; ; NotifyPropertyChanged("ImportFeatureVROculusRift"); } }
+
+        private bool importFeatureVROSVR = true;
+        public bool ImportFeatureVROSVR { get { return importFeatureVROSVR; } set { importFeatureVROSVR = value; ; NotifyPropertyChanged("ImportFeatureVROSVR"); } }
+
+        private bool importFeatureVRWMR = true;
+        public bool ImportFeatureVRWMR { get { return importFeatureVRWMR; } set { importFeatureVRWMR = value; ; NotifyPropertyChanged("ImportFeatureVRWMR"); } }
+        private bool importFeatureVRvorpX = false;
+        public bool ImportFeatureVRvorpX { get { return importFeatureVRvorpX; } set { importFeatureVRvorpX = value; ; NotifyPropertyChanged("ImportFeatureVRvorpX"); } }
 
         // Parameterless constructor must exist if you want to use LoadPluginSettings method.
         public PCGamingWikiMetadataSettings()
@@ -93,6 +109,12 @@ namespace PCGamingWikiMetadata
                 ImportFeatureFramerate120 = savedSettings.ImportFeatureFramerate120;
                 ImportFeatureFramerate60 = savedSettings.ImportFeatureFramerate60;
                 ImportFeatureUltrawide = savedSettings.ImportFeatureUltrawide;
+
+                ImportFeatureVR = savedSettings.importFeatureVR;
+                ImportFeatureVRHTCVive = savedSettings.importFeatureVRHTCVive;
+                ImportFeatureVROculusRift = savedSettings.importFeatureVROculusRift;
+                ImportFeatureVROSVR = savedSettings.importFeatureVROSVR;
+                ImportFeatureVRWMR = savedSettings.importFeatureVRWMR;
             }
         }
 

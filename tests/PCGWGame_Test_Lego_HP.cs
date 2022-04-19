@@ -18,6 +18,7 @@ public class PCGWGame_Test_Lego_HP : IDisposable
         this.options.SetGameSourceSteam();
         this.client = new LocalPCGWClient(this.options);
         this.client.GetSettings().ImportTagNoCloudSaves = true;
+        this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportFeatureFramerate60 = true;
         this.client.GetSettings().ImportFeatureFramerate120 = true;
         this.client.GetSettings().ImportMultiplayerTypes = true;
@@ -152,6 +153,12 @@ public class PCGWGame_Test_Lego_HP : IDisposable
         features.Should().Contain("120+ FPS");
     }
 
+    [Fact]
+    public void TestVR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("VR");
+    }
     public void Dispose()
     {
 

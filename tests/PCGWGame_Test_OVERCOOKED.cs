@@ -16,6 +16,7 @@ public class PCGWGame_Test_OVERCOOKED : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceOrigin();
         this.client = new LocalPCGWClient(this.options);
+        this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.FetchGamePageContent(this.testGame);
     }
@@ -129,6 +130,12 @@ public class PCGWGame_Test_OVERCOOKED : IDisposable
         features.Should().NotContain("Ray Tracing");
     }
 
+    [Fact]
+    public void TestVR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("VR");
+    }
     public void Dispose()
     {
 

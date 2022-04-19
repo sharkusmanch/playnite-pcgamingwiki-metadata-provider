@@ -14,6 +14,7 @@ public class PCGWGame_Test_DL : IDisposable
         this.testGame = new PCGWGame("deathloop", -1);
         this.client = new LocalPCGWClient();
         this.client.GetSettings().ImportMultiplayerTypes = true;
+        this.client.GetSettings().ImportFeatureVR = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -109,6 +110,12 @@ public class PCGWGame_Test_DL : IDisposable
         features.Should().NotContain("Local Multiplayer: Co-Op", "Local Multiplayer: Versus");
     }
 
+    [Fact]
+    public void TestVR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("VR");
+    }
     public void Dispose()
     {
 

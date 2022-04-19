@@ -176,7 +176,7 @@ namespace PCGamingWikiMetadata
 
         public void AddFeature(string t)
         {
-            this.features.Add(new MetadataNameProperty(t));
+            this.features.AddMissing(new MetadataNameProperty(t));
         }
 
         public void AddSeries(string t)
@@ -273,6 +273,11 @@ namespace PCGamingWikiMetadata
             {
                 this.AddFeature("Xbox Play Anywhere");
             }
+        }
+
+        public void AddVRFeature()
+        {
+            this.AddFeature("VR");
         }
     }
 }
