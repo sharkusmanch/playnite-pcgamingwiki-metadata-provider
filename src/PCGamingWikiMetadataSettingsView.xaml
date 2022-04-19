@@ -33,10 +33,6 @@
                                             <RowDefinition Height="auto" />
                                             <RowDefinition Height="4" />
                                             <RowDefinition Height="auto" />
-                                            
-                                            <RowDefinition Height="auto" />
-                                            <RowDefinition Height="4" />
-                                            <RowDefinition Height="auto" />
 
                                             <RowDefinition Height="auto" />
                                             <RowDefinition Height="4" />
@@ -49,7 +45,11 @@
                                             <RowDefinition Height="auto" />
                                             <RowDefinition Height="4" />
                                             <RowDefinition Height="auto" />
-                                    </Grid.RowDefinitions> 
+
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="4" />
+                                            <RowDefinition Height="auto" />
+                                    </Grid.RowDefinitions>
 
                                     <CheckBox Grid.Row="0" Padding="4" IsChecked="{Binding ImportFeatureVRHTCVive}">
                                         <Label Content="{DynamicResource LOCPCGWSettingsImportVRHTCVive}" />
@@ -66,7 +66,7 @@
                                     <CheckBox Grid.Row="9" Padding="4" IsChecked="{Binding ImportFeatureVRWMR}">
                                         <Label Content="{DynamicResource LOCPCGWSettingsImportVRWMR}" />
                                     </CheckBox>
-                                    
+
                                     <CheckBox Grid.Row="12" Padding="4" IsChecked="{Binding ImportFeatureVRvorpX}">
                                         <Label Content="{DynamicResource LOCPCGWSettingsImportVRvorpX}" />
                                     </CheckBox>
