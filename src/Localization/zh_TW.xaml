@@ -26,11 +26,11 @@
     <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60 幀</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120 幀/秒</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportUltrawide">超寬屏</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVR">VR</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">HTC Vive</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVR">虛擬現實</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">HTC 萬歲</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows Mixed Reality</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows 混合現實</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">眼裂</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">光線追踪</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">添加詳細的多人遊戲功能</sys:String>
