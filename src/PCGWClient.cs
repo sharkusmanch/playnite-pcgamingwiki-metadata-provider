@@ -6,7 +6,6 @@ using System.Collections.Generic;
 using Newtonsoft.Json.Linq;
 using System.Linq;
 using System.Text;
-using System.Web;
 
 namespace PCGamingWikiMetadata
 {
@@ -30,15 +29,10 @@ namespace PCGamingWikiMetadata
         public JObject ExecuteRequest(RestRequest request)
         {
             request.AddParameter("format", "json", ParameterType.QueryString);
-            
+
             var fullUrl = client.BuildUri(request);
             logger.Info(fullUrl.ToString());
-
-            foreach ( var param in request.Parameters)
-            {
-                logger.Debug(param.ToString());
-            }
-
+            
             var response = client.Execute(request);
 
             if (response.ErrorException != null)
