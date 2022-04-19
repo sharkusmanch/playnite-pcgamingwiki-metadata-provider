@@ -26,6 +26,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportFramerate60">60FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportFramerate120">120FPS</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportUltrawide">울트라 와이드스크린</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVR">VR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRHTCVive">HTC Vive</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows Mixed Reality</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">광선 추적</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">자세한 멀티플레이어 기능 추가</sys:String>
 
