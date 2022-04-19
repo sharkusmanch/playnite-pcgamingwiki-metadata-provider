@@ -10,6 +10,72 @@
         <TabItem Header="{DynamicResource LOCPCGWSettingsTabFeatures}">
             <StackPanel>
                 <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsVideoFeatures}"/>
+                <StackPanel Margin="0">
+                    <Expander Grid.Row="0">
+                        <Expander.Style>
+                            <Style TargetType="{x:Type Expander}" BasedOn="{StaticResource {x:Type Expander}}">
+                                <Setter Property="Background" Value="Transparent" />
+                            </Style>
+                        </Expander.Style>
+
+                        <Expander.Header>
+                            <Grid>
+                                <CheckBox Grid.Column="0" Grid.Row="0" IsChecked="{Binding ImportFeatureVR}" VerticalAlignment="Center">
+                                    <Label Content="{DynamicResource LOCPCGWSettingsImportVR}"></Label>
+                                </CheckBox>
+                            </Grid>
+                        </Expander.Header>
+
+                        <Expander.Content>
+                            <Border Margin="0" Padding="0">
+                                <Grid>
+                                    <Grid.RowDefinitions>
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="4" />
+                                            <RowDefinition Height="auto" />
+
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="4" />
+                                            <RowDefinition Height="auto" />
+
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="4" />
+                                            <RowDefinition Height="auto" />
+
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="4" />
+                                            <RowDefinition Height="auto" />
+
+                                            <RowDefinition Height="auto" />
+                                            <RowDefinition Height="4" />
+                                            <RowDefinition Height="auto" />
+                                    </Grid.RowDefinitions>
+
+                                    <CheckBox Grid.Row="0" Padding="4" IsChecked="{Binding ImportFeatureVRHTCVive}">
+                                        <Label Content="{DynamicResource LOCPCGWSettingsImportVRHTCVive}" />
+                                    </CheckBox>
+
+                                    <CheckBox Grid.Row="3" Padding="4" IsChecked="{Binding ImportFeatureVROculusRift}">
+                                        <Label Content="{DynamicResource LOCPCGWSettingsImportVROculusRift}" />
+                                    </CheckBox>
+
+                                    <CheckBox Grid.Row="6" Padding="4" IsChecked="{Binding ImportFeatureVROSVR}">
+                                        <Label Content="{DynamicResource LOCPCGWSettingsImportVROSVR}" />
+                                    </CheckBox>
+
+                                    <CheckBox Grid.Row="9" Padding="4" IsChecked="{Binding ImportFeatureVRWMR}">
+                                        <Label Content="{DynamicResource LOCPCGWSettingsImportVRWMR}" />
+                                    </CheckBox>
+
+                                    <CheckBox Grid.Row="12" Padding="4" IsChecked="{Binding ImportFeatureVRvorpX}">
+                                        <Label Content="{DynamicResource LOCPCGWSettingsImportVRvorpX}" />
+                                    </CheckBox>
+                                </Grid>
+                            </Border>
+                        </Expander.Content>
+                    </Expander>
+                </StackPanel>
+
                 <StackPanel Margin="5">
                     <CheckBox IsChecked="{Binding ImportFeatureRayTracing}" Content="{DynamicResource LOCPCGWSettingsImportHDR}"/>
                 </StackPanel>

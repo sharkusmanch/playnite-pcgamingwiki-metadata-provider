@@ -1,0 +1,1011 @@
+{
+  "parse": {
+    "title": "The Elder Scrolls V: Skyrim VR",
+    "pageid": 89839,
+    "revid": 1236100,
+    "text": {
+      "*": "<div class=\"mw-parser-output\"><p style=\"max-width: 100%\"><i>This page is for the VR version.&#32;For the original game, see <a href=\"/wiki/The_Elder_Scrolls_V:_Skyrim\" title=\"The Elder Scrolls V: Skyrim\">The Elder Scrolls V: Skyrim</a>.&#32;&#32;For the Special Edition, see <a href=\"/wiki/The_Elder_Scrolls_V:_Skyrim_Special_Edition\" title=\"The Elder Scrolls V: Skyrim Special Edition\">The Elder Scrolls V: Skyrim Special Edition</a>.</i></p>\n<table class=\"vertical-navbox template-infobox\" id=\"infobox-game\">\n\t<caption class=\"template-infobox-title\">The Elder Scrolls V: Skyrim VR</caption>\n<tbody><tr>\n\t\t<td class=\"template-infobox-cover\" colspan=\"2\"><a href=\"/wiki/File:The_Elder_Scrolls_V_Skyrim_VR_cover.jpg\" class=\"image\"><img alt=\"The Elder Scrolls V: Skyrim VR cover\" src=\"https://thumbnails.pcgamingwiki.com/a/a2/The_Elder_Scrolls_V_Skyrim_VR_cover.jpg/300px-The_Elder_Scrolls_V_Skyrim_VR_cover.jpg\" width=\"300\" height=\"369\" srcset=\"https://thumbnails.pcgamingwiki.com/a/a2/The_Elder_Scrolls_V_Skyrim_VR_cover.jpg/450px-The_Elder_Scrolls_V_Skyrim_VR_cover.jpg 1.5x, https://thumbnails.pcgamingwiki.com/a/a2/The_Elder_Scrolls_V_Skyrim_VR_cover.jpg/600px-The_Elder_Scrolls_V_Skyrim_VR_cover.jpg 2x\" data-file-width=\"1200\" data-file-height=\"1476\" /></a></td>\n\t</tr>\n\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Developers</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Bethesda_Game_Studios\" title=\"Company:Bethesda Game Studios\"></a><a href=\"/wiki/Company:Bethesda_Game_Studios\" title=\"Company:Bethesda Game Studios\">Bethesda Game Studios</a></td>\n</tr>\n<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Escalation_Studios\" class=\"mw-redirect\" title=\"Company:Escalation Studios\"></a><a href=\"/wiki/Company:Escalation_Studios\" class=\"mw-redirect\" title=\"Company:Escalation Studios\">Escalation Studios</a></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Publishers</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Company:Bethesda_Softworks\" title=\"Company:Bethesda Softworks\"></a><a href=\"/wiki/Company:Bethesda_Softworks\" title=\"Company:Bethesda Softworks\">Bethesda Softworks</a></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Engines</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\"></td>\n\t<td class=\"template-infobox-info\"><a href=\"/wiki/Engine:Creation_Engine\" title=\"Engine:Creation Engine\"></a><a href=\"/wiki/Engine:Creation_Engine\" title=\"Engine:Creation Engine\">Creation Engine</a></td>\n</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Release dates</th>\n\t</tr>\n\t<tr>\n\t<td class=\"template-infobox-type\">Windows</td>\n\t<td class=\"template-infobox-info\">April 3, 2018</td>\n</tr><tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Reception</th>\n\t</tr>\n\t<tr>\n\t\t\t<td class=\"template-infobox-type\">Metacritic</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.metacritic.com/game/pc/the-elder-scrolls-v-skyrim-vr\">81</a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">OpenCritic</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://opencritic.com/game/5111/the-elder-scrolls-v-skyrim-vr\">76</a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">IGDB</td>\n\t\t\t<td class=\"template-infobox-info\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.igdb.com/games/the-elder-scrolls-v-skyrim-vr\">75</a></td>\n\t\t</tr>\n<tr>\n\t\t<th class=\"template-infobox-header\" colspan=\"2\">Taxonomy</th>\n\t</tr>\n\t<tr>\n\t\t\t<td class=\"template-infobox-type\">Microtransactions</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:No_microtransactions\" title=\"Category:No microtransactions\"><abbr title=\"Game does not contain any microtransactions.\">None</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Modes</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Singleplayer\" title=\"Category:Singleplayer\"><abbr title=\"The game supports solo play through a singleplayer mode.\">Singleplayer</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Pacing</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Real-time\" title=\"Category:Real-time\"><abbr title=\"Real-time games present the game continuously, as opposed to in turns.\">Real-time</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Perspectives</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:First-person\" title=\"Category:First-person\"><abbr title=\"View from the first-person.\">First-person</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Controls</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Direct_control\" title=\"Category:Direct control\"><abbr title=\"Directly control a single character at a time, usually using directional buttons and other action buttons to interact with the environment directly.\">Direct control</abbr></a>, <a href=\"/wiki/Category:Gestures\" title=\"Category:Gestures\"><abbr title=\"Controls captured through motion controllers, gyroscopes or cameras.\">Gestures</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Genres</td>\n\t\t\t<td class=\"template-infobox-info\"> <a href=\"/wiki/Category:ARPG\" title=\"Category:ARPG\"><abbr title=\"Role-playing games with more focus on real-time action elements, such as combat and exploration, than most role-playing games.\">ARPG</abbr></a>, <a href=\"/wiki/Category:Open_world\" title=\"Category:Open world\"><abbr title=\"Players have a game world in which they can freely explore and try to interfere with the status quo. Open world games usually do feature certain goals, side quests and main quests. Usually the player is given a broad freedom of how to achieve these goals.\">Open world</abbr></a></td>\n\t\t</tr>\n\n\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Art styles</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Realistic\" title=\"Category:Realistic\"><abbr title=\"Aims for realistic depictions of characters and environments with no exaggerations.\">Realistic</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Themes</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Category:Fantasy\" title=\"Category:Fantasy\"><abbr title=\"Settings that are inspired by fairytales, revolve strongly around magic, include fantastic creatures, or make use of old myths.\">Fantasy</abbr></a></td>\n\t\t</tr>\n<tr>\n\t\t\t<td class=\"template-infobox-type\">Series</td>\n\t\t\t<td class=\"template-infobox-info\"><a href=\"/wiki/Series:The_Elder_Scrolls\" title=\"Series:The Elder Scrolls\">The Elder Scrolls</a></td>\n\t\t</tr><tr>\n\t\t<td class=\"template-infobox-icons\" colspan=\"2\"><div title=\"Official site\" class=\"plainlinks template-infobox-icon svg-icon infobox-official-site\"><a href=\"https://elderscrolls.bethesda.net/en/skyrim\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"The Elder Scrolls V: Skyrim VR on HowLongToBeat\" class=\"template-infobox-icon svg-icon infobox-hltb\"><a href=\"https://howlongtobeat.com/game?id=52030\" title=\"The Elder Scrolls V: Skyrim VR on HowLongToBeat\" rel=\"nofollow\"><img alt=\"The Elder Scrolls V: Skyrim VR on HowLongToBeat\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"The Elder Scrolls V: Skyrim VR on IGDB\" class=\"template-infobox-icon svg-icon infobox-igdb\"><a href=\"https://www.igdb.com/games/the-elder-scrolls-v-skyrim-vr\" title=\"The Elder Scrolls V: Skyrim VR on IGDB\" rel=\"nofollow\"><img alt=\"The Elder Scrolls V: Skyrim VR on IGDB\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"The Elder Scrolls V: Skyrim VR on IsThereAnyDeal\" class=\"plainlinks template-infobox-icon svg-icon infobox-itad\"><a href=\"https://isthereanydeal.com/steam/app/611670/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"The Elder Scrolls V: Skyrim VR on ProtonDB\" class=\"plainlinks template-infobox-icon svg-icon infobox-protondb\"><a href=\"https://www.protondb.com/app/611670/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"The Elder Scrolls V: Skyrim VR on SteamDB\" class=\"plainlinks template-infobox-icon svg-icon infobox-steamdb\"><a href=\"https://steamdb.info/app/611670/\" rel=\"nofollow\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"The Elder Scrolls V: Skyrim VR guide on StrategyWiki\" class=\"template-infobox-icon svg-icon infobox-strategywiki\"><a href=\"http://strategywiki.org/wiki/The_Elder_Scrolls_V:_Skyrim_VR\" title=\"The Elder Scrolls V: Skyrim VR guide on StrategyWiki\"><img alt=\"The Elder Scrolls V: Skyrim VR guide on StrategyWiki\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"The Elder Scrolls V: Skyrim VR on MobyGames\" class=\"template-infobox-icon svg-icon infobox-mobygames\"><a href=\"https://www.mobygames.com/game/elder-scrolls-v-skyrim-vr\" title=\"The Elder Scrolls V: Skyrim VR on MobyGames\" rel=\"nofollow\"><img alt=\"The Elder Scrolls V: Skyrim VR on MobyGames\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div><div title=\"The Elder Scrolls V: Skyrim VR on Wikipedia\" class=\"template-infobox-icon svg-icon infobox-wikipedia\"><a href=\"http://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim\" title=\"The Elder Scrolls V: Skyrim VR on Wikipedia\"><img alt=\"The Elder Scrolls V: Skyrim VR on Wikipedia\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t</tr></tbody></table><table class=\"pcgwikitable template-seriesbox mw-collapsible mw-collapsed\" id=\"seriesbox\" data-expandtext=\"The Elder Scrolls\" data-collapsetext=\"The Elder Scrolls\">\n\t<tbody><tr><th colspan=\"2\" class=\"template-seriesbox-title\"></th></tr><tr><td colspan=\"2\" class=\"template-seriesbox-series-link\">⤏ <a href=\"/wiki/Series:The_Elder_Scrolls\" title=\"Series:The Elder Scrolls\">Go to series page</a></td></tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls:_Arena\" title=\"The Elder Scrolls: Arena\">The Elder Scrolls: Arena</a></td>\n\t<td class=\"template-seriesbox-date\">1994</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls_II:_Daggerfall\" title=\"The Elder Scrolls II: Daggerfall\">The Elder Scrolls II: Daggerfall</a></td>\n\t<td class=\"template-seriesbox-date\">1996</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/An_Elder_Scrolls_Legend:_Battlespire\" title=\"An Elder Scrolls Legend: Battlespire\">An Elder Scrolls Legend: Battlespire</a></td>\n\t<td class=\"template-seriesbox-date\">1997</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls_Adventures:_Redguard\" title=\"The Elder Scrolls Adventures: Redguard\">The Elder Scrolls Adventures: Redguard</a></td>\n\t<td class=\"template-seriesbox-date\">1998</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls_III:_Morrowind\" title=\"The Elder Scrolls III: Morrowind\">The Elder Scrolls III: Morrowind</a></td>\n\t<td class=\"template-seriesbox-date\">2002</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls_IV:_Oblivion\" title=\"The Elder Scrolls IV: Oblivion\">The Elder Scrolls IV: Oblivion</a></td>\n\t<td class=\"template-seriesbox-date\">2006</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls_V:_Skyrim\" title=\"The Elder Scrolls V: Skyrim\">The Elder Scrolls V: Skyrim</a></td>\n\t<td class=\"template-seriesbox-date\">2011</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls_Online\" title=\"The Elder Scrolls Online\">The Elder Scrolls Online</a></td>\n\t<td class=\"template-seriesbox-date\">2014</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls_V:_Skyrim_Special_Edition\" title=\"The Elder Scrolls V: Skyrim Special Edition\">The Elder Scrolls V: Skyrim Special Edition</a></td>\n\t<td class=\"template-seriesbox-date\">2016</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls:_Legends\" title=\"The Elder Scrolls: Legends\">The Elder Scrolls: Legends</a></td>\n\t<td class=\"template-seriesbox-date\">2017</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a class=\"mw-selflink selflink\">The Elder Scrolls V: Skyrim VR</a></td>\n\t<td class=\"template-seriesbox-date\">2018</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls:_Blades\" title=\"The Elder Scrolls: Blades\">The Elder Scrolls: Blades</a></td>\n\t<td class=\"template-seriesbox-date\">TBA</td>\n</tr>\n<tr>\n\t<td class=\"template-seriesbox-game\"><a href=\"/wiki/The_Elder_Scrolls_VI\" title=\"The Elder Scrolls VI\">The Elder Scrolls VI</a></td>\n\t<td class=\"template-seriesbox-date\">TBA</td>\n</tr>\n</tbody></table><table class=\"pcgwikitable template-tocbox\" id=\"tocbox\">\n\t<tbody><tr><td colspan=\"2\" class=\"template-tocbox-body\"><div id=\"toc\" class=\"toc\"><div class=\"toctitle\" lang=\"en\" dir=\"ltr\"><h2>Contents</h2></div>\n<ul>\n<li class=\"toclevel-1 tocsection-1\"><a href=\"#Availability\"><span class=\"tocnumber\">1</span> <span class=\"toctext\">Availability</span></a></li>\n<li class=\"toclevel-1 tocsection-2\"><a href=\"#Essential_improvements\"><span class=\"tocnumber\">2</span> <span class=\"toctext\">Essential improvements</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-3\"><a href=\"#Modifications\"><span class=\"tocnumber\">2.1</span> <span class=\"toctext\">Modifications</span></a>\n<ul>\n<li class=\"toclevel-3 tocsection-4\"><a href=\"#HIGGS_Enhanced_VR_Interaction\"><span class=\"tocnumber\">2.1.1</span> <span class=\"toctext\">HIGGS Enhanced VR Interaction</span></a></li>\n<li class=\"toclevel-3 tocsection-5\"><a href=\"#VRIK_Player_Avatar\"><span class=\"tocnumber\">2.1.2</span> <span class=\"toctext\">VRIK Player Avatar</span></a></li>\n</ul>\n</li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-6\"><a href=\"#Game_data\"><span class=\"tocnumber\">3</span> <span class=\"toctext\">Game data</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-7\"><a href=\"#Configuration_file.28s.29_location\"><span class=\"tocnumber\">3.1</span> <span class=\"toctext\">Configuration file(s) location</span></a></li>\n<li class=\"toclevel-2 tocsection-8\"><a href=\"#Save_game_data_location\"><span class=\"tocnumber\">3.2</span> <span class=\"toctext\">Save game data location</span></a></li>\n<li class=\"toclevel-2 tocsection-9\"><a href=\"#Save_game_cloud_syncing\"><span class=\"tocnumber\">3.3</span> <span class=\"toctext\">Save game cloud syncing</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-10\"><a href=\"#Video\"><span class=\"tocnumber\">4</span> <span class=\"toctext\">Video</span></a></li>\n<li class=\"toclevel-1 tocsection-11\"><a href=\"#Input\"><span class=\"tocnumber\">5</span> <span class=\"toctext\">Input</span></a></li>\n<li class=\"toclevel-1 tocsection-12\"><a href=\"#Audio\"><span class=\"tocnumber\">6</span> <span class=\"toctext\">Audio</span></a>\n<ul>\n<li class=\"toclevel-2\"><a href=\"#Localizations\"><span class=\"tocnumber\">6.1</span> <span class=\"toctext\">Localizations</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-13\"><a href=\"#VR_support\"><span class=\"tocnumber\">7</span> <span class=\"toctext\">VR support</span></a></li>\n<li class=\"toclevel-1 tocsection-14\"><a href=\"#Other_information\"><span class=\"tocnumber\">8</span> <span class=\"toctext\">Other information</span></a>\n<ul>\n<li class=\"toclevel-2 tocsection-15\"><a href=\"#API\"><span class=\"tocnumber\">8.1</span> <span class=\"toctext\">API</span></a></li>\n</ul>\n</li>\n<li class=\"toclevel-1 tocsection-16\"><a href=\"#System_requirements\"><span class=\"tocnumber\">9</span> <span class=\"toctext\">System requirements</span></a></li>\n<li class=\"toclevel-1\"><a href=\"#Notes\"><span class=\"tocnumber\">10</span> <span class=\"toctext\">Notes</span></a></li>\n<li class=\"toclevel-1\"><a href=\"#References\"><span class=\"tocnumber\">11</span> <span class=\"toctext\">References</span></a></li>\n</ul>\n</div>\n</td></tr>\n</tbody></table><p><b>Warnings</b></p>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> This game requires a virtual reality headset (see <a href=\"#VR_support\">VR support</a> for details).</dd></dl>\n<p><b>Key points</b>\n</p>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> VR version of <i><a href=\"/wiki/The_Elder_Scrolls_V:_Skyrim_Special_Edition\" title=\"The Elder Scrolls V: Skyrim Special Edition\">The Elder Scrolls V: Skyrim Special Edition</a></i>.</dd>\n<dd><div title=\"Advantage\" class=\"svg-icon svg-16 thumbs-up\"></div> Includes all previously released DLC.<sup id=\"cite_ref-1\" class=\"reference\"><a href=\"#cite_note-1\">&#91;1&#93;</a></sup></dd></dl>\n<p><b>General information</b>\n</p>\n<dl><dd><div title=\"More information\" class=\"svg-icon svg-16 more-info\"></div> <a rel=\"nofollow\" class=\"external text\" href=\"https://steamcommunity.com/app/611670/discussions/\">Steam Community Discussions</a></dd></dl>\n<h2><span class=\"mw-headline\" id=\"Availability\">Availability</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=1\" title=\"Edit section: Availability\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable sortable template-infotable\" id=\"table-availability\">\n\t<tbody><tr class=\"template-infotable-head table-availability-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-availability-head-source\">Source</th>\n\t\t<th scope=\"col\" style=\"width: 60px\" class=\"unsortable table-availability-head-DRM\"><abbr title=\"DRM required to play the game\">DRM</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 390px;\" class=\"unsortable table-availability-head-notes\">Notes</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"unsortable table-availability-head-keys\"><abbr title=\"Optional product keys for other services\">Keys</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 90px;\" class=\"table-availability-head-OS\"><abbr title=\"Operating system(s)\">OS</abbr></th>\n\t</tr>\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Bethesda.net\"><a rel=\"nofollow\" class=\"external text\" href=\"https://bethesda.net/en/store/product/EL5CVRPCDG01\">Bethesda.net</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\">  </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"GamersGate\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/the-elder-scrolls-v-skyrim-vr?caff=5418682\">GamersGate</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\">  </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Gamesplanet\"><a href=\"https://gamesplanet.com/game/3598-1?ref=pcgwiki\" rel=\"nofollow\"><img alt=\"Gamesplanet logo.svg\" src=\"https://thumbnails.pcgamingwiki.com/8/8e/Gamesplanet_logo.svg/136px-Gamesplanet_logo.svg.png\" width=\"136\" height=\"21\" srcset=\"https://thumbnails.pcgamingwiki.com/8/8e/Gamesplanet_logo.svg/204px-Gamesplanet_logo.svg.png 1.5x, https://thumbnails.pcgamingwiki.com/8/8e/Gamesplanet_logo.svg/272px-Gamesplanet_logo.svg.png 2x\" data-file-width=\"512\" data-file-height=\"80\" /></a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\">  </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"GMG\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/the-elder-scrolls-v-skyrim-vr-pc/?tap_a=1964-996bbb&amp;tap_s=341948-7fd0d2\">Green Man Gaming</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\">  </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Humble\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.humblebundle.com/store/the-elder-scrolls-v-skyrim-vr?partner=pcgw\">Humble Store</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\">  </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n\n<tr class=\"template-infotable-body table-availability-body-row\" style=\"\">\n\t<th scope=\"row\" class=\"table-availability-body-source\" data-sort-value=\"Steam\"><a rel=\"nofollow\" class=\"external text\" href=\"https://store.steampowered.com/app/611670/?utm_source=PCGamingWiki&amp;utm_medium=PCGamingWiki&amp;utm_campaign=PCGamingWiki\">Steam</a>  </th>\n\t<td class=\"table-availability-body-DRM\"><div class=\"svg-25 svg-icon store-steam\"><a href=\"/wiki/Steam\" title=\"Steam\"><img alt=\"Icon overlay.png\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n\t<td class=\"table-availability-body-notes\">  </td>\n\t<td class=\"table-availability-body-keys\"></td>\n\t<td class=\"table-availability-body-OS\" data-sort-value=\"Windows\"><div class=\"svg-icon svg-25 os-windows\"><a href=\"/wiki/Windows\" title=\"Windows\"><img alt=\"Windows\" src=\"https://images.pcgamingwiki.com/0/04/Icon_overlay.png\" width=\"24\" height=\"24\" data-file-width=\"24\" data-file-height=\"24\" /></a></div></td>\n</tr>\n</tbody></table></div>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> All versions require <a href=\"/wiki/Store:Steam\" title=\"Store:Steam\">Steam</a>&#32;<a href=\"/wiki/Digital_rights_management_(DRM)\" title=\"Digital rights management (DRM)\"><abbr title=\"Digital rights management: Commonly used to refer to copy protection and/or technical protection measures employed by companies in an attempt to limit the manipulation and copying of game data and content by end-users after the purchase, download, and/or install of the product.\">DRM</abbr></a>.</dd></dl>\n<h2><span class=\"mw-headline\" id=\"Essential_improvements\">Essential improvements</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=2\" title=\"Edit section: Essential improvements\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"Modifications\">Modifications</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=3\" title=\"Edit section: Modifications\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<h4><span class=\"mw-headline\" id=\"HIGGS_Enhanced_VR_Interaction\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.nexusmods.com/skyrimspecialedition/mods/43930/\">HIGGS Enhanced VR Interaction</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=4\" title=\"Edit section: HIGGS Enhanced VR Interaction\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<dl><dd><div title=\"Advantage\" class=\"svg-icon svg-16 thumbs-up\"></div> Adds the ability to pick up all objects with a gravity glove mechanics, hand and weapon collision, and weapon two-handing.</dd></dl>\n<h4><span class=\"mw-headline\" id=\"VRIK_Player_Avatar\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.nexusmods.com/skyrimspecialedition/mods/23416\">VRIK Player Avatar</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=5\" title=\"Edit section: VRIK Player Avatar\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h4>\n<dl><dd><div title=\"Advantage\" class=\"svg-icon svg-16 thumbs-up\"></div> Enbles player avatar, mapping your movements to the avatar.</dd></dl>\n<h2><span class=\"mw-headline\" id=\"Game_data\">Game data</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=6\" title=\"Edit section: Game data\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span id=\"Configuration_file(s)_location\"></span><span class=\"mw-headline\" id=\"Configuration_file.28s.29_location\">Configuration file(s) location</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=7\" title=\"Edit section: Configuration file(s) location\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-gamedata\">\n\t<tbody><tr class=\"template-infotable-head table-gamedata-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-gamedata-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 590px;\" class=\"table-gamedata-head-location\">Location</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Windows </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#User_profile\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%USERPROFILE%</abbr></a>\\<abbr title=\"replace with My Documents for Windows XP\">Documents</abbr>\\My Games\\Skyrim VR\\</span></td>\n</tr>\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t\t<th scope=\"row\" class=\"table-gamedata-body-system\"><abbr title=\"Windows version on Steam running through the Proton wrapper of Steam Play on Linux\">Steam Play (Linux)</abbr></th>\n\t\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Steam_client\" title=\"Glossary:Game data\"><abbr title=\"The base Steam installation folder\">&lt;Steam-folder&gt;</abbr></a>/steamapps/compatdata/<abbr title=\"app ID may differ in some cases\">611670</abbr>/pfx/</span><sup id=\"cite_ref-Proton_path_note_2-0\" class=\"reference\"><a href=\"#cite_note-Proton_path_note-2\">&#91;Note 1&#93;</a></sup></td>\n\t</tr>\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Save_game_data_location\">Save game data location</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=8\" title=\"Edit section: Save game data location\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-gamedata\">\n\t<tbody><tr class=\"template-infotable-head table-gamedata-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-gamedata-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 590px;\" class=\"table-gamedata-head-location\">Location</th>\n\t</tr>\n\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t<th scope=\"row\" class=\"table-gamedata-body-system\">Windows </th>\n\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#User_profile\" title=\"Glossary:Game data\"><abbr title=\"Windows: copy this path into a folder address bar to go to this location\">%USERPROFILE%</abbr></a>\\<abbr title=\"replace with My Documents for Windows XP\">Documents</abbr>\\My Games\\Skyrim VR\\Saves\\</span></td>\n</tr>\n\n<tr class=\"template-infotable-body table-gamedata-body-row\">\n\t\t<th scope=\"row\" class=\"table-gamedata-body-system\"><abbr title=\"Windows version on Steam running through the Proton wrapper of Steam Play on Linux\">Steam Play (Linux)</abbr></th>\n\t\t<td class=\"table-gamedata-body-location\"><span class=\"template-infotable-monospace\"><a href=\"/wiki/Glossary:Game_data#Steam_client\" title=\"Glossary:Game data\"><abbr title=\"The base Steam installation folder\">&lt;Steam-folder&gt;</abbr></a>/steamapps/compatdata/<abbr title=\"app ID may differ in some cases\">611670</abbr>/pfx/</span><sup id=\"cite_ref-Proton_path_note_2-1\" class=\"reference\"><a href=\"#cite_note-Proton_path_note-2\">&#91;Note 1&#93;</a></sup></td>\n\t</tr>\n</tbody></table></div>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> Save data from <a href=\"/wiki/The_Elder_Scrolls_V:_Skyrim_Special_Edition#Game_data\" title=\"The Elder Scrolls V: Skyrim Special Edition\">Special Edition</a> can be copied and used with VR and vice versa<sup id=\"cite_ref-3\" class=\"reference\"><a href=\"#cite_note-3\">&#91;2&#93;</a></sup></dd></dl>\n<h3><span class=\"mw-headline\" id=\"Save_game_cloud_syncing\"><a href=\"/wiki/Glossary:Save_game_cloud_syncing\" title=\"Glossary:Save game cloud syncing\">Save game cloud syncing</a></span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=9\" title=\"Edit section: Save game cloud syncing\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable template-gamedata\" id=\"table-cloudsync\">\n\t<tbody><tr class=\"template-infotable-head table-cloudsync-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-cloudsync-head-system\">System</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-cloudsync-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-cloudsync-head-notes\">Notes</th>\n\t</tr>\n\n\n\n\n\n\n\n\n<tr class=\"template-infotable-body table-cloudsync-body-row\">\n\t\t<th scope=\"row\" class=\"table-cloudsync-body-system\"><a href=\"/wiki/List_of_games_that_support_OneDrive_save_game_cloud_syncing\" title=\"List of games that support OneDrive save game cloud syncing\">OneDrive</a></th>\n\t\t<td class=\"table-cloudsync-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-cloudsync-body-notes\"><i>Requires enabling backup of the <b>Documents</b> folder in OneDrive on all computers.</i></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-cloudsync-body-row\">\n\t\t<th scope=\"row\" class=\"table-cloudsync-body-system\"><a href=\"/wiki/Store:Steam#Steam_Cloud\" title=\"Store:Steam\">Steam Cloud</a></th>\n\t\t<td class=\"table-cloudsync-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-cloudsync-body-notes\"></td>\n\t</tr>\n\n\n\n\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Video\">Video</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=10\" title=\"Edit section: Video\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><span id=\"Video_settings\"></span>\n</p>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> This game requires a virtual reality headset (see <a href=\"#VR_support\">VR support</a> for details).</dd></dl>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-video\">\n\t<tbody><tr class=\"template-infotable-head table-settings-video-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-video-head-parameter\">Graphics feature</th>\n\t\t<th scope=\"col\" style=\"width: 50px\" class=\"table-settings-video-head-rating\">State</th>\n\t<th scope=\"col\" style=\"width: 540px\" class=\"table-settings-video-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Widescreen_resolution\" title=\"Glossary:Widescreen resolution\">Widescreen resolution</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> </td>\n\t</tr>\n\n\n\n\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:4K_Ultra_HD\" title=\"Glossary:4K Ultra HD\"><abbr title=\"Game can run at 4K (3840x2160) resolution\">4K Ultra HD</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"> </td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Field_of_view_(FOV)\" title=\"Glossary:Field of view (FOV)\"><abbr title=\"Game has an adjustable field of view\">Field of view (FOV)</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">Up to 180° per eye</td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Windowed\" title=\"Glossary:Windowed\"><abbr title=\"Game can run in a regular windowed mode\">Windowed</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">For mirrored view</td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Borderless_fullscreen_windowed\" title=\"Glossary:Borderless fullscreen windowed\"><abbr title=\"Game can run in a borderless fullscreen windowed mode\">Borderless fullscreen windowed</abbr></a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\">For mirrored view</td>\n\t</tr>\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Anisotropic_filtering_(AF)\" title=\"Glossary:Anisotropic filtering (AF)\">Anisotropic filtering (AF)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"><i>See the <a href=\"/wiki/Glossary:Anisotropic_filtering_(AF)\" title=\"Glossary:Anisotropic filtering (AF)\">glossary page</a> for potential workarounds.</i></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Anti-aliasing_(AA)\" title=\"Glossary:Anti-aliasing (AA)\">Anti-aliasing (AA)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"><a href=\"/wiki/TAA\" class=\"mw-redirect\" title=\"TAA\">TAA</a>, <a href=\"/wiki/SSAA\" class=\"mw-redirect\" title=\"SSAA\">SSAA</a></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Vertical_sync_(Vsync)\" title=\"Glossary:Vertical sync (Vsync)\">Vertical sync (Vsync)</a></th>\n\t\t<td class=\"table-settings-video-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"><i>See the <a href=\"/wiki/Glossary:Vertical_sync_(Vsync)\" title=\"Glossary:Vertical sync (Vsync)\">glossary page</a> for potential workarounds.</i></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-video-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-video-body-parameter\"><a href=\"/wiki/Glossary:Frame_rate_(FPS)\" title=\"Glossary:Frame rate (FPS)\"><abbr title=\"Game can run at 60 frames per second\">60 FPS</abbr> and <abbr title=\"Game can run at 120 frames per second (or higher)\">120+ FPS</abbr></a></th>\n\t\t\t<td class=\"table-settings-video-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-video-body-notes\"></td>\n\t\t</tr>\n\n\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Input\">Input</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=11\" title=\"Edit section: Input\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2><p>\n<div class=\"ad-widget-container\"><div class=\"vm-placement\" data-id=\"5ee8e351a624ae2e7125852e\"></div></div><span id=\"Input_settings\"></span></p><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-input\">\n\t<tbody><tr class=\"template-infotable-head table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Keyboard and mouse</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\">State</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\">Notes</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">Remapping</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"><i>See the <a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">glossary page</a> for potential workarounds.</i></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse_acceleration\" title=\"Glossary:Mouse acceleration\">Mouse acceleration</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse#Sensitivity\" title=\"Glossary:Mouse\">Mouse sensitivity</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Mouse\" title=\"Glossary:Mouse\">Mouse input in menus</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Invert_Y-axis\" title=\"Glossary:Invert Y-axis\">Mouse Y-axis inversion</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-secondhead table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Controller</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller support</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\t\n<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"All menus can be navigated with a controller. Supports Steam&#39;s Big Picture mode.\">Full controller support</abbr></a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Remapping\" title=\"Glossary:Remapping\">Controller remapping</a></th>\n\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t</tr>\n\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller sensitivity</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\n\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Invert_Y-axis\" title=\"Glossary:Invert Y-axis\">Controller Y-axis inversion</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n</tbody></table>\n\t<table class=\"mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-types\" style=\"margin-top: -16px;\">\n\t\t<tbody><tr class=\"template-infotable-secondhead table-settings-input-head-row\">\n\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Controller types</th>\n\t\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t\t</tr>\n\t</tbody></table>\n\t<table class=\"pcgwikitable template-infotable\" id=\"table-settings-input-controller-xinput\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">XInput-compatible controllers</a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t\n\t\t</tbody></table>\n\t\t<table class=\"pcgwikitable template-infotable\" id=\"table-settings-input-controller-dualshock\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Controller:DualShock_4\" title=\"Controller:DualShock 4\">DualShock 4 controllers</a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t\n\t\t</tbody></table>\n    <table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-controller-tracked\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#ffffff;\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Tracked_motion_controllers\" title=\"Glossary:Tracked motion controllers\">Tracked motion controllers</a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\" style=\"background-color:#f5f5f5;\">\n\t\t\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Tracked_motion_controllers\" title=\"Glossary:Tracked motion controllers\">Button/gesture prompts</a></th>\n\t\t\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t\t\t</tr>\n\t\t</tbody></table>\n\t<table class=\"pcgwikitable template-infotable\" id=\"table-settings-input-controller-other\" style=\"margin-top: -16px;\">\n\t\t\t<tbody><tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Controllers that do not fall into any other category\">Generic/other controllers</abbr></a></th>\n\t\t\t\t<td scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t\t<td scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-body-notes\"></td>\n\t\t\t</tr>\n\t\t\n\t\t</tbody></table>\n<table class=\"mw-collapsible mw-collapsed pcgwikitable template-infotable\" id=\"table-settings-input-additional\" style=\"margin-top: -16px;\">\n\t<tbody><tr class=\"template-infotable-head table-settings-input-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-input-head-parameter\">Additional information</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-input-head-rating\"></th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-input-head-notes\"></th>\n\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Button prompts</a></th>\n\t\t\t<td class=\"table-settings-input-body-button-prompts\"><div title=\"Xbox prompts\" class=\"svg-25 svg-icon input-xbox\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Controller hotplugging</a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Commonly referred to as controller vibration, force feedback, rumble, or dualshock.\">Haptic feedback</abbr></a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-input-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-input-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\"><abbr title=\"Both controller and keyboard/mouse inputs can be used at the same time\">Simultaneous controller+KB/M</abbr></a></th>\n\t\t\t<td class=\"table-settings-input-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td class=\"table-settings-input-body-notes\"></td>\n\t\t</tr>\n</tbody></table>\t</div>\n<h2><span class=\"mw-headline\" id=\"Audio\">Audio</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=12\" title=\"Edit section: Audio\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<p><span id=\"Audio_settings\"></span></p><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-audio\">\n\t<tbody><tr class=\"template-infotable-head table-settings-audio-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-audio-head-parameter\">Audio feature</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-audio-head-rating\">State</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-audio-head-notes\">Notes</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Separate volume controls</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\"><a href=\"/wiki/Glossary:Surround_sound\" title=\"Glossary:Surround sound\">Surround sound</a></th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Subtitles</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Closed captions</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">Mute on focus lost</th>\n\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t<td class=\"table-settings-audio-body-notes\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-audio-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-audio-body-parameter\">EAX support</th>\n\t\t\t<td class=\"table-settings-audio-body-rating\"><div title=\"Hackable\" class=\"svg-icon svg-25 tickcross-hackable\"></div></td>\n\t\t\t<td class=\"table-settings-audio-body-notes\">Use <a href=\"/wiki/Glossary:Surround_sound#X3DAudio\" title=\"Glossary:Surround sound\">X3DAudio HRTF</a>.<sup id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\">&#91;3&#93;</a></sup></td>\n\t\t</tr>\n\n\n\n</tbody></table></div>\n<h3><span class=\"mw-headline\" id=\"Localizations\">Localizations</span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-l10n\">\n\t<tbody><tr class=\"template-infotable-head table-l10n-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-l10n-head-parameter\"><abbr title=\"Please note that some languages may not be available from all storefronts or across all versions.\">Language</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-ui\"><abbr title=\"User interface.\">UI</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-audio\">Audio</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-l10n-head-rating-sub\"><abbr title=\"Subtitles or closed captions.\">Sub</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 440px;\" class=\"table-l10n-head-notes\">Notes</th>\n\t</tr>\n<tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">English</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n <tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Traditional Chinese</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n <tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">French</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n <tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">German</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n <tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Italian</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n <tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Japanese</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n <tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Polish</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n <tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Russian</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n <tr class=\"template-infotable-body table-l10n-body-row\">\n\t<th scope=\"row\" class=\"table-l10n-body-parameter\">Spanish</th>\n\t<td class=\"table-l10n-body-rating-ui\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-audio\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-rating-sub\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t<td class=\"table-l10n-body-notes\"></td>\n</tr>\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"VR_support\">VR support</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=13\" title=\"Edit section: VR support\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<dl><dd><div title=\"Information\" class=\"svg-icon svg-16 info-icon\"></div> This game requires a virtual reality headset.<span></span></dd></dl>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-settings-vr\">\n\t<tbody><tr class=\"template-infotable-secondhead table-settings-vr-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-vr-head-parameter\">Headsets</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-vr-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-vr-head-notes\" colspan=\"2\">Notes</th>\n\t</tr>\n\t\t<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:HTC_Vive\" title=\"Glossary:HTC Vive\">HTC Vive</a></th>\n\t\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-vr-body-notes\"></td>\n\t\t</tr>\n\n\t\t<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:Oculus_Rift\" class=\"mw-redirect\" title=\"Glossary:Oculus Rift\">Oculus Rift</a></th>\n\t\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-vr-body-notes\"></td>\n\t\t</tr>\n\n\t\t<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:OSVR\" title=\"Glossary:OSVR\"><abbr title=\"Open Source Virtual Reality\">OSVR</abbr></a></th>\n\t\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-vr-body-notes\"></td>\n\t\t</tr>\n\n\t\t<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:Windows_Mixed_Reality\" title=\"Glossary:Windows Mixed Reality\">Windows Mixed Reality</a></th>\n\t\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-vr-body-notes\"></td>\n\t\t</tr><tr class=\"template-infotable-secondhead table-settings-vr-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-vr-head-parameter\">Devices</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-vr-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-vr-head-notes\" colspan=\"2\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:Tracked_motion_controllers\" title=\"Glossary:Tracked motion controllers\">Tracked motion controllers</a></th>\n\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-vr-body-notes\"> <i>See <a href=\"#Input_settings\">Input</a> for details.</i></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:Controller\" title=\"Glossary:Controller\">Traditional controller</a></th>\n\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Full controller support\" style=\"width: 30px; height: 22px;\" class=\"svg-icon tickcross-controller-full\"></div></td>\n<td colspan=\"2\" class=\"table-settings-vr-body-notes\"><i>See <a href=\"#Input_settings\">Input</a> for details.</i></td>\n\t</tr>\n\n\t\t<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:Mouse\" title=\"Glossary:Mouse\">Keyboard/Mouse</a></th>\n\t\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"No native support\" class=\"svg-icon svg-25 tickcross-false\"></div></td>\n\t\t\t<td colspan=\"2\" class=\"table-settings-vr-body-notes\"></td>\n\t\t</tr><tr class=\"template-infotable-secondhead table-settings-vr-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-settings-vr-head-parameter\">Play area</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-settings-vr-head-rating\">Native</th>\n\t\t<th scope=\"col\" style=\"width: 540px;\" class=\"table-settings-vr-head-notes\" colspan=\"2\">Notes</th>\n\t</tr>\n\t<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:VR_play_area\" class=\"mw-redirect\" title=\"Glossary:VR play area\">Seated</a></th>\n\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-vr-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:VR_play_area\" class=\"mw-redirect\" title=\"Glossary:VR play area\">Standing</a></th>\n\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-vr-body-notes\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-settings-vr-body-row\">\n\t\t<th scope=\"row\" class=\"table-settings-vr-body-parameter\"><a href=\"/wiki/Glossary:VR_play_area\" class=\"mw-redirect\" title=\"Glossary:VR play area\">Room-scale</a></th>\n\t\t<td class=\"table-settings-vr-body-rating\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t<td colspan=\"2\" class=\"table-settings-vr-body-notes\">Hitbox misaligns when you move.<sup id=\"cite_ref-5\" class=\"reference\"><a href=\"#cite_note-5\">&#91;4&#93;</a></sup></td>\n\t</tr></tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"Other_information\">Other information</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=14\" title=\"Edit section: Other information\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<h3><span class=\"mw-headline\" id=\"API\">API</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=15\" title=\"Edit section: API\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h3>\n<div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-api\">\n\t<tbody><tr class=\"template-infotable-head table-api-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-api-head-parameter\">Technical specs</th>\n\t\t<th scope=\"col\" style=\"width: 120px;\" class=\"table-api-head-support\">Supported</th>\n\t\t<th scope=\"col\" style=\"width: 470px;\" class=\"table-api-head-notes\">Notes</th>\n\t</tr>\n\n<tr class=\"template-infotable-body table-api-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-api-body-parameter\"><abbr title=\"Only supported on Windows\">Direct3D</abbr></th>\n\t\t\t<td class=\"table-api-body-support\">11</td>\n\t\t\t<td class=\"table-api-body-notes\"></td>\n\t\t</tr>\n\n\n\n\n\n\n\n\n\n\n</tbody></table></div><div class=\"container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-api-executable\">\n\t<tbody><tr class=\"template-infotable-head table-api-head-row\">\n\t\t<th scope=\"col\" style=\"width: 230px;\" class=\"table-api-head-parameter\">Executable</th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-api-head-support\"><abbr title=\"Intel 32-bit (x86)\">32-bit</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 50px;\" class=\"table-api-head-support\"><abbr title=\"Intel 64-bit (x64 / x86-64)\">64-bit</abbr></th>\n\t\t<th scope=\"col\" style=\"width: 490px;\" class=\"table-api-head-notes\">Notes</th>\n\t</tr>\n\t<tr class=\"template-infotable-body table-api-body-row\">\n\t\t\t<th scope=\"row\" class=\"table-api-body-parameter\">Windows</th>\n\t\t\t<td class=\"table-api-body-support\"><div title=\"Unknown\" class=\"svg-icon svg-25 tickcross-unknown\"></div></td>\n\t\t\t<td class=\"table-api-body-support\"><div title=\"Native support\" class=\"svg-icon svg-25 tickcross-true\"></div></td>\n\t\t\t<td class=\"table-api-body-notes\"></td>\n\t\t</tr>\n\t\n\t\n</tbody></table></div>\n<h2><span class=\"mw-headline\" id=\"System_requirements\">System requirements</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=The_Elder_Scrolls_V:_Skyrim_VR&amp;action=edit&amp;section=16\" title=\"Edit section: System requirements\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<div class=\"sysreq sysreq_Windows container-pcgwikitable\"><table class=\"pcgwikitable template-infotable\" id=\"table-sysreqs-windows\">\n\t<tbody><tr class=\"template-infotable-doublehead sysreq_heading table-sysreqs-head-row\">\n\t\t<th colspan=\"3\" class=\"table-sysreqs-head-OS\"><a href=\"/wiki/Windows\" title=\"Windows\">Windows</a> </th>\n\t</tr>\n\n\t<tr class=\"template-infotable-head table-sysreqs-head-row\">\n\t\t<th scope=\"col\" class=\"table-sysreqs-head-parameter\" style=\"width: 220px;\"></th>\n\t\t<th scope=\"col\" class=\"table-sysreqs-head-minimum\" style=\"width: 300px;\">Minimum</th>\n\t\t<th class=\"table-sysreqs-head-recommended\" style=\"width: 300px;\">Recommended</th>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Operating system (OS)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">7, 8.1</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">10</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Processor (CPU)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">Intel Core i5-6600K<br />AMD Ryzen 5 1400</td>\n\t\t<td class=\"table-sysreqs-body-recommended\">Intel Core i7-4790<br />AMD Ryzen 5 1500X</td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">System memory (RAM)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">8 GB</td><td class=\"table-sysreqs-body-recommended\"></td>\n\t</tr>\n\n\t<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Hard disk drive (HDD)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\">15 GB</td><td class=\"table-sysreqs-body-recommended\"></td>\n\t</tr>\n\n<tr class=\"template-infotable-body table-sysreqs-body-row\">\n\t\t<th class=\"table-sysreqs-body-parameter\">Video card (GPU)</th>\n\t\t<td class=\"table-sysreqs-body-minimum\"> Nvidia GeForce GTX 970 <br />AMD Radeon RX 480  <br />8 GB of <abbr title=\"Video RAM\">VRAM</abbr>\n</td><td class=\"table-sysreqs-body-recommended\">Nvidia GeForce GTX 1070 <br />AMD Radeon RX Vega 56    </td>\n\t</tr>\n\n\n\n\n\n\n</tbody></table>\n</div>\n<h2><span class=\"mw-headline\" id=\"Notes\">Notes</span></h2>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite_note-Proton_path_note-2\"><span class=\"mw-cite-backlink\">↑ <sup><a href=\"#cite_ref-Proton_path_note_2-0\">1.0</a></sup> <sup><a href=\"#cite_ref-Proton_path_note_2-1\">1.1</a></sup></span> <span class=\"reference-text\">File/folder structure within this directory reflects the path(s) listed for <a href=\"#Game_data\">Windows and/or Steam game data</a> (use <a rel=\"nofollow\" class=\"external text\" href=\"https://wiki.winehq.org/Regedit\">Wine regedit</a> to access Windows registry paths). Games with <a href=\"/wiki/Store:Steam#Steam_Cloud\" title=\"Store:Steam\">Steam Cloud</a> support may store data in <code>~/.steam/steam/userdata/<a href=\"/wiki/Glossary:Game_data#User_ID\" title=\"Glossary:Game data\"><abbr title=\"The user ID or profile name (specific to your account or computer)\">&lt;user-id&gt;</abbr></a>/<abbr title=\"app ID may differ in some cases\">611670</abbr>/</code> in addition to or instead of this directory. The app ID (611670) may differ in some cases. Treat backslashes as forward slashes. See the <a href=\"/wiki/Glossary:Game_data#Windows_data_paths\" title=\"Glossary:Game data\">glossary page</a> for details.</span>\n</li>\n</ol></div><h2><span class=\"mw-headline\" id=\"References\">References</span></h2>\n<div class=\"mw-references-wrap\"><ol class=\"references\">\n<li id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-1\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://bethesda.net/en/article/4YSRrlXtpuKeWIK6EMiG84/skyrim-vr-comes-to-steamvr\">Skyrim VR Comes to SteamVR</a></span>\n</li>\n<li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-3\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://uploadvr.com/transfer-saves-skyrim-vr-special-edition/\">How To Transfer Saves Between Skyrim VR And Special Edition - UploadVR</a></span>\n</li>\n<li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-4\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.reddit.com/r/Vive/comments/89hfel/psa_skyrim_vr_3d_audio_mod_works/\">PSA: Skyrim VR: 3D audio mod works!</a></span>\n</li>\n<li id=\"cite_note-5\"><span class=\"mw-cite-backlink\"><a href=\"#cite_ref-5\">↑</a></span> <span class=\"reference-text\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.reddit.com/r/Vive/comments/89gxsg/skyrim_vr_does_not_properly_support_roomscale/\">Skyrim VR does NOT properly support Roomscale</a>!</span>\n</li>\n</ol></div>\n\n<!-- \nNewPP limit report\nCached time: 20220419143652\nCache expiry: 86400\nDynamic content: false\n[SMW] In‐text annotation parser time: 0.019 seconds\nCPU time usage: 0.678 seconds\nReal time usage: 0.943 seconds\nPreprocessor visited node count: 9474/1000000\nPreprocessor generated node count: 63021/1000000\nPost‐expand include size: 212569/2097152 bytes\nTemplate argument size: 40830/2097152 bytes\nHighest expansion depth: 15/40\nExpensive parser function count: 2/100\nUnstrip recursion depth: 0/20\nUnstrip post‐expand size: 3795/5000000 bytes\n-->\n<!--\nTransclusion expansion time report (%,ms,calls,template)\n100.00%  728.693      1 -total\n 38.86%  283.153      1 Template:Infobox_game\n 16.66%  121.375      1 Template:L10n\n 15.68%  114.257      9 Template:L10n/switch\n 11.20%   81.617      9 Template:L10n/row\n  6.62%   48.242      1 Template:Availability\n  6.19%   45.128      1 Template:Input\n  6.06%   44.157      6 Template:Availability/row\n  5.14%   37.433      1 Template:References\n  4.52%   32.971      2 Template:Game_data\n-->\n</div>\n<!-- Saved in parser cache with key pcgamingwiki:pcache:idhash:89839-0!canonical and timestamp 20220419143651 and revision id 1236100\n -->\n"
+    },
+    "langlinks": [],
+    "categories": [
+      {
+        "sortkey": "",
+        "*": "Windows"
+      },
+      {
+        "sortkey": "",
+        "*": "No_microtransactions"
+      },
+      {
+        "sortkey": "",
+        "*": "Singleplayer"
+      },
+      {
+        "sortkey": "",
+        "*": "Real-time"
+      },
+      {
+        "sortkey": "",
+        "*": "First-person"
+      },
+      {
+        "sortkey": "",
+        "*": "Direct_control"
+      },
+      {
+        "sortkey": "",
+        "*": "Gestures"
+      },
+      {
+        "sortkey": "",
+        "*": "Action"
+      },
+      {
+        "sortkey": "",
+        "*": "RPG"
+      },
+      {
+        "sortkey": "",
+        "*": "ARPG"
+      },
+      {
+        "sortkey": "",
+        "*": "Open_world"
+      },
+      {
+        "sortkey": "",
+        "*": "Realistic"
+      },
+      {
+        "sortkey": "",
+        "*": "Fantasy"
+      },
+      {
+        "sortkey": "",
+        "*": "Games"
+      },
+      {
+        "sortkey": "",
+        "*": "VR_games"
+      }
+    ],
+    "links": [
+      {
+        "ns": 6,
+        "exists": "",
+        "*": "File:The Elder Scrolls V Skyrim VR cover.jpg"
+      },
+      {
+        "ns": 402,
+        "exists": "",
+        "*": "Series:The Elder Scrolls"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Steam"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Windows"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "An Elder Scrolls Legend: Battlespire"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "Digital rights management (DRM)"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "List of games that support OneDrive save game cloud syncing"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "SSAA"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "TAA"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls: Arena"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls: Blades"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls: Legends"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls Adventures: Redguard"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls II: Daggerfall"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls III: Morrowind"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls IV: Oblivion"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls Online"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls V: Skyrim"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls V: Skyrim Special Edition"
+      },
+      {
+        "ns": 0,
+        "exists": "",
+        "*": "The Elder Scrolls VI"
+      },
+      {
+        "ns": 404,
+        "exists": "",
+        "*": "Engine:Creation Engine"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Bethesda Game Studios"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Escalation Studios"
+      },
+      {
+        "ns": 416,
+        "exists": "",
+        "*": "Company:Bethesda Softworks"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:ARPG"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Direct control"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Fantasy"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:First-person"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Gestures"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:No microtransactions"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Open world"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Real-time"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Realistic"
+      },
+      {
+        "ns": 14,
+        "exists": "",
+        "*": "Category:Singleplayer"
+      },
+      {
+        "ns": 412,
+        "exists": "",
+        "*": "Controller:DualShock 4"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:4K Ultra HD"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Anisotropic filtering (AF)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Anti-aliasing (AA)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Borderless fullscreen windowed"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Controller"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Field of view (FOV)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Frame rate (FPS)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Game data"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:HTC Vive"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Invert Y-axis"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Mouse"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Mouse acceleration"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:OSVR"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Oculus Rift"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Remapping"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Save game cloud syncing"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Surround sound"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Tracked motion controllers"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:VR play area"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Vertical sync (Vsync)"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Widescreen resolution"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Windowed"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Windows Mixed Reality"
+      },
+      {
+        "ns": 418,
+        "exists": "",
+        "*": "Store:Steam"
+      }
+    ],
+    "templates": [
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Disambig"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Assignment/checkAvailable"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/developer"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/publisher"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/engine"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/date"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Date"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/reception"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Trim"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/monetization"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/microtransactions"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Glossary"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/modes"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/pacing"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/perspectives"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/controls"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/genres"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/sports"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/vehicles"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/art styles"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/themes"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/row/taxonomy/series"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Infobox game/license"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Series"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Seriesbox"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Seriesbox/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tocbox"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Warnings"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Ii"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:++"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Mm"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/store"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/DRM"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Availability/OS"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DRM"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:DRM/switch"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Term"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data/config"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:P"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Path"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Abbr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Game data/saves"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Save game cloud syncing"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-l-nohack"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Video"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-na"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-a-na"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Input"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Prompts"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Audio"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n/switch"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:L10n/row"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Tickcross-na-nr"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:VR support"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:VR support/pad"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:API"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:API/switch Direct3D"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:System requirements"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:References"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Absent properties"
+      },
+      {
+        "ns": 10,
+        "exists": "",
+        "*": "Template:Cargo Availability"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:No microtransactions"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Singleplayer"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Real-time"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:First-person"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Direct control"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Gestures"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:ARPG"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Open world"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Realistic"
+      },
+      {
+        "ns": 414,
+        "exists": "",
+        "*": "Glossary:Fantasy"
+      },
+      {
+        "ns": 402,
+        "exists": "",
+        "*": "Series:The Elder Scrolls"
+      }
+    ],
+    "images": [
+      "The_Elder_Scrolls_V_Skyrim_VR_cover.jpg",
+      "Icon_overlay.png",
+      "Gamesplanet_logo.svg"
+    ],
+    "externallinks": [
+      "https://wiki.winehq.org/Regedit",
+      "https://bethesda.net/en/article/4YSRrlXtpuKeWIK6EMiG84/skyrim-vr-comes-to-steamvr",
+      "https://uploadvr.com/transfer-saves-skyrim-vr-special-edition/",
+      "https://www.reddit.com/r/Vive/comments/89hfel/psa_skyrim_vr_3d_audio_mod_works/",
+      "https://www.reddit.com/r/Vive/comments/89gxsg/skyrim_vr_does_not_properly_support_roomscale/",
+      "https://elderscrolls.bethesda.net/en/skyrim",
+      "https://howlongtobeat.com/game?id=52030",
+      "https://www.igdb.com/games/the-elder-scrolls-v-skyrim-vr",
+      "https://isthereanydeal.com/steam/app/611670/",
+      "https://www.protondb.com/app/611670/",
+      "https://steamdb.info/app/611670/",
+      "https://www.mobygames.com/game/elder-scrolls-v-skyrim-vr",
+      "https://gamesplanet.com/game/3598-1?ref=pcgwiki",
+      "https://www.metacritic.com/game/pc/the-elder-scrolls-v-skyrim-vr",
+      "https://opencritic.com/game/5111/the-elder-scrolls-v-skyrim-vr",
+      "https://steamcommunity.com/app/611670/discussions/",
+      "https://bethesda.net/en/store/product/EL5CVRPCDG01",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.gamersgate.com/product/the-elder-scrolls-v-skyrim-vr?caff=5418682",
+      "https://www.dpbolvw.net/click-6723194-10912384?url=https://www.greenmangaming.com/games/the-elder-scrolls-v-skyrim-vr-pc/?tap_a=1964-996bbb&tap_s=341948-7fd0d2",
+      "https://www.humblebundle.com/store/the-elder-scrolls-v-skyrim-vr?partner=pcgw",
+      "https://store.steampowered.com/app/611670/?utm_source=PCGamingWiki&utm_medium=PCGamingWiki&utm_campaign=PCGamingWiki",
+      "https://www.nexusmods.com/skyrimspecialedition/mods/43930/",
+      "https://www.nexusmods.com/skyrimspecialedition/mods/23416"
+    ],
+    "sections": [
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Availability",
+        "number": "1",
+        "index": "1",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 2194,
+        "anchor": "Availability"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Essential improvements",
+        "number": "2",
+        "index": "2",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 2737,
+        "anchor": "Essential_improvements"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Modifications",
+        "number": "2.1",
+        "index": "3",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 2764,
+        "anchor": "Modifications"
+      },
+      {
+        "toclevel": 3,
+        "level": "4",
+        "line": "HIGGS Enhanced VR Interaction",
+        "number": "2.1.1",
+        "index": "4",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 2784,
+        "anchor": "HIGGS_Enhanced_VR_Interaction"
+      },
+      {
+        "toclevel": 3,
+        "level": "4",
+        "line": "VRIK Player Avatar",
+        "number": "2.1.2",
+        "index": "5",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 3014,
+        "anchor": "VRIK_Player_Avatar"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Game data",
+        "number": "3",
+        "index": "6",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 3169,
+        "anchor": "Game_data"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Configuration file(s) location",
+        "number": "3.1",
+        "index": "7",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 3183,
+        "anchor": "Configuration_file.28s.29_location"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Save game data location",
+        "number": "3.2",
+        "index": "8",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 3314,
+        "anchor": "Save_game_data_location"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Save game cloud syncing",
+        "number": "3.3",
+        "index": "9",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 3731,
+        "anchor": "Save_game_cloud_syncing"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Video",
+        "number": "4",
+        "index": "10",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 4252,
+        "anchor": "Video"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Input",
+        "number": "5",
+        "index": "11",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 5432,
+        "anchor": "Input"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Audio",
+        "number": "6",
+        "index": "12",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 7517,
+        "anchor": "Audio"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "Localizations",
+        "number": "6.1",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Localizations"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "VR support",
+        "number": "7",
+        "index": "13",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 9129,
+        "anchor": "VR_support"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Other information",
+        "number": "8",
+        "index": "14",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 10185,
+        "anchor": "Other_information"
+      },
+      {
+        "toclevel": 2,
+        "level": "3",
+        "line": "API",
+        "number": "8.1",
+        "index": "15",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 10207,
+        "anchor": "API"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "System requirements",
+        "number": "9",
+        "index": "16",
+        "fromtitle": "The_Elder_Scrolls_V:_Skyrim_VR",
+        "byteoffset": 11023,
+        "anchor": "System_requirements"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "Notes",
+        "number": "10",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "Notes"
+      },
+      {
+        "toclevel": 1,
+        "level": "2",
+        "line": "References",
+        "number": "11",
+        "index": "",
+        "byteoffset": null,
+        "anchor": "References"
+      }
+    ],
+    "parsewarnings": [],
+    "displaytitle": "The Elder Scrolls V: Skyrim VR",
+    "iwlinks": [
+      {
+        "prefix": "strategywiki",
+        "url": "http://strategywiki.org/wiki/The_Elder_Scrolls_V:_Skyrim_VR",
+        "*": "strategywiki:The Elder Scrolls V: Skyrim VR"
+      },
+      {
+        "prefix": "wikipedia",
+        "url": "http://en.wikipedia.org/wiki/The_Elder_Scrolls_V:_Skyrim",
+        "*": "wikipedia:The Elder Scrolls V: Skyrim"
+      }
+    ],
+    "properties": [
+      {
+        "name": "smw-semanticdata-status",
+        "*": ""
+      }
+    ]
+  }
+}

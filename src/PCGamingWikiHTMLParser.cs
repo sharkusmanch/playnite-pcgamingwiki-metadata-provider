@@ -29,6 +29,7 @@ namespace PCGamingWikiMetadata
             ParseInfobox();
             ParseMultiplayer();
             ParseVideo();
+            ParseVR();
         }
 
         private void RemoveCitationsFromHTMLNode(HtmlNode node)
@@ -51,6 +52,35 @@ namespace PCGamingWikiMetadata
             }
 
             return new List<HtmlNode>();
+        }
+
+        private void ParseVR()
+        {
+            var rows = SelectTableRowsByClass("table-settings-vr", "template-infotable-body table-settings-vr-body-row");
+            string headset = "";
+            string rating = "";
+
+            foreach (HtmlNode row in rows)
+            {
+                foreach (HtmlNode child in row.SelectNodes(".//th|td"))
+                {
+                    switch (child.Attributes["class"].Value)
+                    {
+                        case "table-settings-vr-body-parameter":
+                            headset = child.FirstChild.InnerText.Trim();
+                            break;
+                        case "table-settings-vr-body-rating":
+                            rating = child.FirstChild.Attributes["title"].Value;
+                            break;
+                        case "table-settings-vr-body-notes":
+                            break;
+                    }
+                }
+
+                this.gameController.AddVRFeature(headset, rating);
+                headset = "";
+                rating = "";
+            }
         }
 
         private void ParseVideo()

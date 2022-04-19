@@ -53,5 +53,15 @@ namespace PCGamingWikiType
         public const string FPS60 = "60 FPS";
         public const string FPS120Plus = "120+ FPS";
         public const string FPS60And120 = "60 FPS and 120+ FPS";
+        public const string VR = "VR support";
+    }
+
+    public class VRHeadsets
+    {
+        public const string HTCVive = "HTC Vive";
+        public const string OculusRift = "Oculus Rift";
+        public const string OSVR = "OSVR";
+        public const string WindowsMixedReality = "Windows Mixed Reality";
+        public const string Vorpx = "vorpX";
     }
 }

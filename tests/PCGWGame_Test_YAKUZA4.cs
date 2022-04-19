@@ -23,6 +23,7 @@ public class PCGWGame_Test_YAKUZA4 : IDisposable
 
         this.client.GetSettings().AddTagPrefix = false;
         this.client.GetSettings().ImportXboxPlayAnywhere = true;
+        this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportFeatureHDR = true;
         this.client.GetSettings().ImportFeatureRayTracing = true;
 
@@ -127,6 +128,12 @@ public class PCGWGame_Test_YAKUZA4 : IDisposable
         features.Should().NotContain("Ray Tracing");
     }
 
+    [Fact]
+    public void TestVR()
+    {
+        var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
+        features.Should().NotContain("VR");
+    }
     public void Dispose()
     {
 
