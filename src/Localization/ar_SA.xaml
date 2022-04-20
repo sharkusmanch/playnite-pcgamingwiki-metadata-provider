@@ -31,7 +31,6 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows Mixed Reality</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">كوة المتصدع</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">تتبع الشعاع</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">أضف ميزات مفصلة متعددة اللاعبين</sys:String>
 

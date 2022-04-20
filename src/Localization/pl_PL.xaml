@@ -31,7 +31,6 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Rzeczywistość mieszana systemu Windows</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Śledzenie promieni</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Dodaj szczegółowe funkcje gry wieloosobowej</sys:String>
 

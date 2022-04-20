@@ -31,7 +31,6 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows 混合現實</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">眼裂</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">光線追踪</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">添加詳細的多人遊戲功能</sys:String>
 
