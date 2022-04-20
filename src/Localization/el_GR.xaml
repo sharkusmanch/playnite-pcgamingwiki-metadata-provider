@@ -31,7 +31,6 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Μικτή πραγματικότητα των Windows</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ανίχνευση ακτίνων</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Προσθέστε λεπτομερείς λειτουργίες για πολλούς παίκτες</sys:String>
 
