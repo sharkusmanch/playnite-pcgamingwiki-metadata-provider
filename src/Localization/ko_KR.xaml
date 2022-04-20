@@ -31,7 +31,6 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows 혼합 현실</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">오큘러스 리프트</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">보프X</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">광선 추적</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">자세한 멀티플레이어 기능 추가</sys:String>
 
