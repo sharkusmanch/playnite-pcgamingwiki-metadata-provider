@@ -31,7 +31,6 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROSVR">OSVR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVRWMR">Windows Mixed Reality</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">אוקולוס ריפט</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportVRvorpX">vorpX</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">הוסף תכונות מרובה משתתפים מפורטות</sys:String>
 
