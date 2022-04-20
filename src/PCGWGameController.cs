@@ -51,7 +51,6 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.VRHeadsets.OculusRift, new Func<bool>( () => this.settings.ImportFeatureVROculusRift) },
                 { PCGamingWikiType.VRHeadsets.OSVR, new Func<bool>( () => this.settings.ImportFeatureVROSVR) },
                 { PCGamingWikiType.VRHeadsets.WindowsMixedReality, new Func<bool>( () => this.settings.ImportFeatureVRWMR) },
-                { PCGamingWikiType.VRHeadsets.Vorpx, new Func<bool>( () => this.settings.ImportFeatureVRvorpX) },
             };
 
             this.taxonomyFunctions = new Dictionary<string, Action<string>>()
@@ -67,6 +66,13 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.Taxonomy.Genres, new Action<string>( value => this.Game.AddGenres(value)) },
                 { PCGamingWikiType.Taxonomy.Series, new Action<string>( value => this.Game.AddCSVSeries(value)) },
             };
+        }
+
+        private bool SettingExistsAndEnabled(string key)
+        {
+            Func<bool> enabled;
+            bool settingExists = this.settingsMap.TryGetValue(key, out enabled);
+            return settingExists && enabled.Invoke();
         }
 
         private bool IsSettingDisabled(string key)
@@ -138,12 +144,15 @@ namespace PCGamingWikiMetadata
 
         public void AddVRFeature(string headset, string rating)
         {
-            if (IsSettingDisabled(PCGamingWikiType.Video.VR) || IsSettingDisabled(headset) || !NativeOrLimitedSupport(rating))
+            if (IsSettingDisabled(PCGamingWikiType.Video.VR))
             {
                 return;
             }
 
-            this.Game.AddVRFeature();
+            if (SettingExistsAndEnabled(headset) && NativeOrLimitedSupport(rating))
+            {
+                this.Game.AddVRFeature();
+            }
         }
 
         public void AddVideoFeature(string key, string rating)
