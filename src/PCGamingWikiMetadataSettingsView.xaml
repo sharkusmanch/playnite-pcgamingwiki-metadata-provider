@@ -66,10 +66,6 @@
                                     <CheckBox Grid.Row="9" Padding="4" IsChecked="{Binding ImportFeatureVRWMR}">
                                         <Label Content="{DynamicResource LOCPCGWSettingsImportVRWMR}" />
                                     </CheckBox>
-
-                                    <CheckBox Grid.Row="12" Padding="4" IsChecked="{Binding ImportFeatureVRvorpX}">
-                                        <Label Content="{DynamicResource LOCPCGWSettingsImportVRvorpX}" />
-                                    </CheckBox>
                                 </Grid>
                             </Border>
                         </Expander.Content>
