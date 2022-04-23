@@ -44,7 +44,7 @@ namespace PCGamingWikiMetadata
 
         private void RemoveCitationsFromHTMLNode(HtmlNode node)
         {
-            try 
+            try
             {
                 RemoveChildElementTypes(node, ".//sup");
             }
@@ -56,14 +56,14 @@ namespace PCGamingWikiMetadata
 
         private void RemoveSpanFromHTMLNode(HtmlNode node)
         {
-            try 
+            try
             {
                 RemoveChildElementTypes(node, ".//span");
             }
             catch (Exception e)
             {
                 logger.Error($"Error removing span elements: {e.ToString()}");
-            }      
+            }
         }
 
         private IList<HtmlNode> SelectTableRowsByClass(string tableId, string rowClass)
