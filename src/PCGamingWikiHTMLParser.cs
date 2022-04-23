@@ -32,14 +32,38 @@ namespace PCGamingWikiMetadata
             ParseVR();
         }
 
-        private void RemoveCitationsFromHTMLNode(HtmlNode node)
+        private void RemoveChildElementTypes(HtmlNode node, string type)
         {
-            var removeChil = node.SelectNodes(".//sup");
+            var removeChil = node.SelectNodes(type);
 
-            if (removeChil != null)
+            if (removeChil != null && removeChil.Count > 0)
             {
                 node.RemoveChildren(removeChil);
             }
+        }
+
+        private void RemoveCitationsFromHTMLNode(HtmlNode node)
+        {
+            try 
+            {
+                RemoveChildElementTypes(node, ".//sup");
+            }
+            catch (Exception e)
+            {
+                logger.Error($"Error removing sup elements: {e.ToString()}");
+            }
+        }
+
+        private void RemoveSpanFromHTMLNode(HtmlNode node)
+        {
+            try 
+            {
+                RemoveChildElementTypes(node, ".//span");
+            }
+            catch (Exception e)
+            {
+                logger.Error($"Error removing span elements: {e.ToString()}");
+            }      
         }
 
         private IList<HtmlNode> SelectTableRowsByClass(string tableId, string rowClass)
@@ -232,6 +256,7 @@ namespace PCGamingWikiMetadata
 
                 foreach (HtmlNode child in row.SelectNodes(".//th|td"))
                 {
+                    RemoveSpanFromHTMLNode(child);
                     RemoveCitationsFromHTMLNode(child);
                     string text = HtmlEntity.DeEntitize(child.InnerText.Trim());
 
