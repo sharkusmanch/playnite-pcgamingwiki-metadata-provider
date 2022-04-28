@@ -24,9 +24,9 @@ namespace PCGamingWikiMetadata
 
         public void ApplyGameMetadata()
         {
+            ParseInfobox();
             ParseInput();
             ParseCloudSync();
-            ParseInfobox();
             ParseMultiplayer();
             ParseVideo();
             ParseVR();
@@ -76,6 +76,20 @@ namespace PCGamingWikiMetadata
             }
 
             return new List<HtmlNode>();
+        }
+
+        public bool CheckPageRedirect(out string redirectPage)
+        {
+            HtmlNode node = this.doc.DocumentNode.SelectSingleNode($"//ul[@class='redirectText']");
+            redirectPage = null;
+
+            if (node != null)
+            {
+                redirectPage = node.InnerText;
+                return true;
+            }
+
+            return false;
         }
 
         private void ParseVR()
@@ -248,6 +262,13 @@ namespace PCGamingWikiMetadata
         private void ParseInfobox()
         {
             HtmlNode table = this.doc.DocumentNode.SelectSingleNode("//table[@id='infobox-game']");
+
+            if (table == null)
+            {
+                logger.Error($"Unable to fetch infobox-game table for {this.gameController.Game.Name}");
+                return;
+            }
+
             string currentHeader = "";
 
             foreach (HtmlNode row in table.SelectNodes(".//tr"))
@@ -258,6 +279,7 @@ namespace PCGamingWikiMetadata
                 {
                     RemoveSpanFromHTMLNode(child);
                     RemoveCitationsFromHTMLNode(child);
+
                     string text = HtmlEntity.DeEntitize(child.InnerText.Trim());
 
                     switch (child.Name)

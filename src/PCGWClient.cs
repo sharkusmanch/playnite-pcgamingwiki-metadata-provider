@@ -117,8 +117,19 @@ namespace PCGamingWikiMetadata
                 PCGamingWikiJSONParser jsonParser = new PCGamingWikiJSONParser(content, this.gameController);
                 PCGamingWikiHTMLParser parser = new PCGamingWikiHTMLParser(jsonParser.PageHTMLText(), this.gameController);
 
-                jsonParser.ParseGameDataJson();
-                parser.ApplyGameMetadata();
+                string redirectPage;
+
+                if (parser.CheckPageRedirect(out redirectPage))
+                {
+                    logger.Debug($"redirect link: {redirectPage}");
+                    game.Name = redirectPage;
+                    FetchGamePageContent(game);
+                }
+                else
+                {
+                    jsonParser.ParseGameDataJson();
+                    parser.ApplyGameMetadata();
+                }
             }
             catch (Exception e)
             {
