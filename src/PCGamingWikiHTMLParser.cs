@@ -225,6 +225,9 @@ namespace PCGamingWikiMetadata
                                 case "Controller support":
                                     this.gameController.Game.AddControllerSupport(child.FirstChild.Attributes["title"].Value);
                                     break;
+                                case "Touchscreen optimised":
+                                    this.gameController.Game.AddTouchscreenSupport(child.FirstChild.Attributes["title"].Value);
+                                    break;
                                 default:
                                     break;
 
