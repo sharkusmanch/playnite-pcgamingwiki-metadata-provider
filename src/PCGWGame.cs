@@ -95,6 +95,14 @@ namespace PCGamingWikiMetadata
             }
         }
 
+        public void AddTouchscreenSupport(string description)
+        {
+            if (description == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("Touchscreen optimised");
+            }
+        }
+
         public void AddControllerSupport(string description)
         {
             if (description == PCGamingWikiType.Rating.NativeSupport)

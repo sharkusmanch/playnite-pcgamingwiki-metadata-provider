@@ -34,7 +34,8 @@ jobs:
 
           mkdir tmp
           curl -O https://playnite.link/update/stable/9.19/Playnite919.zip
-          unzip Playnite914.zip -d tmp/playnite
+          unzip Playnite919.zip -d tmp/playnite
+
 
           invoke pack --toolbox ./tmp/playnite/Toolbox.exe
 
