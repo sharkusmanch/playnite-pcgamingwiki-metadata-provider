@@ -228,6 +228,9 @@ namespace PCGamingWikiMetadata
                                 case "Touchscreen optimised":
                                     this.gameController.Game.AddTouchscreenSupport(child.FirstChild.Attributes["title"].Value);
                                     break;
+                                case "DualShock 4 controllers":
+                                    this.gameController.Game.AddDualShock4Support(child.FirstChild.Attributes["title"].Value);
+                                    break;
                                 default:
                                     break;
 
