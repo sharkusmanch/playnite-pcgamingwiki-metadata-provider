@@ -95,6 +95,14 @@ namespace PCGamingWikiMetadata
             }
         }
 
+        public void AddDualShock4Support(string description)
+        {
+            if (description == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("DualShock 4");
+            }
+        }
+
         public void AddTouchscreenSupport(string description)
         {
             if (description == PCGamingWikiType.Rating.NativeSupport)
