@@ -1,5 +1,11 @@
 AddonId: PCGamingWikiMetadata_c038558e-427b-4551-be4c-be7009ce5a8d
 Packages:
+- Version: 1.1.5
+  RequiredApiVersion: 6.2.2
+  ReleaseDate: 2023-03-18
+  PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v1.1.5/PCGamingWiki_Metadata_Provider_v1.1.5.pext
+  Changelog:
+    - Add feature for Dualshock 4 support (@lscholte)
 - Version: 1.1.4
   RequiredApiVersion: 6.2.2
   ReleaseDate: 2022-08-01
