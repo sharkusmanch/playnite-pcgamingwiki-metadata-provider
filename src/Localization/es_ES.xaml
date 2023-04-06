@@ -33,16 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">grieta del óculo</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Trazado de rayos</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Añade funciones multijugador detalladas</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tag Prefix</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Prefijo de etiqueta</sys:String>
 
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Monetization</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Microtransactions</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Pacing</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Perspectives</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Controls</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Vehicles</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Themes</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Game Engine</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Art Style</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">monetización</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Microtransacciones</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Ritmo</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Perspectivas</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Control S</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">vehículos</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Temas</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Motor de juegos</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Estilo de Arte</sys:String>
 
 </ResourceDictionary>
