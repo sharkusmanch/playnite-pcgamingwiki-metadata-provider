@@ -14,6 +14,7 @@ namespace PCGamingWikiMetadata
 
         private Dictionary<string, Func<bool>> settingsMap;
         private Dictionary<string, Action<string>> taxonomyFunctions;
+        private Dictionary<string, Func<string>> taxonomyTagPrefix;
 
         public PCGWGameController(PCGamingWikiMetadataSettings settings)
         {
@@ -53,19 +54,44 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.VRHeadsets.WindowsMixedReality, new Func<bool>( () => this.settings.ImportFeatureVRWMR) },
             };
 
+            this.taxonomyTagPrefix = new Dictionary<string, Func<string>>()
+            {
+                { PCGamingWikiType.Taxonomy.Engines, new Func<string>( () => this.settings.TagPrefixEngines)},
+                { PCGamingWikiType.Taxonomy.Themes, new Func<string>( () => this.settings.TagPrefixThemes)},
+                { PCGamingWikiType.Taxonomy.ArtStyles, new Func<string>( () => this.settings.TagPrefixArtStyles)},
+                { PCGamingWikiType.Taxonomy.Vehicles, new Func<string>( () => this.settings.TagPrefixVehicles)},
+                { PCGamingWikiType.Taxonomy.Controls, new Func<string>( () => this.settings.TagPrefixControls)},
+                { PCGamingWikiType.Taxonomy.Perspectives, new Func<string>( () => this.settings.TagPrefixPerspectives)},
+                { PCGamingWikiType.Taxonomy.Pacing, new Func<string>( () => this.settings.TagPrefixPacing)},
+                { PCGamingWikiType.Taxonomy.Monetization, new Func<string>( () => this.settings.TagPrefixMonetization)},
+                { PCGamingWikiType.Taxonomy.Microtransactions, new Func<string>( () => this.settings.TagPrefixMicrotransactions)},
+            };
+
             this.taxonomyFunctions = new Dictionary<string, Action<string>>()
             {
-                { PCGamingWikiType.Taxonomy.Engines, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagEngine"), this.settings.AddTagPrefix)) },
-                { PCGamingWikiType.Taxonomy.Themes, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagThemes"), this.settings.AddTagPrefix)) },
-                { PCGamingWikiType.Taxonomy.ArtStyles, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagArtStyle"), this.settings.AddTagPrefix)) },
-                { PCGamingWikiType.Taxonomy.Vehicles, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagVehicles"), this.settings.AddTagPrefix)) },
-                { PCGamingWikiType.Taxonomy.Controls, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagControls"), this.settings.AddTagPrefix)) },
-                { PCGamingWikiType.Taxonomy.Perspectives, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagPerspectives"), this.settings.AddTagPrefix)) },
-                { PCGamingWikiType.Taxonomy.Pacing, new Action<string>( value => this.Game.AddCSVTags(value, ResourceProvider.GetString("LOCPCGWSettingsImportTagPacing"), this.settings.AddTagPrefix)) },
+                { PCGamingWikiType.Taxonomy.Engines, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.Engines))) },
+                { PCGamingWikiType.Taxonomy.Themes, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.Themes))) },
+                { PCGamingWikiType.Taxonomy.ArtStyles, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.ArtStyles))) },
+                { PCGamingWikiType.Taxonomy.Vehicles, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.Vehicles))) },
+                { PCGamingWikiType.Taxonomy.Controls, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.Controls))) },
+                { PCGamingWikiType.Taxonomy.Perspectives, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.Perspectives))) },
+                { PCGamingWikiType.Taxonomy.Pacing, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.Pacing))) },
+                { PCGamingWikiType.Taxonomy.Monetization, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.Monetization))) },
+                { PCGamingWikiType.Taxonomy.Microtransactions, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.Microtransactions))) },
                 { PCGamingWikiType.Taxonomy.Modes, new Action<string>( value => this.Game.AddCSVFeatures(value)) },
                 { PCGamingWikiType.Taxonomy.Genres, new Action<string>( value => this.Game.AddGenres(value)) },
                 { PCGamingWikiType.Taxonomy.Series, new Action<string>( value => this.Game.AddCSVSeries(value)) },
             };
+        }
+
+        private string TagPrefix(string taxonomyKey)
+        {
+            if (!this.settings.AddTagPrefix)
+            {
+                return "";
+            }
+
+            return this.taxonomyTagPrefix[taxonomyKey].Invoke();
         }
 
         private bool SettingExistsAndEnabled(string key)

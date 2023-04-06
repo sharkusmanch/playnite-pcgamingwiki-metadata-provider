@@ -1,5 +1,12 @@
 AddonId: PCGamingWikiMetadata_c038558e-427b-4551-be4c-be7009ce5a8d
 Packages:
+- Version: 1.1.6
+  RequiredApiVersion: 6.2.2
+  ReleaseDate: 2023-04-05
+  PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v1.1.6/PCGamingWiki_Metadata_Provider_v1.1.6.pext
+  Changelog:
+    - Add settings for specifying custom tag prefixes
+    - Add tags for Monetization and Microtransactions
 - Version: 1.1.5
   RequiredApiVersion: 6.2.2
   ReleaseDate: 2023-03-18

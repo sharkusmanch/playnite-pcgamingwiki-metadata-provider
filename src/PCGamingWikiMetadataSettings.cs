@@ -21,9 +21,9 @@ namespace PCGamingWikiMetadata
         public bool AddTagPrefix { get { return addTagPrefix; } set { addTagPrefix = value; ; NotifyPropertyChanged("AddTagPrefix"); } }
         private bool importTagEngine = true;
         public bool ImportTagEngine { get { return importTagEngine; } set { importTagEngine = value; ; NotifyPropertyChanged("ImportTagEngine"); } }
-        private bool importTagMonetization = true;
+        private bool importTagMonetization = false;
         public bool ImportTagMonetization { get { return importTagMonetization; } set { importTagMonetization = value; ; NotifyPropertyChanged("ImportTagMonetization"); } }
-        private bool importTagMicrotransactions = true;
+        private bool importTagMicrotransactions = false;
         public bool ImportTagMicrotransactions { get { return importTagMicrotransactions; } set { importTagMicrotransactions = value; ; NotifyPropertyChanged("ImportTagMicrotransactions"); } }
         private bool importTagPacing = true;
         public bool ImportTagPacing { get { return importTagPacing; } set { importTagPacing = value; ; NotifyPropertyChanged("ImportTagPacing"); } }
@@ -73,6 +73,31 @@ namespace PCGamingWikiMetadata
         private bool importFeatureVRvorpX = false;
         public bool ImportFeatureVRvorpX { get { return importFeatureVRvorpX; } set { importFeatureVRvorpX = value; ; NotifyPropertyChanged("ImportFeatureVRvorpX"); } }
 
+        private string tagPrefixMonetization = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixMonetization")}]";
+        public string TagPrefixMonetization { get { return tagPrefixMonetization; } set { tagPrefixMonetization = value; ; NotifyPropertyChanged("TagPrefixMonetization"); } }
+        private string tagPrefixMicrotransactions = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixMicrotransactions")}]";
+        public string TagPrefixMicrotransactions { get { return tagPrefixMicrotransactions; } set { tagPrefixMicrotransactions = value; ; NotifyPropertyChanged("TagPrefixMicrotransactions"); } }
+        private string tagPrefixModes = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixModes")}]";
+        public string TagPrefixModes { get { return tagPrefixModes; } set { tagPrefixModes = value; ; NotifyPropertyChanged("TagPrefixModes"); } }
+        private string tagPrefixPacing = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixPacing")}]";
+        public string TagPrefixPacing { get { return tagPrefixPacing; } set { tagPrefixPacing = value; ; NotifyPropertyChanged("TagPrefixPacing"); } }
+        private string tagPrefixPerspectives = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixPerspectives")}]";
+        public string TagPrefixPerspectives { get { return tagPrefixPerspectives; } set { tagPrefixPerspectives = value; ; NotifyPropertyChanged("TagPrefixPerspectives"); } }
+        private string tagPrefixControls = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixControls")}]";
+        public string TagPrefixControls { get { return tagPrefixControls; } set { tagPrefixControls = value; ; NotifyPropertyChanged("TagPrefixControls"); } }
+        private string tagPrefixGenres = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixGenres")}]";
+        public string TagPrefixGenres { get { return tagPrefixGenres; } set { tagPrefixGenres = value; ; NotifyPropertyChanged("TagPrefixGenres"); } }
+        private string tagPrefixVehicles = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixVehicles")}]";
+        public string TagPrefixVehicles { get { return tagPrefixVehicles; } set { tagPrefixVehicles = value; ; NotifyPropertyChanged("TagPrefixVehicles"); } }
+        private string tagPrefixThemes = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixThemes")}]";
+        public string TagPrefixThemes { get { return tagPrefixThemes; } set { tagPrefixThemes = value; ; NotifyPropertyChanged("TagPrefixThemes"); } }
+        private string tagPrefixEngines = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixEngines")}]";
+        public string TagPrefixEngines { get { return tagPrefixEngines; } set { tagPrefixEngines = value; ; NotifyPropertyChanged("TagPrefixEngines"); } }
+        private string tagPrefixSeries = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixSeries")}]";
+        public string TagPrefixSeries { get { return tagPrefixSeries; } set { tagPrefixSeries = value; ; NotifyPropertyChanged("TagPrefixSeries"); } }
+        private string tagPrefixArtStyles = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixArtStyles")}]";
+        public string TagPrefixArtStyles { get { return tagPrefixArtStyles; } set { tagPrefixArtStyles = value; ; NotifyPropertyChanged("TagPrefixArtStyles"); } }
+
         // Parameterless constructor must exist if you want to use LoadPluginSettings method.
         public PCGamingWikiMetadataSettings()
         {
@@ -115,6 +140,16 @@ namespace PCGamingWikiMetadata
                 ImportFeatureVROculusRift = savedSettings.importFeatureVROculusRift;
                 ImportFeatureVROSVR = savedSettings.importFeatureVROSVR;
                 ImportFeatureVRWMR = savedSettings.importFeatureVRWMR;
+
+                TagPrefixMonetization = savedSettings.tagPrefixMonetization;
+                TagPrefixMicrotransactions = savedSettings.tagPrefixMicrotransactions;
+                TagPrefixPacing = savedSettings.tagPrefixPacing;
+                TagPrefixPerspectives = savedSettings.tagPrefixPerspectives;
+                TagPrefixControls = savedSettings.tagPrefixControls;
+                TagPrefixVehicles = savedSettings.tagPrefixVehicles;
+                TagPrefixThemes = savedSettings.tagPrefixThemes;
+                TagPrefixEngines = savedSettings.tagPrefixEngines;
+                TagPrefixArtStyles = savedSettings.tagPrefixArtStyles;
             }
         }
 
