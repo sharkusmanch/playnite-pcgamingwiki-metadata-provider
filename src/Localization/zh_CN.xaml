@@ -33,16 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">眼裂</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">光线追踪</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">添加详细的多人游戏功能</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tag Prefix</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">标记前缀</sys:String>
 
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Monetization</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Microtransactions</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Pacing</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Perspectives</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Controls</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Vehicles</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Themes</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Game Engine</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Art Style</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">货币化</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">微交易</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">起搏</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">观点</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">控件</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">汽车</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">主题</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">游戏引擎</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">美术风格</sys:String>
 
 </ResourceDictionary>
