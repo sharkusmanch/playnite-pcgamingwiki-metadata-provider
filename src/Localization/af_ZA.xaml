@@ -33,5 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Straalopsporing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Voeg gedetailleerde multiplayer-kenmerke by</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Merker Voorvoegsel</sys:String>
+
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Monetisering</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Mikrotransaksies</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Tempo</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Perspektiewe</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Kontroles</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Voertuie</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Temas</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Spelenjin</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Kuns styl</sys:String>
 
 </ResourceDictionary>

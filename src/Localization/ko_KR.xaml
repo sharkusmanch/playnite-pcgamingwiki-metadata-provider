@@ -33,5 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">오큘러스 리프트</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">광선 추적</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">자세한 멀티플레이어 기능 추가</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">태그 접두사</sys:String>
+
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">수익 창출</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">소액 결제</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">페이싱</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">관점</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">통제 수단</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">차량</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">테마</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">게임 엔진</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">아트 스타일</sys:String>
 
 </ResourceDictionary>

@@ -33,5 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Трасування променів</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Додайте детальні функції для кількох гравців</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Префікс тегу</sys:String>
+
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Монетизація</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Мікротранзакції</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Темп</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Перспективи</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Елементи керування</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Транспортні засоби</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Теми</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Ігровий двигун</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Мистецький стиль</sys:String>
 
 </ResourceDictionary>

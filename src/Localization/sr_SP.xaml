@@ -33,5 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Оцулус Рифт</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Раи Трацинг</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Додајте детаљне функције за више играча</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Префикс ознаке</sys:String>
+
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Монетизација</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Микротрансакције</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Пацинг</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Перспецтивес</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Контроле</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Возила</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Теме</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Гаме Енгине</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Арт Стиле</sys:String>
 
 </ResourceDictionary>

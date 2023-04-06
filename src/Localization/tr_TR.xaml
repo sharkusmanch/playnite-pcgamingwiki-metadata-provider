@@ -33,5 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Yarığı</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Işın izleme</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Ayrıntılı çok oyunculu özellikler ekleyin</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Etiket Öneki</sys:String>
+
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">para kazanma</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">mikro dönüşümler</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">ilerleme hızı</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Perspektifler</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Kontroller</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Araçlar</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Temalar</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Oyun Motoru</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Sanat tarzı</sys:String>
 
 </ResourceDictionary>

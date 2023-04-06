@@ -33,5 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Có hi vọng</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Thêm các tính năng nhiều người chơi chi tiết</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tiền tố thẻ</sys:String>
+
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">kiếm tiền</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">giao dịch vi mô</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">nhịp độ</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">quan điểm</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">điều khiển</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Xe cộ</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">chủ đề</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Công cụ trò chơi</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Phong cách nghệ thuật</sys:String>
 
 </ResourceDictionary>

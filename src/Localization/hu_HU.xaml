@@ -33,5 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Sugárkövetés</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Adjon hozzá részletes többjátékos funkciókat</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Címke előtag</sys:String>
+
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Bevételszerzés</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Mikrotranzakciók</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Lépés</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Perspektívák</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Vezérlők</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Járművek</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Témák</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Game Engine</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Művészeti stílus</sys:String>
 
 </ResourceDictionary>

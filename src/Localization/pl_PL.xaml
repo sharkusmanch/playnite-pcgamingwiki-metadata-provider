@@ -33,5 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Śledzenie promieni</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Dodaj szczegółowe funkcje gry wieloosobowej</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Prefiks tagu</sys:String>
+
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Monetyzacja</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Mikrotransakcje</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Tempo</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Perspektywy</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Sterownica</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Pojazdy</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Motywy</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Silnik gry</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Styl artystyczny</sys:String>
 
 </ResourceDictionary>

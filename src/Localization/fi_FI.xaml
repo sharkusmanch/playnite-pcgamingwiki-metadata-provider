@@ -33,5 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Säteen jäljitys</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Lisää yksityiskohtaisia moninpeliominaisuuksia</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tunnisteen etuliite</sys:String>
+
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Kaupallistaminen</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Mikrotransaktiot</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Tahdistus</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Näkökulmat</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Säätimet</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Ajoneuvot</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Teemat</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Pelimoottori</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Taiteen tyyli</sys:String>
 
 </ResourceDictionary>
