@@ -97,37 +97,87 @@
             </StackPanel>
         </TabItem>
         <TabItem Header="{DynamicResource LOCPCGWSettingsTabTags}">
-            <StackPanel>
-                <StackPanel Margin="7">
-                    <CheckBox IsChecked="{Binding AddTagPrefix}" Content="{DynamicResource LOCPCGWSettingsAddTagsPrefix}"/>
+            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <StackPanel Margin="7">
+                        <CheckBox IsChecked="{Binding AddTagPrefix}" Content="{DynamicResource LOCPCGWSettingsAddTagsPrefix}"/>
+                    </StackPanel>
+                    <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsTaxonomyTags}"/>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagEngine}" Content="{DynamicResource LOCPCGWSettingsImportTagEngine}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagPacing}" Content="{DynamicResource LOCPCGWSettingsImportTagPacing}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagPerspectives}" Content="{DynamicResource LOCPCGWSettingsImportTagPerspectives}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagControls}" Content="{DynamicResource LOCPCGWSettingsImportTagControls}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagVehicles}" Content="{DynamicResource LOCPCGWSettingsImportTagVehicles}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagThemes}" Content="{DynamicResource LOCPCGWSettingsImportTagThemes}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagArtStyle}" Content="{DynamicResource LOCPCGWSettingsImportTagArtStyle}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagMonetization}" Content="{DynamicResource LOCPCGWSettingsImportTagMonetization}"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagMicrotransactions}" Content="{DynamicResource LOCPCGWSettingsImportTagMicrotransactions}"/>
+                    </StackPanel>
+                    <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsOtherTags}"/>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportTagNoCloudSaves}" Content="{DynamicResource LOCPCGWSettingsImportTagNoCloudSaves}"/>
+                    </StackPanel>
                 </StackPanel>
-                <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsTaxonomyTags}"/>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagEngine}" Content="{DynamicResource LOCPCGWSettingsImportTagEngine}"/>
+            </ScrollViewer>
+        </TabItem>
+        <TabItem Header="{DynamicResource LOCPCGWSettingsTabTagPrefix}">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="{DynamicResource LOCPCGWSettingsTagPrefixMonetization}"/>
+                        <TextBox Margin="0,2,0,0" Text="{Binding TagPrefixMonetization}" x:Name="TagPrefixMonetization" />
+                    </StackPanel>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="{DynamicResource LOCPCGWSettingsTagPrefixMicrotransactions}"/>
+                        <TextBox Margin="0,2,0,0" Text="{Binding TagPrefixMicrotransactions}" x:Name="TagPrefixMicrotransactions" />
+                    </StackPanel>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="{DynamicResource LOCPCGWSettingsTagPrefixPacing}"/>
+                        <TextBox Margin="0,2,0,0" Text="{Binding TagPrefixPacing}" x:Name="TagPrefixPacing" />
+                    </StackPanel>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="{DynamicResource LOCPCGWSettingsTagPrefixPerspectives}"/>
+                        <TextBox Margin="0,2,0,0" Text="{Binding TagPrefixPerspectives}" x:Name="TagPrefixPerspectives" />
+                    </StackPanel>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="{DynamicResource LOCPCGWSettingsTagPrefixControls}"/>
+                        <TextBox Margin="0,2,0,0" Text="{Binding TagPrefixControls}" x:Name="TagPrefixControls" />
+                    </StackPanel>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="{DynamicResource LOCPCGWSettingsTagPrefixVehicles}"/>
+                        <TextBox Margin="0,2,0,0" Text="{Binding TagPrefixVehicles}" x:Name="TagPrefixVehicles" />
+                    </StackPanel>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="{DynamicResource LOCPCGWSettingsTagPrefixThemes}"/>
+                        <TextBox Margin="0,2,0,0" Text="{Binding TagPrefixThemes}" x:Name="TagPrefixThemes" />
+                    </StackPanel>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="{DynamicResource LOCPCGWSettingsTagPrefixEngines}"/>
+                        <TextBox Margin="0,2,0,0" Text="{Binding TagPrefixEngines}" x:Name="TagPrefixEngines" />
+                    </StackPanel>
+                    <StackPanel Margin="15">
+                        <TextBlock Text="{DynamicResource LOCPCGWSettingsTagPrefixArtStyles}"/>
+                        <TextBox Margin="0,2,0,0" Text="{Binding TagPrefixArtStyles}" x:Name="TagPrefixArtStyles" />
+                    </StackPanel>
                 </StackPanel>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagPacing}" Content="{DynamicResource LOCPCGWSettingsImportTagPacing}"/>
-                </StackPanel>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagPerspectives}" Content="{DynamicResource LOCPCGWSettingsImportTagPerspectives}"/>
-                </StackPanel>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagControls}" Content="{DynamicResource LOCPCGWSettingsImportTagControls}"/>
-                </StackPanel>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagVehicles}" Content="{DynamicResource LOCPCGWSettingsImportTagVehicles}"/>
-                </StackPanel>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagThemes}" Content="{DynamicResource LOCPCGWSettingsImportTagThemes}"/>
-                </StackPanel>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagArtStyle}" Content="{DynamicResource LOCPCGWSettingsImportTagArtStyle}"/>
-                </StackPanel>
-                <Label Margin="5" Height="25" Content="{DynamicResource LOCPCGWSettingsOtherTags}"/>
-                <StackPanel Margin="5">
-                    <CheckBox IsChecked="{Binding ImportTagNoCloudSaves}" Content="{DynamicResource LOCPCGWSettingsImportTagNoCloudSaves}"/>
-                </StackPanel>
-            </StackPanel>
+            </ScrollViewer>
         </TabItem>
     </TabControl>
 </UserControl>
