@@ -33,16 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Трассировка лучей</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Добавьте подробные многопользовательские функции</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tag Prefix</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Префикс тега</sys:String>
 
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Monetization</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Microtransactions</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Pacing</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Perspectives</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Controls</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Vehicles</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Themes</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Game Engine</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Art Style</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Монетизация</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Микротранзакции</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Шаг</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Перспективы</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Элементы управления</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Транспорт</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Темы</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Игровой движок</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Художественный стиль</sys:String>
 
 </ResourceDictionary>
