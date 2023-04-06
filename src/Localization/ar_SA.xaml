@@ -33,16 +33,16 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">كوة المتصدع</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">تتبع الشعاع</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">أضف ميزات مفصلة متعددة اللاعبين</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tag Prefix</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">بادئة العلامة</sys:String>
 
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Monetization</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Microtransactions</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">Pacing</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">Perspectives</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">Controls</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">Vehicles</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">Themes</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">Game Engine</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">Art Style</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">تسييل</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">المعاملات الدقيقة</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPacing">سرعة</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixPerspectives">توقعات - وجهات نظر</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixControls">ضوابط</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixVehicles">مركبات</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixThemes">ثيمات</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixEngines">محرك اللعبة</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTagPrefixArtStyles">اسلوب فني</sys:String>
 
 </ResourceDictionary>
