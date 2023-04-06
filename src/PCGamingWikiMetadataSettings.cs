@@ -77,24 +77,18 @@ namespace PCGamingWikiMetadata
         public string TagPrefixMonetization { get { return tagPrefixMonetization; } set { tagPrefixMonetization = value; ; NotifyPropertyChanged("TagPrefixMonetization"); } }
         private string tagPrefixMicrotransactions = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixMicrotransactions")}]";
         public string TagPrefixMicrotransactions { get { return tagPrefixMicrotransactions; } set { tagPrefixMicrotransactions = value; ; NotifyPropertyChanged("TagPrefixMicrotransactions"); } }
-        private string tagPrefixModes = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixModes")}]";
-        public string TagPrefixModes { get { return tagPrefixModes; } set { tagPrefixModes = value; ; NotifyPropertyChanged("TagPrefixModes"); } }
         private string tagPrefixPacing = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixPacing")}]";
         public string TagPrefixPacing { get { return tagPrefixPacing; } set { tagPrefixPacing = value; ; NotifyPropertyChanged("TagPrefixPacing"); } }
         private string tagPrefixPerspectives = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixPerspectives")}]";
         public string TagPrefixPerspectives { get { return tagPrefixPerspectives; } set { tagPrefixPerspectives = value; ; NotifyPropertyChanged("TagPrefixPerspectives"); } }
         private string tagPrefixControls = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixControls")}]";
         public string TagPrefixControls { get { return tagPrefixControls; } set { tagPrefixControls = value; ; NotifyPropertyChanged("TagPrefixControls"); } }
-        private string tagPrefixGenres = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixGenres")}]";
-        public string TagPrefixGenres { get { return tagPrefixGenres; } set { tagPrefixGenres = value; ; NotifyPropertyChanged("TagPrefixGenres"); } }
         private string tagPrefixVehicles = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixVehicles")}]";
         public string TagPrefixVehicles { get { return tagPrefixVehicles; } set { tagPrefixVehicles = value; ; NotifyPropertyChanged("TagPrefixVehicles"); } }
         private string tagPrefixThemes = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixThemes")}]";
         public string TagPrefixThemes { get { return tagPrefixThemes; } set { tagPrefixThemes = value; ; NotifyPropertyChanged("TagPrefixThemes"); } }
         private string tagPrefixEngines = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixEngines")}]";
         public string TagPrefixEngines { get { return tagPrefixEngines; } set { tagPrefixEngines = value; ; NotifyPropertyChanged("TagPrefixEngines"); } }
-        private string tagPrefixSeries = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixSeries")}]";
-        public string TagPrefixSeries { get { return tagPrefixSeries; } set { tagPrefixSeries = value; ; NotifyPropertyChanged("TagPrefixSeries"); } }
         private string tagPrefixArtStyles = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixArtStyles")}]";
         public string TagPrefixArtStyles { get { return tagPrefixArtStyles; } set { tagPrefixArtStyles = value; ; NotifyPropertyChanged("TagPrefixArtStyles"); } }
 
