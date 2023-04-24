@@ -219,6 +219,7 @@ namespace PCGamingWikiMetadata
                 AddFeature(tag);
             }
         }
+
         public void AddCSVTags(string csv, string prefix)
         {
             char[] trimChars = { ' ' };

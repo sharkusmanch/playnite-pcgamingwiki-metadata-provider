@@ -115,6 +115,11 @@ namespace PCGamingWikiMetadata
                 return;
             }
 
+            if (text == PCGamingWikiType.TaxonomyValue.None)
+            {
+                 return;
+            }
+
             Action<string> action;
             bool functionExists = this.taxonomyFunctions.TryGetValue(key, out action);
 

@@ -44,6 +44,10 @@ namespace PCGamingWikiType
         public const string Series = "Series";
         public const string ArtStyles = "Art styles";
     }
+    public class TaxonomyValue
+    {
+        public const string None = "None";
+    }
 
     public class Video
     {

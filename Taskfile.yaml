@@ -29,6 +29,7 @@ tasks:
     cmds:
     - powershell cp -Recurse -Force src/bin/Release/net462/ .\dist\raw\
     - ~/AppData/Local/Playnite/Toolbox.exe pack src/bin/Release/net462/ dist
+    - powershell mv ./dist/*.pext
 
   clean:
     cmds:
