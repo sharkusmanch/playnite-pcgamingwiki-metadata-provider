@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ανίχνευση ακτίνων</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Προσθέστε λεπτομερείς λειτουργίες για πολλούς παίκτες</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Πρόθεμα ετικέτας</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Νομισματοποίηση</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Μικροσυναλλαγές</sys:String>
