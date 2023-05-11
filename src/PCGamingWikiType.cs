@@ -44,6 +44,10 @@ namespace PCGamingWikiType
         public const string Series = "Series";
         public const string ArtStyles = "Art styles";
     }
+    public class TaxonomyValue
+    {
+        public const string None = "None";
+    }
 
     public class Video
     {
@@ -63,5 +67,22 @@ namespace PCGamingWikiType
         public const string OSVR = "OSVR";
         public const string WindowsMixedReality = "Windows Mixed Reality";
         public const string Vorpx = "vorpX";
+    }
+
+    public class Link
+    {
+        public const string OfficialSite = "Official site";
+        public const string HowLongToBeat = "HowLongToBeat";
+        public const string IGDB = "IGDB";
+        public const string IsThereAnyDeal = "IsThereAnyDeal";
+        public const string ProtonDB = "ProtonDB";
+        public const string SteamDB = "SteamDB";
+        public const string StrategyWiki = "StrategyWiki";
+        public const string Wikipedia = "Wikipedia";
+        public const string NexusMods = "Nexus Mods";
+        public const string MobyGames = "MobyGames";
+        public const string WSGF = "WSGF";
+        public const string WineHQ = "WineHQ";
+        public const string GOGDatabase = "GOG Database";
     }
 }

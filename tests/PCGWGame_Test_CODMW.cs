@@ -23,6 +23,8 @@ public class PCGWGame_Test_CODMW : IDisposable
         this.client.GetSettings().ImportFeatureFramerate60 = true;
         this.client.GetSettings().ImportFeatureFramerate120 = true;
         this.client.GetSettings().ImportFeatureUltrawide = true;
+        this.client.GetSettings().ImportTagMonetization = true;
+        this.client.GetSettings().ImportTagMicrotransactions = true;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -90,6 +92,13 @@ public class PCGWGame_Test_CODMW : IDisposable
     }
 
     [Fact]
+    public void TestParseMicrotransactions()
+    {
+        var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
+        arr.Should().Contain("Boost", "Cosmetic", "Currency");
+    }
+
+    [Fact]
     public void TestParseThemes()
     {
         var arr = this.testGame.Tags.Select(i => i.ToString()).ToArray();
@@ -153,6 +162,7 @@ public class PCGWGame_Test_CODMW : IDisposable
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().NotContain("VR");
     }
+
     public void Dispose()
     {
 

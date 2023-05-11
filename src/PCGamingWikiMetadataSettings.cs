@@ -92,6 +92,33 @@ namespace PCGamingWikiMetadata
         private string tagPrefixArtStyles = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixArtStyles")}]";
         public string TagPrefixArtStyles { get { return tagPrefixArtStyles; } set { tagPrefixArtStyles = value; ; NotifyPropertyChanged("TagPrefixArtStyles"); } }
 
+        public bool ImportLinkOfficialSite { get { return importLinkOfficialSite; } set { importLinkOfficialSite = value; ; NotifyPropertyChanged("ImportLinkOfficialSite"); } }
+        private bool importLinkOfficialSite = true;
+        public bool ImportLinkHowLongToBeat { get { return importLinkHowLongToBeat; } set { importLinkHowLongToBeat = value; ; NotifyPropertyChanged("ImportLinkHowLongToBeat"); } }
+        private bool importLinkHowLongToBeat = true;
+        public bool ImportLinkIGDB { get { return importLinkIGDB; } set { importLinkIGDB = value; ; NotifyPropertyChanged("ImportLinkIGDB"); } }
+        private bool importLinkIGDB = true;
+        public bool ImportLinkIsThereAnyDeal { get { return importLinkIsThereAnyDeal; } set { importLinkIsThereAnyDeal = value; ; NotifyPropertyChanged("ImportLinkIsThereAnyDeal"); } }
+        private bool importLinkIsThereAnyDeal = false;
+        public bool ImportLinkProtonDB { get { return importLinkProtonDB; } set { importLinkProtonDB = value; ; NotifyPropertyChanged("ImportLinkProtonDB"); } }
+        private bool importLinkProtonDB = false;
+        public bool ImportLinkSteamDB { get { return importLinkSteamDB; } set { importLinkSteamDB = value; ; NotifyPropertyChanged("ImportLinkSteamDB"); } }
+        private bool importLinkSteamDB = true;
+        public bool ImportLinkStrategyWiki { get { return importLinkStrategyWiki; } set { importLinkStrategyWiki = value; ; NotifyPropertyChanged("ImportLinkStrategyWiki"); } }
+        private bool importLinkStrategyWiki = true;
+        public bool ImportLinkWikipedia { get { return importLinkWikipedia; } set { importLinkWikipedia = value; ; NotifyPropertyChanged("ImportLinkWikipedia"); } }
+        private bool importLinkWikipedia = true;
+        public bool ImportLinkNexusMods { get { return importLinkNexusMods; } set { importLinkNexusMods = value; ; NotifyPropertyChanged("ImportLinkNexusMods"); } }
+        private bool importLinkNexusMods = true;
+        public bool ImportLinkMobyGames { get { return importLinkMobyGames; } set { importLinkMobyGames = value; ; NotifyPropertyChanged("ImportLinkMobyGames"); } }
+        private bool importLinkMobyGames = true;
+        public bool ImportLinkWSGF { get { return importLinkWSGF; } set { importLinkWSGF = value; ; NotifyPropertyChanged("ImportLinkWSGF"); } }
+        private bool importLinkWSGF = true;
+        public bool ImportLinkWineHQ { get { return importLinkWineHQ; } set { importLinkWineHQ = value; ; NotifyPropertyChanged("ImportLinkWineHQ"); } }
+        private bool importLinkWineHQ = false;
+        public bool ImportLinkGOGDatabase { get { return importLinkGOGDatabase; } set { importLinkGOGDatabase = value; ; NotifyPropertyChanged("ImportLinkGOGDatabase"); } }
+        private bool importLinkGOGDatabase = true;
+
         // Parameterless constructor must exist if you want to use LoadPluginSettings method.
         public PCGamingWikiMetadataSettings()
         {
