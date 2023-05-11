@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Tilføj detaljerede multiplayer-funktioner</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tag præfiks</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Indtægtsgenerering</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Mikrotransaktioner</sys:String>
