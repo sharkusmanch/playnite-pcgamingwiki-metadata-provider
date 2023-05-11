@@ -34,7 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Säteen jäljitys</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Lisää yksityiskohtaisia moninpeliominaisuuksia</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tunnisteen etuliite</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Linkit</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Kaupallistaminen</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Mikrotransaktiot</sys:String>
