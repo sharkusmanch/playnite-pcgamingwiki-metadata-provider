@@ -34,7 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Раи Трацинг</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Додајте детаљне функције за више играча</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Префикс ознаке</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Линкови</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Монетизација</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Микротрансакције</sys:String>
