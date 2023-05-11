@@ -34,7 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">レイトレーシング</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">詳細なマルチプレイヤー機能を追加する</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">タグプレフィックス</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">リンク</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">収益化</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">マイクロトランザクション</sys:String>
