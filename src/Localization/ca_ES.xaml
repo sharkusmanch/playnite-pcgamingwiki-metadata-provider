@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Traçat de raigs</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Afegeix funcions multijugador detallades</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Prefix de l'etiqueta</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Monetització</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Microtransaccions</sys:String>
