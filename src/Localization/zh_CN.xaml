@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">光线追踪</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">添加详细的多人游戏功能</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">标记前缀</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">货币化</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">微交易</sys:String>
