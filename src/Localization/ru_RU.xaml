@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Трассировка лучей</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Добавьте подробные многопользовательские функции</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Префикс тега</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Монетизация</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Микротранзакции</sys:String>
