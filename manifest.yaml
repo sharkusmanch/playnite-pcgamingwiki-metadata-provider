@@ -6,6 +6,7 @@ Packages:
   PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v1.2.0/PCGamingWiki_Metadata_Provider_v1.2.0.pext
   Changelog:
     - Add settings to customize which links are imported
+    - Prevent "None" microtransaction/monetization tags
 - Version: 1.1.6
   RequiredApiVersion: 6.2.2
   ReleaseDate: 2023-04-05
