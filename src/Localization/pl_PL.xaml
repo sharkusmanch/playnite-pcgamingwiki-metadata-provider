@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Śledzenie promieni</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Dodaj szczegółowe funkcje gry wieloosobowej</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Prefiks tagu</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Monetyzacja</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Mikrotransakcje</sys:String>
