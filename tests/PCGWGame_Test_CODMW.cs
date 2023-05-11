@@ -162,6 +162,7 @@ public class PCGWGame_Test_CODMW : IDisposable
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().NotContain("VR");
     }
+
     public void Dispose()
     {
 

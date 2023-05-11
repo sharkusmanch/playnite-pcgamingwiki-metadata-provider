@@ -31,6 +31,8 @@ public class PCGWGame_Test_DQ11 : IDisposable
         this.client.GetSettings().ImportFeatureHDR = true;
         this.client.GetSettings().ImportFeatureRayTracing = true;
         this.client.GetSettings().ImportFeatureVR = true;
+        this.client.GetSettings().ImportLinkProtonDB = true;
+        this.client.GetSettings().ImportLinkIGDB = false;
 
         this.client.FetchGamePageContent(this.testGame);
     }
@@ -153,6 +155,15 @@ public class PCGWGame_Test_DQ11 : IDisposable
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().NotContain("VR");
     }
+
+    [Fact]
+    public void TestLinks()
+    {
+        var links = this.testGame.Links.Select(i => i.Name).ToArray();
+        links.Should().Contain("ProtonDB");
+        links.Should().NotContain("IGDB");
+    }
+
     public void Dispose()
     {
 

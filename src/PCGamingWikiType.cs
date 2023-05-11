@@ -68,4 +68,21 @@ namespace PCGamingWikiType
         public const string WindowsMixedReality = "Windows Mixed Reality";
         public const string Vorpx = "vorpX";
     }
+
+    public class Link
+    {
+        public const string OfficialSite = "Official site";
+        public const string HowLongToBeat = "HowLongToBeat";
+        public const string IGDB = "IGDB";
+        public const string IsThereAnyDeal = "IsThereAnyDeal";
+        public const string ProtonDB = "ProtonDB";
+        public const string SteamDB = "SteamDB";
+        public const string StrategyWiki = "StrategyWiki";
+        public const string Wikipedia = "Wikipedia";
+        public const string NexusMods = "Nexus Mods";
+        public const string MobyGames = "MobyGames";
+        public const string WSGF = "WSGF";
+        public const string WineHQ = "WineHQ";
+        public const string GOGDatabase = "GOG Database";
+    }
 }

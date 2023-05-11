@@ -175,6 +175,14 @@ public class PCGWGame_Test_BAT : IDisposable
         features.Should().NotContain("VR");
     }
 
+    [Fact]
+    public void TestLinks()
+    {
+        var links = this.testGame.Links.Select(i => i.Name).ToArray();
+        links.Should().NotContain("WineHQ");
+        links.Should().Contain("IGDB");
+    }
+
     public void Dispose()
     {
 

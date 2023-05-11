@@ -396,7 +396,7 @@ namespace PCGamingWikiMetadata
                     default:
                         string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
                         string titleComp = linkTitle[linkTitle.Length - 1];
-                        this.gameController.Game.Links.Add(new Playnite.SDK.Models.Link(titleComp, url));
+                        this.gameController.AddLink(new Playnite.SDK.Models.Link(titleComp, url));
                         break;
                 }
             }

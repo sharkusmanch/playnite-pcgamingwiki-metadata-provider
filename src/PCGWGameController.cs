@@ -52,6 +52,20 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.VRHeadsets.OculusRift, new Func<bool>( () => this.settings.ImportFeatureVROculusRift) },
                 { PCGamingWikiType.VRHeadsets.OSVR, new Func<bool>( () => this.settings.ImportFeatureVROSVR) },
                 { PCGamingWikiType.VRHeadsets.WindowsMixedReality, new Func<bool>( () => this.settings.ImportFeatureVRWMR) },
+
+                { PCGamingWikiType.Link.OfficialSite, new Func<bool>( () => this.settings.ImportLinkOfficialSite) },
+                { PCGamingWikiType.Link.HowLongToBeat, new Func<bool>( () => this.settings.ImportLinkHowLongToBeat) },
+                { PCGamingWikiType.Link.IGDB, new Func<bool>( () => this.settings.ImportLinkIGDB) },
+                { PCGamingWikiType.Link.IsThereAnyDeal, new Func<bool>( () => this.settings.ImportLinkIsThereAnyDeal) },
+                { PCGamingWikiType.Link.ProtonDB, new Func<bool>( () => this.settings.ImportLinkProtonDB) },
+                { PCGamingWikiType.Link.SteamDB, new Func<bool>( () => this.settings.ImportLinkSteamDB) },
+                { PCGamingWikiType.Link.StrategyWiki, new Func<bool>( () => this.settings.ImportLinkStrategyWiki) },
+                { PCGamingWikiType.Link.Wikipedia, new Func<bool>( () => this.settings.ImportLinkWikipedia) },
+                { PCGamingWikiType.Link.NexusMods, new Func<bool>( () => this.settings.ImportLinkNexusMods) },
+                { PCGamingWikiType.Link.MobyGames, new Func<bool>( () => this.settings.ImportLinkMobyGames) },
+                { PCGamingWikiType.Link.WSGF, new Func<bool>( () => this.settings.ImportLinkWSGF) },
+                { PCGamingWikiType.Link.WineHQ, new Func<bool>( () => this.settings.ImportLinkWineHQ) },
+                { PCGamingWikiType.Link.GOGDatabase, new Func<bool>( () => this.settings.ImportLinkGOGDatabase) },
             };
 
             this.taxonomyTagPrefix = new Dictionary<string, Func<string>>()
@@ -117,7 +131,7 @@ namespace PCGamingWikiMetadata
 
             if (text == PCGamingWikiType.TaxonomyValue.None)
             {
-                 return;
+                return;
             }
 
             Action<string> action;
@@ -268,6 +282,14 @@ namespace PCGamingWikiMetadata
         public void AddPublisher(string name)
         {
             this.Game.Publishers.Add(new MetadataNameProperty(name));
+        }
+
+        public void AddLink(Playnite.SDK.Models.Link link)
+        {
+            if (SettingExistsAndEnabled(link.Name))
+            {
+                this.Game.Links.Add(link);
+            }
         }
     }
 }

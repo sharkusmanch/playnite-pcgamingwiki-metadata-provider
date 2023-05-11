@@ -179,5 +179,50 @@
                 </StackPanel>
             </ScrollViewer>
         </TabItem>
+        <TabItem Header="{DynamicResource LOCPCGWSettingsTabLinks}">
+            <ScrollViewer HorizontalScrollBarVisibility="Auto">
+                <StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkOfficialSite}" Content="Official site"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkHowLongToBeat}" Content="HowLongToBeat"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkIGDB}" Content="IGDB"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkIsThereAnyDeal}" Content="IsThereAnyDeal"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkProtonDB}" Content="ProtonDB"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkSteamDB}" Content="SteamDB"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkStrategyWiki}" Content="StrategyWiki"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkWikipedia}" Content="Wikipedia"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkNexusMods}" Content="Nexus Mods"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkMobyGames}" Content="MobyGames"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkWSGF}" Content="WSGF"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkWineHQ}" Content="WineHQ"/>
+                    </StackPanel>
+                    <StackPanel Margin="5">
+                        <CheckBox IsChecked="{Binding ImportLinkGOGDatabase}" Content="GOG Database"/>
+                    </StackPanel>
+                </StackPanel>
+            </ScrollViewer>
+        </TabItem>
     </TabControl>
 </UserControl>
