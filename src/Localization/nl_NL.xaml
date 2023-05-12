@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Raytracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Gedetailleerde multiplayer-functies toevoegen</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tag-voorvoegsel</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Koppelingen</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Inkomsten genereren</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Microtransacties</sys:String>

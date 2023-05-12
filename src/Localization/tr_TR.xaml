@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Işın izleme</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Ayrıntılı çok oyunculu özellikler ekleyin</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Etiket Öneki</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Bağlantılar</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">para kazanma</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">mikro dönüşümler</sys:String>

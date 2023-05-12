@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">تتبع الشعاع</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">أضف ميزات مفصلة متعددة اللاعبين</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">بادئة العلامة</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">الروابط</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">تسييل</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">المعاملات الدقيقة</sys:String>

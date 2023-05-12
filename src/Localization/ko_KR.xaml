@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">광선 추적</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">자세한 멀티플레이어 기능 추가</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">태그 접두사</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">연결</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">수익 창출</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">소액 결제</sys:String>

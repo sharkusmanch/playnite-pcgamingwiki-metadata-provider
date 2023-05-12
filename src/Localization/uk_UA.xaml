@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Трасування променів</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Додайте детальні функції для кількох гравців</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Префікс тегу</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Посилання</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Монетизація</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Мікротранзакції</sys:String>

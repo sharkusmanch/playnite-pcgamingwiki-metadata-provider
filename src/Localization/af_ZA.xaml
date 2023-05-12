@@ -34,6 +34,7 @@
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Straalopsporing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Voeg gedetailleerde multiplayer-kenmerke by</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Merker Voorvoegsel</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsTabLinks">Skakels</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMonetization">Monetisering</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTagPrefixMicrotransactions">Mikrotransaksies</sys:String>
