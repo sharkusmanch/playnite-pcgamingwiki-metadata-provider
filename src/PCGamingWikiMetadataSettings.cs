@@ -171,6 +171,20 @@ namespace PCGamingWikiMetadata
                 TagPrefixThemes = savedSettings.tagPrefixThemes;
                 TagPrefixEngines = savedSettings.tagPrefixEngines;
                 TagPrefixArtStyles = savedSettings.tagPrefixArtStyles;
+
+                ImportLinkOfficialSite = savedSettings.importLinkOfficialSite;
+                ImportLinkHowLongToBeat = savedSettings.importLinkHowLongToBeat;
+                ImportLinkIGDB = savedSettings.importLinkIGDB;
+                ImportLinkIsThereAnyDeal = savedSettings.importLinkIsThereAnyDeal;
+                ImportLinkProtonDB = savedSettings.importLinkProtonDB;
+                ImportLinkSteamDB = savedSettings.importLinkSteamDB;
+                ImportLinkStrategyWiki = savedSettings.importLinkStrategyWiki;
+                ImportLinkWikipedia = savedSettings.importLinkWikipedia;
+                ImportLinkNexusMods = savedSettings.importLinkNexusMods;
+                ImportLinkMobyGames = savedSettings.importLinkMobyGames;
+                ImportLinkWSGF = savedSettings.importLinkWSGF;
+                ImportLinkWineHQ = savedSettings.importLinkWineHQ;
+                ImportLinkGOGDatabase = savedSettings.importLinkGOGDatabase;
             }
         }
 
