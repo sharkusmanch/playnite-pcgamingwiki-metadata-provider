@@ -47,3 +47,11 @@ tasks:
   settings:
     cmds:
     - powershell "~/Appdata/Roaming/Playnite/ExtensionsData/c038558e-427b-4551-be4c-be7009ce5a8d/config.json"
+
+  download-game-test-data:
+    cmds:
+    - | 
+      "{{.USERPROFILE}}\scoop\shims\curl.exe" \
+        -H "Content-Type: application/x-www-form-urlencoded" \
+        -H "Accept: application/json" \
+        "https://www.pcgamingwiki.com/w/api.php?action=parse&format=json&page=Assassin's_Creed_Chronicles:_India" > test.json
