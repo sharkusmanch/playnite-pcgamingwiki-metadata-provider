@@ -50,7 +50,7 @@ tasks:
 
   download-game-test-data:
     cmds:
-    - | 
+    - |
       "{{.USERPROFILE}}\scoop\shims\curl.exe" \
         -H "Content-Type: application/x-www-form-urlencoded" \
         -H "Accept: application/json" \
