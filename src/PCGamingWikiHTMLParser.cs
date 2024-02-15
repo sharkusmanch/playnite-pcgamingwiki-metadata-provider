@@ -311,7 +311,11 @@ namespace PCGamingWikiMetadata
                                     switch (currentHeader)
                                     {
                                         case "Taxonomy":
-                                            this.gameController.AddTaxonomy(key, text);
+                                            foreach (HtmlNode data in child.SelectNodes(".//a"))
+                                            {
+                                                text = HtmlEntity.DeEntitize(data.InnerText.Trim());
+                                                this.gameController.AddTaxonomy(key, text);
+                                            }
                                             break;
                                         case "Reception":
                                             AddReception(key, child);
