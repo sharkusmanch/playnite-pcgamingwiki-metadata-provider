@@ -94,7 +94,7 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.Taxonomy.Microtransactions, new Action<string>( value => this.Game.AddCSVTags(value, TagPrefix(PCGamingWikiType.Taxonomy.Microtransactions))) },
                 { PCGamingWikiType.Taxonomy.Modes, new Action<string>( value => this.Game.AddCSVFeatures(value)) },
                 { PCGamingWikiType.Taxonomy.Genres, new Action<string>( value => this.Game.AddGenres(value)) },
-                { PCGamingWikiType.Taxonomy.Series, new Action<string>( value => this.Game.AddCSVSeries(value)) },
+                { PCGamingWikiType.Taxonomy.Series, new Action<string>( value => this.Game.AddSeries(value)) },
             };
         }
 
