@@ -54,4 +54,4 @@ tasks:
       "{{.USERPROFILE}}\scoop\shims\curl.exe" \
         -H "Content-Type: application/x-www-form-urlencoded" \
         -H "Accept: application/json" \
-        "https://www.pcgamingwiki.com/w/api.php?action=parse&format=json&page=Assassin's_Creed_Chronicles:_India" > test.json
+        "https://www.pcgamingwiki.com/w/api.php?action=parse&format=json&page=Call_of_Duty:_Modern_Warfare" > test.json
