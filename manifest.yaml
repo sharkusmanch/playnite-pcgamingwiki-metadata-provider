@@ -1,5 +1,11 @@
 AddonId: PCGamingWikiMetadata_c038558e-427b-4551-be4c-be7009ce5a8d
 Packages:
+- Version: 1.2.3
+  RequiredApiVersion: 6.11.0
+  ReleaseDate: 2024-02-16
+  PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v1.2.3/PCGamingWiki_Metadata_Provider_v1.2.3.pext
+  Changelog:
+    - Fix Ray Tracing feature
 - Version: 1.2.2
   RequiredApiVersion: 6.11.0
   ReleaseDate: 2024-02-14
