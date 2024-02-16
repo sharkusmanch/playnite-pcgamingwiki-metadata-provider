@@ -51,7 +51,7 @@ namespace PCGamingWikiType
 
     public class Video
     {
-        public const string RayTracing = "Ray tracing";
+        public const string RayTracing = "Ray tracing (RT)";
         public const string HDR = "High dynamic range display (HDR)";
         public const string Ultrawide = "Ultra-widescreen";
         public const string FPS60 = "60 FPS";
