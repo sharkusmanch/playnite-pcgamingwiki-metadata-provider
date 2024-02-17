@@ -48,7 +48,8 @@ namespace PCGamingWikiMetadata
 
         private string NormalizeSearchString(string search)
         {
-            return search.Replace("-", " ");
+            // Replace ' with " as a workaround for search API returning no results
+            return search.Replace("-", " ").Replace("'", "\"");
         }
 
         public List<GenericItemOption> SearchGames(string searchName)
