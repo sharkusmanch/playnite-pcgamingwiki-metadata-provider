@@ -1,5 +1,11 @@
 AddonId: PCGamingWikiMetadata_c038558e-427b-4551-be4c-be7009ce5a8d
 Packages:
+- Version: 1.2.4
+  RequiredApiVersion: 6.11.0
+  ReleaseDate: 2024-02-16
+  PackageUrl: https://github.com/sharkusmanch/playnite-pcgamingwiki-metadata-provider/releases/download/v1.2.4/PCGamingWiki_Metadata_Provider_v1.2.4.pext
+  Changelog:
+    - Fix search matching for game titles containing apostrophe
 - Version: 1.2.3
   RequiredApiVersion: 6.11.0
   ReleaseDate: 2024-02-16
