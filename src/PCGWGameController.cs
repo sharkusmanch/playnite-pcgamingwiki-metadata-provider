@@ -53,6 +53,8 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.VRHeadsets.OSVR, new Func<bool>( () => this.settings.ImportFeatureVROSVR) },
                 { PCGamingWikiType.VRHeadsets.WindowsMixedReality, new Func<bool>( () => this.settings.ImportFeatureVRWMR) },
 
+                { PCGamingWikiType.Middleware.AntiCheat, new Func<bool>( () => this.settings.ImportFeatureAnticheat) },
+
                 { PCGamingWikiType.Link.OfficialSite, new Func<bool>( () => this.settings.ImportLinkOfficialSite) },
                 { PCGamingWikiType.Link.HowLongToBeat, new Func<bool>( () => this.settings.ImportLinkHowLongToBeat) },
                 { PCGamingWikiType.Link.IGDB, new Func<bool>( () => this.settings.ImportLinkIGDB) },
@@ -214,7 +216,10 @@ namespace PCGamingWikiMetadata
 
         public void AddAntiCheat(string name)
         {
-            this.Game.AddCSVFeatures(name);
+            if (!IsSettingDisabled(PCGamingWikiType.Middleware.AntiCheat))
+            {
+                this.Game.AddCSVFeatures(name);
+            }
         }
 
         public void AddVideoFeature(string key, string rating)

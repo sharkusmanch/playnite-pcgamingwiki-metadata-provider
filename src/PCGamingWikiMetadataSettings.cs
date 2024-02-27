@@ -154,12 +154,12 @@ namespace PCGamingWikiMetadata
                 ImportTagArtStyle = savedSettings.ImportTagArtStyle;
                 ImportTagNoCloudSaves = savedSettings.ImportTagNoCloudSaves;
 
-                ImportFeatureHDR = savedSettings.ImportFeatureHDR;
-                ImportFeatureRayTracing = savedSettings.ImportFeatureRayTracing;
-                ImportFeatureFramerate120 = savedSettings.ImportFeatureFramerate120;
-                ImportFeatureFramerate60 = savedSettings.ImportFeatureFramerate60;
-                ImportFeatureUltrawide = savedSettings.ImportFeatureUltrawide;
-                ImportFeatureAnticheat = savedSettings.ImportFeatureAnticheat;
+                ImportFeatureHDR = savedSettings.importFeatureHDR;
+                ImportFeatureRayTracing = savedSettings.importFeatureRayTracing;
+                ImportFeatureFramerate120 = savedSettings.importFeatureFramerate120;
+                ImportFeatureFramerate60 = savedSettings.importFeatureFramerate60;
+                ImportFeatureUltrawide = savedSettings.importFeatureUltrawide;
+                ImportFeatureAnticheat = savedSettings.importFeatureAnticheat;
 
                 ImportFeatureVR = savedSettings.importFeatureVR;
                 ImportFeatureVRHTCVive = savedSettings.importFeatureVRHTCVive;
