@@ -30,6 +30,7 @@ namespace PCGamingWikiMetadata
             ParseMultiplayer();
             ParseVideo();
             ParseVR();
+            ParseMiddleware();
         }
 
         private void RemoveChildElementTypes(HtmlNode node, string type)
@@ -118,6 +119,34 @@ namespace PCGamingWikiMetadata
                 this.gameController.AddVRFeature(headset, rating);
                 headset = "";
                 rating = "";
+            }
+        }
+
+        private void ParseMiddleware()
+        {
+            var rows = SelectTableRowsByClass("table-middleware", "template-infotable-body table-middleware-body-row");
+            string category = "";
+            string middleware = "";
+
+            foreach (HtmlNode row in rows)
+            {
+                foreach (HtmlNode child in row.SelectNodes(".//th|td"))
+                {
+                    switch (child.Attributes["class"].Value)
+                    {
+                        case "table-middleware-body-parameter":
+                            category = child.FirstChild.InnerText.Trim();
+                            break;
+                        case "table-middleware-body-middleware":
+                            middleware = child.FirstChild.InnerText.Trim();
+                            break;
+                    }
+                }
+
+                this.gameController.AddMiddleware(category, middleware);
+
+                category = "";
+                middleware = "";
             }
         }
 

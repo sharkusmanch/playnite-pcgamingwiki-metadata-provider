@@ -73,6 +73,10 @@ namespace PCGamingWikiMetadata
         private bool importFeatureVRvorpX = false;
         public bool ImportFeatureVRvorpX { get { return importFeatureVRvorpX; } set { importFeatureVRvorpX = value; ; NotifyPropertyChanged("ImportFeatureVRvorpX"); } }
 
+        private bool importFeatureAnticheat = false;
+        public bool ImportFeatureAnticheat { get { return importFeatureAnticheat; } set { importFeatureAnticheat = value; ; NotifyPropertyChanged("ImportFeatureAnticheat"); } }
+
+
         private string tagPrefixMonetization = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixMonetization")}]";
         public string TagPrefixMonetization { get { return tagPrefixMonetization; } set { tagPrefixMonetization = value; ; NotifyPropertyChanged("TagPrefixMonetization"); } }
         private string tagPrefixMicrotransactions = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixMicrotransactions")}]";
@@ -155,6 +159,7 @@ namespace PCGamingWikiMetadata
                 ImportFeatureFramerate120 = savedSettings.ImportFeatureFramerate120;
                 ImportFeatureFramerate60 = savedSettings.ImportFeatureFramerate60;
                 ImportFeatureUltrawide = savedSettings.ImportFeatureUltrawide;
+                ImportFeatureAnticheat = savedSettings.ImportFeatureAnticheat;
 
                 ImportFeatureVR = savedSettings.importFeatureVR;
                 ImportFeatureVRHTCVive = savedSettings.importFeatureVRHTCVive;

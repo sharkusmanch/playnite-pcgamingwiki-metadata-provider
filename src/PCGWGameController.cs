@@ -200,6 +200,23 @@ namespace PCGamingWikiMetadata
             }
         }
 
+        public void AddMiddleware(string category, string middleware)
+        {
+            switch (category)
+            {
+                case PCGamingWikiType.Middleware.AntiCheat:
+                    AddAntiCheat(middleware);
+                    break;
+                default:
+                    break;
+            }
+        }
+
+        public void AddAntiCheat(string name)
+        {
+            this.Game.AddCSVFeatures(name);
+        }
+
         public void AddVideoFeature(string key, string rating)
         {
             if (IsSettingDisabled(key) || !NativeOrLimitedSupport(rating))

@@ -85,4 +85,9 @@ namespace PCGamingWikiType
         public const string WineHQ = "WineHQ";
         public const string GOGDatabase = "GOG Database";
     }
+
+    public class Middleware
+    {
+        public const string AntiCheat = "Anti-cheat";
+    }
 }
