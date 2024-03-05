@@ -392,10 +392,10 @@ namespace PCGamingWikiMetadata
                 switch (c.Attributes["Title"].Value)
                 {
                     case var title when new Regex(@"^Official site$").IsMatch(title):
-                        this.gameController.Game.Links.Add(new Playnite.SDK.Models.Link("Official site", url));
+                        this.gameController.AddLink(new Playnite.SDK.Models.Link("Official site", url));
                         break;
                     case var title when new Regex(@"GOG Database$").IsMatch(title):
-                        this.gameController.Game.Links.Add(new Playnite.SDK.Models.Link("GOG Database", url));
+                        this.gameController.AddLink(new Playnite.SDK.Models.Link("GOG Database", url));
                         break;
                     default:
                         string[] linkTitle = c.Attributes["Title"].Value.Split(' ');
