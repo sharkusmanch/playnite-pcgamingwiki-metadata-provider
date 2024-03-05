@@ -7,7 +7,7 @@ using FluentAssertions;
 public class PCGWGame_Test_CITIES : IDisposable
 {
     private PCGWGame testGame;
-    private PCGWClient client;
+    private LocalPCGWClient client;
     private TestMetadataRequestOptions options;
 
     public PCGWGame_Test_CITIES()
@@ -16,6 +16,7 @@ public class PCGWGame_Test_CITIES : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceSteam();
         this.client = new LocalPCGWClient(this.options);
+        this.client.GetSettings().ImportLinkOfficialSite = false;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -117,6 +118,13 @@ public class PCGWGame_Test_CITIES : IDisposable
     {
         var features = this.testGame.Features.Select(i => i.ToString()).ToArray();
         features.Should().NotContain("Full Controller Support");
+    }
+
+    [Fact]
+    public void TestLinks()
+    {
+        var features = this.testGame.Links.Select(i => i.Name).ToArray();
+        features.Should().NotContain("Official site");
     }
 
     [Fact]

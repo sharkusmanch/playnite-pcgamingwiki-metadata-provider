@@ -23,6 +23,7 @@ public class PCGWGame_Test_BAT : IDisposable
         this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportTagMonetization = true;
         this.client.GetSettings().ImportTagMicrotransactions = true;
+        this.client.GetSettings().ImportLinkGOGDatabase = false;
         this.client.FetchGamePageContent(this.testGame);
     }
 
@@ -180,6 +181,7 @@ public class PCGWGame_Test_BAT : IDisposable
     {
         var links = this.testGame.Links.Select(i => i.Name).ToArray();
         links.Should().NotContain("WineHQ");
+        links.Should().NotContain("GOG Database");
         links.Should().Contain("IGDB");
     }
 
