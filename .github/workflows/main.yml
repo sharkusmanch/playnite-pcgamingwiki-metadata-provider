@@ -30,7 +30,7 @@ jobs:
 
       - uses: robinraju/release-downloader@v1.8
         id: download_playnite
-        with: 
+        with:
           repository: "JosefNemec/Playnite"
           latest: true
           tarBall: false
