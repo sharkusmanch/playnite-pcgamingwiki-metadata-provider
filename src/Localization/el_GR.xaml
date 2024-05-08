@@ -20,7 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Άλλες Ετικέτες</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Αλλα χαρακτηριστικά</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Χαρακτηριστικά βίντεο</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Χαρακτηριστικά ελεγκτή</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Ανίχνευση ακτίνων</sys:String>
@@ -34,11 +34,11 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ανίχνευση ακτίνων</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Προσθέστε λεπτομερείς λειτουργίες για πολλούς παίκτες</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">Χειριστήρια PlayStation</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">Υποδείξεις κουμπιών PlayStation</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Υποστήριξη Light Bar</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Υποστήριξη απτικής ανατροφοδότησης</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Πρόθεμα ετικέτας</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Συνδέσεις</sys:String>
