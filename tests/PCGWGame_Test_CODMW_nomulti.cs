@@ -12,10 +12,10 @@ public class PCGWGame_Test_CODMW_nomulti : IDisposable
 
     public PCGWGame_Test_CODMW_nomulti()
     {
-        this.testGame = new PCGWGame("codmw", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceBattleNet();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "codmw", -1);
         this.client.GetSettings().ImportMultiplayerTypes = false;
         this.client.GetSettings().ImportFeatureHDR = false;
         this.client.GetSettings().ImportFeatureRayTracing = false;

@@ -13,10 +13,10 @@ public class PCGWGame_Test_SKYRIMVR : IDisposable
 
     public PCGWGame_Test_SKYRIMVR()
     {
-        this.testGame = new PCGWGame("skyrimvr", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceSteam();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "skyrimvr", -1);
         this.client.GetSettings().ImportFeatureVR = true;
         this.client.FetchGamePageContent(this.testGame);
     }

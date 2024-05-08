@@ -13,10 +13,10 @@ public class PCGWGame_Test_REG_BBALL : IDisposable
 
     public PCGWGame_Test_REG_BBALL()
     {
-        this.testGame = new PCGWGame("reg_bball", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceEpic();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "reg_bball", -1);
         this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.GetSettings().ImportFeatureFramerate60 = true;
         this.client.GetSettings().ImportFeatureFramerate120 = true;

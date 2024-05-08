@@ -12,10 +12,10 @@ public class PCGWGame_Test_AC_INDIA : IDisposable
 
     public PCGWGame_Test_AC_INDIA()
     {
-        this.testGame = new PCGWGame("ac_chronicles_india", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceBattleNet();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "ac_chronicles_india", -1);
         this.client.FetchGamePageContent(this.testGame);
     }
 

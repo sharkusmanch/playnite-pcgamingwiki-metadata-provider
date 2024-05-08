@@ -7,12 +7,12 @@ using FluentAssertions;
 public class PCGWGame_Test_SOH : IDisposable
 {
     private PCGWGame testGame;
-    private PCGWClient client;
+    private LocalPCGWClient client;
 
     public PCGWGame_Test_SOH()
     {
-        this.testGame = new PCGWGame("songofhorror", -1);
         this.client = new LocalPCGWClient();
+        this.testGame = new PCGWGame(this.client.GetSettings(), "songofhorror", -1);
         this.client.FetchGamePageContent(this.testGame);
     }
 

@@ -13,10 +13,10 @@ public class PCGWGame_Test_Lego_HP : IDisposable
 
     public PCGWGame_Test_Lego_HP()
     {
-        this.testGame = new PCGWGame("lhp", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceSteam();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "lhp", -1);
         this.client.GetSettings().ImportTagNoCloudSaves = true;
         this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportFeatureFramerate60 = true;
