@@ -20,7 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Andre tags</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Andre funktioner</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Videofunktioner</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller funktioner</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Ray Tracing</sys:String>
@@ -34,11 +34,11 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Tilføj detaljerede multiplayer-funktioner</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation-controllere</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptiv triggerstøtte</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptisk feedbacksupport</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tag præfiks</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Links</sys:String>
