@@ -20,7 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Andere tags</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Andere mogelijkheden</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Videofuncties</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller-functies</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Raytracing</sys:String>
@@ -34,11 +34,11 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Raytracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Gedetailleerde multiplayer-functies toevoegen</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation-controllers</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation-knopprompts</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Ondersteuning voor lichtbalk</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptieve triggerondersteuning</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Ondersteuning voor haptische feedback</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tag-voorvoegsel</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Koppelingen</sys:String>
