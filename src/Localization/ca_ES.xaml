@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Altres etiquetes</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Altres característiques</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Característiques de vídeo</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Traçat de raigs</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Traçat de raigs</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Afegeix funcions multijugador detallades</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Prefix de l'etiqueta</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Enllaços</sys:String>
 
