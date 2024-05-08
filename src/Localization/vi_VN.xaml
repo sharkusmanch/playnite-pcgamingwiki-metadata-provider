@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Các thẻ khác</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Các tính năng khác</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Tính năng Video</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Có hi vọng</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Có hi vọng</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Thêm các tính năng nhiều người chơi chi tiết</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tiền tố thẻ</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">liên kết</sys:String>
 
