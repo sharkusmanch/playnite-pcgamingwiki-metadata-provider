@@ -72,7 +72,22 @@ namespace PCGamingWikiMetadata
         public bool ImportFeatureVRWMR { get { return importFeatureVRWMR; } set { importFeatureVRWMR = value; ; NotifyPropertyChanged("ImportFeatureVRWMR"); } }
         private bool importFeatureVRvorpX = false;
         public bool ImportFeatureVRvorpX { get { return importFeatureVRvorpX; } set { importFeatureVRvorpX = value; ; NotifyPropertyChanged("ImportFeatureVRvorpX"); } }
+        
+        private bool importFeaturePlayStationControllers = false;
+        public bool ImportFeaturePlayStationControllers { get { return importFeaturePlayStationControllers; } set { importFeaturePlayStationControllers = value; ; NotifyPropertyChanged(nameof(ImportFeaturePlayStationControllers)); } }
 
+        private bool importFeaturePlayStationButtonPrompts = false;
+        public bool ImportFeaturePlayStationButtonPrompts { get { return importFeaturePlayStationButtonPrompts; } set { importFeaturePlayStationButtonPrompts = value; ; NotifyPropertyChanged(nameof(ImportFeaturePlayStationButtonPrompts)); } }
+
+        private bool importFeatureLightBar = false;
+        public bool ImportFeatureLightBar { get { return importFeatureLightBar; } set { importFeatureLightBar = value; ; NotifyPropertyChanged(nameof(ImportFeatureLightBar)); } }
+
+        private bool importFeatureAdaptiveTrigger = false;
+        public bool ImportFeatureAdaptiveTrigger { get { return importFeatureAdaptiveTrigger; } set { importFeatureAdaptiveTrigger = value; ; NotifyPropertyChanged(nameof(ImportFeatureAdaptiveTrigger)); } }
+
+        private bool importFeatureHapticFeedback = false;
+        public bool ImportFeatureHapticFeedback { get { return importFeatureHapticFeedback; } set { importFeatureHapticFeedback = value; ; NotifyPropertyChanged(nameof(ImportFeatureHapticFeedback)); } }
+        
         private string tagPrefixMonetization = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixMonetization")}]";
         public string TagPrefixMonetization { get { return tagPrefixMonetization; } set { tagPrefixMonetization = value; ; NotifyPropertyChanged("TagPrefixMonetization"); } }
         private string tagPrefixMicrotransactions = $"[{ResourceProvider.GetString("LOCPCGWSettingsTagPrefixMicrotransactions")}]";
@@ -162,6 +177,12 @@ namespace PCGamingWikiMetadata
                 ImportFeatureVROSVR = savedSettings.importFeatureVROSVR;
                 ImportFeatureVRWMR = savedSettings.importFeatureVRWMR;
 
+                ImportFeaturePlayStationControllers = savedSettings.importFeaturePlayStationControllers;
+                ImportFeaturePlayStationButtonPrompts = savedSettings.ImportFeaturePlayStationButtonPrompts;
+                ImportFeatureLightBar = savedSettings.ImportFeatureLightBar;
+                ImportFeatureAdaptiveTrigger = savedSettings.importFeatureAdaptiveTrigger;
+                ImportFeatureHapticFeedback = savedSettings.importFeatureHapticFeedback;
+                
                 TagPrefixMonetization = savedSettings.tagPrefixMonetization;
                 TagPrefixMicrotransactions = savedSettings.tagPrefixMicrotransactions;
                 TagPrefixPacing = savedSettings.tagPrefixPacing;

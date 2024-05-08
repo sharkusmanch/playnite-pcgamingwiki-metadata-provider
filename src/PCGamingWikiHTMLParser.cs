@@ -228,8 +228,20 @@ namespace PCGamingWikiMetadata
                                 case "Touchscreen optimised":
                                     this.gameController.Game.AddTouchscreenSupport(child.FirstChild.Attributes["title"].Value);
                                     break;
-                                case "DualShock 4 controllers":
-                                    this.gameController.Game.AddDualShock4Support(child.FirstChild.Attributes["title"].Value);
+                                case "PlayStation controllers":
+                                    this.gameController.Game.AddPlayStationControllerSupport(child.FirstChild.Attributes["title"].Value);
+                                    break;
+                                case "PlayStation button prompts":
+                                    this.gameController.Game.AddPlayStationButtonPrompts(child.FirstChild.Attributes["title"].Value);
+                                    break;
+                                case "Light bar support":
+                                    this.gameController.Game.AddLightBarSupport(child.FirstChild.Attributes["title"].Value);
+                                    break;
+                                case "Adaptive trigger support":
+                                    this.gameController.Game.AddAdaptiveTriggerSupport(child.FirstChild.Attributes["title"].Value);
+                                    break;
+                                case "DualSense haptic feedback support":
+                                    this.gameController.Game.AddHapticFeedbackSupport(child.FirstChild.Attributes["title"].Value);
                                     break;
                                 default:
                                     break;
