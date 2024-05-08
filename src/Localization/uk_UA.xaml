@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Інші теги</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Інші особливості</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Особливості відео</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Трасування променів</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Трасування променів</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Додайте детальні функції для кількох гравців</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Префікс тегу</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Посилання</sys:String>
 
