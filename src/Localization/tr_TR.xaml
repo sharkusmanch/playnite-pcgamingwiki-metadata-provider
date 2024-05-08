@@ -20,7 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Diğer Etiketler</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Diğer özellikler</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Video Özellikleri</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Denetleyici Özellikleri</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Işın izleme</sys:String>
@@ -34,11 +34,11 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Yarığı</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Işın izleme</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Ayrıntılı çok oyunculu özellikler ekleyin</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Kontrol Cihazları</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Düğme İstemleri</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Işık Çubuğu Desteği</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Uyarlanabilir Tetikleme Desteği</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Dokunsal Geribildirim Desteği</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Etiket Öneki</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Bağlantılar</sys:String>
