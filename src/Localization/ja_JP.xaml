@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">その他のタグ</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">その他の機能</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">ビデオ機能</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">レイトレーシング</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">レイトレーシング</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">詳細なマルチプレイヤー機能を追加する</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">タグプレフィックス</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">リンク</sys:String>
 
