@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">기타 태그</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">다른 특징들</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">비디오 기능</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">컨트롤러 기능</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">광선 추적</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">오큘러스 리프트</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">광선 추적</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">자세한 멀티플레이어 기능 추가</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation 컨트롤러</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation 버튼 프롬프트</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">라이트 바 지원</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">적응형 트리거 지원</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">햅틱 피드백 지원</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">태그 접두사</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">연결</sys:String>
 

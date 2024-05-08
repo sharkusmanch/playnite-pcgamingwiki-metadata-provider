@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Egyéb címkék</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Más funkciók</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Videó funkciók</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">A vezérlő jellemzői</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Sugárkövetés</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Sugárkövetés</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Adjon hozzá részletes többjátékos funkciókat</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation kontrollerek</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Gomb Prompts</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar támogatás</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptív trigger támogatás</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback támogatás</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Címke előtag</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Linkek</sys:String>
 

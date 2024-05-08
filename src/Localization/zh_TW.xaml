@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">其他標籤</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">其他特性</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">視頻功能</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">控制器特點</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">光線追踪</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">眼裂</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">光線追踪</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">添加詳細的多人遊戲功能</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation 控制器</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation 按鈕提示</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">燈條支持</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">自適應觸發支持</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">觸覺回饋支持</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">標記前綴</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">鏈接</sys:String>
 

@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Alte etichete</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Alte caracteristici</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Caracteristici video</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Caracteristicile controlerului</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Ray Tracing</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Adăugați funcții detaliate pentru multiplayer</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">Controlere PlayStation</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">Solicitări pentru butonul PlayStation</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Suport bară luminoasă</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Suport adaptiv pentru declanșare</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Suport pentru feedback haptic</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Prefixul etichetei</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Legături</sys:String>
 

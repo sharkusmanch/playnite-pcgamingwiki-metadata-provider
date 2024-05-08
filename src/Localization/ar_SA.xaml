@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">علامات أخرى</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">ميزات أخرى</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">ميزات الفيديو</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">ميزات وحدة التحكم</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">تتبع الشعاع</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">كوة المتصدع</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">تتبع الشعاع</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">أضف ميزات مفصلة متعددة اللاعبين</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">وحدات تحكم بلاي ستيشن</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">مطالبات زر بلاي ستيشن</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">دعم شريط الضوء</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">دعم الزناد التكيفي</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">دعم ردود الفعل اللمسية</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">بادئة العلامة</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">الروابط</sys:String>
 

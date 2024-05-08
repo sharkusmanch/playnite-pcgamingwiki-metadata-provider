@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Muut tunnisteet</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Muut ominaisuudet</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Videon ominaisuudet</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Ohjaimen ominaisuudet</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Säteen jäljitys</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Säteen jäljitys</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Lisää yksityiskohtaisia moninpeliominaisuuksia</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation-ohjaimet</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation-painikekehotteet</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar -tuki</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Mukautuva laukaisutuki</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptisen palautteen tuki</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tunnisteen etuliite</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Linkit</sys:String>
 

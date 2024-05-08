@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Andra taggar</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Andra funktioner</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Videofunktioner</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Styrfunktioner</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Ray Tracing</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Lägg till detaljerade flerspelarfunktioner</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation-kontroller</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">Uppmaningar om PlayStation-knappar</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Ljusstångsstöd</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptivt triggerstöd</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Taggprefix</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Länkar</sys:String>
 

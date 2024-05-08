@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">תגיות אחרות</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">תכונות אחרות</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">תכונות וידאו</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">תכונות הבקר</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Ray Tracing</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">אוקולוס ריפט</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">הוסף תכונות מרובה משתתפים מפורטות</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">בקרי פלייסטיישן</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">הנחיות לחצן פלייסטיישן</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">תמיכת בר אור</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">תמיכה בטריגר אדפטיבי</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">תמיכת משוב Haptic</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">קידומת תג</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">קישורים</sys:String>
 

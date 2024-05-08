@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Другие теги</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Другие особенности</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Особенности видео</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Возможности контроллера</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Трассировка лучей</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Трассировка лучей</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Добавьте подробные многопользовательские функции</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">Контроллеры PlayStation</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">Подсказки кнопки PlayStation</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Поддержка световой панели</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Адаптивная поддержка триггеров</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Поддержка тактильной обратной связи</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Префикс тега</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Ссылки</sys:String>
 

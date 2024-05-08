@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Andre tagger</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Andre funksjoner</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Videofunksjoner</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Kontrollerfunksjoner</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Ray Tracing</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Legg til detaljerte flerspillerfunksjoner</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation-kontrollere</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation-knappmeldinger</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptiv triggerstøtte</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptisk tilbakemeldingsstøtte</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Tag-prefiks</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Lenker</sys:String>
 
