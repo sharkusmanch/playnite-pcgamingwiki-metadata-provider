@@ -78,7 +78,7 @@ namespace PCGamingWikiMetadata
                 }
                 else
                 {
-                    this.gameController.Game = new PCGWGame();
+                    this.gameController.Game = new PCGWGame((PCGamingWikiMetadataSettings)this.plugin.GetSettings(false));
                     logger.Warn($"Cancelled search");
                 }
             }
@@ -90,7 +90,7 @@ namespace PCGamingWikiMetadata
 
                     if (results.Count == 0)
                     {
-                        this.gameController.Game = new PCGWGame();
+                        this.gameController.Game = new PCGWGame((PCGamingWikiMetadataSettings)this.plugin.GetSettings(false));
                         return;
                     }
 

@@ -14,11 +14,10 @@ public class PCGWGame_Test_YAKUZA4 : IDisposable
 
     public PCGWGame_Test_YAKUZA4()
     {
-        this.testGame = new PCGWGame("yakuza4", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceXbox();
         this.client = new LocalPCGWClient(this.options);
-
+        this.testGame = new PCGWGame(this.client.GetSettings(), "yakuza4", -1);
         // Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
         this.client.GetSettings().AddTagPrefix = false;

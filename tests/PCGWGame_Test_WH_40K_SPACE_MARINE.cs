@@ -12,10 +12,10 @@ public class PCGWGame_Test_WH_40K_SPACE_MARINE : IDisposable
 
     public PCGWGame_Test_WH_40K_SPACE_MARINE()
     {
-        this.testGame = new PCGWGame("wh_40k_space_marine", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceBattleNet();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "wh_40k_space_marine", -1);
         this.client.FetchGamePageContent(this.testGame);
     }
 

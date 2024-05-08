@@ -12,10 +12,10 @@ public class PCGWGame_Test_DQ11 : IDisposable
 
     public PCGWGame_Test_DQ11()
     {
-        this.testGame = new PCGWGame("dq11", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceXbox();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "dq11", -1);
 
         this.client.GetSettings().ImportTagEngine = false;
         this.client.GetSettings().ImportTagArtStyle = false;

@@ -13,10 +13,10 @@ public class PCGWGame_Test_CATLADY : IDisposable
 
     public PCGWGame_Test_CATLADY()
     {
-        this.testGame = new PCGWGame("cat_lady", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceSteam();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "cat_lady", -1);
         // this.client.GetSettings().ImportTagNoCloudSaves = false;
         // this.client.GetSettings().ImportFeatureFramerate60 = true;
         // this.client.GetSettings().ImportFeatureFramerate120 = true;

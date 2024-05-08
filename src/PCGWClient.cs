@@ -84,7 +84,7 @@ namespace PCGamingWikiMetadata
                 {
                     if (!((string)game.snippet).Contains("#REDIRECT"))
                     {
-                        PCGWGame g = new PCGWGame((string)game.title, (int)game.pageid);
+                        PCGWGame g = new PCGWGame(gameController.Settings, (string)game.title, (int)game.pageid);
                         gameResults.Add(g);
                     }
                 }

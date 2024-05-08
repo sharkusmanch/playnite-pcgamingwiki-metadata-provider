@@ -13,10 +13,10 @@ public class PCGWGame_Test_BAT : IDisposable
 
     public PCGWGame_Test_BAT()
     {
-        this.testGame = new PCGWGame("batman_ak", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceEpic();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "batman_ak", -1);
         this.client.GetSettings().ImportTagNoCloudSaves = false;
         this.client.GetSettings().ImportFeatureFramerate60 = true;
         this.client.GetSettings().ImportFeatureFramerate120 = true;

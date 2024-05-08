@@ -12,6 +12,8 @@ namespace PCGamingWikiMetadata
         private readonly ILogger logger = LogManager.GetLogger();
         public int PageID { get; set; }
 
+        private PCGamingWikiMetadataSettings settings;
+
         private List<MetadataProperty> genres;
         public List<MetadataProperty> Genres { get { return genres; } }
         private List<MetadataProperty> developers;
@@ -32,8 +34,9 @@ namespace PCGamingWikiMetadata
 
         public Game LibraryGame;
 
-        public PCGWGame()
+        public PCGWGame(PCGamingWikiMetadataSettings settings)
         {
+            this.settings = settings;
             this.links = new List<Link>();
             this.genres = new List<MetadataProperty>();
             this.features = new List<MetadataProperty>();
@@ -45,7 +48,7 @@ namespace PCGamingWikiMetadata
             this.reception = new Dictionary<string, int?>();
         }
 
-        public PCGWGame(string name, int pageid) : this()
+        public PCGWGame(PCGamingWikiMetadataSettings settings, string name, int pageid) : this(settings)
         {
             this.Name = name;
             this.PageID = pageid;
@@ -95,11 +98,68 @@ namespace PCGamingWikiMetadata
             }
         }
 
-        public void AddDualShock4Support(string description)
+        public void AddPlayStationControllerSupport(string description)
         {
+            if (!this.settings.ImportFeaturePlayStationControllers)
+            {
+                return;
+            }
+
             if (description == PCGamingWikiType.Rating.NativeSupport)
             {
-                this.AddFeature("DualShock 4");
+                this.AddFeature("PlayStation Controller");
+            }
+        }
+
+        public void AddPlayStationButtonPrompts(string description)
+        {
+            if (!this.settings.ImportFeaturePlayStationButtonPrompts)
+            {
+                return;
+            }
+
+            if (description == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("PlayStation Button Prompts");
+            }
+        }
+
+        public void AddLightBarSupport(string description)
+        {
+            if (!this.settings.ImportFeatureLightBar)
+            {
+                return;
+            }
+
+            if (description == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("Light Bar Support");
+            }
+        }
+
+        public void AddAdaptiveTriggerSupport(string description)
+        {
+            if (!this.settings.ImportFeatureAdaptiveTrigger)
+            {
+                return;
+            }
+
+            if (description == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("Adaptive Trigger Support");
+            }
+        }
+
+        public void AddHapticFeedbackSupport(string description)
+        {
+            if (!this.settings.ImportFeatureHapticFeedback)
+            {
+                return;
+            }
+
+            if (description == PCGamingWikiType.Rating.NativeSupport)
+            {
+                this.AddFeature("Haptic Feedback Support");
             }
         }
 

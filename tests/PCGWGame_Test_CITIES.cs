@@ -12,10 +12,10 @@ public class PCGWGame_Test_CITIES : IDisposable
 
     public PCGWGame_Test_CITIES()
     {
-        this.testGame = new PCGWGame("cities", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceSteam();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "cities", -1);
         this.client.GetSettings().ImportLinkOfficialSite = false;
         this.client.FetchGamePageContent(this.testGame);
     }

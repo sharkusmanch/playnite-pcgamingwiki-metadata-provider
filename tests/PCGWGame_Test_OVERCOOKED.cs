@@ -12,10 +12,10 @@ public class PCGWGame_Test_OVERCOOKED : IDisposable
 
     public PCGWGame_Test_OVERCOOKED()
     {
-        this.testGame = new PCGWGame("overcooked", -1);
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceOrigin();
         this.client = new LocalPCGWClient(this.options);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "overcooked", -1);
         this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.FetchGamePageContent(this.testGame);
