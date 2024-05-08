@@ -20,6 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Další značky</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Další funkce</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Funkce videa</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">HDR</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Ray Tracing</sys:String>
@@ -33,6 +34,12 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Oculus Rift</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Ray Tracing</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Přidejte podrobné funkce pro více hráčů</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Předpona značky</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Odkazy</sys:String>
 
