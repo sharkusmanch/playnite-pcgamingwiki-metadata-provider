@@ -20,7 +20,7 @@
     <sys:String x:Key="LOCPCGWSettingsOtherTags">Отхер Тагс</sys:String>
     <sys:String x:Key="LOCPCGWSettingsOtherFeatures">Остале карактеристике</sys:String>
     <sys:String x:Key="LOCPCGWSettingsVideoFeatures">Видео Феатурес</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Controller Features</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsControllerFeatures">Карактеристике контролера</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureHDR">ХДР</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportHDR">ХДР</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportRayTracing">Раи Трацинг</sys:String>
@@ -34,11 +34,11 @@
     <sys:String x:Key="LOCPCGWSettingsImportVROculusRift">Оцулус Рифт</sys:String>
     <sys:String x:Key="LOCPCGWSettingsFeatureRayTracing">Раи Трацинг</sys:String>
     <sys:String x:Key="LOCPCGWSettingsImportMultiplayerTypes">Додајте детаљне функције за више играча</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">PlayStation Controllers</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">PlayStation Button Prompts</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Light Bar Support</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Adaptive Trigger Support</sys:String>
-    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Haptic Feedback Support</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationControllers">ПлаиСтатион контролери</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportPlayStationButtonPrompts">Упутства за дугме ПлаиСтатион</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportLightBar">Подршка за светлосну траку</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportAdaptiveTrigger">Адаптиве Триггер Суппорт</sys:String>
+    <sys:String x:Key="LOCPCGWSettingsImportHapticFeedback">Хаптиц Феедбацк Суппорт</sys:String>
 
     <sys:String x:Key="LOCPCGWSettingsTabTagPrefix">Префикс ознаке</sys:String>
     <sys:String x:Key="LOCPCGWSettingsTabLinks">Линкови</sys:String>
