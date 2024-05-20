@@ -27,14 +27,5 @@ public class LocalPCGWClient : PCGWClient
     {
         this.gameController.Game = game;
         base.FetchGamePageContent(game);
-        // game.LibraryGame = this.options.GameData;
-
-        // JObject content = JObject.Parse(File.ReadAllText($"./data/{game.Name}.json"));
-
-        // PCGamingWikiJSONParser jsonParser = new PCGamingWikiJSONParser(content, this.gameController);
-        // PCGamingWikiHTMLParser parser = new PCGamingWikiHTMLParser(jsonParser.PageHTMLText(), this.gameController);
-
-        // jsonParser.ParseGameDataJson();
-        // parser.ApplyGameMetadata();
     }
 }
