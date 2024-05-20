@@ -12,7 +12,7 @@ public class PCGWGame_Test_SOH : IDisposable
     public PCGWGame_Test_SOH()
     {
         this.client = new LocalPCGWClient();
-        this.testGame = new PCGWGame(this.client.GetSettings(), "songofhorror", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Song of Horror", -1);
         this.client.FetchGamePageContent(this.testGame);
     }
 

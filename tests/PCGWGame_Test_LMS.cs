@@ -12,7 +12,7 @@ public class PCGWGame_Test_LMS : IDisposable
     public PCGWGame_Test_LMS()
     {
         this.client = new LocalPCGWClient();
-        this.testGame = new PCGWGame(this.client.GetSettings(), "LMS", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Lawn Mowing Simulator", -1);
         this.client.FetchGamePageContent(this.testGame);
     }
 

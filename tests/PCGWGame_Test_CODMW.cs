@@ -15,7 +15,7 @@ public class PCGWGame_Test_CODMW : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceBattleNet();
         this.client = new LocalPCGWClient(this.options);
-        this.testGame = new PCGWGame(this.client.GetSettings(), "codmw", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Call of Duty: Modern Warfare", -1);
         this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportFeatureHDR = true;

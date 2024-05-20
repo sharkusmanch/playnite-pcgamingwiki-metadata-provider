@@ -94,7 +94,7 @@ namespace PCGamingWikiMetadata
 
         private void ParseVR()
         {
-            var rows = SelectTableRowsByClass("table-settings-vr", "template-infotable-body table-settings-vr-body-row");
+            var rows = SelectTableRowsByClass("table-settings-vr-headsets", "template-infotable-body table-settings-vr-body-row");
             string headset = "";
             string rating = "";
 

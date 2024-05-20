@@ -15,7 +15,7 @@ public class PCGWGame_Test_OVERCOOKED : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceOrigin();
         this.client = new LocalPCGWClient(this.options);
-        this.testGame = new PCGWGame(this.client.GetSettings(), "overcooked", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Overcooked!", -1);
         this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.FetchGamePageContent(this.testGame);
@@ -46,7 +46,7 @@ public class PCGWGame_Test_OVERCOOKED : IDisposable
     public void TestParseGenres()
     {
         var arr = this.testGame.Genres.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Action", "Party game", "Simulation");
+        arr.Should().BeEquivalentTo("Action", "Party game", "Simulation", "Time management");
     }
 
     [Fact]

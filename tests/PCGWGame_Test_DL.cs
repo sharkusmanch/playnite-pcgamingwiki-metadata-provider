@@ -12,7 +12,7 @@ public class PCGWGame_Test_DL : IDisposable
     public PCGWGame_Test_DL()
     {
         this.client = new LocalPCGWClient();
-        this.testGame = new PCGWGame(this.client.GetSettings(), "deathloop", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Deathloop", -1);
         this.client.GetSettings().ImportMultiplayerTypes = true;
         this.client.GetSettings().ImportFeatureVR = true;
         this.client.FetchGamePageContent(this.testGame);

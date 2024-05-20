@@ -17,7 +17,7 @@ public class PCGWGame_Test_YAKUZA4 : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceXbox();
         this.client = new LocalPCGWClient(this.options);
-        this.testGame = new PCGWGame(this.client.GetSettings(), "yakuza4", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Yakuza 4 Remastered", -1);
         // Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
         this.client.GetSettings().AddTagPrefix = false;
@@ -54,7 +54,7 @@ public class PCGWGame_Test_YAKUZA4 : IDisposable
     public void TestParseSeries()
     {
         var arr = this.testGame.Series.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Yakuza");
+        arr.Should().BeEquivalentTo("Yakuza (Like a Dragon)");
     }
 
     [Fact]

@@ -15,7 +15,7 @@ public class PCGWGame_Test_AC_INDIA : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceBattleNet();
         this.client = new LocalPCGWClient(this.options);
-        this.testGame = new PCGWGame(this.client.GetSettings(), "ac_chronicles_india", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Assassin's Creed Chronicles: India", -1);
         this.client.FetchGamePageContent(this.testGame);
     }
 
