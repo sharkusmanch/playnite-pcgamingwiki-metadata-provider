@@ -15,7 +15,7 @@ public class PCGWGame_Test_CITIES : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceSteam();
         this.client = new LocalPCGWClient(this.options);
-        this.testGame = new PCGWGame(this.client.GetSettings(), "cities", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Cities: Skylines", -1);
         this.client.GetSettings().ImportLinkOfficialSite = false;
         this.client.FetchGamePageContent(this.testGame);
     }
@@ -45,7 +45,7 @@ public class PCGWGame_Test_CITIES : IDisposable
     public void TestParseGenres()
     {
         var arr = this.testGame.Genres.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Building", "Simulation");
+        arr.Should().BeEquivalentTo("Building", "Simulation", "Strategy", "Business");
     }
 
     [Fact]

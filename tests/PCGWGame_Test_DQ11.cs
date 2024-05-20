@@ -15,7 +15,7 @@ public class PCGWGame_Test_DQ11 : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceXbox();
         this.client = new LocalPCGWClient(this.options);
-        this.testGame = new PCGWGame(this.client.GetSettings(), "dq11", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Dragon Quest XI S - Definitive Edition", -1);
 
         this.client.GetSettings().ImportTagEngine = false;
         this.client.GetSettings().ImportTagArtStyle = false;

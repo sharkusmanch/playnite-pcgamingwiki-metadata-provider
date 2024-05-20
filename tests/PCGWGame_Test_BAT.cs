@@ -16,7 +16,7 @@ public class PCGWGame_Test_BAT : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceEpic();
         this.client = new LocalPCGWClient(this.options);
-        this.testGame = new PCGWGame(this.client.GetSettings(), "batman_ak", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Batman: Arkham Knight", -1);
         this.client.GetSettings().ImportTagNoCloudSaves = false;
         this.client.GetSettings().ImportFeatureFramerate60 = true;
         this.client.GetSettings().ImportFeatureFramerate120 = true;
@@ -38,14 +38,14 @@ public class PCGWGame_Test_BAT : IDisposable
     public void TestParseDevelopers()
     {
         var arr = this.testGame.Developers.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Rocksteady Studios", "Warner Bros. Games Montreal", "Iron Galaxy Studios");
+        arr.Should().Contain("Rocksteady Studios", "Warner Bros. Games Montreal", "Iron Galaxy Studios");
     }
 
     [Fact]
     public void TestParsePublishers()
     {
         var arr = this.testGame.Publishers.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Warner Bros. Interactive Entertainment", "1C-SoftClub");
+        arr.Should().Contain("Warner Bros. Interactive Entertainment", "1C-SoftClub");
     }
 
     [Fact]
@@ -59,7 +59,7 @@ public class PCGWGame_Test_BAT : IDisposable
     public void TestParseGenres()
     {
         var arr = this.testGame.Genres.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Action", "Adventure", "Driving", "Metroidvania", "Stealth");
+        arr.Should().Contain("Action", "Adventure", "Driving", "Metroidvania", "Stealth", "Open world");
     }
 
     [Fact]

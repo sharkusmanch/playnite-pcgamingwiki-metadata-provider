@@ -16,7 +16,7 @@ public class PCGWGame_Test_SKYRIMVR : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceSteam();
         this.client = new LocalPCGWClient(this.options);
-        this.testGame = new PCGWGame(this.client.GetSettings(), "skyrimvr", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "The Elder Scrolls V: Skyrim VR", -1);
         this.client.GetSettings().ImportFeatureVR = true;
         this.client.FetchGamePageContent(this.testGame);
     }

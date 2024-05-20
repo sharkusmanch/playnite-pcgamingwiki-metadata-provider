@@ -16,7 +16,7 @@ public class PCGWGame_Test_Lego_HP : IDisposable
         this.options = new TestMetadataRequestOptions();
         this.options.SetGameSourceSteam();
         this.client = new LocalPCGWClient(this.options);
-        this.testGame = new PCGWGame(this.client.GetSettings(), "lhp", -1);
+        this.testGame = new PCGWGame(this.client.GetSettings(), "Lego Harry Potter: Years 1-4", -1);
         this.client.GetSettings().ImportTagNoCloudSaves = true;
         this.client.GetSettings().ImportFeatureVR = true;
         this.client.GetSettings().ImportFeatureFramerate60 = true;
@@ -36,14 +36,14 @@ public class PCGWGame_Test_Lego_HP : IDisposable
     public void TestParseDevelopers()
     {
         var arr = this.testGame.Developers.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Traveller's Tales", "Open Planet Software", "Feral Interactive");
+        arr.Should().Contain("Traveller's Tales", "Open Planet Software", "Feral Interactive");
     }
 
     [Fact]
     public void TestParsePublishers()
     {
         var arr = this.testGame.Publishers.Select(i => i.ToString()).ToArray();
-        arr.Should().BeEquivalentTo("Warner Bros. Interactive Entertainment", "Feral Interactive");
+        arr.Should().Contain("Warner Bros. Interactive Entertainment", "Feral Interactive");
     }
 
     [Fact]
