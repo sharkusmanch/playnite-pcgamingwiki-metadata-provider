@@ -48,6 +48,7 @@ namespace PCGamingWikiMetadata
                 { PCGamingWikiType.Video.FPS60, new Func<bool>( () => this.settings.ImportFeatureFramerate60) },
                 { PCGamingWikiType.Video.Ultrawide, new Func<bool>( () => this.settings.ImportFeatureUltrawide) },
                 { PCGamingWikiType.Video.VR, new Func<bool>( () => this.settings.ImportFeatureVR) },
+                { PCGamingWikiType.Video.HighFidelityUpscaling, new Func<bool>( () => this.settings.ImportFeatureHighFidelityUpscaling) },
                 { PCGamingWikiType.VRHeadsets.HTCVive, new Func<bool>( () => this.settings.ImportFeatureVRHTCVive) },
                 { PCGamingWikiType.VRHeadsets.OculusRift, new Func<bool>( () => this.settings.ImportFeatureVROculusRift) },
                 { PCGamingWikiType.VRHeadsets.OSVR, new Func<bool>( () => this.settings.ImportFeatureVROSVR) },
@@ -202,6 +203,11 @@ namespace PCGamingWikiMetadata
 
         public void AddVideoFeature(string key, string rating)
         {
+            AddVideoFeature(key, rating, null);
+        }
+
+        public void AddVideoFeature(string key, string rating, List<string> notes)
+        {
             if (IsSettingDisabled(key) || !NativeOrLimitedSupport(rating))
             {
                 return;
@@ -223,6 +229,15 @@ namespace PCGamingWikiMetadata
                     break;
                 case PCGamingWikiType.Video.Ultrawide:
                     this.Game.AddFeature("Ultra-widescreen");
+                    break;
+                case PCGamingWikiType.Video.HighFidelityUpscaling:
+                    if (notes != null)
+                    {
+                        foreach (string note in notes)
+                        {
+                            this.Game.AddFeature(note);
+                        }
+                    }
                     break;
                 case PCGamingWikiType.Video.FPS60And120:
                     this.AddVideoFeature(PCGamingWikiType.Video.FPS60, rating);

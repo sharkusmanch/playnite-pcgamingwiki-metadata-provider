@@ -56,6 +56,8 @@ namespace PCGamingWikiMetadata
         public bool ImportFeatureFramerate120 { get { return importFeatureFramerate120; } set { importFeatureFramerate120 = value; ; NotifyPropertyChanged("ImportFeatureFramerate120"); } }
         private bool importFeatureUltrawide = false;
         public bool ImportFeatureUltrawide { get { return importFeatureUltrawide; } set { importFeatureUltrawide = value; ; NotifyPropertyChanged("ImportFeatureUltrawide"); } }
+        private bool importFeatureHighFidelityUpscaling = false;
+        public bool ImportFeatureHighFidelityUpscaling { get { return importFeatureHighFidelityUpscaling; } set { importFeatureHighFidelityUpscaling = value; ; NotifyPropertyChanged("ImportFeatureUltrawide"); } }
         private bool importFeatureVR = false;
         public bool ImportFeatureVR { get { return importFeatureVR; } set { importFeatureVR = value; ; NotifyPropertyChanged("ImportFeatureVR"); } }
 

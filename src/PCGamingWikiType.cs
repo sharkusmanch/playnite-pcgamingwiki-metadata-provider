@@ -57,6 +57,7 @@ namespace PCGamingWikiType
         public const string FPS60 = "60 FPS";
         public const string FPS120Plus = "120+ FPS";
         public const string FPS60And120 = "60 FPS and 120+ FPS";
+        public const string HighFidelityUpscaling = "High-fidelity upscaling";
         public const string VR = "VR support";
     }
 

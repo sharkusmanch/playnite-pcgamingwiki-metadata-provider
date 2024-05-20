@@ -126,6 +126,7 @@ namespace PCGamingWikiMetadata
             var rows = SelectTableRowsByClass("table-settings-video", "template-infotable-body table-settings-video-body-row");
             string feature = "";
             string rating = "";
+            List<string> notes = new List<string>();
 
             foreach (HtmlNode row in rows)
             {
@@ -139,10 +140,13 @@ namespace PCGamingWikiMetadata
                         case "table-settings-video-body-rating":
                             rating = child.FirstChild.Attributes["title"].Value;
                             break;
+                        case "table-settings-video-body-notes":
+                            notes.Add(child.InnerText.Trim());
+                            break;
                     }
                 }
 
-                this.gameController.AddVideoFeature(feature, rating);
+                this.gameController.AddVideoFeature(feature, rating, notes);
                 feature = "";
                 rating = "";
             }
